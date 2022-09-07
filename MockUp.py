@@ -10,19 +10,30 @@ window.title("Monster Generator")
 label = tk.Label(window, text="Welcome to the monster library, please enter a party with the format class level for each member.")
 label.pack()
 
+#drop down for dmg types
+dmgType = ["Acid", "Bludegeoning", "Cold", "Fire", "lightning", "necrotic", "piercing", "Poison", "Psychic", "Radiant", "Slashing", "Thunder"]
+dmgVar = tk.StringVar(window)
+dmgDropDown = tk.OptionMenu(window, dmgVar, *dmgType)
+dmgDropDown.pack(pady=10)
 
-variable1 = tk.StringVar(window)
-dropDownMenu1 = tk.OptionMenu(window, variable1, "Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
-dropDownMenu1.pack(pady=10)
-variable2 = tk.StringVar(window)
-dropDownMenu2 = tk.OptionMenu(window, variable2, "Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
-dropDownMenu2.pack(pady=10)
-variable3 = tk.StringVar(window)
-dropDownMenu3 = tk.OptionMenu(window, variable3, "Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
-dropDownMenu3.pack(pady=10)
-variable4 = tk.StringVar(window)
-dropDownMenu4 = tk.OptionMenu(window, variable4, "Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard")
-dropDownMenu4.pack(pady=10)
+#button for adding dmg type
+dmgTypeVal = []
+dmgLabel = tk.Label(window, text=dmgTypeVal)
+dmgLabel.pack()
+def dmgTypeAdd():
+    tempDmg = dmgVar.get()
+    if tempDmg not in dmgTypeVal:
+        dmgTypeVal.append(dmgVar.get())
+    dmgLabel.config(text=', '.join(str(x) for x in dmgTypeVal))
+dmgAddButton = tk.Button(window, text='add dmg type', command = dmgTypeAdd)
+dmgAddButton.pack(pady=10)
+
+
+#button for removing dmg type, NOT IMPLMENTED, may implment if I have time Thursday
+def dmgTypeRemove():
+    print()
+dmgRmvButton = tk.Button(window, text='Remove dmg type', command = dmgTypeRemove)
+dmgRmvButton.pack(pady=10)
 
 
 result = tk.StringVar()
