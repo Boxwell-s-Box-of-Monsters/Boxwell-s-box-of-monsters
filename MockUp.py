@@ -1,9 +1,6 @@
 # Mock up of the monster generator
-from audioop import add
-from turtle import back, bgcolor
 import requests
 import tkinter as tk
-from tkinter import ttk
 
 # Colors
 TAN = "#DDC3A2"
