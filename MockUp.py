@@ -111,33 +111,41 @@ monsterWindow = tk.Text(monsterDescriptionContainer, height = 3, width = 35, fon
 monsterWindow.grid(column=0, row=1, sticky=tk.W, padx=5, pady=5)
 
 # Add the monster button/button response
-monsterNum = [0];
 result = tk.StringVar()
 result.set("")
 
-def button_action(monsterNum):
-    response = "delete me after the mockup!"
-    if monsterNum[0] == 0 :
-        response = requests.get("https://www.dnd5eapi.co/api/monsters/troll/")
-        monsterNum[0] += 1;
-    elif monsterNum[0] == 1 :
-        response = requests.get("https://www.dnd5eapi.co/api/monsters/medusa/")
-        monsterNum[0] += 1
-    else :
-        response = requests.get("https://www.dnd5eapi.co/api/monsters/roc/")
-    responseText = response.json().get('name') 
-    responseText += "\nHP: " + str(response.json().get('hit_points'))
-    responseText += "\tAC: " + str(response.json().get('armor_class'))
-    responseText += "\tCR: " + str(response.json().get('challenge_rating'))
-    responseText += "\nStr: " + str(response.json().get('strength'))
-    responseText += "\tDex: " + str(response.json().get('dexterity'))
-    responseText += "\tCon: " + str(response.json().get('constitution'))
-    responseText += "\tInt: " + str(response.json().get('intelligence'))
-    responseText += "\tWis: " + str(response.json().get('wisdom'))
-    responseText += "\tCha: " + str(response.json().get('charisma'))
+def button_action(characterList):
+    #Get appropriate CR
+    challengeRating = 0
+    for character in characterList:
+        challengeRating += int(character['level'].get())
+    challengeRating /= 4
+    challengeRating = round(challengeRating,0)
+
+    #Get list of monsters
+    response = requests.get("https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challengeRating))
+    responseList = response.json().get('results');
+    
+    #Get top result
+    if (len(responseList) > 0):
+        response = requests.get("https://www.dnd5eapi.co" + responseList[0]['url'])
+
+        #Print
+        responseText = response.json().get('name') 
+        responseText += "\nHP: " + str(response.json().get('hit_points'))
+        responseText += "\tAC: " + str(response.json().get('armor_class'))
+        responseText += "\tCR: " + str(response.json().get('challenge_rating'))
+        responseText += "\nStr: " + str(response.json().get('strength'))
+        responseText += "\tDex: " + str(response.json().get('dexterity'))
+        responseText += "\tCon: " + str(response.json().get('constitution'))
+        responseText += "\tInt: " + str(response.json().get('intelligence'))
+        responseText += "\tWis: " + str(response.json().get('wisdom'))
+        responseText += "\tCha: " + str(response.json().get('charisma'))
+    else:
+        responseText = "Error, no monsters found";
     result.set(responseText)
 
-button = tk.Button(window, text='Get Monster', command= lambda: button_action(monsterNum), bg=TAN, font=(FONT, 9, "bold"))
+button = tk.Button(window, text='Get Monster', command= lambda: button_action(characters), bg=TAN, font=(FONT, 9, "bold"))
 button.grid(column=0, row=6)
 
 # Print the result of the button
