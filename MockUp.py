@@ -57,7 +57,7 @@ for i in range(4):
     characterRow['character'].grid(
         column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
-    characterRow['level'] = tk.Label(characterContainer, text='50', font=(FONT, 8), bg=LIGHT)
+    characterRow['level'] = tk.Spinbox(characterContainer, from_=1, to=20)
     characterRow['level'].grid(
         column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
