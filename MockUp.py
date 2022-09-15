@@ -5,7 +5,7 @@ import tkinter as tk
 # Colors
 TAN = "#DDC3A2"
 LIGHT = "#FFE4C4"
-FONT = "helvetica"
+FONT = "arial"
 
 # Create the window
 window = tk.Tk()
