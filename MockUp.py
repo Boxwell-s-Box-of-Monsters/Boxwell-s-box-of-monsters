@@ -1,157 +1,279 @@
 # Mock up of the monster generator
 import requests
 import tkinter as tk
+import random
 
 # Colors
 TAN = "#DDC3A2"
 LIGHT = "#FFE4C4"
 FONT = "arial"
+BLACK = "#000000"
+WHITE = "#ffffff"
 
-# Create the window
-window = tk.Tk()
-window.geometry("325x610")
-window.title("Monster Generator")
-window.configure(bg=TAN)
+############################
+# Terrain Frame
+############################
 
-# Add the top label
-infoText = "Welcome to the monster library, please enter the relevant information below."
-label = tk.Label(window, text=infoText, wraplength=300, justify="center", background=TAN, font=(FONT, 10, "bold"))
-label.grid(column=0, row=0, padx=5, pady=5)
+class TerrainFrame(tk.Frame):
+    def __init__(self, container):
+        super().__init__(container)
+        
+        options = {'padx': 5, 'pady': 5}
 
-# Create the terrain container
-terrainContainer = tk.Frame(window, borderwidth=2, relief="groove", bg=LIGHT)
-terrainContainer.grid(column=0, row=1, sticky=tk.W, padx=5, pady=5)
-terrainDescriptor = "Terrain Description: "
-terrainLabel = tk.Label(terrainContainer, text = terrainDescriptor, background=LIGHT, font=(FONT, 8, "bold"))
-terrainLabel.grid(column=0, row=0, sticky=tk.W, padx=5, pady=5)
-
-terrainInput = tk.Text(terrainContainer, height = 1, width = 20, font=(FONT, 8))
-terrainInput.grid(column=1, row=0, sticky=tk.W, padx=5, pady=5)
-
-# Create the character area
-characterContainer = tk.Frame(window, borderwidth=2, relief="groove", bg=LIGHT)
-characterContainer.grid(column=0, row=2, sticky=tk.W, padx=5, pady=5)
-
-characterContainerLabel = "Adventuring Party"
-characterContainerLabel = tk.Label(characterContainer, text = characterContainerLabel, font=(FONT, 9, "bold"), background=LIGHT)
-characterContainerLabel.grid(column=0, row=0, padx=5, pady=5, columnspan=3)
-
-addCharacter = tk.Button(characterContainer, text='Add Character', bg=TAN, font=(FONT, 8))
-removeCharacter = tk.Button(characterContainer, text="Remove Character", bg=TAN, font=(FONT, 8))
-addCharacter.grid(column=0, row=1, sticky=tk.W, padx=5, pady=5)
-removeCharacter.grid(column=1, row=1, sticky=tk.W, padx=5, pady=5)
-
-characterLabel = tk.Label(characterContainer, text="Character", bg=LIGHT, font=(FONT, 8, "bold"))
-lvlLabel = tk.Label(characterContainer, text="Level", bg=LIGHT, font=(FONT, 8, "bold"))
-damageLabel = tk.Label(characterContainer, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"))
-characterLabel.grid(column=0, row=2, sticky=tk.W, padx=5, pady=5)
-lvlLabel.grid(column=1, row=2, sticky=tk.W, padx=5, pady=5)
-damageLabel.grid(column=2, row=2, sticky=tk.W, padx=5, pady=5)
-
-# Add 4 predetermined characters to the list
-characters = []
-for i in range(4):
-    characterRow = {}
-
-    characterRow['character'] = tk.Label(characterContainer, text='Barbarian', font=(FONT, 8), bg=LIGHT)
-    characterRow['character'].grid(
-        column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
-
-    characterRow['level'] = tk.Spinbox(characterContainer, from_=1, to=20)
-    characterRow['level'].grid(
-        column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
-
-    characterRow['Damage'] = tk.Label(characterContainer, text='Fire', font=(FONT, 8), bg=LIGHT)
-    characterRow['Damage'].grid(
-        column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
-
-    characters.append(characterRow)
-
-# Create the damage container
-damageContainer = tk.Frame(window, borderwidth=2, relief="groove", bg=LIGHT)
-damageContainer.grid(column=0, row=3, sticky=tk.W, padx=5, pady=5)
-
-# Drop down for dmg types
-dmgType = ["Acid", "Bludegeoning", "Cold", "Fire", "Lightning", "Necrotic", "Piercing", "Poison", "Psychic", "Radiant", "Slashing", "Thunder"]
-dmgVar = tk.StringVar(damageContainer)
-dmgDropDown = tk.OptionMenu(damageContainer, dmgVar, *dmgType)
-dmgDropDown.config(bg=TAN, font=(FONT, 8))
-dmgDropDown.grid(column=0, row=0, padx=5, pady=5)
-
-#button for adding dmg type
-dmgTypeVal = []
-dmgLabel = tk.Label(damageContainer, text=dmgTypeVal, font=(FONT, 8), bg=LIGHT)
-dmgLabel.grid(column=0, row=1, padx=5, pady=5, columnspan=3)
-
-# Button/button response for adding damage types
-def dmgTypeAdd():
-    tempDmg = dmgVar.get()
-    if tempDmg not in dmgTypeVal:
-        dmgTypeVal.append(dmgVar.get())
-    dmgLabel.config(text=' '.join(str(x) for x in dmgTypeVal))
-dmgAddButton = tk.Button(damageContainer, text='add dmg type', command = dmgTypeAdd, bg=TAN, font=(FONT, 8))
-dmgAddButton.grid(column=1, row=0, padx=5, pady=5)
-
-
-#button for removing dmg type, NOT IMPLMENTED, may implment if I have time Thursday
-def dmgTypeRemove():
-    print()
-dmgRmvButton = tk.Button(damageContainer, text='Remove dmg type', command = dmgTypeRemove, bg=TAN, font=(FONT, 8))
-dmgRmvButton.grid(column=2, row=0, padx=5, pady=5)
-
-# Create monster description search field
-monsterDescriptionContainer = tk.Frame(window, borderwidth=2, relief="groove", bg=LIGHT)
-monsterDescriptionContainer.grid(column=0, row=4, sticky=tk.W, padx=5, pady=5)
-
-monsterDescriptor = "Describe what type of monster you want"
-monsterLabel = tk.Label(monsterDescriptionContainer, text = monsterDescriptor, bg=LIGHT, font=(FONT, 9, "bold"))
-monsterLabel.grid(column=0, row=0, sticky=tk.W, padx=5, pady=5)
-
-monsterWindow = tk.Text(monsterDescriptionContainer, height = 3, width = 35, font=(FONT, 8))
-monsterWindow.grid(column=0, row=1, sticky=tk.W, padx=5, pady=5)
-
-# Add the monster button/button response
-result = tk.StringVar()
-result.set("")
-
-def button_action(characterList):
-    #Get appropriate CR
-    challengeRating = 0
-    for character in characterList:
-        challengeRating += int(character['level'].get())
-    challengeRating /= 4
-    challengeRating = round(challengeRating,0)
-
-    #Get list of monsters
-    response = requests.get("https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challengeRating))
-    responseList = response.json().get('results');
+        self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
     
-    #Get top result
-    if (len(responseList) > 0):
-        response = requests.get("https://www.dnd5eapi.co" + responseList[0]['url'])
+        # Terrain Label
+        self.terrainLabel = tk.Label(self, 
+                                     text = "Terrain Description: ", 
+                                     background=LIGHT, 
+                                     font=(FONT, 8, "bold"),
+                                     fg=BLACK)
+        
+        self.terrainLabel.grid(column=0, row=0, sticky=tk.W, **options)
 
-        #Print
-        responseText = response.json().get('name') 
-        responseText += "\nHP: " + str(response.json().get('hit_points'))
-        responseText += "\tAC: " + str(response.json().get('armor_class'))
-        responseText += "\tCR: " + str(response.json().get('challenge_rating'))
-        responseText += "\nStr: " + str(response.json().get('strength'))
-        responseText += "\tDex: " + str(response.json().get('dexterity'))
-        responseText += "\tCon: " + str(response.json().get('constitution'))
-        responseText += "\tInt: " + str(response.json().get('intelligence'))
-        responseText += "\tWis: " + str(response.json().get('wisdom'))
-        responseText += "\tCha: " + str(response.json().get('charisma'))
-    else:
-        responseText = "Error, no monsters found";
-    result.set(responseText)
+        # Terrain Input
+        self.terrainInput = tk.Text(self, height = 1, width = 20, font=(FONT, 8), 
+                                    fg=BLACK, bg=WHITE)
+        self.terrainInput.grid(column=1, row=0, sticky=tk.W, **options)
 
-button = tk.Button(window, text='Get Monster', command= lambda: button_action(characters), bg=TAN, font=(FONT, 9, "bold"))
-button.grid(column=0, row=6)
 
-# Print the result of the button
-resultLabel = tk.Label(window, textvariable=result, background=TAN, font=(FONT, 8))
-resultLabel.grid(column=0, row=7)
+############################
+# Character Frame
+############################
 
-# Run the window
-window.mainloop()
+class CharacterFrame(tk.Frame):
+    def __init__(self, container):
+        super().__init__(container)
+        
+        options = {'padx': 5, 'pady': 5}
+
+        self.configure(borderwidth=2, relief="groove", bg=LIGHT,
+                       bd=0)
+        
+        # Character Container Label
+        self.characterContainerLabel = tk.Label(self, 
+                                           text = "Adventuring Party", 
+                                           font=(FONT, 9, "bold"), 
+                                           background=LIGHT,
+                                           fg=BLACK)
+        self.characterContainerLabel.grid(column=0, row=0, columnspan=3, **options)
+        
+        # Add/Remove Buttons
+        self.addCharacter = tk.Button(self, text='Add Character', font=(FONT, 8), 
+                                      fg=BLACK, highlightbackground=LIGHT)
+        self.removeCharacter = tk.Button(self, text="Remove Character", font=(FONT, 8), 
+                                         fg=BLACK, highlightbackground=LIGHT)
+        self.addCharacter.grid(column=0, row=1, sticky=tk.W, **options)
+        self.removeCharacter.grid(column=1, row=1, sticky=tk.W, **options)
+        
+        # Labels for Character table
+        self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
+                                       fg=BLACK)
+        self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
+                                 fg=BLACK)
+        self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
+                                    fg=BLACK)
+        self.characterLabel.grid(column=0, row=2, sticky=tk.W, **options)
+        self.lvlLabel.grid(column=1, row=2, sticky=tk.W, **options)
+        self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
+        
+        # Characters
+        self.characters = []
+        for i in range(4):
+            characterRow = {}
+
+            characterRow['character'] = tk.Label(self, text='Barbarian', font=(FONT, 8), bg=LIGHT,
+                                                 fg=BLACK)
+            characterRow['character'].grid(
+                column=0, row=3 + i, sticky=tk.W, **options)
+
+            characterRow['level'] = tk.Spinbox(self, from_=1, to=20, font=(FONT, 8),
+                                               fg=BLACK, highlightbackground=LIGHT, bg=WHITE)
+            characterRow['level'].grid(
+                column=1, row=3 + i, sticky=tk.W, **options)
+
+            characterRow['Damage'] = tk.Label(self, text='Fire', font=(FONT, 8),
+                                              fg=BLACK, bg=LIGHT)
+            characterRow['Damage'].grid(
+                column=2, row=3 + i, sticky=tk.W, **options)
+
+            self.characters.append(characterRow)
+        
+############################
+# Damage Type Frame
+############################
+class DamageTypeFrame(tk.Frame):
+    def __init__(self, container):
+        super().__init__(container)
+        
+        options = {'padx': 5, 'pady': 5}
+
+        self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
+        
+        # Drop Down for Dmg Types
+        self.dmgTypes = ["Acid", "Bludegeoning", "Cold", "Fire", "Lightning", "Necrotic", "Piercing", "Poison", "Psychic", "Radiant", "Slashing", "Thunder"]
+        self.dmgVar = tk.StringVar(self)
+        self.dmgDropDown = tk.OptionMenu(self, self.dmgVar, *self.dmgTypes)
+        self.dmgDropDown.config(bg=LIGHT, font=(FONT, 8), fg=BLACK)
+        self.dmgDropDown.grid(column=0, row=0, **options)
+        
+        # Listed dmg types
+        self.dmgTypeVal = []
+        self.dmgLabel = tk.Label(self, text=self.dmgTypeVal, font=(FONT, 8), bg=LIGHT,
+                                 fg=BLACK)
+        self.dmgLabel.grid(column=0, row=1, columnspan=3, **options)
+        
+        # Buttons
+        self.dmgAddButton = tk.Button(self, 
+                                      text='add dmg type', 
+                                      command = self.addDmgType, 
+                                      bg=TAN, 
+                                      font=(FONT, 8),
+                                      fg=BLACK,
+                                      highlightbackground=LIGHT)
+                                    
+        self.dmgAddButton.grid(column=1, row=0, **options)
+
+
+        self.dmgRmvButton = tk.Button(self, 
+                                      text='Remove dmg type', 
+                                      command = self.removeDmgType, 
+                                      bg=TAN, 
+                                      font=(FONT, 8),
+                                      fg=BLACK,
+                                      highlightbackground=LIGHT)
+        self.dmgRmvButton.grid(column=2, row=0, **options)
+         
+    def addDmgType(self):
+        if self.dmgVar.get() not in self.dmgTypeVal:
+            self.dmgTypeVal.append(self.dmgVar.get())
+        self.dmgLabel.config(text='\n'.join(str(x) for x in self.dmgTypeVal))
+        
+    def removeDmgType():
+        pass
+
+############################
+# Description Frame
+############################
+class DescriptionFrame(tk.Frame):
+    def __init__(self, container):
+        super().__init__(container)
+        
+        options = {'padx': 5, 'pady': 5}
+
+        self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
+        
+        # label
+        self.monsterLabel = tk.Label(self, 
+                                text = "Describe what type of monster you want", 
+                                bg=LIGHT, 
+                                font=(FONT, 9, "bold"),
+                                fg=BLACK)
+        self.monsterLabel.grid(column=0, row=0, sticky=tk.W, **options)
+        
+        # text input box
+        self.monsterWindow = tk.Text(self, height = 3, width = 35, font=(FONT, 8),
+                                     fg=BLACK, bg=WHITE)
+        self.monsterWindow.grid(column=0, row=1, sticky=tk.W, **options)
+
+
+
+############################
+# Main Window
+############################
+class MainWindow(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        
+        self.geometry("325x610")
+        self.title("Monster Generator")
+        self.configure(bg=TAN)
+        
+        options = {'padx': 5, 'pady': 5}
+
+        # Top Label
+        self.label = tk.Label(self, 
+                              text="Welcome to the monster library, please enter the relevant information below.", 
+                              wraplength=300, 
+                              justify="center", 
+                              background=TAN, 
+                              font=(FONT, 10, "bold"),
+                              fg=BLACK)
+        self.label.grid(column=0, row=0, **options)
+
+        # Terrain Frame
+        terrainFrame = TerrainFrame(self)
+        terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
+
+        # Characters Frame
+        characterFrame = CharacterFrame(self)
+        characterFrame.grid(column=0, row=2, sticky=tk.W, **options)
+
+        # Damage Type Frame
+        dmgTypeFrame = DamageTypeFrame(self)
+        dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
+
+        
+        # Description Frame
+        descriptFrame = DescriptionFrame(self)
+        descriptFrame.grid(column=0, row=4, sticky=tk.W, **options)
+
+        # Get Monster Button and Result
+        self.result = tk.StringVar()
+        self.result.set("")
+        
+        self.button = tk.Button(self, 
+                                text='Get Monster', 
+                                command= lambda: self.handleGetMonsterButton(characterFrame.characters), 
+                                highlightbackground=TAN,
+                                font=(FONT, 9, "bold"),
+                                fg=BLACK)
+        self.button.grid(column=0, row=6, sticky=tk.W, **options)
+
+        # Print the result of the button
+        self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 10),
+                                    fg=BLACK)
+        self.resultLabel.grid(column=0, row=7)
+
+    def handleGetMonsterButton(self, characterList):
+        #Get appropriate CR
+        challengeRating = 0
+        for character in characterList:
+            challengeRating += int(character['level'].get())
+        challengeRating /= 4
+        challengeRating = round(challengeRating,0)
+
+        #Get list of monsters
+        response = requests.get("https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challengeRating))
+        responseList = response.json().get('results');
+        
+        #Get top result
+        if (len(responseList) > 0):
+            random.seed(random.randint(0, 100))
+            randIdx = random.randint(0, len(responseList) - 1)
+            
+            response = requests.get("https://www.dnd5eapi.co" + responseList[randIdx]['url'])
+
+            #Print
+            responseText = response.json().get('name') 
+            responseText += "\nHP: " + str(response.json().get('hit_points'))
+            responseText += "\tAC: " + str(response.json().get('armor_class'))
+            responseText += "\tCR: " + str(response.json().get('challenge_rating'))
+            responseText += "\nStr: " + str(response.json().get('strength'))
+            responseText += "\tDex: " + str(response.json().get('dexterity'))
+            responseText += "\tCon: " + str(response.json().get('constitution'))
+            responseText += "\tInt: " + str(response.json().get('intelligence'))
+            responseText += "\tWis: " + str(response.json().get('wisdom'))
+            responseText += "\tCha: " + str(response.json().get('charisma'))
+        else:
+            responseText = "Error, no monsters found";
+        self.result.set(responseText)
+
+
+if __name__ == "__main__":
+    window = MainWindow()
+    window.mainloop()
+    
+
+
 
