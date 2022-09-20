@@ -1,5 +1,4 @@
 # Mock up of the monster generator
-from turtle import bgcolor
 import requests
 import tkinter as tk
 import random
