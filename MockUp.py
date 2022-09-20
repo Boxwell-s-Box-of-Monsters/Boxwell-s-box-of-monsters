@@ -1,6 +1,7 @@
 # Mock up of the monster generator
 import requests
 import tkinter as tk
+import random
 
 # Colors
 TAN = "#DDC3A2"
@@ -223,7 +224,10 @@ class MainWindow(tk.Tk):
         
         #Get top result
         if (len(responseList) > 0):
-            response = requests.get("https://www.dnd5eapi.co" + responseList[0]['url'])
+            random.seed(random.randint(0, 100))
+            randIdx = random.randint(0, len(responseList) - 1)
+            
+            response = requests.get("https://www.dnd5eapi.co" + responseList[randIdx]['url'])
 
             #Print
             responseText = response.json().get('name') 
