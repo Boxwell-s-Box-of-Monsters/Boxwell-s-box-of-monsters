@@ -1,3 +1,4 @@
+"""Elastic search module to interact with Elastic with Python"""
 from elasticsearch import Elasticsearch
 
 es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
