@@ -235,18 +235,10 @@ class MainWindow(tk.Tk):
                                     fg=BLACK)
         self.resultLabel.grid(column=0, row=7)
 
-    def handleGetMonsterButton(self, characterList):
-        cr = getAppropriateCR(characterList)
-        responseList = responseListAdapter(cr)
-        #Get top result
-        if (len(responseList) > 0):
-            response = bestResponseAdapter(responseList)
-            responseText = printAdapter(response)
-        else:
-            responseText = "Error, no monsters found";
-        self.result.set(responseText)
-    
-    def getAppropriateCR(characterList):
+    ############################
+    # Button Functions
+    ############################
+    def getAppropriateCR(self, characterList):
         challengeRating = 0
         for character in characterList:
             challengeRating += int(character['level'].get())
@@ -254,20 +246,20 @@ class MainWindow(tk.Tk):
         return round(challengeRating,0)
 
     #Gets a list of monsters from the challenge rating
-    def responseListAdapter(challengeRating):
+    def responseListAdapter(self, challengeRating):
         #Get list of monsters
         response = requests.get("https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challengeRating))
         return response.json().get('results');
 
     #Picks a best monster from the available list
-    def bestResponseAdapter(responseList):
+    def bestResponseAdapter(self, responseList):
         #Later we will want to change this function based on elastic search
         random.seed(random.randint(0, 100))
         randIdx = random.randint(0, len(responseList) - 1)   
         return requests.get("https://www.dnd5eapi.co" + responseList[randIdx]['url'])
     
     #Prints the current best monster
-    def printAdapter(response):
+    def printAdapter(self, response):
         #Create a string
         responseText = response.json().get('name') 
         responseText += "\nHP: " + str(response.json().get('hit_points'))
@@ -282,6 +274,17 @@ class MainWindow(tk.Tk):
         responseText += "\tCha: " + str(response.json().get('charisma'))
         return responseText
 
+    ########Button Code
+    def handleGetMonsterButton(self, characterList):
+        cr = self.getAppropriateCR(characterList)
+        responseList = self.responseListAdapter(cr)
+        #Get top result
+        if (len(responseList) > 0):
+            response = self.bestResponseAdapter(responseList)
+            responseText = self.printAdapter(response)
+        else:
+            responseText = "Error, no monsters found";
+        self.result.set(responseText)
 
 if __name__ == "__main__":
     window = MainWindow()
