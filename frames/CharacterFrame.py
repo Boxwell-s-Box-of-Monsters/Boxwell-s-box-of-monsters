@@ -17,12 +17,12 @@ class CharacterFrame(tk.Frame):
                        bd=0)
 
         # Character Container Label
-        self.characterContainerLabel = tk.Label(self,
-                                                text="Adventuring Party",
-                                                font=(FONT, 9, "bold"),
-                                                background=LIGHT,
-                                                fg=BLACK)
-        self.characterContainerLabel.grid(
+        self.character_container_label = tk.Label(self,
+                                                  text="Adventuring Party",
+                                                  font=(FONT, 9, "bold"),
+                                                  background=LIGHT,
+                                                  fg=BLACK)
+        self.character_container_label.grid(
             column=0, row=0, columnspan=3, **options)
 
         # Add/Remove Buttons
