@@ -235,40 +235,56 @@ class MainWindow(tk.Tk):
                                     fg=BLACK)
         self.resultLabel.grid(column=0, row=7)
 
-    def handleGetMonsterButton(self, characterList):
-        #Get appropriate CR
+    ############################
+    # Button Functions
+    ############################
+    def getAppropriateCR(self, characterList):
         challengeRating = 0
         for character in characterList:
             challengeRating += int(character['level'].get())
         challengeRating /= 4
-        challengeRating = round(challengeRating,0)
+        return round(challengeRating,0)
 
+    #Gets a list of monsters from the challenge rating
+    def responseListAdapter(self, challengeRating):
         #Get list of monsters
         response = requests.get("https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challengeRating))
-        responseList = response.json().get('results');
-        
+        return response.json().get('results');
+
+    #Picks a best monster from the available list
+    def bestResponseAdapter(self, responseList):
+        #Later we will want to change this function based on elastic search
+        random.seed(random.randint(0, 100))
+        randIdx = random.randint(0, len(responseList) - 1)   
+        return requests.get("https://www.dnd5eapi.co" + responseList[randIdx]['url'])
+    
+    #Prints the current best monster
+    def printAdapter(self, response):
+        #Create a string
+        responseText = response.json().get('name') 
+        responseText += "\nHP: " + str(response.json().get('hit_points'))
+        responseText += "\tAC: " + str(response.json().get('armor_class'))
+        responseText += "\tCR: " + str(response.json().get('challenge_rating'))
+        #New Line with Monster Stats
+        responseText += "\nStr: " + str(response.json().get('strength'))
+        responseText += "\tDex: " + str(response.json().get('dexterity'))
+        responseText += "\tCon: " + str(response.json().get('constitution'))
+        responseText += "\tInt: " + str(response.json().get('intelligence'))
+        responseText += "\tWis: " + str(response.json().get('wisdom'))
+        responseText += "\tCha: " + str(response.json().get('charisma'))
+        return responseText
+
+    ########Button Code
+    def handleGetMonsterButton(self, characterList):
+        cr = self.getAppropriateCR(characterList)
+        responseList = self.responseListAdapter(cr)
         #Get top result
         if (len(responseList) > 0):
-            random.seed(random.randint(0, 100))
-            randIdx = random.randint(0, len(responseList) - 1)
-            
-            response = requests.get("https://www.dnd5eapi.co" + responseList[randIdx]['url'])
-
-            #Print
-            responseText = response.json().get('name') 
-            responseText += "\nHP: " + str(response.json().get('hit_points'))
-            responseText += "\tAC: " + str(response.json().get('armor_class'))
-            responseText += "\tCR: " + str(response.json().get('challenge_rating'))
-            responseText += "\nStr: " + str(response.json().get('strength'))
-            responseText += "\tDex: " + str(response.json().get('dexterity'))
-            responseText += "\tCon: " + str(response.json().get('constitution'))
-            responseText += "\tInt: " + str(response.json().get('intelligence'))
-            responseText += "\tWis: " + str(response.json().get('wisdom'))
-            responseText += "\tCha: " + str(response.json().get('charisma'))
+            response = self.bestResponseAdapter(responseList)
+            responseText = self.printAdapter(response)
         else:
             responseText = "Error, no monsters found";
         self.result.set(responseText)
-
 
 if __name__ == "__main__":
     window = MainWindow()
