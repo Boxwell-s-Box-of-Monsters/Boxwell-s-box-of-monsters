@@ -15,15 +15,15 @@ class TerrainFrame(tk.Frame):
         self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
 
         # Terrain Label
-        self.terrainLabel = tk.Label(self,
-                                     text="Terrain Description: ",
-                                     background=LIGHT,
-                                     font=(FONT, 8, "bold"),
-                                     fg=BLACK)
+        self.terrain_label = tk.Label(self,
+                                      text="Terrain Description: ",
+                                      background=LIGHT,
+                                      font=(FONT, 8, "bold"),
+                                      fg=BLACK)
 
-        self.terrainLabel.grid(column=0, row=0, sticky=tk.W, **options)
+        self.terrain_label.grid(column=0, row=0, sticky=tk.W, **options)
 
         # Terrain Input
-        self.terrainInput = tk.Text(self, height=1, width=20, font=(FONT, 8),
-                                    fg=BLACK, bg=WHITE)
-        self.terrainInput.grid(column=1, row=0, sticky=tk.W, **options)
+        self.terrain_input = tk.Text(self, height=1, width=20, font=(FONT, 8),
+                                     fg=BLACK, bg=WHITE)
+        self.terrain_input.grid(column=1, row=0, sticky=tk.W, **options)

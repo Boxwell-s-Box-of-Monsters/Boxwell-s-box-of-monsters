@@ -16,43 +16,43 @@ class DamageTypeFrame(tk.Frame):
         self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
 
         # Drop Down for Dmg Types
-        self.dmgTypes = ["Acid", "Bludegeoning", "Cold", "Fire", "Lightning",
+        self.dmg_types = ["Acid", "Bludgeoning", "Cold", "Fire", "Lightning",
                          "Necrotic", "Piercing", "Poison", "Psychic", "Radiant", "Slashing", "Thunder"]
-        self.dmgVar = tk.StringVar(self)
-        self.dmgDropDown = tk.OptionMenu(self, self.dmgVar, *self.dmgTypes)
-        self.dmgDropDown.config(bg=LIGHT, font=(FONT, 8), fg=BLACK)
-        self.dmgDropDown.grid(column=0, row=0, **options)
+        self.dmg_var = tk.StringVar(self)
+        self.dmg_drop_down = tk.OptionMenu(self, self.dmg_var, *self.dmg_types)
+        self.dmg_drop_down.config(bg=LIGHT, font=(FONT, 8), fg=BLACK)
+        self.dmg_drop_down.grid(column=0, row=0, **options)
 
         # Listed dmg types
-        self.dmgTypeVal = []
-        self.dmgLabel = tk.Label(self, text=self.dmgTypeVal, font=(FONT, 8), bg=LIGHT,
-                                 fg=BLACK)
-        self.dmgLabel.grid(column=0, row=1, columnspan=3, **options)
+        self.dmg_type_val = []
+        self.dmg_label = tk.Label(self, text=self.dmg_type_val, font=(FONT, 8), bg=LIGHT,
+                                  fg=BLACK)
+        self.dmg_label.grid(column=0, row=1, columnspan=3, **options)
 
         # Buttons
-        self.dmgAddButton = tk.Button(self,
-                                      text='add dmg type',
-                                      command=self.addDmgType,
-                                      bg=TAN,
-                                      font=(FONT, 8),
-                                      fg=BLACK,
-                                      highlightbackground=LIGHT)
+        self.dmg_add_button = tk.Button(self,
+                                        text='add dmg type',
+                                        command=self.addDmgType,
+                                        bg=TAN,
+                                        font=(FONT, 8),
+                                        fg=BLACK,
+                                        highlightbackground=LIGHT)
 
-        self.dmgAddButton.grid(column=1, row=0, **options)
+        self.dmg_add_button.grid(column=1, row=0, **options)
 
-        self.dmgRmvButton = tk.Button(self,
-                                      text='Remove dmg type',
-                                      command=self.removeDmgType,
-                                      bg=TAN,
-                                      font=(FONT, 8),
-                                      fg=BLACK,
-                                      highlightbackground=LIGHT)
-        self.dmgRmvButton.grid(column=2, row=0, **options)
+        self.dmg_rmv_button = tk.Button(self,
+                                        text='Remove dmg type',
+                                        command=self.removeDmgType,
+                                        bg=TAN,
+                                        font=(FONT, 8),
+                                        fg=BLACK,
+                                        highlightbackground=LIGHT)
+        self.dmg_rmv_button.grid(column=2, row=0, **options)
 
     def addDmgType(self):
-        if self.dmgVar.get() not in self.dmgTypeVal:
-            self.dmgTypeVal.append(self.dmgVar.get())
-        self.dmgLabel.config(text='\n'.join(str(x) for x in self.dmgTypeVal))
+        if self.dmg_var.get() not in self.dmg_type_val:
+            self.dmg_type_val.append(self.dmg_var.get())
+        self.dmg_label.config(text='\n'.join(str(x) for x in self.dmg_type_val))
 
-    def removeDmgType():
+    def removeDmgType(self):
         pass

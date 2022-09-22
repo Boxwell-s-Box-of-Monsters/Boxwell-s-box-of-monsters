@@ -26,48 +26,48 @@ class CharacterFrame(tk.Frame):
             column=0, row=0, columnspan=3, **options)
 
         # Add/Remove Buttons
-        self.addCharacter = tk.Button(self, text='Add Character', font=(FONT, 8),
-                                      fg=BLACK, highlightbackground=LIGHT)
-        self.removeCharacter = tk.Button(self, text="Remove Character", font=(FONT, 8),
-                                         fg=BLACK, highlightbackground=LIGHT)
-        self.addCharacter.grid(column=0, row=1, sticky=tk.W, **options)
-        self.removeCharacter.grid(column=1, row=1, sticky=tk.W, **options)
+        self.add_character = tk.Button(self, text='Add Character', font=(FONT, 8),
+                                       fg=BLACK, highlightbackground=LIGHT)
+        self.remove_character = tk.Button(self, text="Remove Character", font=(FONT, 8),
+                                          fg=BLACK, highlightbackground=LIGHT)
+        self.add_character.grid(column=0, row=1, sticky=tk.W, **options)
+        self.remove_character.grid(column=1, row=1, sticky=tk.W, **options)
 
         # Labels for Character table
-        self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
-                                       fg=BLACK)
-        self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
-                                 fg=BLACK)
-        self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
-                                    fg=BLACK)
-        self.characterLabel.grid(column=0, row=2, sticky=tk.W, **options)
-        self.lvlLabel.grid(column=1, row=2, sticky=tk.W, **options)
-        self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
+        self.character_label = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
+                                        fg=BLACK)
+        self.lvl_label = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
+                                  fg=BLACK)
+        self.damage_label = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
+                                     fg=BLACK)
+        self.character_label.grid(column=0, row=2, sticky=tk.W, **options)
+        self.lvl_label.grid(column=1, row=2, sticky=tk.W, **options)
+        self.damage_label.grid(column=2, row=2, sticky=tk.W, **options)
 
         # Drop down for dmg types
-        charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
+        char_type = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
                     "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
         # Characters
         self.characters = []
         for i in range(4):
-            characterRow = {}
+            character_row = {}
             charVar = tk.StringVar(self)
 
             chrDropDown = tk.OptionMenu(
-                self, charVar, *charType)
+                self, charVar, *char_type)
             chrDropDown.config(width=int(self.winfo_width() / 2))
             chrDropDown.grid(
                 column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
-            characterRow['characterDrop'] = chrDropDown
-            characterRow['character'] = charVar
+            character_row['characterDrop'] = chrDropDown
+            character_row['character'] = charVar
 
-            characterRow['level'] = tk.Spinbox(self, from_=1, to=20)
-            characterRow['level'].grid(
+            character_row['level'] = tk.Spinbox(self, from_=1, to=20)
+            character_row['level'].grid(
                 column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
-            # characterRow['Damage'] = tk.Label(
+            # character_row['Damage'] = tk.Label(
             #     characterContainer, text='Fire', font=(FONT, 8), bg=LIGHT)
-            # characterRow['Damage'].grid(
+            # character_row['Damage'].grid(
             #     column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
-            self.characters.append(characterRow)
+            self.characters.append(character_row)
