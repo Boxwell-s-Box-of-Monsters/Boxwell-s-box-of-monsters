@@ -14,16 +14,13 @@ class DifficultyFrame(tk.Frame):
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
 
-        # Terrain Label
-        self.terrainLabel = tk.Label(self,
-                                     text="Terrain Description: ",
-                                     background=LIGHT,
-                                     font=(FONT, 8, "bold"),
-                                     fg=BLACK)
-
-        self.terrainLabel.grid(column=0, row=0, sticky=tk.W, **options)
-
-        # Terrain Input
-        self.terrainInput = tk.Text(self, height=1, width=20, font=(FONT, 8),
-                                    fg=BLACK, bg=WHITE)
-        self.terrainInput.grid(column=1, row=0, sticky=tk.W, **options)
+        diff = tk.IntVar()
+        R1 = tk.Radiobutton(self, text="Easy", variable=diff, value=-1)
+        R1.grid(row=0, column=0)
+        R2 = tk.Radiobutton(self, text="Medium", variable=diff, value=0)
+        R2.grid(row=0,column=1)
+        R3 = tk.Radiobutton(self, text="Hard", variable=diff, value=1)
+        R3.grid(row=0,column=2)
+        R4 = tk.Radiobutton(self, text="Deadly", variable=diff, value=2)
+        R4.grid(row=0,column=3)
+       
