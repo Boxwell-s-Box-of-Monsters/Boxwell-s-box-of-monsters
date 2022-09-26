@@ -17,7 +17,7 @@ class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.geometry("325x610")
+        self.geometry("350x680")
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
