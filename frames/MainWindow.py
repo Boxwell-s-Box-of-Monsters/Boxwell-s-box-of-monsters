@@ -5,6 +5,7 @@ from frames.CharacterFrame import CharacterFrame
 from frames.TerrainFrame import TerrainFrame
 from frames.DamageTypeFrame import DamageTypeFrame
 from frames.DescriptionFrame import DescriptionFrame
+from frames.DifficultyFrame import DifficultyFrame
 import requests
 
 ############################
@@ -47,6 +48,10 @@ class MainWindow(tk.Tk):
         # Description Frame
         descriptFrame = DescriptionFrame(self)
         descriptFrame.grid(column=0, row=4, sticky=tk.W, **options)
+
+        # Difficulty Frame
+        difficultyFrame = DifficultyFrame(self)
+        difficultyFrame.grid(column=0, row=5, sticky=tk.W, **options)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
