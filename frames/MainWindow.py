@@ -60,7 +60,7 @@ class MainWindow(tk.Tk):
         self.button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
-                                    characterFrame.characters),
+                                    characterFrame.characters, difficultyFrame.diff),
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
                                 fg=BLACK)
@@ -74,11 +74,13 @@ class MainWindow(tk.Tk):
     ############################
     # Button Functions
     ############################
-    def getAppropriateCR(self, characterList):
+    def getAppropriateCR(self, characterList, diff):
         challengeRating = 0
         for character in characterList:
             challengeRating += int(character['level'].get())
         challengeRating /= 4
+        challengeRating += diff.get()
+
         return round(challengeRating, 0)
 
     # Gets a list of monsters from the challenge rating
@@ -112,8 +114,8 @@ class MainWindow(tk.Tk):
         return responseText
 
     # Button Code
-    def handleGetMonsterButton(self, characterList):
-        cr = self.getAppropriateCR(characterList)
+    def handleGetMonsterButton(self, characterList, diff):
+        cr = self.getAppropriateCR(characterList, diff)
         responseList = self.responseListAdapter(cr)
         # Get top result
         if (len(responseList) > 0):

@@ -14,13 +14,13 @@ class DifficultyFrame(tk.Frame):
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
 
-        diff = tk.IntVar()
-        R1 = tk.Radiobutton(self, text="Easy", variable=diff, value=-1)
-        R1.grid(row=0, column=0)
-        R2 = tk.Radiobutton(self, text="Medium", variable=diff, value=0)
-        R2.grid(row=0,column=1)
-        R3 = tk.Radiobutton(self, text="Hard", variable=diff, value=1)
-        R3.grid(row=0,column=2)
-        R4 = tk.Radiobutton(self, text="Deadly", variable=diff, value=2)
-        R4.grid(row=0,column=3)
+        self.diff = tk.IntVar()
+        self.R1 = tk.Radiobutton(self, text="Easy", variable=self.diff, value=-1)
+        self.R1.grid(row=0, column=0)
+        self.R2 = tk.Radiobutton(self, text="Medium", variable=self.diff, value=0)
+        self.R2.grid(row=0,column=1)
+        self.R3 = tk.Radiobutton(self, text="Hard", variable=self.diff, value=1)
+        self.R3.grid(row=0,column=2)
+        self.R4 = tk.Radiobutton(self, text="Deadly", variable=self.diff, value=2)
+        self.R4.grid(row=0,column=3)
        
