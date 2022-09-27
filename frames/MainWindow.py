@@ -107,7 +107,7 @@ class MainWindow(tk.Tk):
         # Get list of monsters
         query = Q('match', challenge_rating=challengeRating) & \
             Q(MoreLikeThis(like= monsterWindow.get("1.0", 'end-1c'), \
-            fields=['actions_desc','special_abilities_desc','description'], min_term_freq = 1, min_doc_freq = 1))
+            fields=['actions_desc','special_abilities_desc','description', 'name'], min_term_freq = 1, min_doc_freq = 1))
 
         s = Search(using=es, index='monster_index').query(query)
         response = s.execute()
