@@ -1,25 +1,30 @@
 import tkinter as tk
-from styles import TAN, BLACK, FONT
 import random
+import requests
+from styles import TAN, BLACK, FONT
 from frames.character_frame import CharacterFrame
 from frames.terrain_frame import TerrainFrame
 from frames.damage_type_frame import DamageTypeFrame
 from frames.description_frame import DescriptionFrame
-import requests
+
 
 ############################
 # Main Window
 ############################
 
 
+# get_appropriate_cr
+# Gets a list of monsters from the challenge rating
 def get_appropriate_cr(character_list):
-    challengeRating = 0
+    challenge_rating = 0
     for character in character_list:
-        challengeRating += int(character['level'].get())
-    challengeRating /= 4
-    return round(challengeRating, 0)
+        challenge_rating += int(character['level'].get())
+    challenge_rating /= 4
+    return round(challenge_rating, 0)
 
 
+# response_list_adapter
+# Picks a best monster from the available list
 def response_list_adapter(challenge_rating):
     # Get list of monsters
     response = requests.get(
@@ -27,6 +32,8 @@ def response_list_adapter(challenge_rating):
     return response.json().get('results')
 
 
+# best_response_adapter
+# Prints the current best monster
 def best_response_adapter(response_list):
     # Later we will want to change this function based on elastic search
     random.seed(random.randint(0, 100))
@@ -34,6 +41,8 @@ def best_response_adapter(response_list):
     return requests.get("https://www.dnd5eapi.co" + response_list[rand_idx]['url'])
 
 
+# print_adapter
+# Placeholder description
 def print_adapter(response):
     # Create a string
     response_text = response.json().get('name')
@@ -50,6 +59,8 @@ def print_adapter(response):
     return response_text
 
 
+# MainWindow
+# Placeholder description
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -100,19 +111,9 @@ class MainWindow(tk.Tk):
                                      fg=BLACK)
         self.result_label.grid(column=0, row=7)
 
-    ############################
-    # Button Functions
-    ############################
-
-    # Gets a list of monsters from the challenge rating
-
-    # Picks a best monster from the available list
-
-    # Prints the current best monster
-
     # Button Code
-    def handle_get_monster_button(self, characterList):
-        challenge_rating = self.get_appropriate_cr(characterList)
+    def handle_get_monster_button(self, character_list):
+        challenge_rating = self.get_appropriate_cr(character_list)
         response_list = response_list_adapter(challenge_rating)
         # Get top result
         if len(response_list) > 0:
