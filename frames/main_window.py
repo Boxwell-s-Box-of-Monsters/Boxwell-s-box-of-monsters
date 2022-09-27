@@ -7,14 +7,16 @@ from frames.terrain_frame import TerrainFrame
 from frames.damage_type_frame import DamageTypeFrame
 from frames.description_frame import DescriptionFrame
 
+""" 
+    MAIN WINDOW:
+    Contains all functions to run the main window
+"""
 
-############################
-# Main Window
-############################
 
-
-# get_appropriate_cr
-# Gets a list of monsters from the challenge rating
+""" 
+    get_appropriate_cr:
+    Gets a list of monsters from the challenge rating
+"""
 def get_appropriate_cr(character_list):
     challenge_rating = 0
     for character in character_list:
@@ -23,8 +25,10 @@ def get_appropriate_cr(character_list):
     return round(challenge_rating, 0)
 
 
-# response_list_adapter
-# Picks a best monster from the available list
+""" 
+    response_list_adapter:
+    Picks a best monster from the available list 
+"""
 def response_list_adapter(challenge_rating):
     # Get list of monsters
     response = requests.get(
@@ -32,8 +36,10 @@ def response_list_adapter(challenge_rating):
     return response.json().get('results')
 
 
-# best_response_adapter
-# Prints the current best monster
+""" 
+    response_list_adapter:
+    Prints the current best monster
+"""
 def best_response_adapter(response_list):
     # Later we will want to change this function based on elastic search
     random.seed(random.randint(0, 100))
@@ -41,8 +47,10 @@ def best_response_adapter(response_list):
     return requests.get("https://www.dnd5eapi.co" + response_list[rand_idx]['url'])
 
 
-# print_adapter
-# Placeholder description
+""" 
+    response_list_adapter:
+    Placeholder description
+"""
 def print_adapter(response):
     # Create a string
     response_text = response.json().get('name')
@@ -59,8 +67,10 @@ def print_adapter(response):
     return response_text
 
 
-# MainWindow
-# Placeholder description
+""" 
+    MainWindow:
+    Placeholder description
+"""
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -111,7 +121,11 @@ class MainWindow(tk.Tk):
                                      fg=BLACK)
         self.result_label.grid(column=0, row=7)
 
-    # Button Code
+
+    """ 
+        handle_get_monster_button:
+        Handle usage of button at bottom of display.
+    """
     def handle_get_monster_button(self, character_list):
         challenge_rating = self.get_appropriate_cr(character_list)
         response_list = response_list_adapter(challenge_rating)
