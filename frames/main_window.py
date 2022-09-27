@@ -7,16 +7,12 @@ from frames.terrain_frame import TerrainFrame
 from frames.damage_type_frame import DamageTypeFrame
 from frames.description_frame import DescriptionFrame
 
-""" 
-    MAIN WINDOW:
-    Contains all functions to run the main window
-"""
+""" MAIN WINDOW:                                        """
+""" Contains all functions to run the main window       """
 
 
-""" 
-    get_appropriate_cr:
-    Gets a list of monsters from the challenge rating
-"""
+""" get_appropriate_cr:                                 """
+""" Gets a list of monsters from the challenge rating   """
 def get_appropriate_cr(character_list):
     challenge_rating = 0
     for character in character_list:
@@ -25,10 +21,8 @@ def get_appropriate_cr(character_list):
     return round(challenge_rating, 0)
 
 
-""" 
-    response_list_adapter:
-    Picks a best monster from the available list 
-"""
+""" response_list_adapter:                              """
+""" Picks a best monster from the available list        """
 def response_list_adapter(challenge_rating):
     # Get list of monsters
     response = requests.get(
