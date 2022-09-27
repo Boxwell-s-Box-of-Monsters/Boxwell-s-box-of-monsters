@@ -1,6 +1,7 @@
 import tkinter as tk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
+from elasticsearch_dsl.query import MoreLikeThis
 from elasticsearch_dsl import Q
 from Styles import *
 import random
@@ -76,7 +77,7 @@ class MainWindow(tk.Tk):
         self.button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
-                                    characterFrame.characters, difficultyFrame.diff, es),
+                                    characterFrame.characters, difficultyFrame.diff, es, descriptFrame.monsterWindow),
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
                                 fg=BLACK)
@@ -102,9 +103,12 @@ class MainWindow(tk.Tk):
         return round(challengeRating, 0)
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, challengeRating, es):
+    def responseListAdapter(self, challengeRating, es, monsterWindow):
         # Get list of monsters
-        query = Q('match', challenge_rating=challengeRating)
+        query = Q('match', challenge_rating=challengeRating) & \
+            Q(MoreLikeThis(like= monsterWindow.get("1.0", 'end-1c'), \
+            fields=['actions_desc','special_abilities_desc','description'], min_term_freq = 1, min_doc_freq = 1))
+
         s = Search(using=es, index='monster_index').query(query)
         response = s.execute()
         return response
@@ -120,7 +124,7 @@ class MainWindow(tk.Tk):
     def printAdapter(self, response):
         # Create a string
         responseText = response['name']
-        #responseText += "\nHP: " + str(response['hit_points'])
+        ##########responseText += "\nHP: " + str(response['hit_points'])
         responseText += "\nAC: " + str(response['armor_class'])
         responseText += "\tCR: " + str(response['challenge_rating'])
         # New Line with Monster Stats
@@ -133,9 +137,9 @@ class MainWindow(tk.Tk):
         return responseText
 
     # Button Code
-    def handleGetMonsterButton(self, characterList, diff, es):
+    def handleGetMonsterButton(self, characterList, diff, es, monsterWindow):
         cr = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(cr, es)
+        responseList = self.responseListAdapter(cr, es, monsterWindow)
         # Get top result
         if (len(responseList) > 0):
             response = self.bestResponseAdapter(responseList)
