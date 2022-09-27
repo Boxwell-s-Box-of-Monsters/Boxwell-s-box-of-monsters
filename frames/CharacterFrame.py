@@ -25,24 +25,24 @@ class CharacterFrame(tk.Frame):
         self.characterContainerLabel.grid(
             column=0, row=0, columnspan=3, **options)
 
-        # Add/Remove Buttons
-        self.addCharacter = tk.Button(self, text='Add Character', font=(FONT, 8),
-                                      fg=BLACK, highlightbackground=LIGHT)
-        self.removeCharacter = tk.Button(self, text="Remove Character", font=(FONT, 8),
-                                         fg=BLACK, highlightbackground=LIGHT)
-        self.addCharacter.grid(column=0, row=1, sticky=tk.W, **options)
-        self.removeCharacter.grid(column=1, row=1, sticky=tk.W, **options)
+        # # Add/Remove Buttons
+        # self.addCharacter = tk.Button(self, text='Add Character', font=(FONT, 8),
+        #                               fg=BLACK, highlightbackground=LIGHT)
+        # self.removeCharacter = tk.Button(self, text="Remove Character", font=(FONT, 8),
+        #                                  fg=BLACK, highlightbackground=LIGHT)
+        # self.addCharacter.grid(column=0, row=1, sticky=tk.W, **options)
+        # self.removeCharacter.grid(column=1, row=1, sticky=tk.W, **options)
 
         # Labels for Character table
         self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
                                        fg=BLACK)
         self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
                                  fg=BLACK)
-        self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
-                                    fg=BLACK)
+        # self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
+        #                             fg=BLACK)
         self.characterLabel.grid(column=0, row=2, sticky=tk.W, **options)
         self.lvlLabel.grid(column=1, row=2, sticky=tk.W, **options)
-        self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
+        # self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
 
         # Drop down for dmg types
         charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
@@ -55,13 +55,14 @@ class CharacterFrame(tk.Frame):
 
             chrDropDown = tk.OptionMenu(
                 self, charVar, *charType)
-            chrDropDown.config(width=int(self.winfo_width() / 2))
+            chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
             chrDropDown.grid(
                 column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
             characterRow['characterDrop'] = chrDropDown
             characterRow['character'] = charVar
 
-            characterRow['level'] = tk.Spinbox(self, from_=1, to=20)
+            characterRow['level'] = tk.Spinbox(
+                self, fg=BLACK, bg=WHITE, from_=1, to=20)
             characterRow['level'].grid(
                 column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
