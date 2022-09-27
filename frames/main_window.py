@@ -1,5 +1,5 @@
 import tkinter as tk
-from styles import *
+from styles import TAN, BLACK, FONT
 import random
 from frames.character_frame import CharacterFrame
 from frames.terrain_frame import TerrainFrame
@@ -10,6 +10,44 @@ import requests
 ############################
 # Main Window
 ############################
+
+
+def get_appropriate_cr(character_list):
+    challengeRating = 0
+    for character in character_list:
+        challengeRating += int(character['level'].get())
+    challengeRating /= 4
+    return round(challengeRating, 0)
+
+
+def response_list_adapter(challenge_rating):
+    # Get list of monsters
+    response = requests.get(
+        "https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challenge_rating))
+    return response.json().get('results')
+
+
+def best_response_adapter(response_list):
+    # Later we will want to change this function based on elastic search
+    random.seed(random.randint(0, 100))
+    rand_idx = random.randint(0, len(response_list) - 1)
+    return requests.get("https://www.dnd5eapi.co" + response_list[rand_idx]['url'])
+
+
+def print_adapter(response):
+    # Create a string
+    response_text = response.json().get('name')
+    response_text += "\nHP: " + str(response.json().get('hit_points'))
+    response_text += "\tAC: " + str(response.json().get('armor_class'))
+    response_text += "\tCR: " + str(response.json().get('challenge_rating'))
+    # New Line with Monster Stats
+    response_text += "\nStr: " + str(response.json().get('strength'))
+    response_text += "\tDex: " + str(response.json().get('dexterity'))
+    response_text += "\tCon: " + str(response.json().get('constitution'))
+    response_text += "\tInt: " + str(response.json().get('intelligence'))
+    response_text += "\tWis: " + str(response.json().get('wisdom'))
+    response_text += "\tCha: " + str(response.json().get('charisma'))
+    return response_text
 
 
 class MainWindow(tk.Tk):
@@ -23,13 +61,9 @@ class MainWindow(tk.Tk):
         options = {'padx': 5, 'pady': 5}
 
         # Top Label
-        self.label = tk.Label(self,
-                              text="Welcome to the monster library, please enter the relevant information below.",
-                              wraplength=300,
-                              justify="center",
-                              background=TAN,
-                              font=(FONT, 10, "bold"),
-                              fg=BLACK)
+        label_text = "Welcome to the monster library, please enter the relevant information below."
+        self.label = tk.Label(self, text= label_text, wraplength=300, justify="center", background=TAN,
+                              font=(FONT, 10, "bold"), fg=BLACK)
         self.label.grid(column=0, row=0, **options)
 
         # Terrain Frame
@@ -54,7 +88,7 @@ class MainWindow(tk.Tk):
 
         self.button = tk.Button(self,
                                 text='Get Monster',
-                                command=lambda: self.handleGetMonsterButton(
+                                command=lambda: self.handle_get_monster_button(
                                     character_frame.characters),
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
@@ -69,51 +103,21 @@ class MainWindow(tk.Tk):
     ############################
     # Button Functions
     ############################
-    def getAppropriateCR(self, character_list):
-        challengeRating = 0
-        for character in character_list:
-            challengeRating += int(character['level'].get())
-        challengeRating /= 4
-        return round(challengeRating, 0)
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, challenge_rating):
-        # Get list of monsters
-        response = requests.get(
-            "https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challenge_rating))
-        return response.json().get('results')
 
     # Picks a best monster from the available list
-    def bestResponseAdapter(self, response_list):
-        # Later we will want to change this function based on elastic search
-        random.seed(random.randint(0, 100))
-        rand_idx = random.randint(0, len(response_list) - 1)
-        return requests.get("https://www.dnd5eapi.co" + response_list[rand_idx]['url'])
 
     # Prints the current best monster
-    def printAdapter(self, response):
-        # Create a string
-        response_text = response.json().get('name')
-        response_text += "\nHP: " + str(response.json().get('hit_points'))
-        response_text += "\tAC: " + str(response.json().get('armor_class'))
-        response_text += "\tCR: " + str(response.json().get('challenge_rating'))
-        # New Line with Monster Stats
-        response_text += "\nStr: " + str(response.json().get('strength'))
-        response_text += "\tDex: " + str(response.json().get('dexterity'))
-        response_text += "\tCon: " + str(response.json().get('constitution'))
-        response_text += "\tInt: " + str(response.json().get('intelligence'))
-        response_text += "\tWis: " + str(response.json().get('wisdom'))
-        response_text += "\tCha: " + str(response.json().get('charisma'))
-        return response_text
 
     # Button Code
-    def handleGetMonsterButton(self, characterList):
-        cr = self.getAppropriateCR(characterList)
-        response_list = self.responseListAdapter(cr)
+    def handle_get_monster_button(self, characterList):
+        challenge_rating = self.get_appropriate_cr(characterList)
+        response_list = response_list_adapter(challenge_rating)
         # Get top result
         if len(response_list) > 0:
-            response = self.bestResponseAdapter(response_list)
-            response_text = self.printAdapter(response)
+            response = best_response_adapter(response_list)
+            response_text = print_adapter(response)
         else:
             response_text = "Error, no monsters found"
         self.result.set(response_text)

@@ -1,5 +1,6 @@
 import tkinter as tk
-from styles import *
+from styles import LIGHT, FONT, BLACK, WHITE
+
 
 ############################
 # Description Frame
