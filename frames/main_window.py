@@ -1,10 +1,10 @@
 import tkinter as tk
-from Styles import *
+from styles import *
 import random
-from frames.CharacterFrame import CharacterFrame
-from frames.TerrainFrame import TerrainFrame
-from frames.DamageTypeFrame import DamageTypeFrame
-from frames.DescriptionFrame import DescriptionFrame
+from frames.character_frame import CharacterFrame
+from frames.terrain_frame import TerrainFrame
+from frames.damage_type_frame import DamageTypeFrame
+from frames.description_frame import DescriptionFrame
 import requests
 
 ############################

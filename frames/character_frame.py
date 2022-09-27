@@ -1,6 +1,6 @@
 import tkinter as tk
 
-from Styles import *
+from styles import BLACK, LIGHT, FONT
 
 
 ############################
@@ -51,15 +51,15 @@ class CharacterFrame(tk.Frame):
         self.characters = []
         for i in range(4):
             character_row = {}
-            charVar = tk.StringVar(self)
+            char_var = tk.StringVar(self)
 
-            chrDropDown = tk.OptionMenu(
-                self, charVar, *char_type)
-            chrDropDown.config(width=int(self.winfo_width() / 2))
-            chrDropDown.grid(
+            chr_drop_down = tk.OptionMenu(
+                self, char_var, *char_type)
+            chr_drop_down.config(width=int(self.winfo_width() / 2))
+            chr_drop_down.grid(
                 column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
-            character_row['characterDrop'] = chrDropDown
-            character_row['character'] = charVar
+            character_row['characterDrop'] = chr_drop_down
+            character_row['character'] = char_var
 
             character_row['level'] = tk.Spinbox(self, from_=1, to=20)
             character_row['level'].grid(

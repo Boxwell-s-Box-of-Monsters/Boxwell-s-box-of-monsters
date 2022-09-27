@@ -1,5 +1,5 @@
 import tkinter as tk
-from Styles import *
+from styles import *
 
 
 ############################
