@@ -17,7 +17,7 @@ class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.geometry("350x680")
+        self.geometry("330x580")
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
@@ -31,27 +31,27 @@ class MainWindow(tk.Tk):
                               background=TAN,
                               font=(FONT, 10, "bold"),
                               fg=BLACK)
-        self.label.grid(column=0, row=0, **options)
+        self.label.grid(column=1, row=0, sticky=tk.W, **options)
 
-        # Terrain Frame
-        terrainFrame = TerrainFrame(self)
-        terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
+        # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
+        #terrainFrame = TerrainFrame(self)
+        #terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
 
         # Characters Frame
         characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=0, row=2, sticky=tk.W, **options)
+        characterFrame.grid(column=1, row=1, sticky=tk.W,  **options)
 
-        # Damage Type Frame
-        dmgTypeFrame = DamageTypeFrame(self)
-        dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
+        # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
+        #dmgTypeFrame = DamageTypeFrame(self)
+        #dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(column=0, row=4, sticky=tk.W, **options)
+        descriptFrame.grid(column=1, row=2, sticky=tk.W, **options)
 
         # Difficulty Frame
         difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(column=0, row=5, sticky=tk.W, **options)
+        difficultyFrame.grid(column=1, row=3, sticky=tk.W, **options)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -64,12 +64,12 @@ class MainWindow(tk.Tk):
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
                                 fg=BLACK)
-        self.button.grid(column=0, row=6, sticky=tk.W, **options)
+        self.button.grid(column=1, row=4, sticky=tk.W, **options)
 
         # Print the result of the button
         self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 10),
                                     fg=BLACK)
-        self.resultLabel.grid(column=0, row=7)
+        self.resultLabel.grid(column=1, row=5)
 
     ############################
     # Button Functions
@@ -111,6 +111,10 @@ class MainWindow(tk.Tk):
         responseText += "\tInt: " + str(response.json().get('intelligence'))
         responseText += "\tWis: " + str(response.json().get('wisdom'))
         responseText += "\tCha: " + str(response.json().get('charisma'))
+        # New line with Monster weaknesses and resistances
+        responseText += "\nweaknesses: " + str(response.json().get('damage_vulnerabilities'))
+        responseText += "\tresistances: " + str(response.json().get('damage_resistances'))
+        responseText += "\timmunities: " + str(response.json().get('damage_immunities'))
         return responseText
 
     # Button Code
