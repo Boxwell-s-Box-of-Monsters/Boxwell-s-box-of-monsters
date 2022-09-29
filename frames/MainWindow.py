@@ -134,6 +134,11 @@ class MainWindow(tk.Tk):
         responseText += "\tInt: " + str(response['intelligence'])
         responseText += "\tWis: " + str(response['wisdom'])
         responseText += "\tCha: " + str(response['charisma'])
+        # New line with Monster weaknesses and resistances
+        #responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
+        #responseText += "\tresistances: " + str(response['damage_resistances'])
+        #responseText += "\timmunities: " + str(response['damage_immunities'])
+        return responseText
         return responseText
 
     # Button Code
