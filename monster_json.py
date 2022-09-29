@@ -1,6 +1,5 @@
 """Module json for dealing with JSON files."""
 import json
-from pickle import TRUE
 import requests
 from bs4 import BeautifulSoup
 import time
