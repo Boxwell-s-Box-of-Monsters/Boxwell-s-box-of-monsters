@@ -8,7 +8,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from os.path import exists
-from os import listdir
 
 def webScrape(response):
     # Find page with the monster's image
