@@ -1,0 +1,17 @@
+{
+    "name": "Giant Vulture",
+    "armor_class": 10,
+    "challenge_rating": 1,
+    "strength": 15,
+    "dexterity": 10,
+    "constitution": 15,
+    "intelligence": 6,
+    "wisdom": 12,
+    "charisma": 7,
+    "actions_desc": "The vulture makes two attacks: one with its beak and one with its talons. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage. ",
+    "special_abilities_desc": "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell. The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
+    "description": "Much like a standard-sized vulture, these creatures had pink bald heads and greasy blue-black feathers that covered their bodies.[3]Giant vultures were often known to be malevolent as well as unusually intelligent for a bird.[1] Far more fierce than their smaller cousins[3] and less liable to be frightened away by injured prey. Upon sighting anything on the ground that appeared injured or dead, a giant vulture would quickly swoop down to investigate.[4]Giant vultures had a keen eyesight comparable to that of any eagle, falcon, or hawk.[4] Due to their dietary habits, they possessed a natural resistance to many forms of disease as well as organic poisons.[3]These creatures typically laid around five to eight eggs, which would hatch within a span of two months. Their hatchlings were not capable of flight until at least four months of age.[3]The Sea Maidens Faire kept a giant vulture aboard the sailing ship the Heartbreaker, as part of their menagerie.[5]Giant vultures lived in roaming flocks, typically of up to twelve members.[3]Like all species of vultures, these creatures were carrion eaters. They fed upon creatures that were either injured or already dead. Though they were also liable to attack creatures that were unconscious, restrained, or sleeping.[3][4]Giant vultures typically inhabited high altitudes, such as mountains, within temperate or tropical regions.[3][4] In Faer\u00fbn they were known to be found around parts of the Dalelands, Cormyr, and Sembia.[6] In Maztica, they were known to be encountered all across its deserts.[7]In the Hordelands they could occasionally be found at the Katakoro Plateau, as well as in the land's following mountain ranges - A-Ling Shan, Chigiogi, Dustwall, Hagga Shan, Katakoro Shan, Khopet-Dag, Kora Shan, Kun-Yen Shan, Raurin Alta, Teyla Shan, Ulhai Shan, Yehimal.[8]In the Zakhara region's Crowded Sea, they could be found on the island chain of Nada al-Hazan[9] and the archipelago of Jazayir al-Sartan.[10]Some races were known to domesticate giant vultures. They were capable of being trained to stay within a specific region and to associate specific creatures with food, though only if they were raised since a young age.[3] Their eggs and hatchlings typically fetched prices of around 30 to 60 gp.[3][2]The spell flight of Remnis could summon a giant vulture to the aid of its caster.[11]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c4/Giantvulture.jpg/revision/latest?cb=20200220162139",
+    "hit_points": 22,
+    "hit_dice": "3d10"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Rat",
+    "hit_points": 1,
+    "hit_dice": "1d4",
+    "armor_class": 10,
+    "challenge_rating": 0,
+    "strength": 2,
+    "dexterity": 11,
+    "constitution": 9,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 4,
+    "actions_desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage. ",
+    "special_abilities_desc": "The rat has advantage on Wisdom (Perception) checks that rely on smell. ",
+    "description": "   Rats were generally cowardly creatures, but would become fierce if cornered or trapped. They feared fire, but if hungry enough could be driven to ignore this base instinct.[5] Rats thrived in urban environments where they could easily feed off the leftover food and waste of the community.[2] Deep in the Underdark near Menzoberranzan, scurry rats were hunted by riding lizards of the drow.[11] Beyond the Prime Material plane, rats could be found in the Domains of Dread.[12]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b6/Rat-5e.jpg/revision/latest?cb=20171010174359"
+}

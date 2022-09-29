@@ -1,0 +1,17 @@
+{
+    "name": "Owl",
+    "hit_points": 1,
+    "hit_dice": "1d4",
+    "armor_class": 11,
+    "challenge_rating": 0,
+    "strength": 3,
+    "dexterity": 13,
+    "constitution": 8,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 slashing damage. ",
+    "special_abilities_desc": "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach. The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight. ",
+    "description": "      Owls had excellent hearing and could move quite quietly.[2][1][4] When flying they typically made no noise.[4] Their eyes were capable of seeing in total darkness[1] and low-light conditions.[2] They also uniquely were capable of seeing the ultraviolet spectrum, seeing things clearly from a range of 200\u202fyards (180\u202fmeters) and dimly out to 600\u202fyards (550\u202fmeters).[4][5][note 1] Altogether these senses made it incredibly difficult to sneak up on or surprise owls, whether they be in dark conditions or outside at dusk.[4] Owls swooped silently at their prey, attacking with both powerful talons at once,[2] and then flew easily out of reach.[1] They also were known to attack with their beaks.[4] Owls were a carnivorous species.[3] Species of bird active at daylight hours were often preyed upon by them, such as crows and ravens.[4] These birds typically inhabited forests in regions with a temperate climate.[2] During daylight hours they roosted in very secluded areas.[4] Owls could be found across much of the North.[6] Beyond Faer\u00fbn, owls could be found in the Hordelands at the Katakoro Plateau.[7] Beyond the Prime Material plane, owls could be found in the forests of Barovia.[8] If taken care of at a young age owls could be domesticated, though they could not be trained to hunt.[4] Owls were sometimes used by hunters as decoys since many of the daylight birds that they preyed upon, such as crows and ravens, would flock to attack them during their hours of activity. While doing so, such birds were so vicious and determined to kill the owl that they loss all sense of caution.[4] The goddess Sel\u00fbne was known to show her favor or presence by sending owls as an omen or guide.[9][10][11]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e7/Owl.jpg/revision/latest?cb=20171011004843"
+}

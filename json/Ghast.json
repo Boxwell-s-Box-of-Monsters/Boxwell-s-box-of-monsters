@@ -1,0 +1,17 @@
+{
+    "name": "Ghast",
+    "armor_class": 13,
+    "challenge_rating": 2,
+    "strength": 16,
+    "dexterity": 17,
+    "constitution": 10,
+    "intelligence": 11,
+    "wisdom": 10,
+    "charisma": 8,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 12 (2d8 + 3) piercing damage. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a creature other than an undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. ",
+    "special_abilities_desc": "Any creature that starts its turn within 5 ft. of the ghast must succeed on a DC 10 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the ghast's Stench for 24 hours. The ghast and any ghouls within 30 ft. of it have advantage on saving throws against effects that turn undead. ",
+    "description": "They resembled very closely their undead cousin,[2][3][5] except perhaps being just a bit more slender and ghost-like. The stench of death and rot lingered around their undead forms.[2] This stench could often be smelled from a 10\u202fft (3\u202fm) radius and was terrible enough to cause nausea, retching, and in rare cases even paralysis.[5][3]Like most undead, ghasts were immune to mind-affecting spells such as charm and sleep. Though they were known to be especially vulnerable to weapons made of cold iron.[5][3]Ghasts were also far more deadly and cunning than ghouls, with their paralytic touch dangerously affecting their opponents, except elves. [2]Much like ghouls, ghasts were typically encountered around graveyards.[3]Much like ghouls, ghasts spoke whatever language they did in life.[2][5]Ghasts often laired with others of their own kind or acted as the leaders of a group of normal ghouls.[2][3]When it came to non-undead creatures, ghasts were often enslaved to demons.[5] Some ghasts acted as servants of the deity Kiaransalee.[6]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/88/Ghast-5e.png/revision/latest?cb=20161120235125",
+    "hit_points": 36,
+    "hit_dice": "8d8"
+}

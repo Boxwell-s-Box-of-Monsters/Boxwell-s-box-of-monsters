@@ -1,0 +1,17 @@
+{
+  "name": "Flying Sword",
+  "armor_class": 17,
+  "challenge_rating": 0.25,
+  "strength": 12,
+  "dexterity": 15,
+  "constitution": 11,
+  "intelligence": 1,
+  "wisdom": 5,
+  "charisma": 1,
+  "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage. ",
+  "special_abilities_desc": "The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute. While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword. ",
+  "description": "The spirit of Relve Langral was bound to the sword and could be called forth by the sword's owner and would unquestionably follow the owner's commands. His mind was twisted by Myrkul and he enjoyed killing. Relve's spirit was wreathed in blue flames when he was outside of the sword, which is why Relve is referred to as a blueflame ghost. The sword had been in the possession of the Stormserpent family of Suzail for many years.[1]Elminster sought the sword and the other relics to feed to Alassra Silverhand to restore her sanity.[1]",
+  "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/77/599/1000/1000/636473151106171093.png",
+  "hit_points": 17,
+  "hit_dice": "5d6"
+}

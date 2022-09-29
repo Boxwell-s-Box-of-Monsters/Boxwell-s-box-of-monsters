@@ -1,0 +1,17 @@
+{
+    "name": "Ice Mephit",
+    "hit_points": 21,
+    "hit_dice": "6d6",
+    "armor_class": 11,
+    "challenge_rating": 0.5,
+    "strength": 7,
+    "dexterity": 13,
+    "constitution": 10,
+    "intelligence": 9,
+    "wisdom": 11,
+    "charisma": 12,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage. The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one. While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice. The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma. ",
+    "description": "   In the ancient city of Cursrah, ice mephits were found in the kitchens of some nobles, where they were used to keep food chilled.[6] ",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/59/Ice_Mephit-5e.png/revision/latest?cb=20171011030727"
+}

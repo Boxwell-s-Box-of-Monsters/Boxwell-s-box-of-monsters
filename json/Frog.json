@@ -1,0 +1,17 @@
+{
+    "name": "Frog",
+    "armor_class": 11,
+    "challenge_rating": 0,
+    "strength": 1,
+    "dexterity": 13,
+    "constitution": 8,
+    "intelligence": 1,
+    "wisdom": 8,
+    "charisma": 3,
+    "actions_desc": "",
+    "special_abilities_desc": "The frog can breathe air and water The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start. ",
+    "description": "In terms of physical description, giant frogs completely matched normal frogs, except in size. They could grow up to 6\u202fft (1.8\u202fm) long, and weigh up to 250\u202flb (110\u202fkg). The tongues of these beasts could grow up to 18\u202fft (5.5\u202fm) long.[3]All species of giant frog held a great fear towards fire and would try to get as far away from it as they could.[3][4]Due to their extended size, a giant frog could jump up to 10\u202fft (3\u202fm) high,[1][3] and across gaps that were 20\u202fft (6.1\u202fm) wide, even from being completely stationary.[1] In earlier ages, some scholars noted specimens that could jump even greater heights, up to 30\u202fft (9.1\u202fm).[4]These monstrous frogs were well camouflaged, so it was likely that their prey would be surprised. They would use their large adhesive tongues to capture and restrain foes.[3]In combat, these beasts bit their foes, and usually grappled them in the process. Small creatures were often swallowed whole after being restrained by the frog's bite, causing the internal acids to wear away at it.[1]Ruke Diggot suffered the fate of being swallowed whole by one of these hulking amphibians.[5]Giant frogs formed packs, although they didn't have a sophisticated hierarchy.[3]A giant frog devours a humanoid.These creatures mostly ate insects, small creatures, and fish,[3] as well as birds and rats.[4]They were also capable of devouring other large creatures whole, including humans,[4][5] halflings, and elves.[4]Giant frogs were found in almost all natural areas of fresh water \u2014 lakes, rivers, marshes, and swamps.[4]They were known to inhabit many places all around Faer\u00fbn, including the Mere of Dead Men,[8] the Vast Swamp,[9] the Mortick Swamp,[10] Phlan,[11] the Nagaflow[12], and in the Underdark, particularly Undermountain.[13]Outside of Faer\u00fbn, giant frogs were known to be found in many of the tropical forests and swamps of Maztica.[14]Large aquatic creatures, such as giant species of fish, giant turtles,[4][3] and Giant snakes were often known to prey upon them. Although giant frogs hunted very frequently, they knew their boundaries and place in the food chain, thus they did their best to avoid such predators.[4]Some giant frogs were known to keep the company of bullywugs. Bullywugs, as they were able to communicate with frogs and toads, formed bonds with these large frogs. Bullywugs trained the frogs to be protectors that could also hunt food for them. The ability of these frogs to swallow their prey whole allowed for the bullywugs to transport their future meals back to camp simply and efficiently.[15]In the Flooded Forest, there were rumors of giant frogs forming druidic circles and being capable of casting spells.[16]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/4d/Frog-5e.jpg/revision/latest?cb=20171011005521",
+    "hit_points": 1,
+    "hit_dice": "1d4"
+}

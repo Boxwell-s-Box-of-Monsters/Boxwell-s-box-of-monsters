@@ -1,0 +1,17 @@
+{
+    "name": "Hydra",
+    "hit_points": 172,
+    "hit_dice": "15d12",
+    "armor_class": 15,
+    "challenge_rating": 8,
+    "strength": 20,
+    "dexterity": 12,
+    "constitution": 20,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 7,
+    "actions_desc": "The hydra makes as many bite attacks as it has heads. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage. ",
+    "special_abilities_desc": "The hydra can hold its breath for 1 hour. The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.\nWhenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.\nAt the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way. For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks. While the hydra sleeps, at least one of its heads is awake. ",
+    "description": "      A hydra was not very intelligent, about as much so as an animal. Hydras were usually neutral in alignment.[3] A hydra was an especially deadly monster, since every time a head was severed, two new ones grew in its place.[3] Scholars from Candlekeep believed hydras evolved from proto-dragons.[6] In the late 1340s DR, the explorer Hadley Erridge of Thunderstone in Cormyr suggested to his neighbor, the enterprising and prosperous farmer Del Geery, that he get a hydra to scare off the pests plaguing his crops. Geery agreed to finance Erridge's expedition into the Vast Swamp to capture a live hydra. Two months later, they returned with an adult hydra in an iron cage. Erridge released the hydra and it rampaged about the farm, scaring away all the animals within a few days. However, despite what Erridge said about the hydra returning to the swamp when it ran out of prey, it instead stuck around and began building a nest by the pond. The hydra was, in fact, pregnant. Outraged, Geery gave Erridge the sack then hired a group of warriors to slay the hydra. Afterwards, he hired the best rangers and wizards in Cormyr to help him discover the uses to which he could put a hydra carcass, intending to use every part of the beast and recover his losses. He was so successful at this new trade that he began to fund new hydra-hunting expeditions in the Vast Swamp.[7] By 1367 DR, he'd earned a reputation and a fortune in the hydra trade.[7][8] A dwarf in battle with a hydra. A pregnant hydra preparing to give birth would build a nest for this purpose. It dug a pit beside a pond or body of water, then lined it with sticks and weeds.[7] A hydra from the wilderness near Neverwinter. Hydras were typically found in the marshes of regions with a temperate climate.[3] Many hydras were known to inhabit the Forest of Wyrms.[11] They also were quite common in the jungles of Chult.[12] Some individuals of most types of hydras were servants of the dark Chultan demigod Eshowdow, and their appearance was considered a good omen by his followers.[13] The enterprising farmer and hydra-hunter Del Geery developed a number of useful agricultural products from the body parts of the hydra, as follows:[7]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/a3/Hydra-5e.png/revision/latest?cb=20171011014237"
+}

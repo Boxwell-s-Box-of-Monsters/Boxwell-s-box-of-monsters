@@ -1,0 +1,17 @@
+{
+    "name": "Tyrannosaurus Rex",
+    "hit_points": 136,
+    "hit_dice": "13d12",
+    "armor_class": 13,
+    "challenge_rating": 8,
+    "strength": 25,
+    "dexterity": 10,
+    "constitution": 19,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 9,
+    "actions_desc": "The tyrannosaurus makes two attacks: one with its bite and one with its tail. It can't make both attacks against the same target. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the tyrannosaurus can't bite another target. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage. ",
+    "special_abilities_desc": "",
+    "description": "   Tyrannosauruses were enormous predators, with large heads that measured 6\u202ffeet (1.8\u202fmeters) long with teeth that were 3 to 6\u202ffeet (0.91 to 1.8\u202fmeters) in length.[6] Despite their enormous size, they were known to be fast runners.[3][6] Tyrannosaurs were not greatly intelligent and their savage nature could occasionally lead them to doing self-destructive acts, such as swallowing the horned head of a triceratops whole.[6] Among those who knew of dinosaurs, tyrannosaurs were considered to be some of the most fearsome and dreadful of carnivorous dinosaurs.[6] Tyrannosaurs were a carnivorous species that hunted any creature they considered edible, and were terrors to all other creatures in their territory.[3][6] If prey was scarce, a tyrannosaurus could survive on carrion and smaller creatures.[3] Tyrannosaurs were primarily known to inhabit the jungles of Chult.[7] Beyond the Prime Material plane, some could be found in the Forbidden Plateau.[8] The fangs of these creatures were highly valued by collectors outside of Chult.[9] In the early-14th century DR, a tyrannosaur devoured the adventuring companions of Elijah Moonspeak.[7] During the Time of Troubles of 1358 DR, the deity Ubtao stalked the jungles of Chult in the form of a tyrannosaur and battled the snake god Sseth.[10] The deity Ubtao's avatar form was that of an enormous tyrannosaurus rex, over twice its normal size. And as dinosaurs, tyrannosaurs were believed to be among the Children of Ubtao.[10] Sauropods: Anchisaurus \u2022 Brachiosaurus \u2022 Brontosaurus \u2022 Camarasaurus \u2022 Cetiosaurus \u2022 Diplodocus \u2022 Mamenchisaurus \u2022 Massospondylus \u2022 Plateosaurus\nOrnithopods: \u2022 Ankylosaurus \u2022 Camptosaurus \u2022 Dacentrurus \u2022 Hadrosaurus \u2022 Iguanodon \u2022 Kentrosaurus \u2022 Lambeosaurus \u2022 Monoclonius \u2022 Paleocinthus \u2022 Pentaceratops \u2022 Stegosaurus \u2022 Styracosaurus \u2022 Trachodon \u2022 Triceratops\nPterosaurids: Pteranodon \u2022 Pterosaurus \u2022 Quetzalcoatlus\nAquatic: Elasmosaurus \u2022 Mosasaurus \u2022 Nothosaurus \u2022 Plesiosaurus \u2022 Temnodontosaurus",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/cc/Dinosaur_Race.jpg/revision/latest?cb=20180126182243"
+}

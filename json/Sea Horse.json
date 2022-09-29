@@ -1,0 +1,17 @@
+{
+    "name": "Sea Horse",
+    "hit_points": 1,
+    "hit_dice": "1d4",
+    "armor_class": 11,
+    "challenge_rating": 0,
+    "strength": 1,
+    "dexterity": 12,
+    "constitution": 8,
+    "intelligence": 1,
+    "wisdom": 10,
+    "charisma": 2,
+    "actions_desc": "",
+    "special_abilities_desc": "The sea horse can breathe only underwater. ",
+    "description": "   They looked like large sea horses of flamboyant color, with a long body and a curled tail.[1] Giant sea horses were naturally shy creatures[3][1] and try to avoid contact with surface creatures.[3] Giant sea horses defended themselves by headbutting an opponent.[3][4] They could be trained to use their strong tail as a weapon in melee combat.[4] These creatures were a herbivorous species.[3] Giant sea could potentially be found in nearly all but the coldest of oceans.[3] They could often be found in the seas and ocean around the Moonshae Isles.[5] Tritons and giant sea horses had good relationships.[6] They also were sea elves' favored mounts and could be trained in combat.[7][1] Locathah were also known to occasionally capture and train them.[3] Giant sea horses were sometimes found as courtiers or servants in the palace of Kalbari al-Durrat al-Amwaj ibn Jari.[8]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/7b/GiantSeaHorse.png/revision/latest?cb=20210217093147"
+}

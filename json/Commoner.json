@@ -1,0 +1,17 @@
+{
+  "name": "Commoner",
+  "hit_points": 4,
+  "hit_dice": "1d8",
+  "armor_class": 10,
+  "challenge_rating": 0,
+  "strength": 10,
+  "dexterity": 10,
+  "constitution": 10,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 10,
+  "actions_desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage. ",
+  "special_abilities_desc": "",
+  "description": " Commoner\nAbbreviation\nCom[1]\nClass Statistics\n3e\n3rd Edition Statistics[2]\nNPC Class\nProficiencies\nWeapons\nOne simple weapon\nList of known commoners\nCommoner were simple persons who made up the bulk of the people of Toril. Commoners did the bulk of the manual labor in the Realms.[2]\nAppendix\nThis article is a stub. You can help the Forgotten Realms Wiki by expanding it.\nReferences\n\u2191 Ed Greenwood, Sean K. Reynolds, Skip Williams, Rob Heinsoo (June 2001). Forgotten Realms Campaign Setting 3rd edition. (Wizards of the Coast), p. 7. ISBN 0-7869-1836-5.\n\u2191\n2.0 2.1 Monte Cook, Jonathan Tweet, Skip Williams (July 2003). Dungeon Master's Guide v.3.5. (Wizards of the Coast), pp. 108\u2013109. ISBN 0-7869-2889-1. Survey: How do you feel about gaming microtransactions?  ",
+  "imageURL": "https://i0.wp.com/dmdave.com/wp-content/uploads/2018/08/commoner-5e.jpg?resize=250%2C235&ssl=1"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Giant Bat",
+    "armor_class": 13,
+    "challenge_rating": 0.25,
+    "strength": 15,
+    "dexterity": 16,
+    "constitution": 11,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage. ",
+    "special_abilities_desc": "The bat can't use its blindsight while deafened. The bat has advantage on Wisdom (Perception) checks that rely on hearing. ",
+    "description": "Dire bats averaged 200\u202fpounds (91\u202fkilograms) and had leathery wings that stretched 15\u202ffeet (4.6\u202fmeters) from end to end. Their bodies were covered in shaggy fur.[3]Dire bats hunted at night and rested during the day. They were stealthy and used echolocation to locate prey.[3]These bats were easy to startle and tended to kill or drive away any other encountered creatures with their bite.[3]In the 15th century DR, giant bats were commonly known for being the steeds of the Lance Defenders, the army of the dragonborn nation of Tymanther.[7]Around 1374 DR, one could find them stabled by the Zhentarim as mounts within the Temple in the Sky.[8]Dire bats flourished in the deepest regions of the Underdark[9] and Undermountain.[10]Beyond the Prime Material plane, giant bats could be found in the Domains of Dread. With some claiming that they and other bat species were more numerous there than in any other plane of existence.[11]Dire bats were a favored animal of the orc god Shargaas.[12][13]They were used as mounts by members of the Shadovar military[14] and Zhentarim skymages.[15] Shield dwarves of Oghrann in the Upperdark also kept large populations of dire bats to use as mounts as well.[16]Morgan Longbow being attacked by dire bats.The drow kept dire bats both as objects of gambling and steeds. As the former, dire bats were used like chickens or dogs to fight each other, and the drow bet on the outcome. These fights happened either in the air or on the ground, in the latter case, the animals were specifically crippled. The latter use as steeds was dangerous for the rider and was done only in some drow cities. In that case commoners, which might well include children, were used, so that the damage to a community was negligible, if the rider died.[17]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e1/Giant_bat-5e.png/revision/latest?cb=20180809021313",
+    "hit_points": 22,
+    "hit_dice": "4d10"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Gynosphinx",
+    "hit_points": 136,
+    "hit_dice": "16d10",
+    "armor_class": 17,
+    "challenge_rating": 11,
+    "strength": 18,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 18,
+    "wisdom": 18,
+    "charisma": 18,
+    "actions_desc": "The sphinx makes two claw attacks. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage. ",
+    "special_abilities_desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage. The sphinx's weapon attacks are magical. The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:\n\n- Cantrips (at will): mage hand, minor illusion, prestidigitation\n- 1st level (4 slots): detect magic, identify, shield\n- 2nd level (3 slots): darkness, locate object, suggestion\n- 3rd level (3 slots): dispel magic, remove curse, tongues\n- 4th level (3 slots): banishment, greater invisibility\n- 5th level (1 slot): legend lore ",
+    "description": "   Gynosphinxes were known to be very knowledgeable and wise creatures.[4] They preferred to pursue intellectual ideals.[2] Gynosphinxes loved to collect knowledge and ancient lore,[2] though they were also known to value gems and similar forms of wealth.[4] They delighted in solving riddles, puzzles, and mental challenges.[2] While not as physically powerful as an androsphinx,[3] the gynosphinx was still a capable combatant and possessed a number of magical powers. Gynosphinxes were often known to be capable of casting the spells banishment, clairaudience/clairvoyance, comprehend languages, darkness, detect invisibility, detect magic, dispel magic, identify, greater invisibility, legend lore, locate object, mage hand, minor illusion, prestidigitation, read languages, read magic, remove curse, shield, suggestion, tongues.[4][2][1] They were also known to be skilled in the use of arcane symbols.[4] Once per week a gynosphinx could create a symbol of death, a symbol of fear, a symbol of insanity, a symbol of pain, a symbol of persuasion, a symbol of sleep, and a symbol of stunning.[2] Gynosphinxes greatly detested criosphinxes, who often lusted after them.[4] They were generally known to demand payment from humans in return for their aid. Such payment could take the standard form of wealth, but also in the form of knowledge, poetry, prose, riddles, or even the location of an androsphinx. Failure to pay them often led to the offending humans being eaten.[4] Gynosphinxes were favored monsters of the dwarven deities Dugmaren Brightmantle and Vergadain and the Mulhorandi goddess Isis. Often acting as their divine servitors and being sent as messengers to their faithful.[6]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/88/Gynosphinx-5e.png/revision/latest?cb=20161206031930"
+}

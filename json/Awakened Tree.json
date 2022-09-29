@@ -1,0 +1,17 @@
+{
+    "name": "Awakened Tree",
+    "armor_class": 13,
+    "challenge_rating": 2,
+    "strength": 19,
+    "dexterity": 6,
+    "constitution": 15,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage. ",
+    "special_abilities_desc": "While the tree remains motionless, it is indistinguishable from a normal tree. ",
+    "description": "When an awakened tree remained still, it appeared as if it were an ordinary, unremarkable tree of its type.[1]They were granted the ability to speak the language of their creator.[1]They were well-protected against attacks from bludgeons or weapons with a piercing edge, but were especially vulnerable to being harmed by fire.[1]AD5 Things You Should Never Do With Your Money, According to ExpertsBy The Penny HoarderAwakened trees slammed their foes in combat.[1]Circa the late 15th century DR, one awakened tree remained within the garden of the Temple of the Restful Lilly. It was kept by the evil hag, Vile Sazha.[2]Around that same time, coniferous awakened trees were sometimes witnessed accompanying frost druids that dwelled in the wilderness of Icewind Dale.[3]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/ce/Lifferlas.png/revision/latest?cb=20161229122615",
+    "hit_points": 59,
+    "hit_dice": "7d12"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Griffon",
+    "armor_class": 12,
+    "challenge_rating": 2,
+    "strength": 18,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 2,
+    "wisdom": 13,
+    "charisma": 8,
+    "actions_desc": "The griffon makes two attacks: one with its beak and one with its claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. ",
+    "special_abilities_desc": "The griffon has advantage on Wisdom (Perception) checks that rely on sight. ",
+    "description": "A griffon had the body of a lion with the head and wings of an eagle. The forelimbs of the griffon were often like those of an eagle, ending in sharp talons, but this was not always the case. Just as lions and eagles had varying physical characteristics based on where in the world they are found, so too did griffons. An adult griffon was about 8\u202ffeet (2.4\u202fmeters) long, with a wingspan of 25\u202ffeet (7.6\u202fmeters). The average griffon weighed about 500\u202flb (230,000\u202fg).[3] Expectedly, griffons, and their lairs exuded a mix of two smells: a musky odor of great cats and the scent of falconer's mews.[6]Griffons were known to be somewhat intelligent creatures, though had a penchant for aggression. Young griffons were generally not combative.[3][5]Young griffons were known as fledglings.[5]Griffons were carnivorous creatures. Their favorite animal to prey upon was horses. They would often attack them when within sight or smelling distance.[5]Griffons typically made their nests in homes in high rocky places like cliffs,[5] as well as open caverns set in hills and mountain regions.[7]When acquainted with humans, they were usually stabled in airy, doorless stone halls, vaguely resembling their lairs.[7]In the Unapproachable East, they nested at the highest reaches of the Tannath mountains and Umbergoth.[8] They could also be found around the coastal regions and interior uplands of Aglarond.[9]When tamed and raised at a young age they could become very loyal and fierce mounts. Because of this they were highly sought after, with eggs fetching prices of around 2,000 gp and fledglings for around 5,000 gp.[5]Griffons were commonly found as mounts throughout the Realms. Some notable examples:",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6a/Griffon-5e.png/revision/latest?cb=20171010175023",
+    "hit_points": 59,
+    "hit_dice": "7d10"
+}

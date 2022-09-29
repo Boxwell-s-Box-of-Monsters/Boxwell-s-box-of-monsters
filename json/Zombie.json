@@ -1,0 +1,17 @@
+{
+    "name": "Zombie",
+    "hit_points": 22,
+    "hit_dice": "3d8",
+    "armor_class": 8,
+    "challenge_rating": 0.25,
+    "strength": 13,
+    "dexterity": 6,
+    "constitution": 16,
+    "intelligence": 3,
+    "wisdom": 6,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage. ",
+    "special_abilities_desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead. ",
+    "description": "   Basically, a zombie was the corpse of a creature that had been animated by someone who could manipulate negative energy, such as a cleric. For example, a cleric would be able to use negative energy on a corpse and make it move its body, arms, legs, etc.[3] Zombies could also rise spontaneously if an area was saturated with necromantic magic.[1] Zombies dragged their feet and so did not leave clear prints.[7] Necromancers used demons' blood as a powerful magical adhesive liberally applied to zombies' joint to stave the rotting and disintegration of tissues.[8] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/2e/Zombie-5e.jpg/revision/latest?cb=20180128175418"
+}

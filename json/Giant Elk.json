@@ -1,0 +1,17 @@
+{
+  "name": "Giant Elk",
+  "armor_class": 15,
+  "challenge_rating": 2,
+  "strength": 19,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 7,
+  "wisdom": 14,
+  "charisma": 10,
+  "actions_desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage. ",
+  "special_abilities_desc": "If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. ",
+  "description": "On average these creatures stood 7\u202fft (2.1\u202fm) tall at the shoulder and weighed around 1,500\u202flb (680\u202fkg).[2]Giant elks fought other creatures with either their antlers or their sharp forehooves.[2]Like any species of deer, giant elks were typically found in forests with a temperate climate.[2]In the Border Kingdoms they could be found in the forest of Hawkgarth.[3] In the region of Kara-tur, they could be found in the forests of Akari island.[4]Many cultures considered it taboo to hunt these creatures.[1] They were often preyed upon by dire wolves and saber-toothed tigers.[5]These creatures were so rare that sightings were interpreted as foreshadowing some important event, like the birth of a future king. Some legends even spoke of deities manifesting on the Prime Material plane in the form of giant elks.[1]",
+  "imageURL": "https://angrygolem-games.com/wp-content/uploads/2021/11/Giant-Elk.jpg",
+  "hit_points": 42,
+  "hit_dice": "5d12"
+}

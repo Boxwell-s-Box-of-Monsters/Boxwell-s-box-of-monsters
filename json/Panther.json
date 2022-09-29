@@ -1,0 +1,17 @@
+{
+    "name": "Panther",
+    "hit_points": 13,
+    "hit_dice": "3d8",
+    "armor_class": 12,
+    "challenge_rating": 0.25,
+    "strength": 14,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 3,
+    "wisdom": 14,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage. ",
+    "special_abilities_desc": "The panther has advantage on Wisdom (Perception) checks that rely on smell. If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action. ",
+    "description": "      Like all cats in the leopard family, panthers typically weighed 120 pounds (55 kilograms) and were around four feet (120 centimeters) in length.[3] Panthers were nighttime hunters, relying on their strong sense of smell and alert senses. They were expert climbers and had superb balance.[3] Panthers would pounce on their prey after stalking them and would hold tightly with their jaws while raking with their claws.[3] A spectral panther (top) and fey panther (bottom). Panthers which were warped by the magical energies of the Feywild and Shadowfell could become fey panthers and spectral panthers respectively. These species were capable of traveling between their respective plane and the material.[2] Panthers were a favored animal of the god Tempus. Solonor Thelandira favored great cats in general, as did Thard Harr.[5] Guenhwyvar was an astral panther summoned by Drizzt Do'Urden via a figurine of wondrous power. She was an unusually large and intelligent panther.[6] The noble House Matrell of Arrabar kept guard panthers in the gardens of the family mansion.[7]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/97/Guenhwyvar_LoD.png/revision/latest?cb=20210520171237"
+}

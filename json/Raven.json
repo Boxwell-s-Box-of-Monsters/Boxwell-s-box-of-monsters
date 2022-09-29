@@ -1,0 +1,17 @@
+{
+    "name": "Raven",
+    "hit_points": 1,
+    "hit_dice": "1d4",
+    "armor_class": 12,
+    "challenge_rating": 0,
+    "strength": 2,
+    "dexterity": 14,
+    "constitution": 8,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage. ",
+    "special_abilities_desc": "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check. ",
+    "description": "   These creatures were very literal minded and often distracted by shiny objects. They were intelligent enough to be taught how to speak.[5] Ravens could be found across much of the continent of Faer\u00fbn, so much so that it was difficult to find an area devoid of them. Some regions included the High Moor[6] and the fens and moors of the Moonshae Isles.[7] Beyond Faer\u00fbn, ravens inhabited the continent of Kara-tur.[8]. Beyond the surface of Toril, large numbers of ravens could be found living in the asteroid known as the Castle, in the center of the Tears of Sel\u00fbne.[9] Outside of the Prime Material plane, ravens inhabited the Celestial Bureaucracy's plane of Qui,[10] the Domains of Dread,[11] the plane of Acheron,[12] and along the most commonly traveled branches of Yggdrasil, the World Ash.[13] These creatures typically harbored animosity towards owls.[5] The Raven Queen commanded numerous flocks of ravens from her divine realm in the Shadowfell. The ravens acted as the Queen's scouts and messengers across the multiverse, also alerting and guiding her shadar-kai servants to the location of items and memories that she wished to collect.[14] Ravens were also allies to wereravens and were usually found together. It was very common for kindnesses of wereravens to hide in plain sight among unkindnesses of ravens.[15] In the city of Ravens Bluff, a business known as the Raven Express used trained ravens to deliver mail.[16]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c6/Raven-5e.jpg/revision/latest?cb=20171011010107"
+}
