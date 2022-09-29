@@ -22,12 +22,9 @@ from bs4 import BeautifulSoup
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
-
-<<<<<<< Updated upstream
+        
         self.geometry("350x680")
-=======
         self.geometry("350x850")
->>>>>>> Stashed changes
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
