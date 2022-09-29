@@ -8,6 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from os.path import exists
+from os import listdir
 
 def webScrape(response):
     # Find page with the monster's image
@@ -60,7 +61,7 @@ for response in responseList:
     fileLoc = "json/" + response['name'] + ".json"
     badFileLoc = "json/1" + response['name'] + ".json" # Lets me know which files need redone
 
-    if response['name'] == "Succubus/Incubus": # Conercase naming convention
+    if response['name'] == "Succubus/Incubus": # Cornercase naming convention
         fileLoc = "json/Succubus+Incubus.json"
 
     # Skips existing files
@@ -110,7 +111,7 @@ for response in responseList:
         }
     
         # prints the json to either a good file or a 'bad' one for inspection
-        if description != "" || imageURL == None:
+        if description != "" or imageURL == None:
             # Write json list to a file
             json_str = json.dumps(document, indent=4)
 
@@ -122,3 +123,18 @@ for response in responseList:
 
             with open(badFileLoc, "w", encoding="utf8") as file:
                 file.write(json_str)
+
+monsterList = []
+for response in responseList:
+    fileLoc = "json/" + response['name'] + ".json"
+
+    if response['name'] == "Succubus/Incubus": # Cornercase naming convention
+        fileLoc = "json/Succubus+Incubus.json"
+
+
+    with open(fileLoc, "r", encoding="utf8") as file:
+        monsterList.append(json.load(open(fileLoc)))
+json_str = json.dumps(monsterList, indent=4)
+
+with open("json/data.json", "w", encoding="utf8") as file:
+    file.write(json_str)
