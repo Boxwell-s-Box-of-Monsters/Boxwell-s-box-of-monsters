@@ -1,4 +1,8 @@
 import tkinter as tk
+from elasticsearch import Elasticsearch
+from elasticsearch_dsl import Search
+from elasticsearch_dsl.query import MoreLikeThis
+from elasticsearch_dsl import Q
 from Styles import *
 import random
 from frames.CharacterFrame import CharacterFrame
@@ -7,6 +11,7 @@ from frames.DamageTypeFrame import DamageTypeFrame
 from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
 import requests
+import json
 
 ############################
 # Main Window
@@ -16,6 +21,18 @@ import requests
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
+
+        ############################
+        # Setup Elastic Search
+        ############################
+        es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+        monsterFile = open('./json/data.json')
+        monsters = json.load(monsterFile)
+        print(monsters)
+        for monster in monsters:
+            es.index(index='monster_index', body = monster)
+
+        # End Elastic Search
 
         self.geometry("350x680")
         self.title("Monster Generator")
@@ -60,7 +77,7 @@ class MainWindow(tk.Tk):
         self.button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
-                                    characterFrame.characters, difficultyFrame.diff),
+                                    characterFrame.characters, difficultyFrame.diff, es, descriptFrame.monsterWindow),
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
                                 fg=BLACK)
@@ -71,7 +88,9 @@ class MainWindow(tk.Tk):
                                     fg=BLACK)
         self.resultLabel.grid(column=0, row=7)
 
-    ############################
+    
+
+    #########################
     # Button Functions
     ############################
     def getAppropriateCR(self, characterList, diff):
@@ -84,39 +103,43 @@ class MainWindow(tk.Tk):
         return round(challengeRating, 0)
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, challengeRating):
+    def responseListAdapter(self, challengeRating, es, monsterWindow):
         # Get list of monsters
-        response = requests.get(
-            "https://www.dnd5eapi.co/api/monsters?challenge_rating=" + str(challengeRating))
-        return response.json().get('results')
+        query = Q('match', challenge_rating=challengeRating) & \
+            Q(MoreLikeThis(like= monsterWindow.get("1.0", 'end-1c'), \
+            fields=['actions_desc','special_abilities_desc','description', 'name'], min_term_freq = 1, min_doc_freq = 1))
+
+        s = Search(using=es, index='monster_index').query(query)
+        response = s.execute()
+        return response
 
     # Picks a best monster from the available list
     def bestResponseAdapter(self, responseList):
         # Later we will want to change this function based on elastic search
         random.seed(random.randint(0, 100))
         randIdx = random.randint(0, len(responseList) - 1)
-        return requests.get("https://www.dnd5eapi.co" + responseList[randIdx]['url'])
+        return responseList.hits[randIdx]
 
     # Prints the current best monster
     def printAdapter(self, response):
         # Create a string
-        responseText = response.json().get('name')
-        responseText += "\nHP: " + str(response.json().get('hit_points'))
-        responseText += "\tAC: " + str(response.json().get('armor_class'))
-        responseText += "\tCR: " + str(response.json().get('challenge_rating'))
+        responseText = response['name']
+        ##########responseText += "\nHP: " + str(response['hit_points'])
+        responseText += "\nAC: " + str(response['armor_class'])
+        responseText += "\tCR: " + str(response['challenge_rating'])
         # New Line with Monster Stats
-        responseText += "\nStr: " + str(response.json().get('strength'))
-        responseText += "\tDex: " + str(response.json().get('dexterity'))
-        responseText += "\tCon: " + str(response.json().get('constitution'))
-        responseText += "\tInt: " + str(response.json().get('intelligence'))
-        responseText += "\tWis: " + str(response.json().get('wisdom'))
-        responseText += "\tCha: " + str(response.json().get('charisma'))
+        responseText += "\nStr: " + str(response['strength'])
+        responseText += "\tDex: " + str(response['dexterity'])
+        responseText += "\tCon: " + str(response['constitution'])
+        responseText += "\tInt: " + str(response['intelligence'])
+        responseText += "\tWis: " + str(response['wisdom'])
+        responseText += "\tCha: " + str(response['charisma'])
         return responseText
 
     # Button Code
-    def handleGetMonsterButton(self, characterList, diff):
+    def handleGetMonsterButton(self, characterList, diff, es, monsterWindow):
         cr = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(cr)
+        responseList = self.responseListAdapter(cr, es, monsterWindow)
         # Get top result
         if (len(responseList) > 0):
             response = self.bestResponseAdapter(responseList)
