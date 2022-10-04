@@ -19,6 +19,10 @@ for response in responseList:
     intelligence = monsterObj["intelligence"]
     wisdom = monsterObj["wisdom"]
     charisma = monsterObj["charisma"]
+    damage_vulnerabilities = monsterObj["damage_vulnerabilities"]
+    damage_resistances = monsterObj["damage_resistances"]
+    damage_immunities = monsterObj["damage_immunities"]
+
     if "desc" in monsterObj.keys():
         DESCRIPTION = monsterObj["desc"]
     else:
@@ -42,6 +46,9 @@ for response in responseList:
         'intelligence': intelligence,
         'wisdom': wisdom,
         'charisma': charisma,
+        'damage_vulnerabilities': damage_vulnerabilities,
+        'damage_resistances': damage_resistances,
+        'damage_immunities': damage_immunities,
         'actions_desc': ACTIONS_DESC,
         'special_abilities_desc': SPECIAL_ABILITIES_DESC,
         'description': DESCRIPTION

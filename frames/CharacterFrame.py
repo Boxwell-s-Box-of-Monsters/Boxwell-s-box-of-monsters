@@ -62,7 +62,8 @@ class CharacterFrame(tk.Frame):
             characterRow['character'] = charVar
 
             characterRow['level'] = tk.Spinbox(
-                self, fg=BLACK, bg=WHITE, from_=1, to=20)
+                self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
+            validatecommand=(self.register(self.validateLvl), "%P"))
             characterRow['level'].grid(
                 column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
@@ -72,3 +73,14 @@ class CharacterFrame(tk.Frame):
             #     column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
             self.characters.append(characterRow)
+
+    #used by the character level spinbox to check that input is an int between 0 and 20        
+    def validateLvl(self, potentialInput):
+        r = potentialInput.isdigit()
+        
+        if r:
+            rangeCheck = int(potentialInput)
+            if rangeCheck > 20 or rangeCheck < 0:
+                r = False
+        
+        return r
