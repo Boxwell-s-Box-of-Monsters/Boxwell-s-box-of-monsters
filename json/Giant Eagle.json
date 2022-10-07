@@ -13,5 +13,13 @@
     "description": "Giant eagles were intelligent, keen-eyed birds of prey that sometimes associated with good creatures.[2] A giant eagle was a noble creature that spoke Auran and understood speech in the Common tongue.[2]As a intelligent creatures, giant eagles were expected to be treated with respect or their pride would be hurt.[5]A giant eagle and its rider.Giant eagles were found in the Nether, Rauvin, and Ice Mountains, as well as the Spine of the World, in northwest Faer\u00fbn.[6] They were also found in the Dragonjaw, Thesk, and Sunrise Mountains in northeast Faer\u00fbn.[7] Giant eagles nested in Evermeet in the Guardian Trees.[8]In the Unapproachable East, they could be found around the Umbergoth mountain of Aglarond.[9]In the Zakhara region's Crowded Sea, they could be found on the island chain of Nada al-Hazan[10] and the archipelago of Jazayir al-Sartan.[11]Like most mundane animals, giant eagles could be found in the Beastlands.[12]Remnis was the patron god of giant eagles in the Realms.[13]Giant eagles were prized as mounts,[14] even being the sole mounts for the Eagle Knights of Evermeet.[15] They were also revered by the Eagle Tribe hunters in the western region of the Shaar.[16]They were sometimes seen guarding or accompanying elves or dwarves and were known to be capable of forging strong friendships that could last their entire lives.[5]The clergy of Aerdrie Faenya was primarily concerned with exploration and maintaining good relations with giant eagles.[17]For a very long time Avariels nourished respectful and admirative bonds with giant eagles.[18]The feather of a giant eagle could be used as a material component for the spell protection from birds and uniquely would double its duration.[19]Around 1374 DR, one could find giant eagles stabled by the Zhentarim as mounts within the Temple in the Sky.[20]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d6/Giant_eagle-5e.jpg/revision/latest?cb=20171010183859",
     "hit_points": 26,
-    "hit_dice": "4d10"
+    "hit_dice": "4d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 14
+    },
+    "xp": 200
 }

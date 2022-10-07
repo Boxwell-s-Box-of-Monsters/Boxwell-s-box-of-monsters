@@ -13,5 +13,32 @@
     "actions_desc": "The unicorn makes two attacks: one with its hooves and one with its horn. Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 11 (2d6 + 4) bludgeoning damage. Melee Weapon Attack: +7 to hit, reach 5 ft ., one target. Hit: 8 (1d8 + 4) piercing damage. The unicorn touches another creature with its horn. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target. The unicorn magically teleports itself and up to three willing creatures it can see within 5 ft. of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away. ",
     "special_abilities_desc": "If the unicorn moves at least 20 ft. straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:\n\nAt will: detect evil and good, druidcraft, pass without trace\n1/day each: calm emotions, dispel evil and good, entangle The unicorn has advantage on saving throws against spells and other magical effects. The unicorn's weapon attacks are magical. ",
     "description": "   A unicorn resembled a horse with a white coat, mane, and tail. However, it had a number of traits that distinguished it from a horse, including cloven hooves and a long ivory-colored horn that protruded from its forehead. Males had a white beard.[3] Unicorns were not subject to poison, death magic, or charm spells.[5] Unicorns were able to sense evil nearby and radiate an aura which protected them from most evil spells. A touch of the unicorn's horn could both heal wounds and cure poison.[3] Unicorns also had the ability to fey step to nearby locations.[2] A beautiful and graceful unicorn. There several varieties of unicorn recorded in Faerun besides the so-called \"regular\" unicorn (or sylvan unicorn, according to some scholars)[6]. Black unicorns were the evil counterparts of regular unicorns. They were created through magical breeding programs by the Red Wizards of Thay.[7] Celestial chargers were unicorns from Celestia that were the enemies of all evil creatures that would destroy woodlands.[3] Sea unicorns were a rumored variety of aquatic unicorn found in the Sea of Fallen Stars, resembling a hippocampus with a horn.[8] Additionally, there were certain depraved rituals that required removing the horn of a living unicorn. Most of the time, the unicorn so violated only survived a short time, but in some cases they went mad and, under a mild demonic influence, transformed into a horror called a bloodlance.[9] Unicorns attacked primarily by impaling foes on their horns, although they could also use their hooves as weapons.[2] Unicorns dwelt deep within their forests and shunned most creatures, only conferring with fey such as pixies, dryads, and sprites. They usually showed themselves only in defense of their forests.[3] They scratched glyphs into the bark of trees in the areas under their protection.[4] Unicorns mated for life.[3] Unicorns that rested at the Place of the Unicorn, sacred to the unicorn goddess Lurue, in the Sword Mountains were healed of all injury and disease.[10] A unicorn and its foal. At least 100 unicorns could be found in the High Forest[11], as well as a few down through the Unicorn Run.[12] Unicorns were most likely to be seen near the Sisters waterfalls, where seeing them and the moon rise above the cliffs were seen as a sign of good fortune from the goddess Mielikki.[11][13] Other locations home to unicorns included the Forgotten Forest.[13] Unicorns were often sent as servants of Corellon Larethian, Eldath, Isis, Labelas Enoreth, Lurue, Mielikki, Mystra, Rillifane Rallathil, Sheela Peryroyl, Silvanus, Solonor Thelandira, and Tymora to aid their worshipers.[14] Unicorn horns were reputed to have magical and healing properties.[2] They could be used in the production of antidotes and healing potions.[4] They could be sold to alchemists for thousands of gold pieces. However, there were many people in the Realms, particularly followers of Mielikki and Lurue, who were willing to punish slayers of unicorns with death.[15] Unicorn horns were considered a status symbol by wealthy demons of the Abyss. Theses gruesome items were used as post-meal toothpicks.[16] A cavalry of 50-100 \"unicornriders\" existed in ancient Cormanthyr.[17] During the Shoon Dynasty, rulers experimented on unicorns in an attempt to discover the secrets of eternal youth.[18] A herd of unicorns used to inhabit Shilmista before they and the elves that tended them were slaughtered in 355 DR by Necroqysar Shoon VII for use in the Tome of the Unicorn and the Staff of Shoon.[19] In the 1370s DR, inhumanely shackled and clamped unicorns could be found in the Stockyards of Samora, Azzagrat. The celestial beasts were chained and manacled around their necks to steaks driven deep into the ground. Heavy metal harnesses prevented these unicorns from teleporting away or even to be able to lift their heads. The unicorns were to be slaughtered and eaten by influential residents of the Abyss, namely by the Lady of the Counting-House, Maretta, Graz'zt's loyal servant.[16]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/87/Unicorn-5e.png/revision/latest?cb=20171011161639"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/87/Unicorn-5e.png/revision/latest?cb=20171011161639",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 13
+    },
+    "xp": 1800
 }

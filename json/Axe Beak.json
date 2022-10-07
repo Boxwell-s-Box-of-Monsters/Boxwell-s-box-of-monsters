@@ -13,5 +13,13 @@
     "description": "Axe beaks got their name from their sharp wedge-shaped beaks. They had strong necks and powerful legs, which they used to sprint at high speeds.[1][4]Axebeaks were faster runners than most horses.[2][note 1]Axe beaks were aggressive hunters and usually hunted during daytime. They were always prone to attack any unfamiliar creatures that approached them.[1][4]The main natural weapon an axe beak used in combat was its heavy and sharp beak.[1][4]Axe beaks were most commonly found in hills and grasslands,[5] but they were also common to the jungles of Chult and the Snout of Omgar.[6][7]Flocks of axe beaks were also believed to be protective of their young, rushing to its aid in case of danger.[8]The tortles of Ahoyhoy sometimes captured wild axe beaks to sell them to visitors.[9]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/5b/Axe_beak-5e.jpg/revision/latest?cb=20200917222507",
     "hit_points": 19,
-    "hit_dice": "3d10"
+    "hit_dice": "3d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 50
 }

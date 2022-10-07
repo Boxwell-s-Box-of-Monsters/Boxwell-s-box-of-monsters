@@ -13,5 +13,14 @@
     "description": "Death dogs had a deep burning hate for everything. They were aggressive and attacked travelers and explorers on sight.[1]A death dog's saliva had a potent poison that caused a rotting disease on a creature's flesh. Left unattended, it brought death in a matter of days.[1]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/5f/Death_dog-5e.jpg/revision/latest?cb=20180125225818",
     "hit_points": 39,
-    "hit_dice": "6d8"
+    "hit_dice": "6d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 15
+    },
+    "xp": 200
 }

@@ -13,5 +13,13 @@
     "description": "These creatures had brown fur. Brown bears on average were 9 ft (2.7 m) and weighed 1800 lb (816.5 kg).[3]Grizzly bears were reconsidered to be a much larger and much more territorial variant of an ordinary brown bear. They were significantly more dangerous especially if challenged or threatened.[7]These omnivore ursoids were very dangerous and territorial.[3][6] Brown bears that had very aggressive dispositions were known as grizzly bears.[6]They inhabited and thrived within dark glades of the North's many forests.[8]In the areas outside of Daggerford, namely in the Western Farmlands, aggressive and dangerous grizzly bears were known to inhabit burrows and caves not far from the Delimbiyr River.[7]In the Unapproachable East, brown bears could be found in the forests and along the coasts of Rashemen.[9]Some were known to live within the Dustwall Mountains between Durpar and Raurin.[10]An awakened brown bear lived on the Wyllowwood level of Undermountain.[11]Maerovyna, a druid of Chauntea who led the Harvest House in Daggerford in the mid-to-late 14th century DR, was served by two pixies, a grizzly bear, and a leopard who were ready to defend her with their lives.[12]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c3/Druid_and_bear-5e.jpg/revision/latest?cb=20190808192744",
     "hit_points": 34,
-    "hit_dice": "4d10"
+    "hit_dice": "4d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 200
 }

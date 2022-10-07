@@ -13,5 +13,60 @@
     "actions_desc": "The elemental makes two slam attacks. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage. Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.\nThe elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding. ",
     "special_abilities_desc": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of its next turn. ",
     "description": "   These elementals typically resembled a cresting wave of water. They could easily disappear within a body of water, becoming indistinguishable from all other liquid.[8] These beings were not especially intelligent.[6] However, like all elementals, they instinctively resented any creature that conjured them from their home plane and bound them into its service.[8] Being elementals, these creatures did not require any air, food, drink, or sleep to survive.[8] Though they had a highly developed sense of taste.[9] Due to being composed of water, these elementals could effortlessly move through spaces as small as 1\u202finch (0.025\u202fmeters). However, cold-based spells considerably restrained their movement.[1] Prior to the Time of Troubles, water elementals were only capable of straying 6\u202ffeet (1.8\u202fmeters) away from their element.[6] Following this period and prior to the Spellplague, they were only capable of moving 180\u202ffeet (55\u202fmeters) from the body of water in which they were originally conjured.[5] Following the events of the Second Sundering, there were no longer any limits on how far water elementals could stray from bodies of water.[1] Acid, as well as bludgeoning and piercing weaponry, was ineffective against water elementals. They could only be harmed by weaponry that was enchanted.[1] Prior to the Time of Troubles, they could only be damaged by weapons with a +2 enchantment or greater.[6] Water elementals preferred to fight in bodies of water. They were capable of capsizing small boats and could impede the progress of larger craft.[10][6] Outside of water they were slower and less effective combatants.[6] Water elementals would often attempt to grapple a larger creature or multiple smaller ones, restraining them within their watery body in an attempt to drown the victim(s).[1][8] When not attempting this, water elementals would simply slam their bodies against opponents.[1] Water elementals were used in the Great Forge of Gauntlgrym to help contain the fire primordial Maegera.[11] Lucan Greenharrow used water elementals to power traps in the Waterclock Crypts of Neverwinter.[12] These beings were native to the Elemental Plane of Water.[6] On the Prime Material plane, they were occasionally encountered in the oceans around Kara-Tur.[13] Prior to the Time of Troubles, a pool of water that was at least 1,000\u202fcubic feet (28\u202fcubic meters) in volume was required to summon a water elemental to the Prime Material plane, but several barrels of ale or wine would also suffice.[6] Following this period, more effective means for summoning water elementals were available. These included the spells elemental summoning[14] and conjure water elemental.[15] There were also magical items that could achieve this, such as as a bowl of commanding water elementals and elemental gems.[16] Water elementals spoke Aquan, although they rarely chose to speak.[5][1] Water elementals were favored monsters of the deities Deep Sashelas, Istishia, and Auril. Because of this, they would often act as servitors of these deities and their worshipers.[17] Water elementals were often summoned by krakens to defend their lairs.[18] Some acted as servants of the marid Kalbari al-Durrat al-Amwaj ibn Jari in her Citadel of Ten Thousand Pearls.[19]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/05/Water_elemental-5e.jpg/revision/latest?cb=20171011162138"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/05/Water_elemental-5e.jpg/revision/latest?cb=20171011162138",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800
 }

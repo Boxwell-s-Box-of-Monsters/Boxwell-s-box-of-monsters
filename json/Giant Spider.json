@@ -13,5 +13,15 @@
     "description": "Due to the different types of such spiders, they varied largely in all ways, such as having different colors and behavior. Lolth, the Queen of Spiders, was bound to have giant spiders serving her.[6]Giant spiders could attack in a variety of ways, typically whatever way their normal counterparts could. Some spun huge webs that prey easily stumbled into, while others spat a deadly poison. Some were capable of walking on ceilings, while others were not. Despite the differences between the types of giant spiders, all were formidable opponents and certainly not foes for any arachnophobes to face.[6]Giant spiders' viscera was iridescent gold and purple in color. If it came in contact with a humanoid's skin, it had a burning and irritating effect, leaving skin enflamed with red splotches, however, it was mostly harmless.[7]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/98/Giant_spider-5e.jpg/revision/latest?cb=20161125191001",
     "hit_points": 26,
-    "hit_dice": "4d10"
+    "hit_dice": "4d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 200
 }

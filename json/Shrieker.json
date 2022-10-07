@@ -13,5 +13,30 @@
     "actions_desc": "",
     "special_abilities_desc": "While the shrieker remains motionless, it is indistinguishable from an ordinary fungus. ",
     "description": "   Shriekers were human-sized mushrooms. They were similar in appearance to violet fungi, but they lacked the ability to move and did not have tentacles with which to poison prey. They could produce a loud, piercing, screaming sound that tended to attract curious creature (or adventurers) to the area.[3] They were immune to the poison of violet fungi.[3] Shriekers could sense nearby motion or light and would respond with their namesake shriek. Each such screaming sound lasted between five and fifteen seconds. A patch of shriekers relied on violet fungi to kill prey with their poison, since a shrieker could not attack or move on its own. Like violet fungi, shriekers gained their nourishment from the breakdown of organic matter that had fallen nearby.[3] Two shrieker mushrooms. Shriekers thrived in dark underground environments.[3] Besides being found in large numbers in the Underdark, shriekers also grew on the illithid homeworld.[6] The Flooded Forest was a dark enough environment for shriekers to grow there as well.[7] In the Underdark, shriekers were sometimes placed intentionally to act as intruder alarms. House DeVir planted a shrieker among every fifth mushroom surrounding its compound to ward off potential attackers.[9] Shriekers were poisonous to most creatures as food; however, the stomachs of hook horrors had adapted to digest them without issue.[10] They were also known to be eaten by purple worms, shambling mounds,[11] and medusae.[8] Some considered their spores to be a vital ingredient in brewing a potion of plant control.[11] In Cormyr, mushroom hunters often glazed fairy caps with the fur of hedgehog shriekers, making the mushrooms fetch twice their normal price.[8] Around the 14th century DR, some time prior to 1367 DR, the Waymoot town of Minroe discovered the sub-species known as hedgehog shriekers.[12] They domesticated the fungi by feeding them a paste of beetle larvae and decayed choke creeper vines.[8] They became a staple in the town's gardens, acting as an alarm system against medusae. And the town's mushroom hunters often carried them into the region's medusae-infested caves. Over time this caused a decline in the nearby medusae population.[8][12]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f2/Shrieker-5e.jpg/revision/latest?cb=20171018143353"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f2/Shrieker-5e.jpg/revision/latest?cb=20171018143353",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        }
+    ],
+    "senses": {
+        "blindsight": "30 ft. (blind beyond this radius)",
+        "passive_perception": 6
+    },
+    "xp": 10
 }

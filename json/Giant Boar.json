@@ -13,5 +13,13 @@
     "description": "Unlike ordinary pigs, dire boars were vicious and would attack any creature that approached.[5]Dire boars typically tried to charge their opponents and gore them with their tusks.[3][2]Giant boars, much like regular boars, traveled in groups known as \"sounders.\"[2] The number of giant boars in a sounder varied, but oftentimes it totaled up to eight.[5]Giant boars were an omnivorous species.[2][5]In northwest Faer\u00fbn, these creatures could be found in Neverwinter Wood.[6] In the Shining South they were known to inhabit the Channath Vale and the Forest of Amtar.[7]Beyond Faer\u00fbn, dire boars were known to inhabit the moors, deciduous forests, and coniferous forests of the Moonshae Isles.[8] As well as the land of Chult.[9] In Anauroch, they could occasionally be found in the fertile areas of the Plain of Standing Stones.[10][11]Some humanoid races were known to domesticate dire boars, such as orcs and dwarves, the latter of which referred to their dire boar mounts as \"thundertusks.\" However, domestication was a difficult process, and after being domesticated dire boars were still known to be quite fierce and dangerous.[2]Dire boars were a favored animal of the deity Bahgtru.[14]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f5/DireBoar-4e.png/revision/latest?cb=20200711033719",
     "hit_points": 42,
-    "hit_dice": "5d10"
+    "hit_dice": "5d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 8
+    },
+    "xp": 450
 }

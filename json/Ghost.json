@@ -13,5 +13,70 @@
     "description": "Often this state of existence was because of a soul having been horrendously evil in life,[5][6][7] their deaths being tremendously emotional, being denied a proper burial,[5][6] or because they had unfinished business.[1]These spirits typically resembled how they had in life. However, some ghosts had an altered appearance due to the nature of their demise. Others were known to be capable of changing their appearance to suit their current disposition.[3][2] Often this altered appearance was due to the alignment they had in life.[3]A ghost's behavior was typically similar to the personality they had in life.[3] But in some cases, their personalities were altered by the process of death.[2]The \"unfinished business\" that drove ghosts varied widely. Some might seek to fulfill an oath, others to relay a message to a loved one, while some might simply desire to have their death avenged.[1] They also tended to get enraged whenever items their bodies were buried with were stolen and would stop at nothing to get them back.[3]Evil-aligned ghosts were said to hate goodness and all forms of life,[3][5][6][7] being driven by a sense of wickedness and spite.[1] As well as a desire to end the lives of other creatures,[3][5][6][7] in particular those responsible for or connected to its death.[1]Sometimes ghosts were unaware that they had died and thus would continually act out the daily routine they had in life.[1] Sometimes ghosts only had fragmented memories of their life.[2]Being a form of undead, ghosts had no need for the air, food, drink, or sleep that they formerly required in life. They moved about by flying. Having incorporeal bodies, they could pass through solid objects.[1] Some were known to use this phasing ability to surprise enemies.[2] When moving they made no noise.[8]Prior to the Spellplague, humans and demihumans killed by a ghost typically remained dead permanently,[7] due to having had all their life-essence drained out of them.[5][6]Occasionally ghosts in the Realms were capable of causing all magical items within 60\u202ffeet (18\u202fmeters) of them to glow with a cold, white radiance.[10]Anything they possessed when they manifested was ethereal, possessing the ghost touch property. These were often things they were buried with.[3][8] If someone were to take the original material item that a ghost's copy was based on, then the ethereal copy would fade away.[3]A ghost dragon and a doomsphere.Ghosts were known to occur in any type of region,[5][6] but they were most often found haunting areas at night.[5][6][7] Ghosts typically were tied to and haunted the area in which they died, though there were a few mobile forces of them.[17] Sailors who died out at sea alongside their vessel could potentially manifest upon an incorporeal reflection of it.[18]Places haunted by ghosts tended to emanate sensations of profound sadness, loneliness, and unfulfilled desires. Haunted locations often had certain areas where there were strange noises, an unnatural silence, an unnatural feeling of cold, or inanimate objects moving around. Though such manifestations would be due to the ghost's presence, the spirit did not intentionally manifest them and it had no control over them.[1]In Cormanthyr, the ghosts of many elves and dwarves haunted the ruins of the Old Elven Court.[19]Unusually for a non-abandoned city, ghosts were a somewhat common sight in Velen.[20]Besides the Prime Material plane, ghosts were often known to be found in the Shadowfell,[21] including the Domains of Dread, such as Barovia.[22]Like many types of undead, ghosts knew all languages that they had known in life.[1]A ghost could be controlled by wizards, sorcerers, liches, etc. In this case, the ghost was finally put to rest when destroyed on the material plane or the master of the ghost died. This was usually uncommon though, because to raise a ghost used a lot more magic than raising a regular undead.[citation needed]Some ghosts were willing to work with or for other creatures if they believed that doing so could help them achieve their desires. They were often seen in the company of flameskulls, larva mages, rot harbingers, and spectres.[2]Besides mere creatures, some ghosts acted as servants of deities, such as Kiaransalee.[23] The ghosts of diligent priests of Moradin were said to haunt certain trails, old abandoned delves, and mountain passes \u2014 in these places they would appear before lost dwarves or the allies of dwarves, especially during harsh weather, and guide them along a safe route to either their destination or some form of refuge.[24]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/84/Ghost-5e.png/revision/latest?cb=20171011023856",
     "hit_points": 45,
-    "hit_dice": "10d8"
+    "hit_dice": "10d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "fire",
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "cold",
+        "necrotic",
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 11
+    },
+    "xp": 1100
 }

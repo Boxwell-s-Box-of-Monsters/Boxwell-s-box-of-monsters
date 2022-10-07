@@ -13,5 +13,47 @@
     "description": "These elementals had a vaguely humanoid shape,[6] with club-like arms made of jagged stone and a head made of both dirt and stone. Occasionally chunks of minerals, gems, or metals were set within their stony bodies.[8]Their bodies typically moved at a slow, trodding pace.[8][6]Earth elementals were not especially intelligent.[6] However, like all elementals, they instinctively resented any creature that conjured them from their home plane and bound them into its service.[8]Being elementals, these creatures did not require any air, food, drink, or sleep to survive.[8]Earth elementals were capable of gliding through stone and dirt as though it were liquid,[8] but only if they were unworked and non-magical.[1] They were also capable of precisely pinpointing the location of nearby opponents, but only if they were standing on solid ground,[8] a type of vision that was known as tremorsense.[1]Prior to the Time of Troubles, these elementals could not cross bodies of water. Thus they had to use their ability of burrowing through unworked earth to pass underneath the ground on which bodies of water stood.[6]Bludgeoning, piercing, and slashing weaponry were all ineffective against earth elementals unless they were enchanted.[1] Prior to the Time of Troubles, they could only be damaged by weapons with a +2 enchantment or greater.[6]Earth elementals would use their brute strength when fighting an opponent, slamming against them.[1][6] They were also considered to be living siege weapons, doing severe damage to objects and structures,[1] but especially those made of stone or earth.[6]These elementals could be summoned to the Prime Material plane through use of the spells elemental summoning[9] and conjure earth elemental.[10] There were also magical items that could achieve this, such as as a stone of controlling earth elementals and elemental gems.[11] It was impossible to summon an earth elemental while in the phlogiston.[12]Earth elementals rarely spoke, though when they did speak they used the Terran language.[7][1]Earth elementals were favored monsters of many deities within the Morndinsamman, acting as their divine servants. These deities included Berronar Truesilver, Clangeddin Silverbeard, Dumathoin. They were also servants of the exiled members of this pantheon, the duergar gods Deep Duerra and Laduguer.[13]In the gnome pantheon, these elementals were favored monsters of the deities Baervan Wildwanderer, Callarduran Smoothhands, Flandal Steelskin, and Segojan Earthcaller. Outside of pantheons, individual deities that favored earth elementals as divine servants included Geb, Grumbar, Rillifane Rallathil, and Sheela Peryroyl.[13]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1d/Earth_elemental_5e.jpg/revision/latest?cb=20171011161918",
     "hit_points": 126,
-    "hit_dice": "12d10"
+    "hit_dice": "12d10",
+    "damage_vulnerabilities": [
+        "thunder"
+    ],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "tremorsense": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800
 }

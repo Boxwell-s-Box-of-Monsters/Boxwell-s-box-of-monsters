@@ -13,5 +13,50 @@
     "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage plus 3 (1d6) acid damage. ",
     "special_abilities_desc": "The jelly can move through a space as narrow as 1 inch wide without squeezing. The jelly can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. ",
     "description": "   Ochre jellies resembled giant amoebas, dark yellow in color. A mature ochre jelly reached up to 15\u202ffeet (4.6\u202fmeters) in diameter and around 6\u202finches (15\u202fcentimeters) thick. However, it could compress its mass to fit through gaps of only 1\u202finch (2.5\u202fcentimeters). Moreover, it had a mass of 5,600\u202fpounds (2,500\u202fkilograms).[3] They lurked in dungeons, slowly creeping along floors, walls, and ceilings and under and through doors and cracks looking for victims.[3][2] When they were found, the ochre jelly extended itself and latched onto a victim, proceeding to constrict and engulf them. The jelly exuded pseudopods to slam and grapple foes in combat.[3] If cut, an ochre jelly could split into two similar, but smaller, offspring.[3] Ochre jellies were known to exist in the dungeon of X\u00fbl-Jarak in Thar.[6] They could also be found in the ruins of the Ulcaster school near Beregost.[7] In the Abyss, ochre jellies could be found in Shedaklah, the Slime Pits, the 222nd layer of the Abyss.[8] They were favored by the drow deity Ghaunadaur.[9]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/32/Ochrejelly5e.png/revision/latest?cb=20171010163803"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/32/Ochrejelly5e.png/revision/latest?cb=20171010163803",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid"
+    ],
+    "damage_immunities": [
+        "lightning",
+        "slashing"
+    ],
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 8
+    },
+    "xp": 450
 }

@@ -13,5 +13,13 @@
     "description": "The wings of these creatures were incredibly vulnerable to fire and were liable to burn up in the presence of hot flames. Though a giant wasp would survive these wings being burned off, their body would be rendered permanently flightless.[4]Giant wasps fought other creatures with their powerful mandibles and poisonous, paralyzing stingers.[4]At some point in the 14th century DR, a group of rangers introduced giant wasps into the Rimwood. Their intention was to hopefully drive out the area's fyrefly population by having the giant wasps compete with them for their precious cornflower pollen. However, this proved to be unsuccessful as the fyreflies adapted to eating quack grass and dried pigweed.[5]These creatures were carnivorous and hunted on a very regular basis, almost ceaselessly, which inspired a sense of fear in some creatures. They typically fed upon other giant insects, though humanoid races were also known to fall victim to them.[4]Giant wasps were known to make their nests out of either mud or \"paper\", with the latter supporting far larger adult populations that ranged from twenty one to forty members.[4][note 1]If a giant wasp did not outright devour their paralyzed prey they were known to bring it back to their nests and place the paralyzed creature in their eggs.[4]Giant wasps were one of the few insects known to thrive in the North,[6] in places such as the Rimwood of Cormanthor, the Farsea Marshes,[7] and the Stump Bog.[8]In northeast Faer\u00fbn, they could be found in the forests of Vaasa.[9] And in West Faerun, giant wasps could be found in the land of High Moor.[10]They could also be found in the Moonshae Isles,[11] Thar,[12] and in the Shining South, they were known to inhabit the Mortick Swamp.[13]A small number of awakened giant wasps served the druid Wyllow within her domain of Undermountain.[14]Beyond the Prime Material plane, they could be found in Malbolge.[15]The Fire Knives coated their knives with the poison of giant wasps.[16] Their wings could be used as an alternative ingredient for crafting a potion of speed.[17]An amber amulet of vermin contained a wasp that would be released, at which point it would become a giant wasp.[18]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f1/Giant_wasp_2e.jpg/revision/latest?cb=20210131092306",
     "hit_points": 13,
-    "hit_dice": "3d8"
+    "hit_dice": "3d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 100
 }

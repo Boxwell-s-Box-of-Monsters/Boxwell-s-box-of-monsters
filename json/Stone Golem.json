@@ -13,5 +13,49 @@
     "actions_desc": "The golem makes two slam attacks. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage. The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. ",
     "special_abilities_desc": "The golem is immune to any spell or effect that would alter its form. The golem has advantage on saving throws against spells and other magical effects. The golem's weapon attacks are magical. ",
     "description": "   These constructs were generally made with a bipedal, humanoid shape,[6] but stylized to suit their creator.[4] Appearing as merely beautiful statues until commanded by their master to move and act.[1] They were almost never outfitted with any sort of weaponry or armor.[4] The average stone golem was about 9\u202fft (2.7\u202fm) tall and weighed approximately 2,000\u202flb (910,000\u202fg).[4][3] Stone golems were emotionless constructs who could not be reasoned with,[4] always dutifully obedient to whoever constructed them, and could be given simple commands. They could even be commanded to fall into a dormant state, then come to life and attack other creatures when hostile actions are detected.[6] Like any golem, these constructs possessed an immunity to magic and could not be harmed by normal weaponry. Only weapons with an enchantment of +2 or greater were capable of harming them, though this could be bypassed by use of the spell flesh to stone.[4][7] Being constructs made entirely of stone, these golems could be slowed down by the spell transmute rock to mud and repaired by use of its counterpart transmute mud to rock.[4][7] The strength of these golems was twice that of any flesh golem. Due to the spell being used in their construction, a stone golem was capable of casting slow at any creature within 1\u202ffoot (0.3\u202fmeters) of it.[4][6] Stone golems always fought with their brute strength and fists. They would never wield weapons, even if ordered to.[4] A rare variety of stone golems that could be found in the Hordelands. These golems were created by wu jen and given a mind of their own. They were adept at implementing martial arts maneuvers like throws during combat.[8] Like any construct, stone golems could be found anywhere across the Realms regardless of climate or terrain.[4] In older ages the cost of materials needed to construct a stone golem was around 60,000 gp, and the process took about two months. Skilled laborers, such as stone masons and dwarves, were often hired to carve the golem from its single block of hard stone.[4] Construction of these constructs could only be undertaken by magic-users of a 16th level or higher and required use of the spells geas, polymorph any object, slow and wish.[4][6] These spells could be cast by the user themselves or by means of an enchanted item, such as a scroll or wand.[4] Alternatively, the construction of a stone golem could be undertaken by any individual that owned a manual of golems[9] or the Tome of the Unicorn.[10] Stone golems were typically used to guard locations or valuable items.[4] They were often used as divine agents of the gods Clangeddin Silverbeard, Geb, Segojan Earthcaller, and the Red Knight. Those that served the latter goddess had the form of chess pieces.[11]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/56/Monster_Manual_5e_-_Golem%2C_Stone_-_Conceptopolis_-_p170.jpg/revision/latest?cb=20150110140030"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/56/Monster_Manual_5e_-_Golem%2C_Stone_-_Conceptopolis_-_p170.jpg/revision/latest?cb=20150110140030",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison",
+        "psychic",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 10
+    },
+    "xp": 5900
 }

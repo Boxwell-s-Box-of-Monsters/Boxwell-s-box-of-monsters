@@ -13,5 +13,20 @@
     "description": "These bizarre creatures appeared as large blobs composed entirely of mouths and eyes. When the eyes and mouths were closed, the gibbering mouther resembled a large lump of earth.[4]Gibbering mouthers were not natural creatures. Usually, they were the creation of foul sorcery.[1] Some sages instead claimed that gibbering mouthers arose from sentient creatures that had died in places touched by the Far Realm.[2]Gibbering mouthers reproduced by asexual fission. They would split their amorphous bodies down the middle whenever they had consumed enough nutrients to support two bodies. The mouther would hide in a secure area while performing this process, since it could take up to four hours. Once split, the two mouthers would move away from each other.[4]Every victim consumed by a gibbering mouther added another mouth and pair of eyes to the mass of the beast's body. Only living prey would work for this.[4]Some sages believed that bringing two gibbering mouthers together would cause them to join, creating a larger mouther.[4]Gibbering mouthers liked to ambush prey by remaining still until their prey was within striking range.[4]The most vulnerable area on a gibbering mouther was the brain, which was located near the center of its mass and could move around, making it difficult to strike.[4]Gibbering mouthers could use a special babbling attack that had the same effect as the confusion spell. This attack assaulted potential prey every few moments, making it more difficult for them to resist.[4]Spit from a gibbering mouther would explode with a bright flash once it struck any surface, easily blinding targets for several minutes.[4]A gibbering mouther was able to attack with six different mouths at a time. Each mouth had a chance to latch on to the victim and begin draining their energy.[4]The ground around a gibbering mouther was turned into a thick liquid state, making it extremely difficult to assault the mouther at a close range.[4]In 1367 DR, during the Living Gem War, the wizard Shond Tharovin was cursed by the archmage Yoond Shalshymmyr and permanently changed into an immense (over twelve-miles-long[6]) gibbering mouther, sacrificing his life to do so. Shond vowed revenge and left his city of Schamedar to enter the ocean.[7][8] Shond eventually settled on the Singing Rocks in the Trackless Sea, where he planned the demise of his enemies.[6]These creatures were never found near others of their kind.[4]Gibbering mouthers were omnivorous creatures.[4]Swamps were their preferred habitat in the wild.[4]In Northwest Faer\u00fbn, they could be found dwelling within the Mere of Dead Men.[9] Beyond Faer\u00fbn, they were sometimes found in Zakhara.[4]Wizards and cults often used gibbering mouthers as guardians.[4]They were a favored monster of the drow deity Ghaunadaur.[10]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/80/Gibberingmouther5e.png/revision/latest?cb=20171010155207",
     "hit_points": 67,
-    "hit_dice": "9d8"
+    "hit_dice": "9d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 450
 }

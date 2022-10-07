@@ -13,5 +13,13 @@
     "description": "Deer were commonly found in the Pellamcopse Woods, north of Waterdeep.[14]In north Faer\u00fbn, deer could be found in the Tangled Vale[15] and throughout the forests of the Vast.[16]In the Unapproachable East, deer could be found in the Tannath Gap, Rashemen, and Immil Vale.[17]Beyond Toril, deer inhabited the planet known as Radole.[18] Giant black stags with red eyes that could gore an elephant with ease served the goddess Beshaba and inhabited her Abyssal realm of the Blood Tor.[19]Hybsils were often on good terms with deers.[20]Deer were the preferred animal manifestations of Gwaeron Windstrom, Shiallia, and Silvanus. Stags in particular were favored by the gods Baervan Wildwanderer, Eldath, and Rillifane Rallathil, while white-coated celestial stags were chosen by Labelas Enoreth.[21] A white hart in the High Forest was considered sacred to Mielikki.[22]Aurora's Whole Realms Catalogue sold deer hides for 4 gold pieces a piece.[23]The antlers of deer could be boiled down to create a sort of glue.[24]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1a/Deer_portrait_NWN.png/revision/latest?cb=20210705181418",
     "hit_points": 4,
-    "hit_dice": "1d8"
+    "hit_dice": "1d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 12
+    },
+    "xp": 10
 }

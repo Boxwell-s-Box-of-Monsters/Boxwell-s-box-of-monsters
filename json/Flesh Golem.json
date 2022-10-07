@@ -13,5 +13,49 @@
     "description": "Flesh golems were put together from the body parts of several different creatures, usually human, all stitched and bolted into a new and gruesome humanoid form. Bigger than a living man, it was 8 feet (2.4 meters) tall and about 500 pounds (230 kilograms) in weight. As the flesh was often robbed from graves and still decaying, it had a lingering slight smell of dead flesh and fresh turned soil, and no ordinary animal would willingly follow its trail. Unable to fully control its body, a flesh golem moved and walked stiffly. It was also unable to speak, being only able to make a hoarse roar. Its clothing and possessions were whatever its creator wished to give it, often just a tattered pair of trousers and no weapons.[3]One of Damien Morienus' flesh golems.Flesh golems were constructed using the physical body parts of once-living creatures. These had to be collected from at least six different corpses: one each for the torso, head (including the brain), arms and legs, though sometimes more bodies were needed. The corpses must be human, not too badly decayed, and otherwise normal. Special unguents and bindings were needed to keep the flesh bound together during creation; these alone cost 500 gold pieces. Actually putting the body together required skills in medicine, surgery, or leatherworking.[3]The spells animate dead, bull's strength, geas/quest, and limited wish by a capable spellcaster were used in the creation of a flesh golem. The total monetary cost of its construction was around 10,500 gold pieces.[3]A complete flesh golem was valued at 20,000 gp.[3]Despite their strength and durability, flesh golems tended to be ineffective in combat, owing to their lack of defense, particular if their opponents had no adamantine weapons, though they could handily smash those without. Those who used them paired them with a source of electricity to heal them.[3]Moreover, a flesh golem engaged in battle could well go berserk, as its elemental spirit escaped and left it uncontrolled. There was a small but increasingly risk of this happening the longer a fight went on. The rampaging flesh golem would attack the closest living creature, and, if no creature was in reach, smash any object that was smaller than it, before moving on to find something else. To regain control, the creator of the flesh golem must approach within 60\u202ffeet (18\u202fmeters) and firmly persuade it to stop for at least a minute.[3]A flesh golem, like other similar constructs, was immune to any spell that could be resisted. Other magical effects affected them differently to living creatures. Magical fire and cold not only damaged flesh golems but also slowed them down, from a dozen seconds to over a minute. Magical electrical discharges actually healed a damaged flesh golem and undid any slowing effect, and if they were not damaged, they would actually become more durable temporarily.[3]Their toughness means they require adamantine weapons to effectively damage them.[3]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/55/Flesh_golem-5e.jpg/revision/latest?cb=20171010191356",
     "hit_points": 93,
-    "hit_dice": "11d8"
+    "hit_dice": "11d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning",
+        "poison",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800
 }

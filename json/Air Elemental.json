@@ -13,5 +13,61 @@
     "description": "When summoned to the Prime Material plane, air elementals typically appeared as an amorphous, ever-shifting cloud. Whenever they made the rare attempt to speak, it resembled either the high-pitched shriek of a tornado or the low rumbling moan of a thunder storm.[6]Air elementals were capable of altering their bodies in the form of a small whirlwind. Over the ages, the height and diameters of these whirlwinds varied significantly, especially depending upon how powerful an air elemental was. Some were reported to be as small as 8\u201216\u202fft (2.4\u20124.9\u202fm) tall,[7] while others were reported being as tall as 40\u201280\u202fft (12\u201224\u202fm) tall.[6][3]Though they all roughly shared the same abilities, those in the Elemental Plane of Air that were incapable of being summoned were known to possess even greater powers.[7]Air elementals typically fought creatures by either blasting them with strong gusts of wind or shifting into their whirlwind form.[6]Air elementals substituted on the consumption of solely air itself.[6]Air elementals were native to the Elemental Plane of Air.[7]Aerial servants often tried to accompany them wherever they went, but air elementals strove to avoid them. They viewed the aerials as an inferior form of air elemental and discouraged other kinds of air elementals from interacting with them.[10]A berserk air elemental dwelled on the Dungeon Level of Undermountain.[11]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/75/Air_elemental_5e.jpg/revision/latest?cb=20171011161955",
     "hit_points": 90,
-    "hit_dice": "12d10"
+    "hit_dice": "12d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800
 }

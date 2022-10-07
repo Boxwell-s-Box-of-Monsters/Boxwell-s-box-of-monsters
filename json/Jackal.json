@@ -13,5 +13,13 @@
     "actions_desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage. ",
     "special_abilities_desc": "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell. The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
     "description": "   The jackal looked something like a mixture of a wild fox and a domestic dog.[2] Like other dogs their size, they were skilled at jumping and tracking by scent.[2][3][1] Jackals, like other small dogs, hunted in packs,[2][3][1] of about one to six animals,[5] but usually, they scavenged for their food.[5] They were not very brave animals and were not typically aggressive.[5] Jackals were known to inhabit the Calim Desert during the time of the city of Cursrah.[6], the Lonely Moor,[7] the land of Amn.[8] and the Raurin desert.[9]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/70/Jackal.png/revision/latest?cb=20210218110629"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/70/Jackal.png/revision/latest?cb=20210218110629",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 10
 }

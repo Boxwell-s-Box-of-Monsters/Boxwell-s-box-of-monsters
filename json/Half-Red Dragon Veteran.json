@@ -13,5 +13,17 @@
     "actions_desc": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack. Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage. The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one. ",
     "special_abilities_desc": "",
     "description": "      Most half-dragons were slightly bigger than their non-dragon parent and displayed features of their dragon parent. These draconic features could be as subtle as serpentine slit pupils, or so prominent that the subject appeared like a dragonborn with wings and tail, their other half virtually undetectable.[citation needed] A half-dragon had the ability to use the breath weapon of its dragon half, though it was not as potent and could not be used as frequently. Half-dragons had low-light vision and darkvision. They also had tinted skin or scales that were of the same color as their dragon parent and helped protect from physical attacks.[2] All half-dragons were immune to sleep and paralysis effects. They also had an additional immunity based of which dragon type they were related to.[2] Blue half-dragon hobgoblins were the first generation result of mating between the dragons of Morueme and their hobgoblin allies.[4]   Dragonbloods: Draconic creature \u2022 Dragonborn of Bahamut \u2022 Dragonspawn\nDrow-dragon (shadow) \u2022 Drow-dragon (deep) \u2022 Half-dragon \u2022 Kobold (Dragonwrought \u2022 Urd) \u2022 Weredragon \u2022 Zar'ithra \u2022 Zekyl\nHybrid monsters: Dracimera \u2022 Mantidrake \u2022 Wyvern drake",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c8/Half-red-dragon-5e.png/revision/latest?cb=20180622173939"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c8/Half-red-dragon-5e.png/revision/latest?cb=20180622173939",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "fire"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "darkvision": "60 ft.",
+        "passive_perception": 12
+    },
+    "xp": 1800
 }

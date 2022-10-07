@@ -1,17 +1,28 @@
 {
-  "name": "Archmage",
-  "armor_class": 12,
-  "challenge_rating": 12,
-  "strength": 10,
-  "dexterity": 14,
-  "constitution": 12,
-  "intelligence": 20,
-  "wisdom": 15,
-  "charisma": 16,
-  "actions_desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage. ",
-  "special_abilities_desc": "The archmage has advantage on saving throws against spells and other magical effects. The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared:\n\n- Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp\n- 1st level (4 slots): detect magic, identify, mage armor*, magic missile\n- 2nd level (3 slots): detect thoughts, mirror image, misty step\n- 3rd level (3 slots): counterspell, fly, lightning bolt\n- 4th level (3 slots): banishment, fire shield, stoneskin*\n- 5th level (3 slots): cone of cold, scrying, wall of force\n- 6th level (1 slot): globe of invulnerability\n- 7th level (1 slot): teleport\n- 8th level (1 slot): mind blank*\n- 9th level (1 slot): time stop\n* The archmage casts these spells on itself before combat. ",
-  "description": "Many cities across Faer\u00fbn had a single archmage who dedicated themselves to serve that settlement and its people. Some notable cities included Lyrabar in Impiltur,[2] and the great western metropolis of Waterdeep.[3]The term \"archmage\" was often used to refer to spellcasters who took on leadership roles among similarly-inclined practitioners of The Art. In the drow city of Menzoberranzan, the head of the arcane academy known as Sorcere was granted the title, Archmage of Menzoberranzan.[4] Similarly, the leader of the Arcane Brotherhood was referred to as the Archmage Arcane.[5]Archmages continued developing their skills as spellcasters in the same manner as they had during their previous experiences in the Art. While they gained knowledge and lore about \"high arcana\" (that typical wizards and sorcerers had no knowledge of), they were forced to focus less on the number of spells they could prepare each day.[1]By forgoing one of their most powerful spells, archmages could tap into a power known as arcane fire. This arcane fire was essentially a bolt of raw magical energy that was drawn from the power they typically reserved for normal spellcasting.[1]They learned techniques that allowed them to reach across long distances, using spells that normally took effect upon touch and utilizing them from as far away as 30\u202fft (9.1\u202fm).[1][6]As archmages were considered master spellcasters, it followed that they were capable of mastering particular elements of spellcasting. Rather than performing typical counterspelling, archmages could turn spells back upon their casters. They mastered ways to alter their spells that drew upon the elements, particularly those that were acidic, cold, fiery, electric, or sonic in nature. Additionally, they perfected the practice of \"spell shaping\", and could readily manipulate the area over which a spell took effect.[6]Plainly put, the spells cast by archmages were capable of a level of power unheard of by typical spellcasters. Overall, they functioned more intensely than lesser experienced wizards and sorcerers. By forgoing one of the spells they would normally prepare, they could cast a spell twice in a day or more, without having to normally inscribing it within their spellbook.[6]Many sun elves who wished to continue their arcane studies often chose the path of the archmage,[7] as did many of the human Red Wizards.[8]",
-  "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/0/167/1000/1000/636252760213195530.jpeg",
-  "hit_points": 99,
-  "hit_dice": "18d8"
+    "name": "Archmage",
+    "armor_class": 12,
+    "challenge_rating": 12,
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 12,
+    "intelligence": 20,
+    "wisdom": 15,
+    "charisma": 16,
+    "actions_desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage. ",
+    "special_abilities_desc": "The archmage has advantage on saving throws against spells and other magical effects. The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared:\n\n- Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp\n- 1st level (4 slots): detect magic, identify, mage armor*, magic missile\n- 2nd level (3 slots): detect thoughts, mirror image, misty step\n- 3rd level (3 slots): counterspell, fly, lightning bolt\n- 4th level (3 slots): banishment, fire shield, stoneskin*\n- 5th level (3 slots): cone of cold, scrying, wall of force\n- 6th level (1 slot): globe of invulnerability\n- 7th level (1 slot): teleport\n- 8th level (1 slot): mind blank*\n- 9th level (1 slot): time stop\n* The archmage casts these spells on itself before combat. ",
+    "description": "Many cities across Faer\u00fbn had a single archmage who dedicated themselves to serve that settlement and its people. Some notable cities included Lyrabar in Impiltur,[2] and the great western metropolis of Waterdeep.[3]The term \"archmage\" was often used to refer to spellcasters who took on leadership roles among similarly-inclined practitioners of The Art. In the drow city of Menzoberranzan, the head of the arcane academy known as Sorcere was granted the title, Archmage of Menzoberranzan.[4] Similarly, the leader of the Arcane Brotherhood was referred to as the Archmage Arcane.[5]Archmages continued developing their skills as spellcasters in the same manner as they had during their previous experiences in the Art. While they gained knowledge and lore about \"high arcana\" (that typical wizards and sorcerers had no knowledge of), they were forced to focus less on the number of spells they could prepare each day.[1]By forgoing one of their most powerful spells, archmages could tap into a power known as arcane fire. This arcane fire was essentially a bolt of raw magical energy that was drawn from the power they typically reserved for normal spellcasting.[1]They learned techniques that allowed them to reach across long distances, using spells that normally took effect upon touch and utilizing them from as far away as 30\u202fft (9.1\u202fm).[1][6]As archmages were considered master spellcasters, it followed that they were capable of mastering particular elements of spellcasting. Rather than performing typical counterspelling, archmages could turn spells back upon their casters. They mastered ways to alter their spells that drew upon the elements, particularly those that were acidic, cold, fiery, electric, or sonic in nature. Additionally, they perfected the practice of \"spell shaping\", and could readily manipulate the area over which a spell took effect.[6]Plainly put, the spells cast by archmages were capable of a level of power unheard of by typical spellcasters. Overall, they functioned more intensely than lesser experienced wizards and sorcerers. By forgoing one of the spells they would normally prepare, they could cast a spell twice in a day or more, without having to normally inscribing it within their spellbook.[6]Many sun elves who wished to continue their arcane studies often chose the path of the archmage,[7] as did many of the human Red Wizards.[8]",
+    "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/0/167/1000/1000/636252760213195530.jpeg",
+    "hit_points": 99,
+    "hit_dice": "18d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "damage from spells",
+        "non magical bludgeoning, piercing, and slashing (from stoneskin)"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 12
+    },
+    "xp": 8400
 }

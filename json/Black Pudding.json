@@ -13,5 +13,50 @@
     "description": "The average black pudding measured 15 ft (4.6 m) across and 2 ft (0.6 m) thick and they weighed around 18,000 lb (8.2 mt).[3] While most of these monsters were an inky black, some could be brown, grey, and even white.[5] In underground locations, these creatures appeared as dark blobs.[1]Some black puddings that managed to survive for a very long time came to be known as elder black puddings, they were significantly bigger than their younger counterparts and had almost impenetrable outer layer of aged material. These ancient black puddings were immune to all damage, unless the outer layers were dissolved first by a very specific concoction.[7]These creatures were mindless underground-dwelling hunters and scavengers that wandered and absorbed whatever they found.[5][4][3] A black pudding would position itself in a dungeon hallway like a shadow and wait for unsuspecting prey.[1]Black pudding attacked by grabbing, grappling, and constricting prey directly into their liquid-esque mass. Like other oozes, they also secreted a deadly acidic substance which strongly and quickly dissolved weapons, clothing, and organic tissue alike. When slashed at or pierced, the black pudding split into two smaller puddings, both of which would do the same; this continued until they were too small and weak to do so further.[3] A black pudding would eat bone, metal, and wood leaving only stone behind.[1]Like other oozes, black pudding desire warmth and sense their prey through movement. While the creatures seek living and breathing targets, they will feast on animal guts, slime, and mushrooms.[8]Black puddings could be found inhabiting shrines and temples dedicated to Ghaunadaur, the drow deity of oozes. The worshipers of the deity cultivated alliances with black pudding for mutual defense.[9]Circa 1490 DR, the especially huge ancient Elder black pudding created a lair for itself in the Noxious Chasm just outside of Luskan that served as the city's sewer's exhaust. The significant age of the creature granted it an almost impenetrable crust of aged material making it almost invincible. The Elder has been disposed of using Relona's anti-pudding dissolving agent that dissolved its aged armor making it vulnerable.[7]In 1492 DR, a black ooze could be found hiding on a statue in the Dungeon Level of Undermountain.[10]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/34/Black_pudding-5e.jpg/revision/latest?cb=20171010160248",
     "hit_points": 85,
-    "hit_dice": "10d10"
+    "hit_dice": "10d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid",
+        "cold",
+        "lightning",
+        "slashing"
+    ],
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 8
+    },
+    "xp": 1100
 }

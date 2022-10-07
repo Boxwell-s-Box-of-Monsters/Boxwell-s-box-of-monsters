@@ -13,5 +13,14 @@
     "description": "Giant crabs were known to sport varying arrays of colors. Most commonly reds, browns, and greys. Their bodies were typically covered by a large, chitinous shell.[2] Some species had their eyes atop stalks, allowing them to peak over ledges or around corners.[3]Giant crabs were amphibious creatures, equally capable of surviving on both land and in water.[1][2][3]Giant crabs typically mated in autumn, with males attempting to mate with as many females as they could. The fertilized females were known to bury their eggs in the sand of beaches, which would then hatch the following spring.[2]Giant crabs typically preferred to sneak up on their prey, then catch and dismember them with their large pincers.[2]Some time following its destruction on the Night of Burning Flowers in 647 DR, the castle of Ito-jo in Kozakura was haunted by the ghosts of giant crabs and these hauntings would continue well into the 14th century DR.[5]Around the 14th century DR, one could purchase a leg or whole body of a giant crab to dine upon at Sharkey's Bar & Grill near Ravens Bluff.[6]In the 15th century DR, coven of sea hags dwelling in the Sargauth Level of Undermountain used giant crabs as their mounts and pets.[7]Giant crabs typically made their homes along shorelines, with some burrowing into the sand at day and only coming out to feed around dusk and dawn. Though they were also known to hunt during the morning and night.[2]Giant crabs were known to often feed upon large dead fish and other forms of carrion that sank beneath the waves or washed up on shores. Their tendency to feast upon large carrion along the seafloor was considered an important ecological niche. They were also known to venture into the water in search of fish.[2]In northwest Faer\u00fbn, giant crabs could be found in the Stump Bog.[8]In the Zakhara region's Crowded Sea, they could be found on the archipelago of Jazayir al-Sartan. Particularly in its bay Batihat al-Saji and the islands of Jazayir al-Alfar and Uyun al-Sartan. Those that inhabited the last island were known as \"the children of Sartan.\"[9]Though difficult to train, some aquatic rangers were known to have them as animal companions.[10]On the surface, giant crabs were often hunted by humans and demihumans for their meat and hard chitinous shells. The latter of which were prized by some as a material for constructing armor and shields.[2]The militia of the Haifami was one such group that wielded shields, fancifully-decorated, that were carved from the shells of giant crabs.[11]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/01/Sea_hag_coven_5e.jpg/revision/latest?cb=20210325100054",
     "hit_points": 2,
-    "hit_dice": "1d4"
+    "hit_dice": "1d4",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "30 ft.",
+        "passive_perception": 9
+    },
+    "xp": 10
 }

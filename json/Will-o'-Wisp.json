@@ -13,5 +13,60 @@
     "actions_desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d8) lightning damage. The will-o'-wisp and its light magically become invisible until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell). ",
     "special_abilities_desc": "As a bonus action, the will-o'-wisp can target one creature it can see within 5 ft. of it that has 0 hit points and is still alive. The target must succeed on a DC 10 Constitution saving throw against this magic or die. If the target dies, the will-o'-wisp regains 10 (3d6) hit points. The will-o'-wisp can't wear or carry anything. The will-o'-wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. The will-o'-wisp sheds bright light in a 5- to 20-foot radius and dim light for an additional number of ft. equal to the chosen radius. The will-o'-wisp can alter the radius as a bonus action. ",
     "description": "   The will-o'-wisp appeared to be nothing more than a hazy ball of light, colored white, blue, violet, green, or yellow, glowing as brightly as a flaming torch.[4][6] As such, it was easy to mistake one for a lantern, torch, or dancing lights.[6] Especially within the foggy marshes they tended to inhabit.[4] They tended to take on a blue, violet, or pale green hue whenever they were engaged in combat.[6] In fact, their faintly glowing bodies were just transparent balls of spongy matter, measuring 1\u202ffoot (30\u202fcentimeters) wide and weighing around 3\u202fpounds (1.4\u202fkilograms). Although they had no vocal organs, will-o'-wisps could vibrate to emit a ghostly sound, with which they could speak.[4] Boggarts were believed to be immature forms of will-o'-wisps. Unlike their mature counterparts, boggarts could take on a shape of small humanoids and lure their prey and a shape of a smaller but brighter wisp. Another major thing that differentiated will-o'-wisps and boggarts was that the immature forms needed to devour flesh and the life force of their prey.[7] These creatures could alter the brightness or dimness of their bodies' glow. This ability was used to confuse their prey.[6] A will-o'-wisp could even extinguish its glow, becoming for all intents and purposes invisible[4] to all except creatures who see invisible objects.[6] They typically did the latter whenever they were surprised or frightened.[4] Will-o'-wisps had total spell resistance, making them immune to most spells, apart from magic missile, maze[4] and protection from evil.[6] A will-o'-wisp could discharge electricity, inflicting small electric shocks on attackers.[4][6] Will-o'-wisp's luring someone to their sudden but inevitable doom. These creatures displayed exceptional levels of intelligence.[6] They reveled in luring travelers away from safe paths, bewildering them.[4] A will-o'-wisp would avoid combat if at all possible, but would attack with electric shocks if pressed.[4] Will-o'-wisps were typically found singly, in pairs, or in \"strings\" of three or four orbs.[4][6] These creatures subsisted upon the powerful emotions that are associated with fear, panic, and death.[4][6][note 1] They would often seek to lure creatures away from safe paths,[4] into perilous situations so they could feast upon their desperate emotions.[4][6] Will-o'-wisps were typically found in deserted, dangerous places where ones movement could get inhibited. Such as bogs, fens, swamps, as well as swampy dungeons and dungeons full of quicksand or pit-traps.[6] On Toril they were known to be inhabit the Vast Swamp, where they were often sighted from the Way of the Manticore.[8][9][10] As well as its counterpart in the Plane of Shadow, the Shadow Swamp.[11] They also harassed travelers in the Glaun Bog of Tasseldale.[12] Some will-o'-wisps served the dark Chultan demigod Eshowdow, and their appearance was seen by his followers as a sign of his favor.[13] Adventurers battling Shadowscale lizardfolk and will-o'-wisps in the Vast Swamp. In early Eleint of the Year of Lightning Storms, 1374 DR, a will-o'-wisp cooperated with the Sharran cultists at the Lost Refuge in the Vast Swamp. It posed as a torch outside the gatehouse and haunted the surrounding swampland, while helping to defend the base from intruders. It was presumably destroyed by adventurers in service to Mystra when they assault the base.[14] A squadron of will-o'-wisps once occupied Durlag's Tower in the Western Heartlands, but found themselves utilized as a part of the tower's own defenses.[15]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/60/Will-o-wisp-5e.jpg/revision/latest?cb=20171010162334"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/60/Will-o-wisp-5e.jpg/revision/latest?cb=20171010162334",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "cold",
+        "fire",
+        "necrotic",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "lightning",
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 12
+    },
+    "xp": 450
 }

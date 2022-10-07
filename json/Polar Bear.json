@@ -13,5 +13,13 @@
     "actions_desc": "The bear makes two attacks: one with its bite and one with its claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. ",
     "special_abilities_desc": "The bear has advantage on Wisdom (Perception) checks that rely on smell. ",
     "description": "      Polar bears had white coats and were long and lean. When standing, they stood taller than brown bears.[2] A polar bear was a superb swimmer. Its white coat also gave it an advantage when hunting in snowy areas.[2] When a polar bear attacked, it primarily used its powerful claws, tearing at its prey, as well as its bite.[1] It would also pull its opponents into a grapple.[2] Polar bears heavily populated the region of Nakalpgotak on the Great Glacier.[6] They preyed upon many animals, including even those as large as ghost roth\u00e9.[7] Polar bear meat was barely edible to most people. It was tough and stringy and hard to digest.[8] The Iulutiuns ate polar bear meat[8][9] and used its fur for clothing.[10] Likewise, Nakulutiuns consumed polar bear meat,[11] as did the Ice Hunters of the Sea of Moving Ice.[12] Among non-humans, the Innugaakalikurit wore polar bear fur as well.[13][14] White dragons[15] and tirichik[13] also preyed upon polar bears. Polar bear bone was carvable.[16] Polar bears were important in the culture of the Iulutiuns of the Great Glacier, where a child's first polar bear kill was celebrated with a ritual known as the nukiewquak, in which the bear's head was kept on a pole outside the family house for many days.[9] The first polar bear kill of the year was also celebrated.[17] Polar bears were associated with the virtue of courage within the Iulutiun culture.[17] Powerful druids and rangers sometimes had polar bears as companions.[18] The famous wise man of the Iulutiuns, Inum, had been crippled by a polar bear.[19] Heafstaag, king of the Tribe of the Elk of Icewind Dale had had his hand mauled by a polar bear.[20]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8b/Northernbear.png/revision/latest?cb=20200402105953"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8b/Northernbear.png/revision/latest?cb=20200402105953",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 450
 }

@@ -13,5 +13,20 @@
     "actions_desc": "The salamander makes two attacks: one with its spear and one with its tail. Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20 ft./60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can't make tail attacks against other targets. ",
     "special_abilities_desc": "A creature that touches the salamander or hits it with a melee attack while within 5 ft. of it takes 7 (2d6) fire damage. Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack). ",
     "description": "   Salamanders were serpentine creatures with a humanoid torso, head, and arms, albeit with spines rising from their head, arms, and spine.[4][3] Salamanders tended to be greedy and cruel.[2] Salamanders often wielded spears. They used their tails to constrict their enemies. Their skin was so hot that even the merest touch caused burns.[3] Salamanders had an excellent culture of metalsmithing and creating weapons that utilized the power of flame.[2] Salamanders formed feudal societies led by kings/queens and dukes/duchesses. Slaves and lesser elemental creatures made up the peasant class.[2] Salamanders reproduced asexually, producing a single larva every ten years.[3] These larvae, called fire snakes, were small and unintelligent.[4] Many went on to become the somewhat larger and more intelligent flamebrother salamanders, although others remained fire snakes for their entire lives. From there, some flamebrothers became average salamanders, and those few average salamanders that were lucky and powerful enough to survive a thousand years became noble salamanders.[5] Salamanders originated on the Elemental Plane of Fire. A significant population of them migrated from the Plane of Fire via portals to the Firelands and the Peaks of Flame in Chult.[9] These salamanders posed a threat to the Mines of Segol[10] and the Hazur Mountains.[11] In the same manner salamanders also settled the sun of Realmspace.[12] The Blade Kingdoms were blessed with plumbing technology. The palaces and nobles' homes had intricate networks of copper plumbing set throughout and the hot water was generated via salamanders who stoked the boiler flames with coal and their own immense body heat. A group of salamanders lived in the Palace of Sumbria's higher floors and pumped hot water to the kitchens, council chambers and bedchambers.[13]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/46/Salamander-5e.png/revision/latest?cb=20161123232935"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/46/Salamander-5e.png/revision/latest?cb=20161123232935",
+    "damage_vulnerabilities": [
+        "cold"
+    ],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "fire"
+    ],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800
 }

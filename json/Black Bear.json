@@ -13,5 +13,13 @@
     "description": "These creatures had black, blond, or cinnamon fur. Black bears on average were 5 ft (1.5 m).[2]These omnivore ursoids were not usually dangerous unless their cubs or food supply was threatened.[5][2]A black bear was found in the Wyllowwood level of Undermountain, where it enjoyed following strangers round for food.[6]Beyond the Prime Material plane, black bears could be found in the woods of Barovia.[8]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/62/Black_bear_portrait_NWN.png/revision/latest?cb=20180706122840",
     "hit_points": 19,
-    "hit_dice": "3d8"
+    "hit_dice": "3d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 100
 }

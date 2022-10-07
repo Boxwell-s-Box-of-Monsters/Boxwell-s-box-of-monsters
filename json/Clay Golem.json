@@ -13,5 +13,50 @@
     "description": "Clay golems generally wore no clothes, except for a garment around their hips made of either metal or stiff leather.[3][4]Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/de/Clay_golem-5e.jpg/revision/latest?cb=20161122152214",
     "hit_points": 133,
-    "hit_dice": "14d10"
+    "hit_dice": "14d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid",
+        "poison",
+        "psychic",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 9
+    },
+    "xp": 5000
 }

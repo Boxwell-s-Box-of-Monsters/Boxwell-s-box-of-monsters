@@ -13,5 +13,30 @@
     "actions_desc": "The fungus makes 1d4 Rotting Touch attacks. Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage. ",
     "special_abilities_desc": "While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus. ",
     "description": "   Violet fungi were human-sized mushrooms,[2] ranging in size from 4\u20127\u202fft (1.2\u20122.1\u202fm) tall,[4] that were supported by a mass of root-like feelers that allowed them to move slowly to more favorable feeding spots. They could range in color from deep purple to dull gray, or they could be violet and covered in purple spots.[2] They also contained four leafy tendrils.[4][2] The length of these tendril branches varied depending upon the size of the specimen, with some of the smallest only having tendrils that were 1\u202ffoot (0.3\u202fmeters) in length.[4] Prior to the Spellplague, these creatures bore a close resemblance to the fungi known as shriekers.[2][4][3] Violet fungi could sense nearby motion and would flail their appendages at creatures nearby. They would feed on decaying matter, often from the bodies of creatures that came too close and had succumbed to their poison.[2] The four leafy tendrils on violet fungi secreted a sort of poison that caused weakening when applied to other creatures.[2] Prior to the Time of Troubles, this poison was said to be capable of rotting flesh.[4] Cormanthorian violet fungi grew only to around 3 feet (0.9 meters) high. They were often used by treants, who would surround their roots with up to six of these fungi. The fungi's roots tapped into the treant for sustenance, and they helped to protect it against bark-eaters by flailing with tentacles, attempting to rot the predators' flesh.[6] Violet fungi was typically found underground, in areas such as the Underdark.[5] They were most often growing from the decomposing bodies of animals.[4] In the Abyss, violet fungi could be found in Shedaklah, the Slime Pits, 222nd layer of the Abyss.[7] Violet fungi had a symbiotic relationship with shriekers, another closely related fungus species,[2] and often grew interspersed with them in patches.[2][4] The shriekers' noise would benefit a violet fungus by drawing curious creatures near enough for the violet fungus to poison.[2] 427 DR was known as the Year of Violet Fungi.[8]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e6/Violet_fungus-5e.jpg/revision/latest?cb=20171017124951"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e6/Violet_fungus-5e.jpg/revision/latest?cb=20171017124951",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        }
+    ],
+    "senses": {
+        "blindsight": "30 ft. (blind beyond this radius)",
+        "passive_perception": 6
+    },
+    "xp": 50
 }

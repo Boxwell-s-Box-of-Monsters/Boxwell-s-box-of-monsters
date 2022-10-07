@@ -13,5 +13,14 @@
     "description": "Giant fire beetles were often used in lanterns or cages for light.Giant fire beetles were nocturnal giant beetles.Giant fire beetles were the smallest of all the giant beetles known to scholars.[4][5] They grew to be about 2 to 2.5\u202ffeet (0.61 to 0.76\u202fmeters).[3][4]These creatures had luminous glands, situated above each eye[3][4][5] and near the abdomen,[4][5] that glowed a red color.[3][4][5] If removed, these glands would continue glowing for several days.[3][4][5] The luminosity of these glands extended outward in a radius of 10\u202ffeet (3\u202fmeters).[4][5]Despite being small for giant beetles, these creatures had very powerful mandibles that could cause great injury to any human.[4][5]In 1492 DR, a group of troglodytes within the level of Undermountain known as the Troglodyte Warrens had domesticated giant fire beetles and were raising them for food.[6] That same year the Harper agent Ulvira Snowveins was running a pet store in Skullport that offered, among other creatures, giant fire beetles for sale.[7]Giant fire beetles were an omnivorous species of insect.[4]Giant fire beetles could be found in clusters or colonies in warmer flatlands.[3] They lived both above and below ground.[4][5]In the land of Faer\u00fbn they could be found in the King's Forest of Cormyr,[9] within Mount Hotenow,[10] and down in the Underdark.[11]In the East they could be found in the Hordelands and Semphar.[12] In east Zakhara, they could be found in the Grey Jungle.[13] And in the Crowded Sea south of Zakhara, they could be found on the island chain of Nada al-Hazan.[14]Beyond the Prime Material plane, some were known to inhabit the Elemental Plane of Fire.[15]Fire beetles were a favored animal of the deity Moradin and thus would serve him, sometime acting as messengers to his followers.[16]The luminous glands of the giant fire beetle were prized by adventurers and miners alike.[4][5][3]Some were known to use their glands as an alternative material component to the spell dancing lights.[17] Their blood was also a material component for the spell infra-invisible.[18]The inhabitants of Skullport sometimes sought out the larvae of fire beetles to use as a source of illumination.[19]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/74/Giant_fire_beetle-5e.png/revision/latest?cb=20171010170458",
     "hit_points": 4,
-    "hit_dice": "1d6"
+    "hit_dice": "1d6",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "30 ft.",
+        "passive_perception": 8
+    },
+    "xp": 10
 }

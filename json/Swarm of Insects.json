@@ -13,5 +13,59 @@
     "actions_desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer. ",
     "special_abilities_desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points. ",
     "description": "   Staves of swarming insects usually were crafted to be thick, short, and stout. The entirety of these staves' shafts were carved with images of flying, biting, and stinging incests. Some of the carvings depicted wasps, bees, deerflies, horseflies, and other unpleasant vermin.[7] When wielded by an individual who could access divine magics, these weapons allowed them to summon swarms of insects, similar to those carved on the shaft. Staves of swarming insects had limited number of charges and each summon expended a single charge. Each charge was represented by the carvings on the staff. When a charge was expended, a single insect carving vanished from the weapon. A staff of swarming insects could hold as many as fifty charges, but it could not be recharged, becoming a mundane staff when its magics were depleted.[7] An average distance for the swarm summon was 60\u202ffeet (18\u202fmeters) and it increased the more proficient and powerful the divine magic wielder was. The same was true abut the number of insects spawned in a swarm. The initial number was sixty, and it increased with the power of the wielder.[7] Insects summoned by the staves of swarming insects could be repelled by the protection from evil spell or by fire.[7] Following the Second Sundering, a new version of staves of swarming insects appeared. It was usable not only by divine magic users, but also by bards, sorcerers, warlocks, and wizards. The number of charges of these universal staves did not go beyond ten but they regenerated between five and ten charges per day. When the last charge was used up, there was a chance of the summoned insects devouring the weapon, destroying it completely. Unlike their divine magic counterparts, these staves allowed the owner to cast giant insect and insect plague spells. Another ability of these staves was creation of a swarm of harmless flying insects that disappeared ten minutes after being conjured.[10] In the late-14th century DR, a colony of ixitxachitl of the Fang Rocks were believed to hoard magical treasures from Sembia. The exact nature of it was unknown, but some claimed that a staff of swarming insects was among them.[2]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/ed/Staff_of_swarming_insects_5e.jpg/revision/latest?cb=20220205173310"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/ed/Staff_of_swarming_insects_5e.jpg/revision/latest?cb=20220205173310",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "stunned",
+            "name": "Stunned",
+            "url": "/api/conditions/stunned"
+        }
+    ],
+    "senses": {
+        "blindsight": "10 ft.",
+        "passive_perception": 8
+    },
+    "xp": 100
 }

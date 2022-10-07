@@ -13,5 +13,15 @@
     "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake. ",
     "special_abilities_desc": "The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell. The pseudodragon has advantage on saving throws against spells and other magical effects. The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 ft. of it that can understand a language. ",
     "description": "      Pseudodragons typically had bodies about one foot long, with a two-foot tail and weighed about seven pounds. They could communicate telepathically in common or draconic and also through the vocalization of animal noises. While pseudodragons could bite, their main weapon was a stinging, poisonous tail, and they had chameleon-like abilities, though their color was usually a brownish red.[citation needed] Their general attitude was similar to that of a small cat but with a cunning intelligence. Pseudodragons loved to hunt vermin and small animals for food. They were wary of evil beings, but were willing to serve as a companion to another being if treated well and respected.[citation needed] Pseudodragons inhabited temperate forests in the wild, but they could often be found as familiars in nearly any environment.[citation needed] King Haedrak Rhindaun III of Tethyr had a platinum-colored pseudodragon named Purlakhonthiis.[8] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.   ",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d6/Pseudodragon-5e.png/revision/latest?cb=20180627022549"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d6/Pseudodragon-5e.png/revision/latest?cb=20180627022549",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "darkvision": "60 ft.",
+        "passive_perception": 13
+    },
+    "xp": 50
 }

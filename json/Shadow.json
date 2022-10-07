@@ -13,5 +13,67 @@
     "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.\nIf a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later. ",
     "special_abilities_desc": "The shadow can move through a space as narrow as 1 inch wide without squeezing. While in dim light or darkness, the shadow can take the Hide action as a bonus action. Its stealth bonus is also improved to +6. While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws. ",
     "description": "   Shadows were incorporeal and were hard to see in dark areas but were easy to see in brightly lit areas.[3] Shadows hated life and light. Against living creatures, shadows were very aggressive and quick to attack,[6] they were known to hesitate briefly when confronted with someone wearing a silkstone.[7] Their favored victims were innocent creatures, who lived morally good lives.[1] Their touch sapped the strength of living creatures.[3] They didn't need to do this to exist, for they entirely existed on negative energy, but they suffered from a craving for the strength of living creatures and if denied this too long, they were driven into a frenzy that made them charge enemies even if was detrimental for their long-term survival.[8] The touch of a shadow was painfully chilly and sapped the target's strength away. Every time they sapped the strength of their victim, the victim's shadow darkened. On death, the shadow split away, if the victim wasn't evil[1] and rose as a shadow enslaved to the killer.[3] As an incorporeal creature, a shadow could fly. It had acute senses and a shadow's normal strategy was to hide in a dark place and attack bypassing creatures.[6] While in dark areas, a shadow could hide away from view. and it could also move through cracks of only 1 inch width.[1] Shadows were encountered alone, in gangs of two to five or in swarms of six to eleven individuals.[6] They hid in dark places and attacked creatures who passed by.[6] Shadows could be found anywhere.[6] They hid from the sun in the depths of the world or within buried ruins and crypts.[citation needed] Beyond Toril, shadows could be found on the darkside of the planet Radole due to a gate to the Negative Material plane.[9] Beyond the Prime Material plane, shadows could be found in the Domains of Dread[10] and Palpitatia the 241st layer of the Abyss.[11] The drow deities Kiaransalee[12] and Vhaeraun were served by shadows, and they were sometimes sent by them to aid their followers.[13] Shadows were also known to serve Eshowdow of Chult, where they played a central role in the sinister rituals of the Eshowe.[14] Some clerics of Shar, known as Nightcloaks, were capable of summoning shadows to their aid.[15] Anastrianna Galanodel and her raven familiar Tillatal. Anastrianna Galanodel was an elven adventurer slain by a shadow some time after the Fall of Netheril. She became an emancipated spawn when the shadow was destroyed by her companions. In the Year of the Wan Shades, \u2212306 DR, she joined an army of similarly freed \"wan shades\" to strike against the many undead of Netheril.[16][17]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/54/Shadow5e.jpg/revision/latest?cb=20171010235743"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/54/Shadow5e.jpg/revision/latest?cb=20171010235743",
+    "damage_vulnerabilities": [
+        "radiant"
+    ],
+    "damage_resistances": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "necrotic",
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 100
 }

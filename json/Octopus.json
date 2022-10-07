@@ -13,5 +13,14 @@
     "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target. A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action. ",
     "special_abilities_desc": "While out of water, the octopus can hold its breath for 30 minutes. The octopus has advantage on Dexterity (Stealth) checks made while underwater. The octopus can breathe only underwater. ",
     "description": "      An octopus tentacle. Generally, regular octopuses were not dangerous unless provoked, and in this case, would usually try to escape.[2] Aurora's Whole Realms Catalogue sold dried up octopus tentacles for 4 gp a piece.[7] The city of Bral on the Rock of Bral had a tavern named the Drunken Octopus.[9]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/62/Khaspere_Drylund.jpg/revision/latest?cb=20180103174403"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/62/Khaspere_Drylund.jpg/revision/latest?cb=20180103174403",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": 12
+    },
+    "xp": 10
 }

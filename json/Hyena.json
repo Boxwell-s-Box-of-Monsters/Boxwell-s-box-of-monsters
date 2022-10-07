@@ -13,5 +13,13 @@
     "actions_desc": "Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage. ",
     "special_abilities_desc": "The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
     "description": "      Hyenas came in different varieties but commonly had stripes on their fur, weighing about 120 pounds (55 kilograms) and measuring a about a yard (meter) in length. Their fur coloration gave them an advantage when hiding within areas of tall grass.[3] Hyenas fought in packs and were intelligent enough to send some of the members to circle and flank their prey. They were capable of tripping with their sharp jaws.[3] Gnolls, unsurprisingly, had a strong affinity for hyenas, keeping many as pets or guards.[6] The Mulhorandi god Set also favored hyenas, using them as omens for his followers.[7] In the Shining South hyenas were known to be found in and around the Channath Vale, Dambrath, Durpar, Estagund, the Gnollwatch Mountains, the Great Rift, and the Shaar.[8] North of this region, they could be found wandering the Raurin desert.[9]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/bf/Hyena-5e.jpg/revision/latest?cb=20171011011901"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/bf/Hyena-5e.jpg/revision/latest?cb=20171011011901",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 10
 }

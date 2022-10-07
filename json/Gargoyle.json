@@ -13,5 +13,34 @@
     "description": "Gargoyles appeared to be winged statues of demon-like humanoids. These creatures had mastered the ability to stand motionless for long periods of time, which added to the fa\u00e7ade of their statue-like appearance.[citation needed]Their original nature aided them in that they are adept at appearing perfectly still, as if they are still made of stone, and their hides were rough and thick, similar to stone as well. They favored surprising their opponents, either by moving suddenly from their motionless state or by suddenly swooping down on their prey from a height.[citation needed]Gargoyles were ferocious creatures, often attacking any creature they detected, and loved to inflict pain. They would torture any victims they could hold helpless,[5] going so far as eating them alive just to hear their screams even though they required no food to survive, but much prefer intelligent races over anything else.[citation needed]Gargoyles particularly enjoyed shiny objects containing gemstones and precious metals.[citation needed]Kapoacinths were gargoyles that lived underwater; their wings were used to aid in their swimming. Other than their habitat, they were the same as their land-dwelling kin, preferring shallow waters and undersea caves.[citation needed] Kapoacinths were known for loving torture, and a number of them lived in lairs beneath the city of Ascarle near the Purple Rocks.[7]Even more vicious than normal gargoyles, margoyles preferred living underground and were sometimes found leading a group of normal gargoyles. Their skin was much harder and they were more difficult to spot against stone.[8]Also known as greater gargoyles or true gargoyles, grists resembled constructs more than they did magical beasts. They were created by casting wish, stone shape, polymorph any object, fly and geas/quest on a statue resembling a gargoyle. Grists were only semi-intelligent and could only understand simple instructions, though they would follow these instructions to the letter. The spells used to create them make them incredibly resistant to damage and unlike their less magical kin, it was impossible to determine whether they were alive or not without magical aid. Their ability to fly came from the magic used to create them, but their wings improved their maneuverability in the air. They had no vocal cords so they could not speak, they could not reproduce their species, and they could not grow, remaining at the same height throughout their lives. They occasionally ate gemstones and coins that they found on their opponents' bodies but, like other gargoyles, they did not need to eat.[citation needed]Allegedly, gargoyles were all originally made of stone, artistic monuments placed on buildings to help prevent the erosion of the walls of stone buildings by deflecting rainwater. At some point, an unknown mage gave life to these monuments, who became the monsters that once stalked Faer\u00fbn.[citation needed]Four gargoyles served Imgig Zu, defending his tower north of Waterdeep in the Year of the Prince, 1357 DR. They attacked a City Guard patrol that investigated the tower.[9] Later, they snatched up Cybriana, Priam Agrivar, Vajra Valmeyjar, Timoth Eyesbright, and Onyx the Invincible, carrying them into the tower, but were slain.[10]A number of gargoyles, alongside flying kenkus, were attendants to the one who waits in the Nine Hells. Later in 1357 DR, when the Great Door appeared in the Hells, the gargoyles and kenkus flew through and emerged first in the skies over Waterdeep. They were met in battle by Vajra Valmeyjar and Timoth Eyesbright, before the City Guard and Khelben \"Blackstaff\" Arunsun arrived to defend the city. Later, when the exit of the gate was restored to its location in a pit outside the city, the same flying creatures assaulted Parwyyd Hanifar, Dunstanny, Onyx the Invincible, and Cybriana, before they ended the threat of the Great Door and the one who waits.[11]A tribe of gargoyles was known as a \"nastiness\", the plural of which was \"nastinesses\".[12]Gargoyles could often be found lairing underground or in ruins with small groups of their kind.[5] They were also known to be found perched on tall buildings, where their appearance would be hidden among other statues of non-living gargoyles, thus allowing them to hide in plain sight.[citation needed]In the Abyss, gargoyles guarded the gates of Ungorth Reddik, Demogorgon's fortress that rose from the fetid bogs of the Gaping Maw.[13]Sometimes gargoyles worked for evil masters[5] in exchange for some small amount of treasure, though their primary payment was the opportunity to attack intruders.[citation needed]Gargoyle horns were often used as an ingredient in the brewing of potions of invulnerability and potions of flying.[4]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/74/Gargoyle-5e.png/revision/latest?cb=20161123190953",
     "hit_points": 52,
-    "hit_dice": "7d8"
+    "hit_dice": "7d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 450
 }

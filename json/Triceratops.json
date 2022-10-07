@@ -13,5 +13,13 @@
     "actions_desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage. Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage ",
     "special_abilities_desc": "If the triceratops moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action. ",
     "description": "   These massive dinosaurs had a bony plate on their six-foot-long skull for defense, with two long horns on the top and a shorter horn at the nose. Their bodies extended for about 25 feet (7.6 meters), and they weighed around ten tons (nine metric tons).[4] Triceratops had especially short tempers for herbivores, and would charge, trample, and skewer any creature invading their territory.[4] When defending their young, they were intelligent enough to form a circle around them, horns facing outwards.[7] A triceratops could trample creatures smaller than it; it would gore anything else.[4] In Chult, where these dinosaurs were common, there was a secret society, the Triceratops Society, named after them, known for leaving iron triceratops figurines as signs of warning.[1] Beyond the Prime Material plane, some could be found in the Forbidden Plateau.[8] Sauropods: Anchisaurus \u2022 Brachiosaurus \u2022 Brontosaurus \u2022 Camarasaurus \u2022 Cetiosaurus \u2022 Diplodocus \u2022 Mamenchisaurus \u2022 Massospondylus \u2022 Plateosaurus\nOrnithopods: \u2022 Ankylosaurus \u2022 Camptosaurus \u2022 Dacentrurus \u2022 Hadrosaurus \u2022 Iguanodon \u2022 Kentrosaurus \u2022 Lambeosaurus \u2022 Monoclonius \u2022 Paleocinthus \u2022 Pentaceratops \u2022 Stegosaurus \u2022 Styracosaurus \u2022 Trachodon \u2022 Triceratops\nPterosaurids: Pteranodon \u2022 Pterosaurus \u2022 Quetzalcoatlus\nAquatic: Elasmosaurus \u2022 Mosasaurus \u2022 Nothosaurus \u2022 Plesiosaurus \u2022 Temnodontosaurus",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/cc/Dinosaur_Race.jpg/revision/latest?cb=20180126182243"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/cc/Dinosaur_Race.jpg/revision/latest?cb=20180126182243",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 1800
 }

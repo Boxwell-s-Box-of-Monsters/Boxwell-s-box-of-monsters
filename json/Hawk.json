@@ -13,5 +13,13 @@
     "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 slashing damage. ",
     "special_abilities_desc": "The hawk has advantage on Wisdom (Perception) checks that rely on sight. ",
     "description": "      AD 6 Strange Things Millionaires Do With Their Money, But Most of Us Have Never Tried By The Penny Hoarder In the Unapproachable East, hawks could be found around the Tannath Gap.[6] Beyond the Prime Material plane, hawks could be found in the forests of Barovia.[7] Some of the best-trained hawks were trained by the elven House Korianthil.[8] Aurora's Whole Realms Catalogue sold hawk feathers in bundles of four for 1 gp.[9]",
-    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/7a/Scouting_Hawk_CLB.jpg/revision/latest?cb=20220602212152"
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/7a/Scouting_Hawk_CLB.jpg/revision/latest?cb=20220602212152",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 14
+    },
+    "xp": 10
 }
