@@ -150,26 +150,9 @@ class MainWindow(tk.Tk):
         return responseText
 
     def printImage(self, response):
-        # Find page with the monster's image
-        headers = {
-        "referer":"referer: https://www.google.com/",
-        "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
-        }
-        s = requests.Session()
-        searchTerm = "https://www.google.com/search?q=\"ForgottenRealms\" " + response['name']
-        googleSearch = s.get(searchTerm, headers=headers)
-        soup = BeautifulSoup(googleSearch.text, 'html.parser')
-        webpage = soup.find("div", {"class": "yuRUbf"})
-        webpage = webpage.find("a", href=True)['href']
-
-        # Find the url for the monster's image
-        forgottenRealms = s.get(webpage, headers=headers)
-        soup = BeautifulSoup(forgottenRealms.text, 'html.parser')
-        imgURL = soup.find("a", {"class": "image image-thumbnail"})['href']
-
         # Display the updated monster's image
-        if imgURL != None:
-            u = urlopen(imgURL)
+        if response['imageURL'] != None:
+            u = urlopen(response['imageURL'])
             im = Image.open(BytesIO(u.read())).resize((200,200))
             newImage = ImageTk.PhotoImage(im)
             self.resultImage.configure(image=newImage)
