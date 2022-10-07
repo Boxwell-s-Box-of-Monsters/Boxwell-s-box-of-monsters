@@ -5,18 +5,11 @@ from elasticsearch import Elasticsearch
 es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
 
 # Create new index
-es.indices.delete(index='monster')
-es.indices.create(index="monster")
+es.indices.delete(index='monster_index')
+es.indices.create(index="monster_index")
 
-# Open JSON file
-with open('json/data.json', 'r', encoding="utf8") as openfile:
-    # Reading from json file
-    json_list = json.load(openfile)
-
-# Add each JSON obj in file to the index
-for obj in json_list:
-    es.index(
-        index='monster',
-        document=obj
-    )
-    print(obj["name"])
+monsterFile = open('./json/data.json')
+monsters = json.load(monsterFile)
+print(monsters)
+for monster in monsters:
+    es.index(index='monster_index', document=monster)

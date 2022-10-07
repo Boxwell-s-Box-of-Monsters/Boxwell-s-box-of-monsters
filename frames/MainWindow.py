@@ -25,13 +25,7 @@ class MainWindow(tk.Tk):
         ############################
         # Setup Elastic Search
         ############################
-        es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
-        monsterFile = open('./json/data.json')
-        monsters = json.load(monsterFile)
-        print(monsters)
-        for monster in monsters:
-            es.index(index='monster_index', body = monster)
-
+        self.es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
         # End Elastic Search
 
         self.geometry("350x680")
@@ -77,7 +71,7 @@ class MainWindow(tk.Tk):
         self.button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
-                                    characterFrame.characters, difficultyFrame.diff, es, descriptFrame.monsterWindow),
+                                    characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
                                 fg=BLACK)
@@ -103,13 +97,13 @@ class MainWindow(tk.Tk):
         return round(challengeRating, 0)
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, challengeRating, es, monsterWindow):
+    def responseListAdapter(self, challengeRating, monsterWindow):
         # Get list of monsters
         query = Q('match', challenge_rating=challengeRating) & \
             Q(MoreLikeThis(like= monsterWindow.get("1.0", 'end-1c'), \
             fields=['actions_desc','special_abilities_desc','description', 'name'], min_term_freq = 1, min_doc_freq = 1))
 
-        s = Search(using=es, index='monster_index').query(query)
+        s = Search(using=self.es, index='monster_index').query(query)
         response = s.execute()
         return response
 
@@ -135,16 +129,15 @@ class MainWindow(tk.Tk):
         responseText += "\tWis: " + str(response['wisdom'])
         responseText += "\tCha: " + str(response['charisma'])
         # New line with Monster weaknesses and resistances
-        #responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
-        #responseText += "\tresistances: " + str(response['damage_resistances'])
-        #responseText += "\timmunities: " + str(response['damage_immunities'])
-        return responseText
+        responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
+        responseText += "\nresistances: " + str(response['damage_resistances'])
+        responseText += "\nimmunities: " + str(response['damage_immunities'])
         return responseText
 
     # Button Code
-    def handleGetMonsterButton(self, characterList, diff, es, monsterWindow):
+    def handleGetMonsterButton(self, characterList, diff, monsterWindow):
         cr = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(cr, es, monsterWindow)
+        responseList = self.responseListAdapter(cr, monsterWindow)
         # Get top result
         if (len(responseList) > 0):
             response = self.bestResponseAdapter(responseList)
