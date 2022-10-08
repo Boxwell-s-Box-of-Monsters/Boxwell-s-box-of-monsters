@@ -93,7 +93,8 @@ disable=raw-checker-failed,
         unused-wildcard-import,
         no-method-argument,
         wildcard-import,
-        import-error
+        import-error,
+        unspecified-encoding
 
 
 # Enable the message, report, category or checker with the given id(s). You can
