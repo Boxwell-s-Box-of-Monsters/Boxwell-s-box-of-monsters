@@ -86,12 +86,11 @@ disable=raw-checker-failed,
         useless-suppression,
         deprecated-pragma,
         use-symbolic-message-instead,
-        argument-naming-style,
-        attr-naming-style,
-        function-naming-style,
-        variable-naming-style,
-        method-naming-style,
-        module-naming-style
+        invalid-name,
+        missing-module-docstring,
+        missing-class-docstring,
+        wildcard-import,
+        import-error
 
 
 # Enable the message, report, category or checker with the given id(s). You can
