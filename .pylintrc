@@ -89,6 +89,9 @@ disable=raw-checker-failed,
         invalid-name,
         missing-module-docstring,
         missing-class-docstring,
+        missing-function-docstring,
+        unused-wildcard-import,
+        no-method-argument,
         wildcard-import,
         import-error
 
