@@ -1,0 +1,32 @@
+{
+    "name": "Gorgon",
+    "armor_class": 19,
+    "challenge_rating": 5,
+    "strength": 20,
+    "dexterity": 11,
+    "constitution": 18,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) piercing damage. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage. The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic. ",
+    "special_abilities_desc": "If the gorgon moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the gorgon can make one attack with its hooves against it as a bonus action. ",
+    "description": "Gorgons had an animal level of intelligence.[5] They were very aggressive creatures that attacked intruders on sight, attempting to trample or gore them or by breathing out a cone of green vapor that turned them into stone. There was no way to calm them as they were impossible to domesticate. They were also unable to swim.[6] Once a potential threat was petrified a gorgon would instinctively ignore the body.[7]The petrifying green vapor that gorgons exuded from their mouths somehow existed simultaneously on the material, astral, and ethereal planes.[5][8] Some believed that their awareness even extended to the latter two planes.[5] When exuded by a young gorgon, the size of that cloud was only half that of their adult counterparts.[8]This vapor was produced and stored in an internal organ that opened into the roof of their mouth. This organ would continue to function hours after a gorgon was killed. By the 14th century DR, scholars still had yet to uncover how it functioned.[7] However, it was known that these vapors had no effect underwater and that they could easily be dissipated by an air elemental or similar force of moving air, such as by the gust of wind spell.[9]The irregularly shaped scales that covered a gorgon were composed of impure iron and coated in a waxy substance that helped to prevent them from rusting. This substance was perpetually exuded from cartilaginous seams between the scales. If a scale somehow succumbed to intense rusting it would fall off the body - this left the gorgon vulnerable, since they were incapable of growing new ones.[9]This regional breed of gorgons had a special ability, which some said was granted by the deities of the Hexad. If they slipped into the river, they turned to stone and were saved from drowning because they no longer needed oxygen or food. Sometimes, these petrified gorgons might be washed onto the shore by a strong current and the sun would warm them, causing them to be restored to their normal form. It was not unknown for fishermen to pull the petrified gorgons out of the river, thinking them to be statues.[6]Gorgons were omnivorous creatures that required a lot of iron in their diet to maintain the durability of their scales. This was often obtained from blood and green vegetation.[8]Gorgons loved to eat fish. The Cormanthor gorgons flocked to the banks of River Ashaba and Elvenflow each spring when they flooded, so that they could collect the fish that were stranded there. Once the supply was depleted, a few of the gorgons were tempted to venture into the river to get more. Some of them fell in as a result, but their special ability could save them (see Species, Cormanthor below).[6]They were also known to have a fondness for deer and elk.[4]These creatures were typically found to live underground[5] or in plains in regions with a temperate[3] or tropical climate.[4] Many preferred to live in wilderness that was relatively secure and free of danger.[5]The blood of a gorgon was a magical component used in masonry to prevent magical travel through walls. When one drop of blood was mixed with a pint of water during the mixture of stucco or mortar and applied with no unaffected areas larger than a man's head, it would prevent astral and ethereal travel through walls.[10][11]Drow in Old Shanatar used gorgon blood as an ingredient in forging gorgon plate mail, an armor said to be capable of protecting them against the sun's harmful affects.[12]Their metallic scales could be used to make ink for scrolls of protection from petrification or fashioned into a set of scale mail that protected against petrification effects.[4]Gorgon milk was one of the ingredients in creating the hag treat known as \"Eye Scream\", along with newt eyes, blueberries, and swamp water. The recipe was detailed in the Witch's Brew Cookbook.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/86/Gorgon-5e.png/revision/latest?cb=20171011013722",
+    "hit_points": 114,
+    "hit_dice": "12d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 14
+    },
+    "xp": 1800
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Chimera",
+    "armor_class": 14,
+    "challenge_rating": 6,
+    "strength": 19,
+    "dexterity": 11,
+    "constitution": 19,
+    "intelligence": 3,
+    "wisdom": 14,
+    "charisma": 10,
+    "actions_desc": "The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "",
+    "description": "A chimera had the hindquarters of a goat, the forequarters of a lion, and a set of dragon wings. Additionally, a chimera had three heads, that of a horned goat, a lion, and a dragon.[3][2] This head typically resembled a red dragon, though it was not unlikely to find ones with heads resembling other species of chromatic dragon.[2]All chimeras had access to an array of various abilities. Each of the heads was capable of a unique attack, but the most dangerous by far was the dragon breath of the chimera's draconic head. The exact attack varied from one individual to another, as in dragons, with the type varying based on color. For instance, a chimera with a white dragon head would cast a breath of cold air, while one with a red dragon head would bellow forth scorching flames.[9]A group of adventurers battling a chimera.Chimeras were not very intelligent creatures.[2] Their dragon-like natures often led them to attack intelligent beings for their treasure and to live solitary existences in caves, though some took after the lion and lived in prides.[5]A chimera did not usually perceive humans as a threat, but would normally attack the easiest source of food, and would leave humans alone if an easier source was available. They would not hesitate to withdraw from combat if they became injured, and would not seek vengeance later. A chimera preferred to attack by swooping from the sky, attacking with its claws and its jaws, but they would also charge along the ground, leading with their lion head. Once entered into combat, they would use their dragon head to defend against attackers while their lion head will attempt to grasp its victim's neck in their jaws and snap it. It was not wholly uncommon for the goat head to sleep throughout the entire battle.[10]Other than variants based around which type of dragon a chimera imitated, there were other species of chimera to consider:In addition to those species, chimerae were known to crossbreed, generating bizarre hybrids:Other hybrids may have been possible, such as with ankhegs, though none had been reported as of the Year of Wild Magic, 1372 DR.[15]Chimeras were typically seen in groups of two or three.[2]Mating usually occurred annually in late spring, with the females being extremely reluctant to perform the act, and even attempting to hide. They typically struggled against the more powerful males, breathing fire from the dragon head. The pregnancy would last around a year, with the average birth consisting of six offspring, which she would abandon after only a few days.[10] The excess milk produced by the female chimera after abandoning its offspring would be released while she slept. It was a thick, black liquid, which acted as an intoxicant for orcs and could be highly prized.[10]Chimeras were an omnivorous species. They primarily ate meat and would resort to a herbivorous diet whenever prey became scarce or non-existent.[5]Due to the draconish part of their nature,[5] chimeras often made their lairs within caves.[2][5] They often decorated these with the bones and belongings of their prey.[2] Their hoards tended to consist primarily of copper and silver coins, with the occasional bits of jewelry and magical items.[5]Chimeras were very adaptable creatures, able to thrive in most climates.[2] Though they were most often found in hilly regions with a temperate climate.[3]Chimeras were capable of understanding both Common and Draconic[2][3] though they could not speak them.[1]Some intelligent creatures were known to train chimeras, using them as pets, guardians, or even mounts. They were sometimes found to be in the company of azers and hill giants.[2]Some misguided sages claimed that chimeras were created by Demogorgon, the two-headed demon lord.[16]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/79/Monster_Manual_5e_-_Chimera_-_p39.jpg/revision/latest?cb=20200313170057",
+    "hit_points": 114,
+    "hit_dice": "12d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 18
+    },
+    "xp": 2300
+}

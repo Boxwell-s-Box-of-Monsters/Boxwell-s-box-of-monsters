@@ -1,0 +1,25 @@
+{
+    "name": "Pony",
+    "hit_points": 11,
+    "hit_dice": "2d8",
+    "armor_class": 10,
+    "challenge_rating": 0.125,
+    "strength": 15,
+    "dexterity": 10,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 11,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage. ",
+    "special_abilities_desc": "",
+    "description": " This category is for small breeds of horses less than 5 feet tall at the shoulder, as described on p. 277 of Monster Manual v.3.5, as well as ponies trained for war. All items (8)",
+    "imageURL": "https://angrygolem-games.com/wp-content/uploads/2021/04/pony.jpg",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 25
+}

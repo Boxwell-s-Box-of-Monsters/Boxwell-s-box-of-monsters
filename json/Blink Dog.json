@@ -1,0 +1,25 @@
+{
+    "name": "Blink Dog",
+    "armor_class": 13,
+    "challenge_rating": 0.25,
+    "strength": 12,
+    "dexterity": 17,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 13,
+    "charisma": 11,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack. ",
+    "special_abilities_desc": "The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell. ",
+    "description": "Blink dogs had an average intelligence. They had powerful senses, including the ability to see in low light and see in the dark, as well as possessing acute scent detection and tracking.[2]A blink dog's most well-known ability was its ability to blink, as well as use dimension door.[2]Blink dogs spoke their own language.[2]They had a long hatred of displacer beasts, and would attack them on sight.[1]Blink dogs were a favored monster of the deities Baravar Cloakshadow, Marthammor Duin, and Urogalan.[5]The heart of a blink dog could be used as an alternative material component for the spell Mordenkainen's faithful hound.[6]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/45/Blink_Dog-5e.png/revision/latest?cb=20170202235920",
+    "hit_points": 22,
+    "hit_dice": "4d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 50
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Giant Weasel",
+    "armor_class": 13,
+    "challenge_rating": 0.125,
+    "strength": 11,
+    "dexterity": 16,
+    "constitution": 10,
+    "intelligence": 4,
+    "wisdom": 12,
+    "charisma": 5,
+    "actions_desc": "Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage. ",
+    "special_abilities_desc": "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell. ",
+    "description": "Dire weasels had sleek, long bodies up to 10\u202ffeet (3\u202fmeters) long and could reach a weight of 700\u202fpounds (320\u202fkilograms).[3] Those that dwell in the North were known to have white coats. And rarely, some giant weasels were born with an entirely black coloration.[4]Giant weasels had a unique agent within their saliva that, when in contact with a creature's open wound, prevented the clotting process in blood and promoted greater bleeding.[4]Giant weasels were known to be far more vicious than their smaller cousins and were often just as willing to attack humanoid creatures as they were normal prey.[4]Once a giant weasel had its jaws locked onto a creature it was very reluctant to let go and would suck at their victim's blood. Due to the special agent within their saliva, the amount of bleeding would be excessive.[4]Unlike their smaller cousins, who were rather solitary creatures, giant weasels typically lived and hunted in packs.[4]A number of giant weasels were known to serve the mad druid Wyllow within her domain of Undermountain.[6]Giant weasels were also known to inhabit the fens, salt flats, and coniferous forests of the Moonshae Isles,[7] the forests of Cormanthor,[8] and Semberholme.[9]Much like their smaller cousins, giant weasels were often trained and domesticated to be hunting companions or guard animals.[5][4] Kobolds were one of many races known for domesticating giant weasels, but unlike larger races they were known to use them as mounts.[10]Before the Second Sundering, giant weasel pelts were generally known to sell found around 1,000 to 6,000 gp.[4][5] The white pelts of the northern giant weasel, as well as the pelts of the rare black giant weasel, both typically sold for more.[4]Giant weasels were favored animals of the gnomish gods Garl Glittergold and Segojan Earthcaller.[11]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/3d/GiantWeasel-MC.jpg/revision/latest?cb=20200531172359",
+    "hit_points": 9,
+    "hit_dice": "2d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 13
+    },
+    "xp": 25
+}

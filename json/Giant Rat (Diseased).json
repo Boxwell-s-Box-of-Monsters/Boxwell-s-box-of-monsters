@@ -1,0 +1,26 @@
+{
+    "name": "Giant Rat (Diseased)",
+    "armor_class": 12,
+    "challenge_rating": 0.125,
+    "strength": 7,
+    "dexterity": 15,
+    "constitution": 11,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 4,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies. ",
+    "special_abilities_desc": "The rat has advantage on Wisdom (Perception) checks that rely on smell. The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
+    "description": "Giant rats were much larger than the common rat, most growing to the size of a large dog. They were covered in coarse fur that was brown-black in color.[3][4]Giant rats worked exceptionally well in groups, taking advantage of their numbers to attack more efficiently.[1] They attacked a target by biting them with its sharp incisors. Giant rats avoided attacking stronger creatures, especially those wielding fire, unless driven by extreme hunger or compelled to do so by a wererat or vampire. Giant rats were excellent swimmers, as such they were just as dangerous in the water as they were on land.[3][4]The bite of these creatures carried a potentially lethal disease known as filth fever.[3] It was recommended that victims of giant rat bites sought immediate clerical attention.[1]Giant rats were common found in subterranean areas such as crypts, dungeons and sewers. They were also found in great numbers within graveyards, where they dug a network of tunnel to gain access to the corpses found within.[3][4]Some were raised to be mounts by the Tasloi, alongside spider eaters.Giant rats could be found in the wild in the Silver Marches, particularly in the Rauvin Vale and Sundabar Vale, as well as in the High Forest.[6]Beyond the Prime Material plane, giant rats could be found in the Domains of Dread.[7]A dire rat could be summoned as an animal companion in Neverwinter Nights.[8]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/be/Giant_rat-5e.jpg/revision/latest?cb=20190408032355",
+    "hit_points": 7,
+    "hit_dice": "2d6",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 25
+}

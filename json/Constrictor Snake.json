@@ -1,0 +1,26 @@
+{
+    "name": "Constrictor Snake",
+    "armor_class": 12,
+    "challenge_rating": 0.25,
+    "strength": 15,
+    "dexterity": 14,
+    "constitution": 12,
+    "intelligence": 1,
+    "wisdom": 10,
+    "charisma": 3,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target. ",
+    "special_abilities_desc": "",
+    "description": "Constrictor snakes had a similar appearance to a regular snake but their proportions were much larger. They had large scales, sharp fangs that curved inwards and strong muscles. Large constrictor snakes could reach lengths of up to 30\u202fft (9.1\u202fm).[4][7]Constrictor snakes were ambush predators. They either dropped onto a target from above or slowly approached their prey while they were sleeping. They bit into their prey with their sharp fangs, anchoring them while they used their powerful muscles to constrict their prey, causing slow suffocation.[4][7]Some constrictor snakes possessed an innate magical ability to charm a target, causing temporary paralyzation.[4]Constrictor snakes were obligate carnivores.[4] A constrictor snake was large enough to kill and consume a small to medium-sized humanoid. Their jaws have evolved to allow them to eat large prey. The jaw became unhinged from their skull, and the lower jaw had a special elastic ligament which allowed it to spread into two halves.[7]Constrictor snakes were found in warm forests and jungles. They were known to live within Cormanthor[12] and the jungles of Chult.[13]The skin of a constrictor snake was a sought after item in many markets. A good quality skin could cost a buyer up to 100 gp.[4] Scaled Ones were known to mix the blood of constrictors with the venom of vipers to concoct the restorative hooloond oil.[14]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/14/Constrictor_snake_2e.png/revision/latest?cb=20210131093401",
+    "hit_points": 13,
+    "hit_dice": "2d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "passive_perception": 10
+    },
+    "xp": 50
+}

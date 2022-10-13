@@ -1,0 +1,25 @@
+{
+    "name": "Camel",
+    "armor_class": 9,
+    "challenge_rating": 0.125,
+    "strength": 16,
+    "dexterity": 8,
+    "constitution": 14,
+    "intelligence": 2,
+    "wisdom": 8,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage. ",
+    "special_abilities_desc": "",
+    "description": "Camels were easily recognizable for the hump or humps upon their backs.[3][4] Their fur could be white, pale tan, or deep brown.[5]Camels had very broad feet that allowed them to step onto sand or gravel without sinking as deeply in. This granted them the ability to travel more readily over such terrain than other pack animals.[4]A typical camel could carry a load up to nearly half a ton (450 kg) and drag well over two tons (1,800 kg).[3][4]These animals were very hardy, and could survive for weeks without food or water.[5]Camels were often called the \"ships of the desert\".[5] They played a significant role in trade throughout Zakhara[5][8] and in some parts of Calimshan.[9][10]War camels were favored by the Mulhorandi god Anhur,[11] and some rangers or druids chose camels as their animal companions.[12]Camels had a nasty temper and often spit in the face of an abuser. Camels were shy animals, often preferring to flee than fight.[5]They also required good handling.[5]They could carry heavy loads for long periods of time. Heavily loaded camels often refused to stand up once they were loaded.[5]Domesticated camels would bite, while camels trained for war would primarily kick with their hooves.[3][4]Camel breeding in Zakhara was a well respected profession. Camels were the main transport throughout these lands,and demand for quality breeding was very high. Female camels could give birth once a year.[5][8]Camels ate cereal, shrubs, and grass.[5]A camel being led by a cloaked figure through the city street.Desert camels, or dromedaries, were one-humped camels.[3][4] They were bred for long legs and big humps. Because of this, they were perfect for traveling across the harsh deserts. These slow but persistent animals were always ready to carry a huge load, making them ideal for merchants and travelers alike.[5]Mountain camels had two humps and were shorter and slower but were adapted for rocky, hilly, or mountainous terrain.[3][4] They made poor desert mounts.[5]These camels were dromedaries specially trained for war. They bit the enemy and could inflict damage with their hooves. They could carry a mounted fighter into combat.[3][4] Battle camels were selected from the most powerful livestock and trained for several years. Typically, these camels were stronger and much more courageous than their desert counterparts.[5]Racing camels were trained for speed and not for travel. Because they were not bred for temperament, they were sometimes very aggressive and even spat in the presence of their owner. They had small hooves and long legs, allowing them to run faster than normal camels.[5]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/06/Camel_AD%26DTC.png/revision/latest?cb=20180609075344",
+    "hit_points": 15,
+    "hit_dice": "2d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 9
+    },
+    "xp": 25
+}

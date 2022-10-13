@@ -1,0 +1,26 @@
+{
+    "name": "Ettercap",
+    "armor_class": 13,
+    "challenge_rating": 2,
+    "strength": 14,
+    "dexterity": 15,
+    "constitution": 13,
+    "intelligence": 7,
+    "wisdom": 12,
+    "charisma": 8,
+    "actions_desc": "The ettercap makes two attacks: one with its bite and one with its claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to fire damage and immune to bludgeoning damage. ",
+    "special_abilities_desc": "The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web. The ettercap ignores movement restrictions caused by webbing. ",
+    "description": "An adult ettercap stood 6\u202fft (1.8\u202fm) tall and weighed 200\u202flb (91\u202fkg). Ettercaps resembled hunched, grey-purplish humanoids with distended white underbellies, spider-like faces (fangs and eyes and such), and two sharp, black chitinous claws instead of hands and feet.[7]They were not particularly intelligent. They were cowardly and vicious, preferring to set traps to ensnare their enemies.[7] Much like spiders, ettercaps tended to be solitary creatures, only gathering to mate. When ettercaps did socialize, it was with monstrous spiders, which they kept as pets and guards.[citation needed]Ettercaps possessed the capability to shoot sticky webs.[7] Like spiders, they used webs as traps to capture prey, which was then injected with paralytic venom from the ettercap\u2019s bite.[citation needed]It was suggested that ettercaps were the descendants of a group of mad druids, tainted and transmogrified by their association with a powerful demon into a form resembling the predatory arachnids their cult once revered. While the vast majority had completely reverted to pure animal instinct, a rare few claimed to demonstrate the intellect and capacities of an insane human.[7]Ettercaps were very fond of spiders and other arachnids and often kept them as others kept bees. From time to time, however, an ettercap had a number of monstrous spiders as pets, which were as loyal to it as a dog to a human master.[7]Ettercaps possessed a fairly simple, spider-derived language of their own. It was focused around basic and real-world concepts, not equipped for the discussion of abstract ideas. They were capable of understanding other languages, such as elven, but could not speak them due to lacking the right vocal cords.[8]A crafting recipe for a wand of lightning found in the arcane Imaskarran Tome of Resonance included ettercap's silk gland, fenberries, and the spell of lightning bolt.[9]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e6/Ettercap-5e.png/revision/latest?cb=20171011003137",
+    "hit_points": 44,
+    "hit_dice": "8d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 13
+    },
+    "xp": 450
+}

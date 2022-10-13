@@ -1,0 +1,29 @@
+{
+    "name": "Black Dragon Wyrmling",
+    "armor_class": 17,
+    "challenge_rating": 2,
+    "strength": 15,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 11,
+    "charisma": 13,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage. The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (Sd8) acid damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "The dragon can breathe air and water. ",
+    "description": "The young black dragon Nightscale guarding her treasure hoard.Black dragons appeared abnormally slender in comparison to other chromatic dragons\u2014wiry, but not gaunt. Physically, they were most distinguished by their horns, which protruded from the sides of their heads and wrapped around, projecting forward. A large frill adorned the upper part of the neck. They smelled like rotting vegetation and foul water. A black dragon grew up to a maximum size of 16\u202ffeet (4.9\u202fmeters) tall, 85\u202ffeet (26\u202fmeters) in length, with a wingspan of 80\u202ffeet (24\u202fmeters). They weighed up to 160,000\u202fpounds (73,000\u202fkilograms).[11]Solitary and extremely territorial in their nature, black dragons would seldom form clans, opting to do so only when they lived in the most hazardous of environments or when faced with a danger that could wipe out large swaths of their population.[9]Black dragons preferred ambushes to straightforward fighting.[8]A review of black dragon anatomy.Black dragons breathed a stream of acid.[5][4]Black dragons lived in swamps, jungles and fetid marshlands.[10] They were cunning creatures who lived to inspire fear and rule by intimidation. The black, glossy scales of black dragons added to their camouflage within swamp lands. They preferred to ambush their targets, using darkness or water as their cover. They were excellent swimmers and often made their lairs in submerged caves or underground chambers near swamps or murky ponds. Their lairs always had two entrances: one underwater through the adjacent swamp or pond, and one above-ground, disguised amidst the undergrowth.[12]Female dragons took the lead when it came to breeding, choosing their mate largely based on the size of the hoard of prospective males. Because of this, male black dragons would often brag about their accumulated wealth to communicative creatures or others of their own kind, in the hopes that rumors of their hoard would spread to any females in the area that were looking to mate. When two or more females selected the same male as their partner, they would fight for dominance high in the air above the lair of the male, allowing him to gaze upon his future mate's victory in admiration.[9]Black dragons were not noted as good parents, relying more upon disguise and hiding to protect their eggs than upon guarding them personally. Black dragon eggs must be submerged in strong acid while growing, which helped protect the dragon as well.[13] Black dragons would only protect their young so long as that responsibility didn't threaten their own life. If they had to choose between saving their own life or those of their clutch or spawn, they would most certainly choose the former; though they would assuredly seek revenge afterwards.[9]Black dragon wyrmling.A black dragon's diet consisted of fish, mollusks, aquatic critters and some red meat from terrestrial animals.[12]The skies over the southwestern Bay of Chessenta and southern Chondalwood have been the source of multiple sightings of black dragons. Reports from the jungles of Chult of dense, multi-layered tropical forest complete with its own ecosystem, were highlighted with tales of black dragons living within the canopy.[10]The iconography of the Purple Dragon Knights of Cormyr stemmed from the legend of the great black dragon Thauglor, who once dominated the area upon which the kingdom was built.[14]Black dragons sometimes served the dark Chultan demigod Eshowdow, and were seen as good omens by his followers.[15]A black dragon demonstrating its acid breath.Chromatic dragons: Red \u2022 Black \u2022 Blue \u2022 Green \u2022 White \u2022 Brown \u2022 Gray \u2022 Purple \u2022 Pink \u2022 Salt \u2022 Yellow\nGem dragons: Amethyst \u2022 Beljuril \u2022 Emerald \u2022 Sapphire \u2022 Topaz \u2022 Crystal \u2022 Obsidian \u2022 Ruby\nNeutral dragons: Amber \u2022 Jacinth \u2022 Moonstone \u2022 Pearl\nLung dragons: Chiang lung \u2022 Li lung \u2022 Lung wang \u2022 Pan lung \u2022 Shen lung \u2022 T'ien lung \u2022 Tun mi lung \u2022 Yu lung\nPlanar dragons: Adamantine \u2022 Astral \u2022 Battle \u2022 Blight \u2022 Chaos \u2022 Ethereal \u2022 Hellfire wyrm \u2022 Howling \u2022 Mirage \u2022 Oceanus \u2022 Pyroclastic \u2022 Radiant \u2022 Rust \u2022 Shadow \u2022 Styx \u2022 Tarterian\nEpic dragons: Force \u2022 Prismatic\nCatastrophic dragons: Earthquake \u2022 Volcanic\nMiscellaneous dragons: Cobra \u2022 Dzalmus \u2022 Mist \u2022 Radiant \u2022 Rattelyr \u2022 Song \u2022 Vishap",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9e/Monster_Manual_5e_-_Dragon%2C_Black_-_p87.jpg/revision/latest?cb=20141111142707",
+    "hit_points": 33,
+    "hit_dice": "6d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid"
+    ],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "darkvision": "60 ft.",
+        "passive_perception": 14
+    },
+    "xp": 450
+}

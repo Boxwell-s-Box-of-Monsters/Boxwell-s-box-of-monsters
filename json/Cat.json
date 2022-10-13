@@ -1,0 +1,25 @@
+{
+    "name": "Cat",
+    "armor_class": 12,
+    "challenge_rating": 0,
+    "strength": 3,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 3,
+    "wisdom": 12,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage. ",
+    "special_abilities_desc": "The cat has advantage on Wisdom (Perception) checks that rely on smell. ",
+    "description": "Halruaan mages believed that cats were attracted to spellcasting. Folk in the region considered that fact to be a well-known and obvious truth.[6]Felines were animals that were related to cats.There were a number of non-feline creatures that resembled cats in various ways.A variety of domesticated cats lounge alongside other species of feline inside a temple of BastMany deities favored cats. The Mulhorandi god Anhur and the god Malar were associated with hunting cats. The elven god Solonor Thelandira also favored the great cats. Both Azuth and Savras favored gray-colored cats in particular, while Bane and Vhaeraun favored black ones. Mask favored either of those colors. Brown cats were sacred to the halfling goddess Cyrrollalee, and calico cats to Deneir, Milil, and Savras. Striped tabbies were considered holy to Eilistraee's worshipers, but white cats were special to followers of Mystra. Rare gold-furred cats were considered a blessing from the dwarven god Vergadain. Sharess was considered a cat deity, and she had a particular association with tressym. Hellcats often served the god Set.[23]The city of Nathlekh was also known as \"City of Cats\" for its large population of felines.[24]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/32/Cat1.png/revision/latest?cb=20190814175842",
+    "hit_points": 2,
+    "hit_dice": "1d4",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 10
+}

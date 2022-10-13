@@ -1,0 +1,26 @@
+{
+    "name": "Hobgoblin",
+    "hit_points": 11,
+    "hit_dice": "2d8",
+    "armor_class": 18,
+    "challenge_rating": 0.5,
+    "strength": 13,
+    "dexterity": 12,
+    "constitution": 12,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 9,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands. Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage. ",
+    "special_abilities_desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated. ",
+    "description": "   Their home is ours to conquer, their children our slaves.\nAcheron! Acheron! Victory is ours!    By and large, hobgoblins, like their kin, were considered to be evil creatures and often met this expectation. While goblinoid society was typically cruel and harsh, some individuals escaped it to carry on lives of virtue. The few who took this risk and succeeded often met cautious praise and acceptance from outsiders. Those that managed to escape goblinoid society, however, were continuously plagued by their goblinoid nature. Though hobgoblins were not necessarily evil, they were prone to violence and hot tempers, and often found it difficult to be truly altruistic.[3] When provoked, which was not a hard task, hobgoblins were vindictive creatures who took glee in causing pain to those that injured them. Those hobgoblins who overcome this nature often managed this because of the rewards they found in serving good, rather than evil.[3] A group of hobgoblin bandits near the Cloakwood. Hobgoblins were mostly found in communities where they were in command of either goblins or bugbears, or sometimes both. The most civilized goblinoid communities were ruled by the race. This was in large part because hobgoblin society was more industrious and less savage than that of goblins or bugbears.[10] Though bugbears sometimes took control due to their raw strength, most such communities were ruled over by the strongest hobgoblin, who served as the warchief.[13] Hobgoblins had a long tradition of mastering and breeding the creatures of the world into slaves of various sorts. Many, for instance, enjoyed working with wolves or worgs. Similarly, many drake breeds were first bred by hobgoblins. Some even believed hobgoblins carried this practice on within their own race, creating the goblins and bugbears in such a manner.[10] Hobgoblins were immensely protective of their tribe's reputation and military status, so much so that meetings between different groups could turn violent if proper protocol was not followed. However, though hobgoblin tribes were territorial and egotistical in nature, they often united for a common purpose, such as war against non-goblinoids.[13] Hobgoblins once had their own pantheon, however, Maglubiyet, the god of war and rulership, killed most of the gods. Since then, he was the chief deity of hobgoblins. However, Nomog-Geaya, the deity of war and authority, was considered their patron deity, and many followed Bargrivyek.[14] After the Spellplague but prior to the Second Sundering, Maglubiyet was an exarch of Bane.[15][note 1] Hobgoblins were warriors by nature and prefered martial combatants to those who draw on magic. Those few spellcasters who were to be found were expected to work well with soldiers.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/90/Hobgoblin_Warlord-5e.png/revision/latest?cb=20171011030221",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 100
+}

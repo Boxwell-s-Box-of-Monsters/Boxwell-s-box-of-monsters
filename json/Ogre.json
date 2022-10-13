@@ -1,0 +1,26 @@
+{
+    "name": "Ogre",
+    "hit_points": 59,
+    "hit_dice": "7d10",
+    "armor_class": 11,
+    "challenge_rating": 2,
+    "strength": 19,
+    "dexterity": 8,
+    "constitution": 16,
+    "intelligence": 5,
+    "wisdom": 7,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage. Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage. ",
+    "special_abilities_desc": "",
+    "description": "      Ogres appeared as giant humanoids with very muscular bodies and large heads. They stood between 9 and 10 feet tall and could weigh 600 to 650 lbs.[3] Ogres were a lazy, brutish, avaricious race with notoriously quick tempers.[1] Their avaricious nature would often lead them distrust one another and incite squabbling over treasure.[4] Ogres generally preferred to rely on ambushing their foes and overwhelming them through sheer numbers.[3] In terms of weapons, ogres were typically seen to use uprooted trees and stone-tipped javelins.[1] Much like hill giants, ogres were gluttonous creatures willing to eat almost anything. They enjoyed the taste of raw dwarf flesh, but would also eat halfling or elf flesh when they could get it.[9][1] They would often use the skin and bones of their prey to fashion crude loincloths and necklaces.[1] Ogres were known to typically associate with goblinoids, orcs, and their fellow giant-kin trolls. In the social structure of the giants, the Ordning, ogres were considered the lowest-ranked of all giant-kin. Because of this, they were typically found to be willing servants of giants.[1] The giant races they were most often seen working alongside were hill giants and verbeeg, the former of which they often traded with for trinkets or food.[10] Many ogres worked as mercenaries, hoping for easy plunder,[3] and in that line of work they were often seen alongside verbeeg.[11] Lone hags, as well as covens, were known to employ ogres as guards, while others polymorphed ogres and sent them out to work as spies.[12] Ogres spoke Jogishk, a patois of the Giant or Jotun tongue.[3][7] Ogres typically worshiped Vaprak the Destroyer as their patron god.[6] Though many also practically worshiped the true giants.[1] According to legend, the ogre race was formed when Othea, wife of the titan Annam All-Father, had an affair with Vaprak.[14] Ogres overwhelm Priam Agrivar, Vajra Valmeyjar, Onyx the Invincible, and Timoth Eyesbright. In 1357 DR, a small army of ogres served the monstrous extraplanar being Imgig Zu. He gathered them in the caverns beneath his tower to witness the Great Awakening of his people from Sel\u00fbne's Eye, and to provide defense during the deed. The heroes Priam Agrivar, Vajra Valmeyjar, Timoth Eyesbright, and Onyx the Invincible fought through the ogres to confront Imgig and free Cybriana. Though the ogres clubbed them down and caught them, the roof of the cavern miraculously tore open and the brilliant light of the full moon shone through, blinding the ogres long enough for Priam to slay Imgig. As the ritual was undone, the surviving ogres fled.[9] True Giant Offshoots\nAsh \u2022 Craa'ghoran \u2022 Maur \u2022 Phaerlin\nGiant-Kin\nCyclops (Cyclopskin) \u2022 Firbolg \u2022 Fomorian \u2022 Ogre (Oni) \u2022 Verbeeg \u2022 Voadkyn\nZakharan Giants\nDesert \u2022 Island \u2022 Jungle \u2022 Ogre giant \u2022 Reef",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/36/Monster_Manual_5e_-_Ogre_-_p237.jpg/revision/latest?cb=20190605124429",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 8
+    },
+    "xp": 450
+}

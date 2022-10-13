@@ -1,0 +1,26 @@
+{
+    "name": "Giant Owl",
+    "armor_class": 12,
+    "challenge_rating": 0.25,
+    "strength": 13,
+    "dexterity": 15,
+    "constitution": 12,
+    "intelligence": 8,
+    "wisdom": 13,
+    "charisma": 10,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage. ",
+    "special_abilities_desc": "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach. The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight. ",
+    "description": "In addition to their great size, (9\u202ffeet (2.7\u202fmeters) tall with a wingspan of 20\u202ffeet (6.1\u202fmeters),) these creatures were intelligent and capable of speech.[2]Giant owls were good-natured and sought to live in harmony with the world. They opposed evil and needless destruction.[citation needed]Giants owls attacked by gliding above their foes and striking at them with their talons. When possible, giant owls would band together to attack in concert.[2]Giant owls could be often encountered by the traders traveling from Luskan to Ten Towns of Icewind Dale. The smaller creatures, those less than 4\u202fft (1.2\u202fm) in height, were in danger of being preyed upon by these nocturnal birds.[6]In the Unapproachable East, giant owls could be found in the forests of Rashemen.[7]A giant owl being used as a mount.Giant owls could be trained to serve as mounts.[8] They often served in this role with wood elves, besides being their companions, because of their common vision of the world and nature.[9]Trained giant owl could be found in the library of the Society of Stalwart Adventurers of Suzail. The librarian owl retrieved and put away books alongside flying monkeys.[10]Circa the Year of Lightning Storms, 1374 DR, one could find giant owls stabled, bred, sold and used as mounts by the Zhentarim within the Temple in the Sky and other Zhentarim outposts in the Spine of the World.[11]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1b/GiantOwl-DMG1e.jpg/revision/latest?cb=20210402012438",
+    "hit_points": 19,
+    "hit_dice": "3d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 15
+    },
+    "xp": 50
+}

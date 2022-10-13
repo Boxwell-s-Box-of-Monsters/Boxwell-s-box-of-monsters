@@ -1,0 +1,25 @@
+{
+    "name": "Berserker",
+    "armor_class": 13,
+    "challenge_rating": 2,
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 17,
+    "intelligence": 9,
+    "wisdom": 11,
+    "charisma": 9,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage. ",
+    "special_abilities_desc": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn. ",
+    "description": "Berserkers were those fighters and barbarians who could tap into a particularly savage aspect of themselves in order to skip into a furious rage while in combat.[3]Tribal berserkers were believed to have been granted supernatural forces that allowed them to better defend their people. These individuals lived in close-knit groups, often found in less-civilized locales.[5] They looked out for their own kind within these communities.[6]Berserkers focused their efforts on honing their skill with melee weapons and forewent training with those wielded at long range. Similarly, they eschewed most types of armor more cumbersome than splint mail.[6]A berserker's rage lasted until every enemy on the battlefield was downed. On occasion they could not differentiate friend from foe and would attack those who were in fact their allies. Afterwards, a berserker became physically exhausted and vulnerable to certain effects they shrugged off during their rage.[7]The Rashemaar berserkers comprised several tribes of fearsome warriors from the far-eastern realm of Rashemen.[4][8]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8a/Berserker%27s_Frenzy.jpg/revision/latest?cb=20220328135547",
+    "hit_points": 67,
+    "hit_dice": "9d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 450
+}

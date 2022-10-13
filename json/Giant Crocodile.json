@@ -1,0 +1,25 @@
+{
+    "name": "Giant Crocodile",
+    "armor_class": 14,
+    "challenge_rating": 5,
+    "strength": 21,
+    "dexterity": 9,
+    "constitution": 17,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 7,
+    "actions_desc": "The crocodile makes two attacks: one with its bite and one with its tail. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target. Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone. ",
+    "special_abilities_desc": "The crocodile can hold its breath for 30 minutes. ",
+    "description": "Giant crocodiles were giant, beastly crocodiles. They were as physically strong as hill giants and were exceptional swimmers, both above and beneath the surface of water. Underneath the surface, they could hold their breath for up to half an hour. In both scenarios, they were quite stealthy for their size and bulk.[1] Giant crocodiles could grow up to 30\u202ffeet (9.1\u202fmeters) long;[3][4] the older they were, the larger they got. In some environs, they were very rare, but in others they were common (though still much rarer than their smaller cousins).[3]These beasts purely relied on their natural weapons: ferocious bites and whips of their tails. Their bites grappled opponents until they found the strength to break out, and their quick tail whips could knock enemies prone.[1] They were able to sneak up on prey and surprise them before launching an assault.[3]In 1357 DR, a giant-crocodile-riding quasit roamed the sewers of Waterdeep.[5]In 1374 DR, these creatures were used as guardians for the Shadowscale Warren in the Shadow Swamp.[6]Much like their smaller versions, giant crocodiles either lived on their own or in small colonies.[2]These huge creatures often hunted inhabitants that lurked in saltwater environments, such as sharks and small-sized whales. They were also known to attack fishing boats by trying to capsize them, and then eat all the already-caught fish.[3]Giant crocodiles were spotted in many places over Toril in the continents of Faer\u00fbn,[7][8][9][10] Maztica,[11] and Zakhara.[12][13] Beyond the Zakharan mainland, giant crocodiles could be found in the Crowded Sea on the island of Djinni's Claws.[14]In the Kara-tur region, they could be found in the rivers of Akari island.[15]Outside of the Prime Material plane, they were noted to dwell in the Shadow Swamp in the Plane of Shadow.[6][16]The crushed scales of these giant beasts were used in the powerful jungle avatar spell by Zakharan priests.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/27/Crocodile.jpeg/revision/latest?cb=20190624075223",
+    "hit_points": 85,
+    "hit_dice": "9d12",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 1800
+}

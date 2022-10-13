@@ -1,0 +1,29 @@
+{
+    "name": "Ancient Blue Dragon",
+    "armor_class": 22,
+    "challenge_rating": 23,
+    "strength": 29,
+    "dexterity": 10,
+    "constitution": 27,
+    "intelligence": 18,
+    "wisdom": 17,
+    "charisma": 21,
+    "actions_desc": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 11 (2d10) lightning damage. Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage. Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage. Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours. The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "If the dragon fails a saving throw, it can choose to succeed instead. ",
+    "description": "A review of blue dragon anatomy.Blue dragons were physically distinguished by the single large horn protruding from their heads and also by their ears, which were rather large and frilled. The neck is short and broad, with spines growing from it. The tail is thick and bumpy, like that of a crocodile. The wings are more pronounced than most other species'. They smelled like electricity or sand.The blue dragon excelled at aerial combat, perhaps more so than any other species of dragon. Their lightning discharges were very easy to aim at other aerial foes, or at creatures below them on the ground. They were also extremely adept at burrowing in sand, and often lie in wait just below the surface of the desert for prey. When they were so burrowed, their large horns could easily be mistaken for pointed desert rocks.Blue dragons used a shocking burst of lightning.Blue dragons were native to arid wastelands and deserts. They made their lairs in underground caves; easily accessible to the dragons, as they could burrow through the ground. These dragons would fly above their territory, using the bleak landscape and its sparse terrain features as their best chance of spotting opponents. The typical blue dragon lair was dug into one of the towering rock formations that dominate desert landscapes. As with all dragon lairs, the blue dragon's lair would have two entrances: one at ground level and hidden by the sand, and one opening onto a high ledge on which it could perch and survey its territory. Each lair also had a large subterranean cavern with a large pool of water and a sandy beach, which its inhabitant would use for drinking and relaxation.Despite their evil nature, blue dragons were actually excellent parents to their young, and would rarely leave their eggs unattended. Blue dragon eggs must be buried in warm sand to incubate. Blue wyrmlings were actually quite cute, but they were quick to taunt any other creature, and even quicker to hunt small desert creatures for food.Blue dragon WyrmlingChromatic dragons: Red \u2022 Black \u2022 Blue \u2022 Green \u2022 White \u2022 Brown \u2022 Gray \u2022 Purple \u2022 Pink \u2022 Salt \u2022 Yellow\nGem dragons: Amethyst \u2022 Beljuril \u2022 Emerald \u2022 Sapphire \u2022 Topaz \u2022 Crystal \u2022 Obsidian \u2022 Ruby\nNeutral dragons: Amber \u2022 Jacinth \u2022 Moonstone \u2022 Pearl\nLung dragons: Chiang lung \u2022 Li lung \u2022 Lung wang \u2022 Pan lung \u2022 Shen lung \u2022 T'ien lung \u2022 Tun mi lung \u2022 Yu lung\nPlanar dragons: Adamantine \u2022 Astral \u2022 Battle \u2022 Blight \u2022 Chaos \u2022 Ethereal \u2022 Hellfire wyrm \u2022 Howling \u2022 Mirage \u2022 Oceanus \u2022 Pyroclastic \u2022 Radiant \u2022 Rust \u2022 Shadow \u2022 Styx \u2022 Tarterian\nEpic dragons: Force \u2022 Prismatic\nCatastrophic dragons: Earthquake \u2022 Volcanic\nMiscellaneous dragons: Cobra \u2022 Dzalmus \u2022 Mist \u2022 Radiant \u2022 Rattelyr \u2022 Song \u2022 Vishap",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/37/Monster_Manual_5e_-_Dragon%2C_Blue_-_p90.jpg/revision/latest?cb=20200827214616",
+    "hit_points": 481,
+    "hit_dice": "26d20",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning"
+    ],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "60 ft.",
+        "darkvision": "120 ft.",
+        "passive_perception": 27
+    },
+    "xp": 50000
+}

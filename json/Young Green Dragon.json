@@ -1,0 +1,35 @@
+{
+    "name": "Young Green Dragon",
+    "hit_points": 136,
+    "hit_dice": "16d10",
+    "armor_class": 18,
+    "challenge_rating": 8,
+    "strength": 19,
+    "dexterity": 12,
+    "constitution": 17,
+    "intelligence": 16,
+    "wisdom": 13,
+    "charisma": 15,
+    "actions_desc": "The dragon makes three attacks: one with its bite and two with its claws. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "The dragon can breathe air and water. ",
+    "description": "   Green dragons were most notable for the large, waving crest or fin that started at the dragon's nose and ran the entire length of the dragon's body. They also had exceptionally long, slender forked tongues.[citation needed] A review of green dragon anatomy. These dragons were known to have very bad tempers and a tendency for evil behavior.[6] They loved intrigue and secrets. They put up a front of diplomacy and deceit when dealing with stronger foes, but they revealed their cruel and petty nature when intimidating lesser beings or when gaining the upper hand. They delighted in stalking their enemies and listening in for any information they could gather before moving to attack. Green dragons especially enjoyed corrupting or consuming elves and fey creatures.[citation needed] Beyond fighting with their massive jaws and claws, these dragons were capable of expelling a cone of poisonous chlorine gas.[6] Green dragons sometimes served the dark Chultan demigod Eshowdow, and their appearance was considered a good omen by his followers.[7] Green dragons valued their territory, but only as a means to gain as much power as possible without expending considerable effort. They would sometimes trade safe passage for a worthy item to add to their hoards. Even so, they were extremely cunning and duplicitous foes, and loved double-crossing others. A traveler who stumbled into a green dragon's territory might be able to bribe the dragon for safe passage, but more often than not the dragon would pretend to agree and then attack the unsuspecting offender once their guard was down. Worse, if the traveler impressed the green dragon during its stay, they might start thinking of the newcomer as a prized possession to be corrupted and sculpted to its will.[citation needed] The typical green dragon lair was located underground[6] and was a complex of caves and tunnels, with its main entrance hidden behind a waterfall. The preferred green dragon lair was a cave high up on a cliff, but such locations were usually hard to find and thus only home to the oldest and most powerful green dragons.[citation needed] These dragons were typically found to live near woodlands.[6] A green dragon wyrmling. Green dragons were reasonably good parents, with both mother and father typically staying close to their eggs while they were incubating. Green dragon females either kept their eggs in a solution of acid or buried them in leaves moistened with rainwater. The green wyrmling was easily mistaken for a black, due to their nearly black scales. As the wyrmling matured, its scales became steadily lighter in color until they reached the striking green shade of an adult. The wyrmlings typically stayed with both parents until they reached adulthood (approximately 100 years).[citation needed] One of the ways of creating a wand of stinking cloud was using a horn of an old green dragon.[8] Chromatic dragons: Red \u2022 Black \u2022 Blue \u2022 Green \u2022 White \u2022 Brown \u2022 Gray \u2022 Purple \u2022 Pink \u2022 Salt \u2022 Yellow\nGem dragons: Amethyst \u2022 Beljuril \u2022 Emerald \u2022 Sapphire \u2022 Topaz \u2022 Crystal \u2022 Obsidian \u2022 Ruby\nNeutral dragons: Amber \u2022 Jacinth \u2022 Moonstone \u2022 Pearl\nLung dragons: Chiang lung \u2022 Li lung \u2022 Lung wang \u2022 Pan lung \u2022 Shen lung \u2022 T'ien lung \u2022 Tun mi lung \u2022 Yu lung\nPlanar dragons: Adamantine \u2022 Astral \u2022 Battle \u2022 Blight \u2022 Chaos \u2022 Ethereal \u2022 Hellfire wyrm \u2022 Howling \u2022 Mirage \u2022 Oceanus \u2022 Pyroclastic \u2022 Radiant \u2022 Rust \u2022 Shadow \u2022 Styx \u2022 Tarterian\nEpic dragons: Force \u2022 Prismatic\nCatastrophic dragons: Earthquake \u2022 Volcanic\nMiscellaneous dragons: Cobra \u2022 Dzalmus \u2022 Mist \u2022 Radiant \u2022 Rattelyr \u2022 Song \u2022 Vishap  ",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8e/Monster_Manual_5e_-_Dragon%2C_Green_-_p93.jpg/revision/latest?cb=20200814203808",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "blindsight": "30 ft.",
+        "darkvision": "120 ft.",
+        "passive_perception": 17
+    },
+    "xp": 3900
+}

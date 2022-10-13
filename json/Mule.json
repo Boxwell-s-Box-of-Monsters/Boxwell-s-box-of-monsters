@@ -1,0 +1,25 @@
+{
+    "name": "Mule",
+    "hit_points": 11,
+    "hit_dice": "2d8",
+    "armor_class": 10,
+    "challenge_rating": 0.125,
+    "strength": 14,
+    "dexterity": 10,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. ",
+    "special_abilities_desc": "The mule is considered to be a Large animal for the purpose of determining its carrying capacity. The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone. ",
+    "description": "      Mules were bred with the intention of sharing the best traits of its two parent species. They were more sure-footed, hardy, and longer-lived than horses. Compared to donkeys, they were faster and more intelligent.[2] However, they were an infertile species.[2][5] AD 5 Things You Should Never Do With Your Money, According to Experts By The Penny Hoarder In the late-15th century DR, mules were one of many beasts of burden that could be found in the Outer City district of Baldur's Gate, as such animals were outlawed from entering the Lower and Upper City districts.[6] At that time in the history of Baldur's Gate, the Flaming Fist mercenary company paid some stables in the Outer City to maintain a reserve group of them.[7] And whenever merchants traveling the Coast Way or Trade Way came to the city, they would leave their mules in either the Outer City or Blackgate.[8] Places in the Realms where one could find mules being bred or sold included the following: These creatures were often herded among other grazing beasts in order to protect them from wild predators, such as coyotes or wild dogs.[13] Mules were well accustomed to eating grass, requiring no separate fodder.[14] Mules were a common beast of burden among both gold dwarves and shield dwarves.[15] The former typically bred their mules from Lhesperan or Meth horses.[16] In Kh\u00f4ltar, mules were used to drive pumps that carried water from the small city's reservoir and into the cisterns of buildings.[17] Other places in Faer\u00fbn were mules were common beasts of burden included Turmish[18] and Waterdeep.[19] Beyond being beasts of burden, mule flesh was favored by halfling cooks.[5]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/a7/Mule-2e.png/revision/latest?cb=20210628224020",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 25
+}

@@ -1,0 +1,82 @@
+{
+    "name": "Ghost",
+    "armor_class": 11,
+    "challenge_rating": 4,
+    "strength": 7,
+    "dexterity": 13,
+    "constitution": 10,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 17,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage. The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane. Each non-undead creature within 60 ft. of the ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 \u00d7 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring. One humanoid that the ghost can see within 5 ft. of it must succeed on a DC 13 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.\nThe possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 ft. of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends. ",
+    "special_abilities_desc": "The ghost can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa. The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. ",
+    "description": "Often this state of existence was because of a soul having been horrendously evil in life,[5][6][7] their deaths being tremendously emotional, being denied a proper burial,[5][6] or because they had unfinished business.[1]These spirits typically resembled how they had in life. However, some ghosts had an altered appearance due to the nature of their demise. Others were known to be capable of changing their appearance to suit their current disposition.[3][2] Often this altered appearance was due to the alignment they had in life.[3]A ghost's behavior was typically similar to the personality they had in life.[3] But in some cases, their personalities were altered by the process of death.[2]The \"unfinished business\" that drove ghosts varied widely. Some might seek to fulfill an oath, others to relay a message to a loved one, while some might simply desire to have their death avenged.[1] They also tended to get enraged whenever items their bodies were buried with were stolen and would stop at nothing to get them back.[3]Evil-aligned ghosts were said to hate goodness and all forms of life,[3][5][6][7] being driven by a sense of wickedness and spite.[1] As well as a desire to end the lives of other creatures,[3][5][6][7] in particular those responsible for or connected to its death.[1]Sometimes ghosts were unaware that they had died and thus would continually act out the daily routine they had in life.[1] Sometimes ghosts only had fragmented memories of their life.[2]Being a form of undead, ghosts had no need for the air, food, drink, or sleep that they formerly required in life. They moved about by flying. Having incorporeal bodies, they could pass through solid objects.[1] Some were known to use this phasing ability to surprise enemies.[2] When moving they made no noise.[8]Prior to the Spellplague, humans and demihumans killed by a ghost typically remained dead permanently,[7] due to having had all their life-essence drained out of them.[5][6]Occasionally ghosts in the Realms were capable of causing all magical items within 60\u202ffeet (18\u202fmeters) of them to glow with a cold, white radiance.[10]Anything they possessed when they manifested was ethereal, possessing the ghost touch property. These were often things they were buried with.[3][8] If someone were to take the original material item that a ghost's copy was based on, then the ethereal copy would fade away.[3]A ghost dragon and a doomsphere.Ghosts were known to occur in any type of region,[5][6] but they were most often found haunting areas at night.[5][6][7] Ghosts typically were tied to and haunted the area in which they died, though there were a few mobile forces of them.[17] Sailors who died out at sea alongside their vessel could potentially manifest upon an incorporeal reflection of it.[18]Places haunted by ghosts tended to emanate sensations of profound sadness, loneliness, and unfulfilled desires. Haunted locations often had certain areas where there were strange noises, an unnatural silence, an unnatural feeling of cold, or inanimate objects moving around. Though such manifestations would be due to the ghost's presence, the spirit did not intentionally manifest them and it had no control over them.[1]In Cormanthyr, the ghosts of many elves and dwarves haunted the ruins of the Old Elven Court.[19]Unusually for a non-abandoned city, ghosts were a somewhat common sight in Velen.[20]Besides the Prime Material plane, ghosts were often known to be found in the Shadowfell,[21] including the Domains of Dread, such as Barovia.[22]Like many types of undead, ghosts knew all languages that they had known in life.[1]A ghost could be controlled by wizards, sorcerers, liches, etc. In this case, the ghost was finally put to rest when destroyed on the material plane or the master of the ghost died. This was usually uncommon though, because to raise a ghost used a lot more magic than raising a regular undead.[citation needed]Some ghosts were willing to work with or for other creatures if they believed that doing so could help them achieve their desires. They were often seen in the company of flameskulls, larva mages, rot harbingers, and spectres.[2]Besides mere creatures, some ghosts acted as servants of deities, such as Kiaransalee.[23] The ghosts of diligent priests of Moradin were said to haunt certain trails, old abandoned delves, and mountain passes \u2014 in these places they would appear before lost dwarves or the allies of dwarves, especially during harsh weather, and guide them along a safe route to either their destination or some form of refuge.[24]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/84/Ghost-5e.png/revision/latest?cb=20171011023856",
+    "hit_points": 45,
+    "hit_dice": "10d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "fire",
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "cold",
+        "necrotic",
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 11
+    },
+    "xp": 1100
+}

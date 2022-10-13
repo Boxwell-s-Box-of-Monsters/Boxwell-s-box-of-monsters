@@ -1,0 +1,25 @@
+{
+    "name": "Roc",
+    "hit_points": 248,
+    "hit_dice": "16d20",
+    "armor_class": 15,
+    "challenge_rating": 11,
+    "strength": 28,
+    "dexterity": 10,
+    "constitution": 20,
+    "intelligence": 3,
+    "wisdom": 10,
+    "charisma": 9,
+    "actions_desc": "The roc makes two attacks: one with its beak and one with its talons. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) piercing damage. Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target. ",
+    "special_abilities_desc": "The roc has advantage on Wisdom (Perception) checks that rely on sight. ",
+    "description": "   As large as these great birds were, they paled in both size and ferocity to the mighty Zakharan rocs of the Land of Fate.[6] Rocs were massive avians with feathers that were normally either dark brown or golden in color, although rare black, red, or white rocs were sometimes reported. From the head to the base of the tail, rocs were a minimum of 30\u202fft (9.1\u202fm) long, and as much as 60\u202fft (18\u202fm). Their wingspans were a staggering 80\u2012120\u202fft (24\u201237\u202fm), and rocs weighed some 8,000\u202flb (3,600\u202fkg).[3][4] Adventurers be warned: Stealing roc eggs is inadvisable! Rocs hunted, and attacked, by swooping down from the sky with talons outstretched to snatch and carry off prey. A single roc would be hunting, and therefore willing to try and take any suitably sized creature, but a pair of rocs would act in concert and fight to the death to defend the nest and eggs or hatchlings.[3] Rocs were massive birds of prey that were known to carry off very large prey, including cattle and horses, and even elephants. They typically lived in warmer, mountainous regions, and dwelled far apart from each to avoid straining the supply of prey. Rocs hunted in a territory of about 10\u202fmi (16,000\u202fm) around their nest.[3] The lair of a roc was a vast nest of trees, branches, and the like. Its treasure was strewn about, for the creature did not place any value upon it.[3] The egg was large, green, and spotted.[7] Rocs were usually solitary, but sometimes found in mated pairs.[3] Rocs often guarded the nests of simurghs until they were mature.[8] Rocs were occasionally tamed and used by giants.[9] Roc feathers were commonly used in manufacturing Quaal's feather tokens and brooms of flying.[4] The egg of a roc and the most dangerous omelette ever. Rocs were found in the Utter East, making their nests in the Serpent Valley, Web Mountains, and even underground in the Realm of Fire. Their nests could hold treasure from past victims, if one dared brave the parent and hatchling.[7] Lord Charles Frederik LaVerne Blacktree IV was known for wearing a roc feather in his hat.[10]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/59/Roc5e.png/revision/latest?cb=20171010154245",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 14
+    },
+    "xp": 7200
+}

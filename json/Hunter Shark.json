@@ -1,0 +1,26 @@
+{
+    "name": "Hunter Shark",
+    "hit_points": 45,
+    "hit_dice": "6d10",
+    "armor_class": 12,
+    "challenge_rating": 2,
+    "strength": 18,
+    "dexterity": 13,
+    "constitution": 15,
+    "intelligence": 1,
+    "wisdom": 10,
+    "charisma": 4,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. ",
+    "special_abilities_desc": "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points. The shark can breathe only underwater. ",
+    "description": "   All shark species were utterly fierce, aggressive, and fearless. They were relentlessly hungry.[3][2][1] Sharks were tactical hunters, using their keen senses to circle their prey just outside of their field of view and charging to attack at the most opportune moment. Their powerful jaws and sharp teeth were effective against many different targets, sometimes even ship hulls.[3][2][1] These creatures had been swimming in the oceans for thousands of years with little change in their appearance or methods.[2] Sharks were categorized into medium, large, and huge species.[3] Large sharks included hunter sharks that preyed on deep waters, and fleshtearer sharks, which were found in various environments, including underground rivers and lakes.[1][2] They usually hunted alone, but could also be found in groups.[1] A species of muck-dwelling freshwater shark known as barbfish inhabited lower reaches of the Riven Specie in Amn.[6] The smaller types of sharks were very common in the waters surrounding Chult. The Bay of Chult and Refuge Bay contained large groups of reef sharks. Hunter sharks and reef sharks hunted off the coast of Ishau, as well as Jahaka Anchorage.[10] In the Shining Sea, they lurked in the sunken ruins of Untisczer.[11] Mako, goblin, and hammerhead sharks lived and hunted in the close vicinity of the Temple-Under-The-Sea, the submerged temple to Umberlee in the Fiddler's Green underwater region of the Sea of Swords.[5] Outside of the Prime Material plane, sharks were extremely prevalent in Draga Salt-Biter's domain of Saragoss in the Domains of Dread.[12] Sharks were revered by sahuagin and could be trained by them. Their kinship to sahuagin was so strong that even wild sharks considered them allies and did not attack them. Sahuagin could also telepathically issue commands to nearby sharks.[13] Kalbari al-Durrat al-Amwaj ibn Jari had a wide variety of sharks as servants in her Citadel of Ten Thousand Pearls.[14] Aurora's Whole Realms Catalogue sold shark hides for 15 gp a piece.[15]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/24/Shark_4e.jpg/revision/latest?cb=20190816043047",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": 12
+    },
+    "xp": 450
+}

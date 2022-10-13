@@ -1,0 +1,57 @@
+{
+    "name": "Gelatinous Cube",
+    "armor_class": 6,
+    "challenge_rating": 2,
+    "strength": 14,
+    "dexterity": 3,
+    "constitution": 20,
+    "intelligence": 1,
+    "wisdom": 6,
+    "charisma": 1,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) acid damage. The cube moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the cube enters a creature's space, the creature must make a DC 12 Dexterity saving throw.\nOn a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\nOn a failed save, the cube enters the creature's space, and the creature takes 10 (3d6) acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 21 (6d6) acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it.\nAn engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube. ",
+    "special_abilities_desc": "The cube takes up its entire space. Other creatures can enter the space, but a creature that does so is subjected to the cube's Engulf and has disadvantage on the saving throw.\nCreatures inside the cube can be seen but have total cover.\nA creature within 5 feet of the cube can take an action to pull a creature or object out of the cube. Doing so requires a successful DC 12 Strength check, and the creature making the attempt takes 10 (3d6) acid damage.\nThe cube can hold only one Large creature or up to four Medium or smaller creatures inside it at a time. Even when the cube is in plain sight, it takes a successful DC 15 Wisdom (Perception) check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube's space while unaware of the cube is surprised by the cube. ",
+    "description": "This is a\nGood Article!Typically, a gelatinous cube measured between 10 to 15\u202ffeet (3 to 4.6\u202fmeters) on a side and weighed as much as 50,000\u202fpounds (23,000\u202fkilograms),[4][3] although legends existed of much larger cubes.[3] The creature was completely transparent, with only a glint of its surface in the light to give away its position.[4][5] The occasional random object floating in a well fed gelatinous cube's body could also serve as a warning of its presence to dungeon delvers.[1]Gelatinous cube bodies were remarkably moldable. They could flow around objects and through narrow passages, quickly returning to their shapes once enough space was available.[6]A gelatinous cube was a mindless predator that silently roamed ancient crypts and vaults in regular, predictable patterns.[1] As they traveled the halls of old ruins, they absorbed any material in their paths from the floors and walls.[2] Although incapable of climbing walls, particularly large gelatinous cubes could also absorb mold and moss from ceilings.[4] Organic material was quickly dissolved in the acidic ooze that made up the cube's body, while bones and inorganic matter spent some time floating within the creature until eventually expelled.[1][5][6] As they slid through the corridors, they left behind a perfectly clean path,[1] except for an occasional slimy trail.[4]Gelatinous cubes could not see or hear, but were capable of sensing vibrations and were attracted to warmth.[6]A gelatinous cube engulfing an adventurer.When facing an opponent, a gelatinous cube could slam it with an acidic pseudopod or attempt to engulf it.[1] It was possible, although difficult, for sufficiently strong creatures to escape engulfment by a gelatinous cube.[3] Despite their slow speed, gelatinous cubes were strong and could easily push back and knock over even large creatures.[3]When touching a creature, gelatinous cubes secreted a gummy paralyzing substance that was immediately absorbed through the skin into the victim's bloodstream. After successfully engulfing a victim, the cube moved pockets of an acidic digestive substance towards the victim's body, quickly digesting it.[1][5][6] Survivors of gelatinous cube attacks displayed scars that resembled partially melted wax.[6]Regardless of their sizes and homogeneous composition, gelatinous cubes were vulnerable to most usual forms of attack,[1][5] although reports existed of cubes that were immune to electricity.[4] Mind-altering effects were useless against the mindless creatures.[1][3][5] Some were said to be slowed down by cold-based spells.[5]Gelatinous cubes were omnivorous[4] scavengers.[5]Despite being extremely effective against flesh and cellulose, the digestive fluid of gelatinous cubes had no effect on inorganic matter or bones.[1][5][6] Any inorganic matter would remain within their bodies for several weeks until eventually being cast out.[5]Gelatinous cubes reproduced asexually by either dividing themselves into two smaller cubes of equal sizes[6] or via budding. In the second case, a smaller, rubbery cube was excreted into a side corridor or on a pile of refuse, and left to fend for itself until it grew into a full-sized cube. These smaller cubes were not cared for and ran the risk of being absorbed by their own parents on their next trip down the corridor.[4] Surviving young cubes then rapidly grew to adult sizes.[6]When two gelatinous cubes met, they could temporarily fuse into a larger form that acted like a single creature. They could remain in that fused form for up to a few days before splitting and going their separate ways.[6]These creatures were typically found inhabiting underground locations or dungeons.[4][3] They were more common in heavily frequented dungeons, attracted by the more readily available food and carrion.[4][3][5]Some creatures considered gelatinous cubes to be ideal means of cleaning out their dungeon lairs of all manner of organisms. Some tried to cultivate larger cubes in order to ensure that they could reach mosses or similar organisms that collected on ceilings.[5]According to the Demonomicon of Iggwilv, gelatinous cubes and other oozes were either fragments or the spawn of Juiblex. While this claim was not widely believed, the demon lord could exert control over them, imbuing them with a sense of purpose and even intelligence.[8]The Imperial Zoo of Amn successfully kept a gelatinous cube in captivity for about 12 years in the mid\u201214th century DR.[6]The adventurer Haptooth claimed to have developed an oral antidote against the gelatinous cube's paralyzing secretion after years exploring Undermountain.[6]The Waterdhavian dungeon complex of Undermountain contained numerous gelatinous cubes.[9] In the late 15th century DR, the wizard Halaster Blackcloak, while experimenting with the duergar ability to enlarge their bodies, created a giant gelatinous cube that measured 30\u202ffeet (9.1\u202fmeters) on a side.[10]Glabbagool, an unusual sentient gelatinous cube.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/20/Gelatinouscube5e.jpg/revision/latest?cb=20171011000953",
+    "hit_points": 84,
+    "hit_dice": "8d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "deafened",
+            "name": "Deafened",
+            "url": "/api/conditions/deafened"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 8
+    },
+    "xp": 450
+}

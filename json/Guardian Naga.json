@@ -1,0 +1,39 @@
+{
+    "name": "Guardian Naga",
+    "armor_class": 18,
+    "challenge_rating": 10,
+    "strength": 19,
+    "dexterity": 18,
+    "constitution": 16,
+    "intelligence": 16,
+    "wisdom": 19,
+    "charisma": 18,
+    "actions_desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 8 (1d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one. Ranged Weapon Attack: +8 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 15 Constitution saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning. The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:\n\n- Cantrips (at will): mending, sacred flame, thaumaturgy\n- 1st level (4 slots): command, cure wounds, shield of faith\n- 2nd level (3 slots): calm emotions, hold person\n- 3rd level (3 slots): bestow curse, clairvoyance\n- 4th level (3 slots): banishment, freedom of movement\n- 5th level (2 slots): flame strike, geas\n- 6th level (1 slot): true seeing ",
+    "description": "Like all nagas, guardian nagas had snake-like bodies and human-like faces.[2][6][7] They could grow to be 20\u202ffeet (6.1\u202fmeters) in length and weighed up to 500\u202flb (230,000\u202fg).[7]Their scales were of a greenish-gold hue, with a silvery triangular pattern along the back, and tended to shimmer. Their eyes were bright\u2014hypnotically lit from within.[8] Some had a golden frill that ran the length of their body.[3] Some gave off a scent of sweet flowers.[3]Guardian nagas were exceptionally wise, intelligent,[2][7][6] and usually strictly lawful and good aligned,[6][7] but they were free-willed creatures and could be of any alignment.[2]Less noble members of their kind might subjugate creatures, usually a tribe of primitive kobolds, troglodytes, or lizardfolk, to assist them in their pursuits,[2] always believing they were superior to other creatures.[9] They enjoyed spell research and designing strategies to thwart evil plots.[9] They typically gave warning to intruders and only attacked if provoked.[3][9] When angered, a guardian naga raised its crest.[3]If provoked to attack, guardian nagas had a wide range of responses to choose from. They were accomplished spell casters with access to divine magic in addition to being able to deliver poison by either spitting or biting.[1][2][3][8]Nagas were created by a humanoid race sometime in the distant past. When their creators died off or disappeared, the nagas inherited the magic and lore of their absent masters and carried on with mystical research and protection of their secrets.[9]Nagas in general had an antagonistic relationship with yuan-ti,[9] but if their goals aligned, guardian nagas would sometimes protect yuan-ti temples and treasure hoards.[2]These creatures known to inhabit regions temperate with a temperate climate and were often found living in plains.[3] Some were known to be found within sacred places.[6]They were considered favored monsters of, thus sometimes acting as divine servants of, the demihuman deities Berronar Truesilver, Cyrrollalee, Gaerdal Ironhand, Gorm Gulthyn, Moradin, and Yondalla.[10]Some were known to serve as guardians for lawful good creatures, watching over their treasure or something evil.[6]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/a6/Guardian_naga-5e.jpg/revision/latest?cb=20171010180024",
+    "hit_points": 127,
+    "hit_dice": "15d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 14
+    },
+    "xp": 5900
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Eagle",
+    "armor_class": 12,
+    "challenge_rating": 0,
+    "strength": 6,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 2,
+    "wisdom": 14,
+    "charisma": 7,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage. ",
+    "special_abilities_desc": "The eagle has advantage on Wisdom (Perception) checks that rely on sight. ",
+    "description": "They were generally larger than other birds, with a powerful build and heavier head and beak. They possess broad wings allowing for faster flight. Eagles tended to be around 3\u202fft (0.91\u202fm) long, with an average wingspan of 7\u202fft (2.1\u202fm).[2]While eagles could inhabit a variety of terrains, they were more likely to dwell and build their nests on tall trees or high cliffs.[2]Eagles hunted their prey from the sky using their enhanced vision, which enabled them to see small animals from great distances away. They captured food with their long and powerful talons.[2]Eagles were often used in the names of places, families, and organizations. It was also used in spell and item names, such as eagle's splendor.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d6/Giant_eagle-5e.jpg/revision/latest?cb=20171010183859",
+    "hit_points": 3,
+    "hit_dice": "1d6",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 14
+    },
+    "xp": 10
+}

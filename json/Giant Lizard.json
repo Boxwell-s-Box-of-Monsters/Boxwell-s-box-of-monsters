@@ -1,0 +1,26 @@
+{
+    "name": "Giant Lizard",
+    "armor_class": 12,
+    "challenge_rating": 0.25,
+    "strength": 15,
+    "dexterity": 12,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. ",
+    "special_abilities_desc": "",
+    "description": "Giant lizards were much larger than normal lizards and monitor lizards, and as such, were about 15\u202fft (4.6\u202fm) long.[3][4]These creatures did not seem to keep or hoard treasure of any type. They were very quick at traversing land, and much faster than all other types of lizards.[4] Giant lizards were good climbers, and could climb as fast as they crawled.[1] Some of these beasts could hold their breath for up to 15 minutes, as well as climb upside down on ceilings and difficult surfaces.[1]Giant lizards had very large maws, making it able for them to envelop smaller foes.[4]Appearing in pairs or in groups up to twelve, giant lizards preferred to lurk in swamps and marshes.[4] They were also known to be solitary, and could dwell in any warm lands.[3] However, they were sometimes domesticated by lizardfolk who used them as pack animals and a source of food.[3][1]They were somewhat lazy at hunting, and would often attack anything that could be eaten. Giant lizards were known to be hunted upon by black dragons.[3]In northwest Faer\u00fbn, giant lizards could be found in the Stump Bog.[6] Beyond the Prime Material plane, like most mundane animals these creatures could be found in the Beastlands.[7]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/ca/GiantLizard_mc.png/revision/latest?cb=20210218110344",
+    "hit_points": 19,
+    "hit_dice": "3d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": 10
+    },
+    "xp": 50
+}

@@ -1,0 +1,70 @@
+{
+    "name": "Swarm of Ravens",
+    "hit_points": 24,
+    "hit_dice": "7d8",
+    "armor_class": 12,
+    "challenge_rating": 0.25,
+    "strength": 6,
+    "dexterity": 14,
+    "constitution": 8,
+    "intelligence": 3,
+    "wisdom": 12,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. ",
+    "special_abilities_desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain hit points or gain temporary hit points. ",
+    "description": " This is a\nGood Article!   The Raven Queen did not possess or manifest a physical form, instead appearing as a miscellany of symbols, perceptions, and images.[1] The Raven Queen was obsessed with collecting and observing mementos and fragments of memories and essences.[1] Many sages speculated that she was in fact insane, believing her methods and behavior little more than aimless curiosity or a desperate attempt to prevent her fragile existence from fading into oblivion. Others maintained that there was a cosmological function that was performed by the Queen's actions, as she purified souls by forcing mortals to deal with their fears and pains. It was believed that her true intentions were only known to the Lady of Pain.[8] One of the Raven Queen's divine realms in the Shadowfell was a castle known as the Fortress of Memories. It was a place of overwhelming sorrow, overflowing with memories taken from mortals and fragments of dead deities, material objects collected by the shadar-kai and brought to her as gifts, and apparitions of creatures and places associated with strongly emotional stories. Swarms of ravens occasionally flew out of the fortress, taking her cryptic messages to the far reaches of the multiverse and acting as the Queen's eyes and ears while away.[1] The Fortress of Memories, realm of the Raven Queen in the Shadowfell. The Raven Queen was also said to claim a domain in the Shadowfell known as Letherna, a fortress of black ice within a frozen forest through which the souls of the deceased had to pass before reaching the afterlife, according to some versions of the World Axis cosmology.[9] The whole existence of the Raven Queen was focused on collecting memories and strong emotions, typically associated with loss and tragedy. To that end, she dispatched shadar-kai to the far confines of the multiverse to wait for such an event to unfold, as scouted by her ravens. Then they collected mementos, such as trinkets, memories from the living and sometimes the souls of the dead, and brought them back to her.[8] The Raven Queen also claimed domain of the souls of all shadar-kai, which always returned to her after their deaths.[8] She was said to have forged the first weapons infused with shadow magic. These sentient blades, such as the Blackrazor, were found in many locations throughout the multiverse and were capable of binding with their wielders. For that reason, the Raven Queen was a popular hexblade patron among warlocks.[10] One of the Raven Queen's greatest enemies was the demon lord Orcus, who constantly sought control of the Shadowfell. He hoped to find a weakness in her domain by discovering her true name.[11] Another devout enemy of the Raven Queen was the Oerthian lesser deity Vecna, who envied her for her unique abilities to tap into the flow of souls and to harvest knowledge. One of his goals was to overthrow the Queen and rule the entire Shadowfell from her Fortress of Memories. Vecna's servants constantly battled with the Raven Queen's shadar-kai followers.[8] Other wizards and necromancers craved the Raven Queen's knowledge and domain over souls. Attempts at conquering the Fortress of Memories were constant, but were always thwarted by her more fanatical shadar-kai defenders.[8] The Prince of Frost hated the Raven Queen for her role in the loss of his beloved, Sharaea. The powerful fey woman had fallen in love with a mortal hero, causing him to grow jealous, and she feared for the safety of her mortal lover if she tried to deny him. She struck a bargain with the Raven Queen to cast her soul into the future, hoping that time would allow the former Sun Prince to heal, only for him to grow bitter and sorrowful, eventually turning into the Prince of Frost. The Prince delighted in usurping some of the Raven Queen's power through his association with freezing death and darkness. On her part, however, the Raven Queen desired him as an exarch or even a consort.[12] The symbol of the Raven Queen. Although a complete account of the Raven Queen's motivations and origins was not generally known, it was believed that she was originally a much beloved elf queen from the Feywild who witnessed the conflict between Corellon and Lolth. Worried that the dispute might tear the Seldarine asunder, she rallied her followers to perform a powerful ritual in order to become a deity, so she could have the leverage to appeal to the deities' senses.[1] The ritual involved the offering of the queen's followers' souls and magic to add to her own power, enabling her to reach Arvandor. The followers, who called themselves shadar-kai, firmly believed that their queen was capable of reunifying the elven pantheon and the sundered elves.[1] However, evil wizards among the queen's followers attempted to divert some of the energy from the ritual to amplify their own powers. Moments before completing the ritual and reaching Arvandor, the queen reacted by punishing the wizards with a burst of divine fury. This curse corrupted the ritual into a siphon that dragged the queen and her followers into the Shadowfell, where she was instantly killed. However, thanks to her recently acquired divine powers, the queen rose from the ashes and, in her growing madness and grief, transformed the wizards into wretched avian forms known as nagpas, and banished them forever to wander the planes.[1] The queen herself was still further transformed by the corrupted ritual, her form dissolving into disconnected sensory perceptions.[1] Moreover, both Corellon and Lolth considered her actions to be treason, so they erased the memory of her existence from all elves.[8] In order to avoid disappearing entirely, she drew memories of her existence from the Shadowfell itself in order to sustain her identity. Over time, the subjective remains of the queen and the loose darkened memories gave rise to the entity that became known as the Raven Queen.[1] Another account of the Raven Queen's origin stated that she was originally a sorceress who led a rebellion against a former god of death in Pluton. In order to prevent her from becoming a tyrant in the same fashion as the defeated god, other deities elevated her to the status of goddess of death, but with no power over the dead themselves.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b5/Raven_Queen.png/revision/latest?cb=20210718192139",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "stunned",
+            "name": "Stunned",
+            "url": "/api/conditions/stunned"
+        }
+    ],
+    "senses": {
+        "passive_perception": 15
+    },
+    "xp": 50
+}

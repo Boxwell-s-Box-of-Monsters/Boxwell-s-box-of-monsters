@@ -1,0 +1,26 @@
+{
+    "name": "Giant Scorpion",
+    "armor_class": 15,
+    "challenge_rating": 3,
+    "strength": 15,
+    "dexterity": 13,
+    "constitution": 15,
+    "intelligence": 1,
+    "wisdom": 9,
+    "charisma": 3,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target. The scorpion makes three attacks: two with its claws and one with its sting. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "",
+    "description": "Scorpions typically only attacked other creatures when were disturbed or felt threatened.[2] A scorpion's primary means of offense was its piercing stinger.[1]Scorpions typically lived in hot, dry regions.[2]In the Midwood area of Cormanthor, they were known to make their homes inside of rotting logs.[6] In Anauroch they could be found throughout the Sword and in the Plain of Standing Stones.[7]Some creatures were known to place scorpions inside of containers, such as jars or chests, to act as a sort of trap for would be thieves.[2]Scorpion tails were an ingredient for potions of longevity.[8]Sometime before 1373 DR, the zulkir of Illusion and a Red Wizard Mythrell'aa assassinated a full dinner party of his political opponents by transmuting pastries into vicious scorpions.[9]Sometime before the Year of Lightning Storms, 1374 DR, a famed (and infamous) bard Volothamp Geddarm, discovered a rare species of a scorpion in his boot. This close brush with death was a supremely exciting event for the author.[10]In Zakhara, there were known to be animal cults that centered around the worship of scorpions.[11]Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/36/Scorpion-1e.png/revision/latest?cb=20200712032116",
+    "hit_points": 52,
+    "hit_dice": "7d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "60 ft.",
+        "passive_perception": 9
+    },
+    "xp": 700
+}

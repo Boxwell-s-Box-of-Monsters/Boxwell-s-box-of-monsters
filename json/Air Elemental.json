@@ -1,0 +1,73 @@
+{
+    "name": "Air Elemental",
+    "armor_class": 15,
+    "challenge_rating": 5,
+    "strength": 14,
+    "dexterity": 20,
+    "constitution": 14,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 6,
+    "actions_desc": "The elemental makes two slam attacks. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage. Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.\nIf the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone. ",
+    "special_abilities_desc": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. ",
+    "description": "When summoned to the Prime Material plane, air elementals typically appeared as an amorphous, ever-shifting cloud. Whenever they made the rare attempt to speak, it resembled either the high-pitched shriek of a tornado or the low rumbling moan of a thunder storm.[6]Air elementals were capable of altering their bodies in the form of a small whirlwind. Over the ages, the height and diameters of these whirlwinds varied significantly, especially depending upon how powerful an air elemental was. Some were reported to be as small as 8\u201216\u202fft (2.4\u20124.9\u202fm) tall,[7] while others were reported being as tall as 40\u201280\u202fft (12\u201224\u202fm) tall.[6][3]Though they all roughly shared the same abilities, those in the Elemental Plane of Air that were incapable of being summoned were known to possess even greater powers.[7]Air elementals typically fought creatures by either blasting them with strong gusts of wind or shifting into their whirlwind form.[6]Air elementals substituted on the consumption of solely air itself.[6]Air elementals were native to the Elemental Plane of Air.[7]Aerial servants often tried to accompany them wherever they went, but air elementals strove to avoid them. They viewed the aerials as an inferior form of air elemental and discouraged other kinds of air elementals from interacting with them.[10]A berserk air elemental dwelled on the Dungeon Level of Undermountain.[11]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/75/Air_elemental_5e.jpg/revision/latest?cb=20171011161955",
+    "hit_points": 90,
+    "hit_dice": "12d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800
+}

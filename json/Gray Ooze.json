@@ -1,0 +1,61 @@
+{
+    "name": "Gray Ooze",
+    "armor_class": 8,
+    "challenge_rating": 0.5,
+    "strength": 12,
+    "dexterity": 6,
+    "constitution": 16,
+    "intelligence": 1,
+    "wisdom": 6,
+    "charisma": 2,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) acid damage, and if the target is wearing nonmagical metal armor, its armor is partly corroded and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. ",
+    "special_abilities_desc": "The ooze can move through a space as narrow as 1 inch wide without squeezing. Any nonmagical weapon made of metal that hits the ooze corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal that hits the ooze is destroyed after dealing damage.\nThe ooze can eat through 2-inch-thick, nonmagical metal in 1 round. While the ooze remains motionless, it is indistinguishable from an oily pool or wet rock. ",
+    "description": "It was a thick puddle of gray sludge, roughly 8\u202finches (20\u202fcentimeters) thick, 3\u202finches (7.6\u202fcentimeters) wide, and up to 12\u202ffeet (3.7\u202fmeters) across, that closely resembled wet stone or an amorphous rock formation.[5]AD6 Strange Things Millionaires Do With Their Money, But Most of Us Have Never TriedBy The Penny HoarderWhen one of these creatures reached an exceptionally large they were known to mildly develop greater intellect.[5]These creatures could corrode metal at a rate comparable to that of a black pudding, though its acids could not eat through stone or wood.[5]Gray oozes reproduced by breaking small droplets off of them after a meal, called 'budding', which later grew into gray oozes themselves.[6]Gray oozes possessed an innate immunity to magic, as well as severe heat and cold. However, they were vulnerable any form of lightning.[5][7] They also had the ability of Blindsight.[8]When one of these creatures reached an exceptionally large they would develop latent psionics, allowing them to unleash a psychic crush, but in return be left vulnerable to retaliation. They were only known to unleash this ability whenever a creature within 6\u202ffeet (1.8\u202fmeters) of them used psionic powers.[5] It was suggested that gray oozes developed these psionic abilities having evolved to live near Mind flayers.[9]Gray oozes were known to attack in groups, dissolving enemies and absorbing their bones as slime to grow.[2] It attacked by striking until its prey was either dead or unconscious, moving on top of them afterwards to digest them from within. Gray oozes were particularly feared for the fact that they were transparent. This made them difficult to detect while they were still or moving slowly.[3]Acidic secretions of the gray ooze corroded metal at an alarming rate[3]; as a result, blacksmiths also sometimes used jarred gray oozes to meld ore into the right shape.[10]Gray oozes were known to be found in subterranean areas, such as caverns and dungeons. They were mindless scavengers who dragged themselves around caves or sewers, while absorbing and digesting whatever they came across.[6][5] Unlike other oozes, the gray variety couldn't move on ceilings or walls, hence it was left to slide its way along subterranean floors.[11][6]In the Abyss, gray oozes could be found in Shedaklah, the Slime Pits, 222nd layer of the Abyss.[12]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/26/Grayooze5e.png/revision/latest?cb=20171011011542",
+    "hit_points": 22,
+    "hit_dice": "3d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "cold",
+        "fire"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "deafened",
+            "name": "Deafened",
+            "url": "/api/conditions/deafened"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 8
+    },
+    "xp": 100
+}

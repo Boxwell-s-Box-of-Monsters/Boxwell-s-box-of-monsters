@@ -12,6 +12,10 @@ from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
 import requests
 import json
+from PIL import Image, ImageTk
+from urllib.request import urlopen
+from io import BytesIO
+from bs4 import BeautifulSoup
 
 ############################
 # Main Window
@@ -34,7 +38,7 @@ class MainWindow(tk.Tk):
 
         # End Elastic Search
 
-        self.geometry("350x680")
+        self.geometry("350x750")
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
@@ -73,6 +77,8 @@ class MainWindow(tk.Tk):
         # Get Monster Button and Result
         self.result = tk.StringVar()
         self.result.set("")
+        monsterImage = Image.open('images/placeholderMonster.png')
+        self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
         self.button = tk.Button(self,
                                 text='Get Monster',
@@ -87,10 +93,12 @@ class MainWindow(tk.Tk):
         self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 10),
                                     fg=BLACK)
         self.resultLabel.grid(column=1, row=5)
+        self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
+        self.resultImage.grid(column=1, row=6)
 
     
 
-    #########################
+    ############################
     # Button Functions
     ############################
     def getAppropriateCR(self, characterList, diff):
@@ -139,7 +147,20 @@ class MainWindow(tk.Tk):
         #responseText += "\tresistances: " + str(response['damage_resistances'])
         #responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
-        return responseText
+
+    def printImage(self, response):
+        # Display the updated monster's image
+        if response['imageURL'] != None:
+            u = urlopen(response['imageURL'])
+            im = Image.open(BytesIO(u.read())).resize((200,200))
+            newImage = ImageTk.PhotoImage(im)
+            self.resultImage.configure(image=newImage)
+            self.resultImage.image = newImage
+        else:
+            im = Image.open('images/placeholderMonster.png')
+            newImage = ImageTk.PhotoImage(im)
+            self.resultImage.configure(image=newImage)
+            self.resultImage.image = newImage
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, es, monsterWindow):
@@ -149,6 +170,7 @@ class MainWindow(tk.Tk):
         if (len(responseList) > 0):
             response = self.bestResponseAdapter(responseList)
             responseText = self.printAdapter(response)
+            self.printImage(response)
         else:
             responseText = "Error, no monsters found"
         self.result.set(responseText)

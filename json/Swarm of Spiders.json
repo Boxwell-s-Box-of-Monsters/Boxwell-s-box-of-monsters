@@ -1,0 +1,66 @@
+{
+    "name": "Swarm of Spiders",
+    "hit_points": 22,
+    "hit_dice": "5d8",
+    "armor_class": 12,
+    "challenge_rating": 0.5,
+    "strength": 3,
+    "dexterity": 13,
+    "constitution": 10,
+    "intelligence": 1,
+    "wisdom": 7,
+    "charisma": 1,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer. ",
+    "special_abilities_desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points. The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web. The swarm ignores movement restrictions caused by webbing. ",
+    "description": "   A large number of hand-sized venomous spiders would sometimes group themselves into a swarm.[3] Two adventurers about to get ensnared by giant spiders. Spiders inhabited the forest known as the Neth Stand.[20] Adhe Wood in the Vast was infested with ettercaps and mutant spiders of many sizes and breeds.[21] Spiders were common in the Underdark, particularly in drow settlements, where they were revered by worshipers of Lolth.[22] Drow often made objects and buildings in the shape of spiders.[23][24] In cultures that venerated Lolth, it was forbidden to kill a spider; those who did so were punished with death.[25] Spiders were often kept by the drow, their purpose depending on a given spider's size. The smallest ones were kept as pets by children. Those that were big enough to kill mice, meaning hand-sized, were kept as familiars by wizards. Those that were as big as a horse were used to ride upon. Those that were the size of dogs were used like guard dogs in temples to Lolth. The last category were sometimes imbued with a demon to make older ones regain their vitality, combining it with a nasty personality.[26] Spriggans in the Feywild were sometimes known to use spiders to create web barriers in their forests.[27]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/43/Spider-5e.jpg/revision/latest?cb=20200907172351",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "stunned",
+            "name": "Stunned",
+            "url": "/api/conditions/stunned"
+        }
+    ],
+    "senses": {
+        "blindsight": "10 ft.",
+        "passive_perception": 8
+    },
+    "xp": 100
+}

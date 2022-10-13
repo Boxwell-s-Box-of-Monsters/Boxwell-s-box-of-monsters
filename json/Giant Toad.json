@@ -1,0 +1,26 @@
+{
+    "name": "Giant Toad",
+    "armor_class": 11,
+    "challenge_rating": 1,
+    "strength": 15,
+    "dexterity": 13,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 3,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target. The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.\nIf the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone. ",
+    "special_abilities_desc": "The toad can breathe air and water The toad's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start. ",
+    "description": "In terms of physical description, giant toads completely matched normal toads, except in size.[2] Their skin was dry and bumpy[4] or \"warty\" as some described it, often rough to the touch.[2] However, their appearance varied between species. The base species of giant toad has colorations ranging from weak brown to iron red.[2]On average the base species of giant toad grew up to be 5\u202fft (1.5\u202fm) in length.[2]Due to their extended size, a giant toad could jump up to 10\u202fft (3\u202fm) high,[1][2] and across gaps that were 20\u202fft (6.1\u202fm) wide, even from being completely stationary.[1]A red-skinned dangerous giant toad caught in mid-croak.Giant toads were a carnivorous species, liable to attempt to devour anything that appeared edible. They were often attracted to settled areas, where they preyed upon livestock such as chickens, goats, and even sheep.[2]Giant toads preferred to live in temperate areas with bodies of water they could lay their eggs in. Though they were species that survived in rather cool or dry environments.[2]They often made their homes underground, enjoying both the damp air and steady supply of food such environments offered them. Because of this, they occasionally be found within the sewers of cities.[2]In northwest Faer\u00fbn, giant toads could be found within the Mere of Dead Men.[5] In interior Faer\u00fbn they could be found in the Farsea Marshes, the Marsh of Tun, and the Vast Swamp.[6] In southeast Faer\u00fbn they could be found in the Great Swamp of Rethild.[7]Beyond Faer\u00fbn, they could be found in the prairie regions of Semphar.[8]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b2/Gianttoad.png/revision/latest?cb=20210622214634",
+    "hit_points": 39,
+    "hit_dice": "6d10",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": 10
+    },
+    "xp": 200
+}

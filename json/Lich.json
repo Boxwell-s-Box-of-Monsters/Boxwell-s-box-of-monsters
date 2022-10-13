@@ -1,0 +1,59 @@
+{
+    "name": "Lich",
+    "hit_points": 135,
+    "hit_dice": "18d8",
+    "armor_class": 17,
+    "challenge_rating": 21,
+    "strength": 11,
+    "dexterity": 16,
+    "constitution": 16,
+    "intelligence": 20,
+    "wisdom": 14,
+    "charisma": 16,
+    "actions_desc": "Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. ",
+    "special_abilities_desc": "If the lich fails a saving throw, it can choose to succeed instead. If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery. The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:\n\n- Cantrips (at will): mage hand, prestidigitation, ray of frost\n- 1st level (4 slots): detect magic, magic missile, shield, thunderwave\n- 2nd level (3 slots): acid arrow, detect thoughts, invisibility, mirror image\n- 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball\n- 4th level (3 slots): blight, dimension door\n- 5th level (3 slots): cloudkill, scrying\n- 6th level (1 slot): disintegrate, globe of invulnerability\n- 7th level (1 slot): finger of death, plane shift\n- 8th level (1 slot): dominate monster, power word stun\n- 9th level (1 slot): power word kill The lich has advantage on saving throws against any effect that turns undead. ",
+    "description": "      Liches were generally gaunt and skeletal with withered flesh stretched tight across horribly visible bones but could vary greatly in appearance depending on their age. Some appeared as skeletons dressed in regal finery, yet others might appear to be nothing more than lepers. Bright pinpoints of crimson light burned in the empty sockets of those whose eyes had been destroyed or otherwise lost or were so old they had simply rotted away.[3] They were often clad in dark, tattered robes.[9] When moving, they seemed to glide as if floating on water.[10] Liches often did not have lips or the necessary organs to produce natural speech, but they had the ability to project speech from their mouths magically, moving the jaw (if present) to aid the illusion.[11] Because liches had eternal longevity, they often used this time to form schemes that took decades to develop, sometimes preferring to outlive a foe instead of confronting it, and as such most liches lived in secluded areas of Toril, where they were content with furthering whatever research or plots they had in motion.[12] The process of achieving lichdom required that the spellcaster construct a powerful magical artifact, a phylactery, in which the lich stored its life essence. As long as this phylactery was unharmed, the lich was immortal and would attempt to reassemble if it was ever vanquished (this happened within 10 days after its apparent destruction). It did not, however, grant any of the normal benefits of a phylactery until it was fully completed. For these reasons, liches took great care in protecting their phylactery from harm, employing decoys, traps, and other defenses.[3] The most common physical form for a phylactery was a sealed metal box containing strips of parchment on which magical phrases had been transcribed. Other forms of phylacteries existed, often small or tiny trinkets such as rings, amulets, or similar items. It could also take other shapes if the lich expended more gold and experience to make such alterations.[3] When the phylactery was created, the wizard transferred a bit of life force into the creation. While crafting the phylactery taxed the physical strength of the caster, the materials and components could easily exceed 120,000 gp. Overall, creating a phylactery was a very daunting task for anyone of arcane power.[3] A banelich and an alhoon. A dracolich. The ground-up bones of a lich were used as a component in the casting of the necromantic spell soul scour.[13] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/98/Monster_Manual_5e_-_Lich_-_p202.jpg/revision/latest?cb=20141113093711",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "lightning",
+        "necrotic"
+    ],
+    "damage_immunities": [
+        "poison",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "truesight": "120 ft.",
+        "passive_perception": 19
+    },
+    "xp": 33000
+}

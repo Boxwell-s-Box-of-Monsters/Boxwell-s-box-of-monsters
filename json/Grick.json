@@ -1,0 +1,28 @@
+{
+    "name": "Grick",
+    "armor_class": 14,
+    "challenge_rating": 2,
+    "strength": 14,
+    "dexterity": 14,
+    "constitution": 11,
+    "intelligence": 3,
+    "wisdom": 14,
+    "charisma": 5,
+    "actions_desc": "The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. ",
+    "special_abilities_desc": "The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain. ",
+    "description": "The main body of an adult grick was about 6\u202fft (1.8\u202fm) long. Including the length of the tentacles, this made a grick about 8\u202fft (2.4\u202fm) long.[3] A grick's head featured a pair of tiny eyes[2] and a snapping beak surrounded by large barbed tentacles. The tentacles would cover the beak unless the grick was attacking or eating.[1]Grick skin was rubbery and uniformly dark with with pale underbellies.[3] Colouration varied from dark greens[3][1] to blues[2][4] .Their skin would camouflage well in rocky terrain and shadows.[1]Gricks were almost always hungry[2] and would seek to hunt anything that moves (except other gricks)[1]. Gricks would also immediately attack whenever their nest was threatened.[2]Gricks were adept at climbing and could slither up walls with little difficulty.[3] Although they prefer to stay underground or indoors, gricks would venture into the open if food was scarce. Even then, gricks would only do so at night to avoid burning their small and sensitive eyes.[2]Gricks preferred to hunt in packs but could also be found hunting alone.[2] Gricks hunted by waiting in busy areas and ambushing their prey.[3] Gricks used their natural camoflage to remain hidden in rocky terrain.[1]If hunting in a pack, gricks would manoeuvre to outflank their pray wherever possible.[2]. Due to their relatively small beaks, gricks could only take small bites of food. As a result gricks preferred to drag prey back to their nest once it was unconscious or dead.[3]Gricks laid oblong blue/green eggs about the size of a human fist.[5] Young gricks were known as grick wormlings.[6] Grick wormlings were edible and were known to be served in the Dalelands stuffed with rice pilaf and diced celery.[6] Cured and spiced grick tentacles were also eaten.[7]Gricks could be made to serve abberrant creatures[2] like grells.[8]Due to the grick's constant need to eat, some explorers consider the best way to kill a grick is to seal it inside its nest and wait for it to starve to death.[1]In -8170 DR the settlement of Alatorin was defended by gricks.[9]At some point after 1372 DR the sewers of Waterdeep were home to a small population of gricks.[10]One of the circle of fangs rings was found on a chain around the neck of a drowned grick.[11]At some point prior to 1479 DR, the ruins of Harpshield Castle were infested with numerous gricks.[12]In 1491 DR,[note 1] a goblin named Lhupo kept a pet grick in Cragmaw Castle.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8d/Grick-5e.png/revision/latest?cb=20171011013546",
+    "hit_points": 27,
+    "hit_dice": "6d8",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing damage from nonmagical weapons"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 12
+    },
+    "xp": 450
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Phase Spider",
+    "hit_points": 32,
+    "hit_dice": "5d10",
+    "armor_class": 13,
+    "challenge_rating": 3,
+    "strength": 15,
+    "dexterity": 15,
+    "constitution": 12,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way. ",
+    "special_abilities_desc": "As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa. The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. The spider ignores movement restrictions caused by webbing. ",
+    "description": "      The phase spider resembled a giant, two-eyed, spindly-legged spider with the same dark green and white coloration of an ethereal filcher (though it was a bit more blue than green).[3] While the filcher transported between the Ethereal Plane and the Material Plane for the purpose of stealing, the phase spider did this for the purpose of hunting. It looked for a likely spot in the Ethereal Plane, and then teleported (its form of teleportation was known as \"phasing,\" hence the name) to the Material Plane, presumably ambushing travelers it expected to be there, biting and killing them, and then quickly retreating back to the Ethereal Plane.[3] They could not speak. They were regarded as neutral in alignment.[3] In the Year of Lightning Storms, 1374 DR, a small group of drow arachnomancers took over one of ancient Illefarn ruins, interestingly enough, located in the deep jungles of Samarach of the Chultan Peninsula. Even though their goal remained a mystery, they brought a pack of phase spiders with them and kept the deadly creatures in the top levels of the ruined structure.[6]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/37/Phase_spider-5e.jpg/revision/latest?cb=20171010165854",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 700
+}

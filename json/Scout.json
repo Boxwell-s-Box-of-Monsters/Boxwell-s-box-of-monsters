@@ -1,0 +1,25 @@
+{
+    "name": "Scout",
+    "hit_points": 16,
+    "hit_dice": "3d8",
+    "armor_class": 13,
+    "challenge_rating": 0.5,
+    "strength": 11,
+    "dexterity": 14,
+    "constitution": 12,
+    "intelligence": 11,
+    "wisdom": 13,
+    "charisma": 11,
+    "actions_desc": "The scout makes two melee attacks or two ranged attacks. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage. ",
+    "special_abilities_desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight. ",
+    "description": "   A scout often uses light melee weapons, such as daggers and shortswords, and a small ranged weapon, like a shortbow or hand crossbow. They fight dirty, preferring to end the fight quick and are generally they are proficient in stealth and lock-picking.",
+    "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/0/163/1000/1000/636252759915100020.jpeg",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 15
+    },
+    "xp": 100
+}

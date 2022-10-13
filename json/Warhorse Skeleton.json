@@ -1,0 +1,41 @@
+{
+    "name": "Warhorse Skeleton",
+    "hit_points": 22,
+    "hit_dice": "3d10",
+    "armor_class": 13,
+    "challenge_rating": 0.5,
+    "strength": 18,
+    "dexterity": 12,
+    "constitution": 15,
+    "intelligence": 2,
+    "wisdom": 8,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. ",
+    "special_abilities_desc": "",
+    "description": "   The undead form of skeletons was held by necromantic energy, which kept otherwise loose bones and joints together and conferred on the undead corpse a glimmer of vitality and rudimentary intellectual capabilities.[1] Although skeletons were most typically created from humanoid remains, many other varieties existed.[1] Bonecrusher A minotaur skeleton. Athach skeleton \u2022 Blazing skeleton \u2022 Bloody bones \u2022 Boneshard skeleton \u2022 Bonewretch skeleton \u2022 Death kin skeleton \u2022 Defiling skeleton \u2022 Dread \u2022 Dry bones \u2022 Frost skeleton \u2022 Gem eyes \u2022 Insectoid \u2022 Lightning skeleton \u2022 Marrowshriek skeleton \u2022 Obsidian skelton \u2022 Runeflame skeleton \u2022 Shattergloom skeleton \u2022 Skeletal tomb guardian \u2022 Skinwalker skelton \u2022 Skleros \u2022 Spine creep skeleton \u2022 Stonespawned skeleton \u2022 Tortured skeleton \u2022 Vicious skeleton Animated skeletons were immune to mind-affecting spells; they could not be rendered unconscious and could not tire. Edged and piercing weapons, such as swords and arrows, were mostly ineffective against skeletons; only blunt weapons, such as warhammers, were effective at knocking the bones apart. [3] Like other undead, skeletons could be repelled or destroyed outright by priests like paladins and clerics.[3] The necromantic spell animate dead allowed spellcasters to create skeletons.[16] They could also spontaneously rise in locations saturated with evil or necromantic powers.[1]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/80/Skeleton-5e.jpg/revision/latest?cb=20161121023209",
+    "damage_vulnerabilities": [
+        "bludgeoning"
+    ],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 9
+    },
+    "xp": 100
+}

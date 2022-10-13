@@ -1,0 +1,77 @@
+{
+    "name": "Wraith",
+    "hit_points": 67,
+    "hit_dice": "9d8",
+    "armor_class": 13,
+    "challenge_rating": 5,
+    "strength": 6,
+    "dexterity": 16,
+    "constitution": 16,
+    "intelligence": 12,
+    "wisdom": 14,
+    "charisma": 15,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time. ",
+    "special_abilities_desc": "The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight. ",
+    "description": "   Wraiths were very similar to specters.[citation needed] Wraiths became far weaker when under the exposure of full sunlight.[5] Like many undead, wraiths possessed a chilling touch. However, these beings were most similar in nature to the undead known as wights. Both could drain creatures of their life energy and could only be harmed by either silver or enchanted weaponry.[5] In 1479 DR,[8] wraiths, moon wraiths, and wisp wraiths could be found in the company of Shadovar.[9] Though they could be found on the Prime Material plane, wraiths were far more prominent in the Negative Energy plane. They were typically encountered in places that were dark and gloomy, away from the debilitating rays of the sun.[5] Beyond that, they could be found in the Domains of Dread.[12][13] Being a type of undead connected to Negative Energy plane, wraiths acted as servants of the deities Jergal,[14] Kiaransalee,[15] and the Chultan demigod Eshowdow.[16] Some were known to use the dust left behind by destroyed wraiths as a material component for the spell wraithform.[17] ",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/81/Wraith-5e.jpg/revision/latest?cb=20171010235614",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "necrotic",
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 12
+    },
+    "xp": 1800
+}

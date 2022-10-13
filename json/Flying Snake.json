@@ -1,0 +1,26 @@
+{
+    "name": "Flying Snake",
+    "armor_class": 14,
+    "challenge_rating": 0.125,
+    "strength": 4,
+    "dexterity": 18,
+    "constitution": 11,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage. ",
+    "special_abilities_desc": "The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach. ",
+    "description": "During the late 15th century DR, flying snakes trained as messengers were popular with members of the Zhentarim and were sometimes recognized as symbols of the faction.[5][6]In Port Nyanzaru, the merchant prince Ifan Talro'a sold flying snakes exclusively to members of the Zhentarim.[7]Flying snakes could sometimes be domesticated to serve as messengers that delivered scrolls wrapped in their coils.[1]Besides Chult, flying snakes were known to inhabit the Wood of Dark Trees.[8]Flying snakes were often gifted by the deity Sseth to his wizard or priest worshipers as familiars or animal companions.[9]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6c/Flying_snake-5e.jpg/revision/latest?cb=20180125222309",
+    "hit_points": 5,
+    "hit_dice": "2d4",
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "passive_perception": 11
+    },
+    "xp": 25
+}
