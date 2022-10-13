@@ -137,9 +137,9 @@ class MainWindow(tk.Tk):
         responseText += "\tWis: " + str(response['wisdom'])
         responseText += "\tCha: " + str(response['charisma'])
         # New line with Monster weaknesses and resistances
-        #responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
-        #responseText += "\tresistances: " + str(response['damage_resistances'])
-        #responseText += "\timmunities: " + str(response['damage_immunities'])
+        responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
+        responseText += "\tresistances: " + str(response['damage_resistances'])
+        responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
 
     def printImage(self, response):
