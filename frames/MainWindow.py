@@ -147,7 +147,6 @@ class MainWindow(tk.Tk):
         #responseText += "\tresistances: " + str(response['damage_resistances'])
         #responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
-        return responseText
 
     def printImage(self, response):
         # Display the updated monster's image

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\frames",
     "\\json"
   ],
-  "SelectedNode": "\\json\\Aboleth.json",
+  "SelectedNode": "\\frames\\MainWindow.py",
   "PreviewInSolutionExplorer": false
 }
