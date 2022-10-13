@@ -126,7 +126,7 @@ class MainWindow(tk.Tk):
     def printAdapter(self, response):
         # Create a string
         responseText = response['name']
-        ##########responseText += "\nHP: " + str(response['hit_points'])
+        responseText += "\nHP: " + str(response['hit_points'])
         responseText += "\nAC: " + str(response['armor_class'])
         responseText += "\tCR: " + str(response['challenge_rating'])
         # New Line with Monster Stats
