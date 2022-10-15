@@ -1,7 +1,7 @@
 """Module json for dealing with JSON files."""
 import json
-import requests
 from os.path import exists
+import requests
 
 # API Url to retrieve all monsters
 MONSTER_URL = "https://www.dnd5eapi.co/api/monsters/"
@@ -15,7 +15,7 @@ for response in responseList:
         fileLoc = "json/Succubus+Incubus.json"
 
     # Skips existing files
-    if exists(fileLoc) == True:
+    if exists(fileLoc) is True:
         # API url to retrieve monster info
         print(response['name'])
         monsterObj = requests.get("https://www.dnd5eapi.co" + response['url']).json()
@@ -67,9 +67,7 @@ for response in responseList:
             'senses': senses,
             'xp': xp,
         }
-    
         # prints the json to either a good file or a 'bad' one for inspection
-        
         with open(fileLoc, "r") as jsonFile:
             currentJson = json.load(jsonFile)
 
@@ -88,7 +86,7 @@ for response in responseList:
 
 
     with open(fileLoc, "r", encoding="utf8") as file:
-        monsterList.append(json.load(open(fileLoc)))
+        monsterList.append(json.load(file))
 json_str = json.dumps(monsterList, indent=4)
 
 with open("json/data.json", "w", encoding="utf8") as file:

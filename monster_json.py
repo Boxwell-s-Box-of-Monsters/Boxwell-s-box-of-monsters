@@ -12,7 +12,8 @@ def webScrape(response):
     # Find page with the monster's image
     headers = {
     "referer":"referer: https://www.google.com/",
-    "user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
+    "user-agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
     }
     s = requests.Session()
     searchTerm = "https://www.google.com/search?q=\"ForgottenRealms\" " + response['name']
@@ -103,9 +104,8 @@ for response in responseList:
             'description': description,
             'imageURL': imageURL
         }
-    
         # prints the json to either a good file or a 'bad' one for inspection
-        if description is "" or imageURL is None:
+        if description == "" or imageURL is None:
             # Write json list to a file
             json_str = json.dumps(document, indent=4)
 
@@ -127,7 +127,7 @@ for response in responseList:
 
 
     with open(fileLoc, "r", encoding="utf8") as file:
-        monsterList.append(json.load(open(fileLoc)))
+        monsterList.append(json.load(open))
 json_str = json.dumps(monsterList, indent=4)
 
 with open("json/data.json", "w", encoding="utf8") as file:
