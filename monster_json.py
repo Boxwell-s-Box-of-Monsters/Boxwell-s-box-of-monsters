@@ -8,15 +8,16 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-def webScrape(response):
+def webScrape(monsterResponse):
     # Find page with the monster's image
     headers = {
     "referer":"referer: https://www.google.com/",
     "user-agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 \
+    (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
     }
     s = requests.Session()
-    searchTerm = "https://www.google.com/search?q=\"ForgottenRealms\" " + response['name']
+    searchTerm = "https://www.google.com/search?q=\"ForgottenRealms\" " + monsterResponse['name']
     googleSearch = s.get(searchTerm, headers=headers)
     print(googleSearch)
     soup = BeautifulSoup(googleSearch.text, 'html.parser')
