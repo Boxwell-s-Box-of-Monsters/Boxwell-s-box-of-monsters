@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\frames",
-    "\\json"
+    "\\frames"
   ],
-  "SelectedNode": "\\frames\\MainWindow.py",
+  "SelectedNode": "\\monster_json.py",
   "PreviewInSolutionExplorer": false
 }
