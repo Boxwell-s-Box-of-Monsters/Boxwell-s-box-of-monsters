@@ -59,7 +59,6 @@ for response in responseList:
             'description': description,
             'imageURL': imageURL
         }
-        
         # Write json list to a file
         json_str = json.dumps(document, indent=4)
         monsterList.append(document)

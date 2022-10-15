@@ -24,12 +24,11 @@ for response in responseList:
         document = {
             # ex: 'name': name
         }
-        monsterList.append(json.load(file))
         # updates the json to either a good file or a 'bad' one for inspection
         with open(fileLoc, "r") as jsonFile:
             currentJson = json.load(jsonFile)
-
             currentJson.update(document)
+            monsterList.append(currentJson)
 
         json_str = json.dumps(currentJson, indent=4)
         with open(fileLoc, "w", encoding="utf8") as file:
