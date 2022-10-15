@@ -1,13 +1,12 @@
 import tkinter as tk
+import random
+
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import MoreLikeThis
 from elasticsearch_dsl import Q
 from Styles import *
-import random
 from frames.CharacterFrame import CharacterFrame
-from frames.TerrainFrame import TerrainFrame
-from frames.DamageTypeFrame import DamageTypeFrame
 from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
 import requests
@@ -16,6 +15,7 @@ from PIL import Image, ImageTk
 from urllib.request import urlopen
 from io import BytesIO
 from bs4 import BeautifulSoup
+
 
 ############################
 # Main Window
@@ -49,16 +49,16 @@ class MainWindow(tk.Tk):
         self.label.grid(column=1, row=0, sticky=tk.W, **options)
 
         # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
-        #terrainFrame = TerrainFrame(self)
-        #terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
+        # terrainFrame = TerrainFrame(self)
+        # terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
 
         # Characters Frame
         characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=1, row=1, sticky=tk.W,  **options)
+        characterFrame.grid(column=1, row=1, sticky=tk.W, **options)
 
         # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
-        #dmgTypeFrame = DamageTypeFrame(self)
-        #dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
+        # dmgTypeFrame = DamageTypeFrame(self)
+        # dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
@@ -90,8 +90,6 @@ class MainWindow(tk.Tk):
         self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
         self.resultImage.grid(column=1, row=6)
 
-    
-
     ############################
     # Button Functions
     ############################
@@ -108,8 +106,9 @@ class MainWindow(tk.Tk):
     def responseListAdapter(self, challengeRating, monsterWindow):
         # Get list of monsters
         query = Q('match', challenge_rating=challengeRating) & \
-            Q(MoreLikeThis(like= monsterWindow.get("1.0", 'end-1c'), \
-            fields=['actions_desc','special_abilities_desc','description', 'name'], min_term_freq = 1, min_doc_freq = 1))
+                Q(MoreLikeThis(like=monsterWindow.get("1.0", 'end-1c'),
+                               fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
+                               min_term_freq=1, min_doc_freq=1))
 
         s = Search(using=self.es, index='monster_index').query(query)
         response = s.execute()
@@ -161,7 +160,7 @@ class MainWindow(tk.Tk):
         cr = self.getAppropriateCR(characterList, diff)
         responseList = self.responseListAdapter(cr, monsterWindow)
         # Get top result
-        if (len(responseList) > 0):
+        if len(responseList) > 0:
             response = self.bestResponseAdapter(responseList)
             responseText = self.printAdapter(response)
             self.printImage(response)
