@@ -1,6 +1,8 @@
 import tkinter as tk
 import random
-
+from io import BytesIO
+from urllib.request import urlopen
+from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import MoreLikeThis
@@ -9,12 +11,6 @@ from Styles import *
 from frames.CharacterFrame import CharacterFrame
 from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
-import requests
-import json
-from PIL import Image, ImageTk
-from urllib.request import urlopen
-from io import BytesIO
-from bs4 import BeautifulSoup
 
 
 ############################
@@ -143,8 +139,10 @@ class MainWindow(tk.Tk):
 
     def printImage(self, response):
         # Display the updated monster's image
-        if response['imageURL'] != None:
-            u = urlopen(response['imageURL'])
+        if response['imageURL'] is not None:
+            with urlopen(response['imageURL']) as imageURL:
+                u = imageURL
+
             im = Image.open(BytesIO(u.read())).resize((200,200))
             newImage = ImageTk.PhotoImage(im)
             self.resultImage.configure(image=newImage)

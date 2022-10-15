@@ -1,12 +1,12 @@
 """Module json for dealing with JSON files."""
 import json
+import time
+from os.path import exists
 import requests
 from bs4 import BeautifulSoup
-import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
-from os.path import exists
 
 def webScrape(response):
     # Find page with the monster's image
@@ -28,15 +28,12 @@ def descriptionAdapter(webpage):
     # scrape javascript generated text
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(webpage)
-    
     parapgrah = driver.find_elements(By.CLASS_NAME, "mw-parser-output")
     text = ""
     for p in parapgrah:
         text += " " + p.text
 
-
     parapgrah = driver.find_elements(By.TAG_NAME, "p")
-    
     for p in parapgrah:
         text += " " + p.text
     return text
@@ -46,10 +43,9 @@ def imageAdapter(session, headers, webpage):
     forgottenRealms = session.get(webpage, headers=headers)
     soup = BeautifulSoup(forgottenRealms.text, 'html.parser')
     img = soup.find("a", {"class": "image image-thumbnail"})
-    if img == None:
+    if img is None:
         return None
-    else:
-        return img['href']
+    return img['href']
 
 # API Url to retrieve all monsters
 MONSTER_URL = "https://www.dnd5eapi.co/api/monsters/"
@@ -63,7 +59,7 @@ for response in responseList:
         fileLoc = "json/Succubus+Incubus.json"
 
     # Skips existing files
-    if exists(fileLoc) == False and exists(badFileLoc) == False:
+    if not exists(fileLoc) and not exists(badFileLoc):
         # API url to retrieve monster info
         print(response['name'])
         monsterObj = requests.get("https://www.dnd5eapi.co" + response['url']).json()
@@ -109,7 +105,7 @@ for response in responseList:
         }
     
         # prints the json to either a good file or a 'bad' one for inspection
-        if description != "" or imageURL == None:
+        if description is "" or imageURL is None:
             # Write json list to a file
             json_str = json.dumps(document, indent=4)
 
