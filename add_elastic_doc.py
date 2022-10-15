@@ -8,8 +8,8 @@ es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
 es.indices.delete(index='monster_index')
 es.indices.create(index="monster_index")
 
-monsterFile = open('./json/data.json')
-monsters = json.load(monsterFile)
-print(monsters)
-for monster in monsters:
-    es.index(index='monster_index', document=monster)
+with open('./json/data.json', "r") as monsters:
+    json.load(monsters)
+    print(monsters)
+    for monster in monsters:
+        es.index(index='monster_index', document=monster)

@@ -10,7 +10,7 @@ class DifficultyFrame(tk.Frame):
     def __init__(self, container):
         super().__init__(container)
 
-        options = {'padx': 5, 'pady': 5}
+        # options = {'padx': 5, 'pady': 5}
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
 
@@ -23,4 +23,3 @@ class DifficultyFrame(tk.Frame):
         self.R3.grid(row=0,column=2)
         self.R4 = tk.Radiobutton(self, text="Deadly", variable=self.diff, value=2)
         self.R4.grid(row=0,column=3)
-       

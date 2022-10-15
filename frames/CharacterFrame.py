@@ -74,13 +74,11 @@ class CharacterFrame(tk.Frame):
 
             self.characters.append(characterRow)
 
-    #used by the character level spinbox to check that input is an int between 0 and 20        
+    # used by the character level spinbox to check that input is an int between 0 and 20
     def validateLvl(self, potentialInput):
         r = potentialInput.isdigit()
-        
         if r:
             rangeCheck = int(potentialInput)
             if rangeCheck > 20 or rangeCheck < 0:
                 r = False
-        
         return r
