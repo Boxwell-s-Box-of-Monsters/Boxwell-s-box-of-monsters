@@ -13,5 +13,5 @@ with open('./json/data.json', "r") as monsters:
     documents = json.load(monsters)
     for monster in documents:
         es.index(index='monster_index', document=monster)
-    
+
 print("Done loading documents to elastic")
