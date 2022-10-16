@@ -1,0 +1,30 @@
+{
+    "name": "Storm Giant",
+    "hit_points": 230,
+    "hit_dice": "20d12",
+    "armor_class": 16,
+    "challenge_rating": 13,
+    "strength": 29,
+    "dexterity": 14,
+    "constitution": 20,
+    "intelligence": 16,
+    "wisdom": 18,
+    "charisma": 18,
+    "actions_desc": "The giant makes two greatsword attacks. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 9) slashing damage. Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage. The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "The giant can breathe air and water. The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:\n\nAt will: detect magic, feather fall, levitate, light\n3/day each: control weather, water breathing ",
+    "description": "   Storm giants were the tallest of the true giants to remain on the Material Plane, standing a full 26\u202ffeet (7.9\u202fmeters) in height[1][5][10] and massing out at around 15,000\u202fpounds (6,800\u202fkilograms).[5][note 1] There were two ethnicities of storm giants; most had pale, light green skin and dark green hair and eyes, but a small number had violet skin, dark blue hair, and silver eyes.[5] They tended to wear fine tunics and belted sandals.[5] When it came to armor, they often favored the use of scale mail.[1] Storm giants had vision that was well adapted to underwater conditions, where they saw equally as well as they did in the air.[12] Likewise, their lungs were adapted to surviving in underwater conditions.[1] Storm giants were known to innately have a high affinity for runecasting as well as traditional sorcery that surpassed the capabilities of other giant races.[13] They were generally known to be capable of casting the spells call lightning, control winds, levitate \u2014 though unlike the standard spell, they were capable of lifting weights equivalent to their own \u2014 predict weather, weather summoning,[6] detect magic, feather fall, light, and water breathing.[1] Their bodies were impervious to harm from lightning and thunder, even that discharged by a blue dragon. They were even capable of generating and throwing bolts of lightning themselves,[6] at distances of up to 500\u202ffeet (150\u202fmeters).[1] Because of this they were often responsible for sightings of lightning bolts streaking across mountain peaks.[14] Some storm giants held the ability to mark and claim a mortal humanoid as a sea spawn, either by cursing them or making a pact with them.[15] Because of their high affinity for spellcasting,[13] storm giants were the least likely of giants to throw boulders at their opponents when engaging in ranged combat.[6] Whenever one did resort to throwing boulders, a storm giant's tremendous strength allowed them to be hurled as far as 60 to 240\u202ffeet (18 to 73\u202fmeters). When it came to close quarters combat, they typically favored greatswords as their weapon of choice.[1] The storm giant race began with an individual by the name of Vilmos, one of the mortal children of Annam All-Father and Othea, who in the kingdom of Ostoria was ceded control of the lakes and seas.[17] They and the titans created some of the greatest cities within this kingdom, featuring mechanical conveyances and galleries that would house artistic tributes to all giantkind.[18] The head of a storm giant tribe's ordning was called a \"paramount\".[19] In storm giant society, any act of mercy or charity towards a sentient being was seen as good.[20] Storm giants generally lived inside of castles, either located atop mountains, in the clouds, or underneath the ocean[6][4] in castles made of coral.[21] Those that could not sustain themselves on hunting alone often built large gardens, fields, or vineyards near their homes.[4] Storm giants spoke the general giant language Jotun, their own specialized version of it known as Jotunuvar, as well as Common.[22] They were often illiterate, though to a lesser degree than giant races whose cultures put little value on education, such as hill and fire giants.[23] Common given names among storm giants included the following:[24] Storm giants that dwelled on land were usually seen as being on good terms with nearby copper dragons and good-aligned cloud giants, often working with them to ensure a mutual defense.[4] They were often known to keep pets and guard animals. Those that lived in high elevations, meaning clouds or mountains, typically kept animals such as rocs and griffons. Those that lived underwater would often keep sea lions.[6] True Giant Offshoots\nAsh \u2022 Craa'ghoran \u2022 Maur \u2022 Phaerlin\nGiant-Kin\nCyclops (Cyclopskin) \u2022 Firbolg \u2022 Fomorian \u2022 Ogre (Oni) \u2022 Verbeeg \u2022 Voadkyn\nZakharan Giants\nDesert \u2022 Island \u2022 Jungle \u2022 Ogre giant \u2022 Reef",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1b/StormGiant-5e.jpg/revision/latest?cb=20141112195420",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 19
+    },
+    "xp": 10000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold"
+    ],
+    "damage_immunities": [
+        "lightning",
+        "thunder"
+    ]
+}

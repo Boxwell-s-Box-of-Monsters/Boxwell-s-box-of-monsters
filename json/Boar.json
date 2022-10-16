@@ -1,0 +1,25 @@
+{
+    "name": "Boar",
+    "armor_class": 11,
+    "challenge_rating": 0.25,
+    "strength": 13,
+    "dexterity": 11,
+    "constitution": 12,
+    "intelligence": 2,
+    "wisdom": 9,
+    "charisma": 5,
+    "actions_desc": "Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage. ",
+    "special_abilities_desc": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone. If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead. ",
+    "description": "Boars were covered in thick fur, often brown or grayish in color. The exact size of a boar varied from species to species, from roughly human size to roughly the mass of an ogre or similarly sized creature. All varieties of boars were armed with sharp tusks that jutted out from beneath their snout and which were capable of causing serious injury. Boars also had a highly developed sense of smell.[7]Though not predatory by nature, boars were ill-tempered and territorial, a combination made worse by boars' powerful musculature and sharp tusks.[7]There existed several species of boar in the Realms, some of which are listed below.A dire boar (right) and a thunderfury boar (left).Boars usually traveled in groups known as sounders.[5]Boars were found in most locales across the world, from chilly tundras to hot jungles.[5]In north Faer\u00fbn, wild boars inhabited the medium woods of Cormanthor, Daggerdale, and Shadowdale. Particularly the Border Forest and Vale of Lost Voices.[8] They could also be found in the Marsh of Chelimber,[9] the forests of Mistledale, around the Pool of Yeven,[10] and in the Ardeep Forest.[11][12][note 1] They were found throughout the Savage Frontier.[13]In interior Faer\u00fbn found in Cormyr, while in west Faer\u00fbn they could be found in Tethyr[14] and in Amn, where they were so common along the Trade Way near the Battlescarred Bard inn that some believed a local landowner must have been using a deepspawn to create them.[15] They were also particularly common throughout the forests of the Vast.[16] In the Unapproachable East, they could be found in the Forest of Lethyr and Yuirwood.[17] In the Hordelands, they could be found on the Katakoro Plateau[18] High Meadows,[19] and Central Steppe.[20] In the land of Anauroch, they could be found in the fertile reaches of the Plain of Standing Stones[21] as well as the bordering Desertsmouth Mountains.[22]Beyond Faer\u00fbn they could be found on the island of Evermeet, where they were non-hostile towards elves and occasionally hunted by gold elves.[23] On the continent of Laerakond, boars could be found in Eskorn, Fimbrul, and Relmaur.[24] In Zakhara they could be found in the land's hills and badlands.[25]Beyond the Prime Material plane, boars could be found in the Feywild,[5] on Yggdrasil,[26] the Cavern of Rest. They were particularly known to act as guards in this divine realm of Marthammor Duin.[27][28]A dwarven mosaic floor depicting a boar, found in the House of Gems of Myth Drannor.A petrified boar was kept on the Arcane Chambers level of Undermountain by Halaster.[42]Members of the church of Silvanus often encouraged the hunting and eating of boar under the belief that the nobles who owned forests which were good for hunting would take efforts to preserve or expand those woodlands.[14]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/20/Boar_bg3.png/revision/latest?cb=20220222221259",
+    "hit_points": 11,
+    "hit_dice": "2d8",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 9
+    },
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Crocodile",
+    "armor_class": 12,
+    "challenge_rating": 0.5,
+    "strength": 15,
+    "dexterity": 10,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target ",
+    "special_abilities_desc": "The crocodile can hold its breath for 15 minutes. ",
+    "description": "Being reptiles, crocodiles were quite vulnerable to cold, becoming slow and sluggish if exposed to it.[4]Their four legs, though short, were noted as being quite powerful in terms of propelling them rapidly through their watery habitats.[4]Crocodiles mated once every year, laying clutches of up to 60 eggs that they then buried beneath sand. Unlike some reptiles, a female crocodile was known to carefully guard her clutch of eggs against any potential predators. When the eggs eventually hatched the mother would assist her young in getting free of the sand, but thereafter would leave them to fend for themselves. As a result, typically very few hatchlings would manage to survive to maturity.[4]A crocodile attack.Crocodiles typically preferred to ambush their enemies, sneaking up on them and using their powerful jaws to drag people below the water. While some would try to dismember their prey once below the waters, often times crocodiles attempted to drag prey back to their lairs before feasting upon them.[4] When attacking in a group, crocodiles would take turns tearing off chunks of their prey's flesh.[8]They were also known to lash out with their long tails, using them to disrupt an opponent's balance.[4]In 1357 DR, crocodiles could occasionally be found in the sewers beneath Waterdeep.[9]There were rumors that somehow crocodiles had made their way into the sewers of cities in tropical regions and were living off the urban environments' various waste and carrion.[4]Crocodiles rarely had any natural predators, with the exception of humans, who either hunted them for their thick hides to fashion into leather or to simply protect their waterside communities.[4]They were often encountered in the rivers of Chult.[12]In the land of Malatra, there was a large population of crocodiles in Sleepy Lake.[13] In the Crowded Sea region, they could be found on the island of Djinni's Claws.[14]Ragarran priests were often aided by both mundane and giant crocodiles.[15]In Malatra, the Zantira tribe of Nubari were known to hunt the crocodiles of Sleepy Lake with knives. Male members of the tribe often fashioned necklaces made from their teeth.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/27/Crocodile.jpeg/revision/latest?cb=20190624075223",
+    "hit_points": 19,
+    "hit_dice": "3d10",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

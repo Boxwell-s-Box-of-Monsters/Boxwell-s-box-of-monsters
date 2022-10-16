@@ -1,6 +1,8 @@
 import tkinter as tk
 import random
-
+from io import BytesIO
+from urllib.request import urlopen
+from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import MoreLikeThis
@@ -26,7 +28,7 @@ class MainWindow(tk.Tk):
         self.es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
         # End Elastic Search
 
-        self.geometry("350x680")
+        self.geometry("350x750")
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
@@ -65,6 +67,8 @@ class MainWindow(tk.Tk):
         # Get Monster Button and Result
         self.result = tk.StringVar()
         self.result.set("")
+        monsterImage = Image.open('images/placeholderMonster.png')
+        self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
         self.button = tk.Button(self,
                                 text='Get Monster',
@@ -79,6 +83,8 @@ class MainWindow(tk.Tk):
         self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 10),
                                     fg=BLACK)
         self.resultLabel.grid(column=1, row=5)
+        self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
+        self.resultImage.grid(column=1, row=6)
 
     ############################
     # Button Functions
@@ -115,7 +121,7 @@ class MainWindow(tk.Tk):
     def printAdapter(self, response):
         # Create a string
         responseText = response['name']
-        ##########responseText += "\nHP: " + str(response['hit_points'])
+        responseText += "\nHP: " + str(response['hit_points'])
         responseText += "\nAC: " + str(response['armor_class'])
         responseText += "\tCR: " + str(response['challenge_rating'])
         # New Line with Monster Stats
@@ -126,10 +132,31 @@ class MainWindow(tk.Tk):
         responseText += "\tWis: " + str(response['wisdom'])
         responseText += "\tCha: " + str(response['charisma'])
         # New line with Monster weaknesses and resistances
-        responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
-        responseText += "\nresistances: " + str(response['damage_resistances'])
-        responseText += "\nimmunities: " + str(response['damage_immunities'])
+        if "damage_vulnerabilities" in response:
+            responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
+        if "damage_resistances" in response:
+            responseText += "\tresistances: " + str(response['damage_resistances'])
+        if "damage_immunities" in response:
+            responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
+
+    def displayBlank(self):
+        im = Image.open('images/placeholderMonster.png')
+        newImage = ImageTk.PhotoImage(im)
+        self.resultImage.configure(image=newImage)
+        self.resultImage.image = newImage
+
+    def printImage(self, response):
+        # Display the updated monster's image
+        if response['imageURL'] is not None:
+            with urlopen(response['imageURL']) as imageURL:
+                u = imageURL
+                im = Image.open(BytesIO(u.read())).resize((200,200))
+                newImage = ImageTk.PhotoImage(im)
+                self.resultImage.configure(image=newImage)
+                self.resultImage.image = newImage
+        else:
+            self.displayBlank()
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
@@ -139,6 +166,8 @@ class MainWindow(tk.Tk):
         if len(responseList) > 0:
             response = self.bestResponseAdapter(responseList)
             responseText = self.printAdapter(response)
+            self.printImage(response)
         else:
             responseText = "Error, no monsters found"
+            self.displayBlank()
         self.result.set(responseText)

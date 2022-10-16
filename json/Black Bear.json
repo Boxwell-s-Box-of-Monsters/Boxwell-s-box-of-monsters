@@ -1,0 +1,25 @@
+{
+    "name": "Black Bear",
+    "armor_class": 11,
+    "challenge_rating": 0.5,
+    "strength": 15,
+    "dexterity": 10,
+    "constitution": 14,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 7,
+    "actions_desc": "The bear makes two attacks: one with its bite and one with its claws. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. ",
+    "special_abilities_desc": "The bear has advantage on Wisdom (Perception) checks that rely on smell. ",
+    "description": "These creatures had black, blond, or cinnamon fur. Black bears on average were 5 ft (1.5 m).[2]These omnivore ursoids were not usually dangerous unless their cubs or food supply was threatened.[5][2]A black bear was found in the Wyllowwood level of Undermountain, where it enjoyed following strangers round for food.[6]Beyond the Prime Material plane, black bears could be found in the woods of Barovia.[8]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/62/Black_bear_portrait_NWN.png/revision/latest?cb=20180706122840",
+    "hit_points": 19,
+    "hit_dice": "3d8",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

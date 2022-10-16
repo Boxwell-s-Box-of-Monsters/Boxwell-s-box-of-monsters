@@ -1,0 +1,27 @@
+{
+    "name": "Ankheg",
+    "armor_class": 14,
+    "challenge_rating": 2,
+    "strength": 17,
+    "dexterity": 11,
+    "constitution": 13,
+    "intelligence": 1,
+    "wisdom": 13,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so. The ankheg spits acid in a line that is 30 ft. long and 5 ft. wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "",
+    "description": "Ankhegs were covered in a strong chitin armor.[1]Ankhegs could see in pitch darkness, as well as detect vibrations in the earth, from up to 60\u202ffeet (18\u202fmeters) away.[1] The \"attack\" acid was part of the digestive system for the creature, so it couldn't digest food for six hours after a discharge.[4]An ankheg bursting out of the ground to attack.The ankheg was an ambush predator that waited around 5\u201310 feet underground[6][4] for prey to wander into position. The attack was quick, as the prey was crushed and ground in its mandibles and assaulted with acidic digestive enzymes. If a foe proved too difficult, the ankheg could also squirt acid to take it down.[1] If several ankhegs were attacking a group, the ankhegs would try to attack different targets. If prey was attacked by more then one ankheg, the ankhegs would just play tug-of-war with the unfortunate prey.[6]A typical area could have a lone ankheg, a pair,[2] or a cluster of ankhegs.[6]Ankhegs that lived in colder areas hibernated during winter. During this time, an ankheg took nutrients through its shell and its antenna.[citation needed]Gaining nutrients from the ground, the ankheg also had to hunt fresh meat to sustain itself.[1] It could also eat decaying meat.[4]The four stages of the Ankheg life cycle.Ankhegs mated in autumn, when the fertilized female would kill the male to lay 6\u201312 eggs inside him. Usually, a high number of eggs survived and hatched within two to ten days and started to feed.[2]An ankheg broodling did not hunt and remained hidden, while its mother brought it sustenance.[2] After a year, the young were able to fend for themselves.[4]Around the second year, the young ankheg shed its chitin before winter. It took a little less than ten days to complete the process and grow a new shell. During this time, the youngling was slower and more vulnerable. To defend itself, it secreted a fluid that smelled like rotten fruit. This defense could backfire, as some would seek out the smell.[4]Living in warm climates, the ankheg dwelt in partially collapsed burrows usually around 40 feet underground.[6][4] The ankheg hunted in forests or grasslands where prey would wander into its traps.[1][4] If an area became too barren, the ankheg moved on to other, more lucrative areas.[4] Ankheg tunnels were sometimes filled with the remains of victims, eggs, or chitin.[1] Their tunnels would sometimes be around 60 to 150\u202ffeet (18 to 46\u202fmeters) long and 5\u202ffeet (1.5\u202fmeters) feet high.[6][4] Hollow tunnel ends were used for lair purposes, such as sleeping or hibernation.[4]They were known to compete with giant ants for territory. If they were killed or driven away from their nest, the broodlings left behind would be made to serve the giant ant colony.[2]Ankhegs could prove to be useful for a farmer. Provided it stayed alive, its tunnels could bring in water and its excrement contained enriching minerals.[1] Ankheg burrows also aerated the nearby land which could improve crop yields by as much as 15%, providing the ankheg population was managed.[11]An ankheg shell harvested from a slain ankheg weighed roughly 100\u202fpounds (45\u202fkilograms) Armorers like Taerom Fuiruim in Beregost could forge armor from the shells. It took three days to make. The armor was very nearly as effective as full plate mail, but weighed considerably less and could be worn by warriors who usually couldn't wear such heavy armor. Taerom claimed to sell ankheg armor to rich nobles for 20,000 gold pieces. However, if one provided the shell, he would charge just 4000 gold pieces for a set of completed armor.[11]A stuffed ankheg was kept in the Obstacle Course layer of Undermountain.[12]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/86/Monster_Manual_5e_-_Ankheg_-_Devon_Cady-Lee_-_p21.jpg/revision/latest?cb=20150118224815",
+    "hit_points": 39,
+    "hit_dice": "6d10",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "tremorsense": "60 ft.",
+        "passive_perception": 11
+    },
+    "xp": 250,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

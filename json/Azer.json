@@ -1,0 +1,34 @@
+{
+    "name": "Azer",
+    "armor_class": 17,
+    "challenge_rating": 2,
+    "strength": 17,
+    "dexterity": 12,
+    "constitution": 15,
+    "intelligence": 12,
+    "wisdom": 13,
+    "charisma": 10,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or 8 (1d10 + 3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage. ",
+    "special_abilities_desc": "A creature that touches the azer or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack). The azer sheds bright light in a 10-foot radius and dim light for an additional 10 ft.. ",
+    "description": "Azers bore a resemblance to dwarves, but with brass-colored skin and hair, their hair and beards composed of flames. Azer bodies were so hot that their weapons conducted heat, so much so that any creature within reach of an azer was injured by the intense heat.[7] Many azers wore kilts and apron-like garments made from beaten brass, bronze, or copper.[3][4][5]Azer often wielded broad-bladed javelins and mallet-like weaponry in combat.[4]Azer society was best described as communal, as every individual had a place in society and matters of the state were more important than that of the individual. Living within fortresses made of bronze on the Elemental Plane of Fire, azer nobles wielded absolute power.[3] Their outposts and cities were typically complexes of tower built from basalt, granite, or metal. Within these cities they grew strange trees with metallic bark and leaves.[4]Despite loving gems and constantly waging war against the efreet, Azers never started a fight unless the foe was carrying gems and in which case they might take them prisoner.[3]Azer beard hair was used to weave a powerful Kossuthan magic cloak\u2013 the Mantle of Hell's Furnace.[8]Azers were often slaves of fire giants and titans.[7] As for the other races, azers despised efreet, with whom they were often at war.[3] They maintained good relations with the yak folk found on the planes.[9]Azer often acted as servants of the deities Dumathoin, Gorm Gulthyn, Kossuth, Laduguer, and Moradin.[10]Some sages claimed that dwarves were once all enslaved to giants and titans; modern dwarves descended from those who escaped slavery, while azers were the descendants of those who'd remained enslaved and were unable to escape their captors. Exposure to the Plane of Fire produced their unique fire qualities.[2]Others maintained that azers were in fact native to the Elemental Plane of Fire and that their dwarvish appearance was merely a fa\u00e7ade.[1]The azers had once been allies of the efreet, and even helped build the City of Brass. When construction was finished, the efreet betrayed the azers, trying to enslave them to prevent their knowledge of the city's secrets from spreading. Since then, the fact that the azers knew secret ways into the city had prevented the efreet from unleashing an all-out conflict, so that only skirmishes between them happened.[1]At some point, the archmage Trobriand summoned five azers to work for him on his layer of Trobriand's Graveyard in Undermountain. Later, the gnome Zox Clammersham was able to trick them into serving him, claiming to be Trobriand's apprentice.[11]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/08/Azer-5e.jpg/revision/latest?cb=20200411071333",
+    "hit_points": 39,
+    "hit_dice": "6d8",
+    "condition_immunities": [
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "passive_perception": 11
+    },
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
+}

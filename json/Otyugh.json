@@ -1,0 +1,26 @@
+{
+    "name": "Otyugh",
+    "hit_points": 114,
+    "hit_dice": "12d10",
+    "armor_class": 14,
+    "challenge_rating": 5,
+    "strength": 16,
+    "dexterity": 11,
+    "constitution": 19,
+    "intelligence": 6,
+    "wisdom": 13,
+    "charisma": 6,
+    "actions_desc": "The otyugh makes three attacks: one with its bite and two with its tentacles. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 4 (1d8) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 13) and restrained until the grapple ends. The otyugh has two tentacles, each of which can grapple one target. The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned. ",
+    "special_abilities_desc": "The otyugh can magically transmit simple messages and images to any creature within 120 ft. of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond. ",
+    "description": "   Otyughs were strange-looking creatures, with bloated, oval-shaped bodies around 8\u202ffeet (2.4\u202fmeters) wide that stood on three shuffling elephantine legs and had a disgusting, rock-like hide. They had a pair of long tentacles that were bedecked in rough thorny growths and ended in leaf-shaped pads bearing rows of more sharp spikes. A third tentacle sprouted from the top of the otyugh's body, forming a vine-like stalk standing some 2\u202ffeet (61\u202fcentimeters) high, and ended in a pair of eyes and an olfactory organ. The body of the creature contained a massive fang-filled mouth, shaped like a crude gash through its center. A typical otyugh was around 500\u202fpounds (230\u202fkilograms) in mass.[3] An otyugh's body motion when running. Despite its appearance and habits, an otyugh was somewhat intelligent and capable of speech in the Common tongue.[3] Due to the nature of the otyughs' appetites, their mouths were filthy and often carried diseases like filth fever, inflicted with a bite.[3] Otyughs were generally content to stay hidden in their lairs, usually only attacking living creatures if they felt threatened or hungry. They would slash prey with their thorny tentacles, or use them to grab and squeeze creatures and drag them into their maws.[3] In the Arena of Blood in Manshaka, hungry otyughs were kept to devour the carcasses of the slain, but they would seize an unlucky contestant given the chance. In the Year of the Prince, 1357 DR, Vajra Valmeyjar drove a troll into its tentacles.[10] In 1357 DR, otyughs could occasionally be found in the sewers of Waterdeep.[11] Dwelling primarily underground, otyughs could be found skulking among piles of refuse and waste. They made such places their lairs, or else gathered refuse to fill their lairs. An otyugh spent the majority of time in its lair, burying itself in trash with only the sensory stalk protruding above the heap. It sat for hours on end, shoveling \"food\" into its maw with its tentacles.[3] Otyughs were primarily omnivorous scavengers. They could consume almost all kinds of refuse and waste, such as carrion, offal, and many other things others would view as garbage. Nevertheless, they would take fresh meat when they had the chance.[3] In the nation of Thay, otyughs could be found in the Surmarsh.[12][13] A hungry otyugh waits to devour the loser of a fight in the Arena of Blood. Because of their habits, otyughs were often viewed as a convenient means of garbage disposal by many intelligent creatures dwelling underground. They would dump their garbage and waste in otyugh lairs, which would, most of the time, not attack them.[3] They were also employed as guardian creatures in sewers and other foul areas.[14] For example, an amphibious otyugh was kept as a guardian for the sewer and river channel beneath the Temple of Mystra in Wheloon in the Year of Lightning Storms, 1374 DR. Instead of waste, it was fed regularly with fresh seafood: live shrimp, lobsters, and crabs.[14]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/2f/Otyugh-5e.jpg/revision/latest?cb=20200414144526",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 11
+    },
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

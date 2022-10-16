@@ -1,0 +1,25 @@
+{
+    "name": "Giant Ape",
+    "armor_class": 12,
+    "challenge_rating": 7,
+    "strength": 23,
+    "dexterity": 14,
+    "constitution": 18,
+    "intelligence": 7,
+    "wisdom": 12,
+    "charisma": 7,
+    "actions_desc": "The ape makes two fist attacks. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage. Ranged Weapon Attack: +9 to hit, range 50/100 ft., one target. Hit: 30 (7d6 + 6) bludgeoning damage. ",
+    "special_abilities_desc": "",
+    "description": "The Great Ape was an unusually large white girallon infamous for its voicelessness. Its scarred hide bore signs of many battles indicating its age and aggressive nature.[1]In the late 15th century DR, shortly after the death curse had stricken the land, the Great Ape became one of many other dangers that threatened the existence of the town of Port Nyanzaru and routes through the jungle outside of the city. The Merchant Prince of Nyanzaru, Jessamine, asked a group of adventurers, guided by Eku to slay the monstrous beast as a favor, in exchange for clues about the origins of the strange blight affecting resurrected creatures of Chult and Faer\u00fbn.[1]Eku held the adventurers in tracking the Great Ape by finding the signs of its passage. After a long and exhaustive battle with the scarred girallon, the Great Ape was put to the sword, partially returning safety to the roads of Port Nyanzaru.[1]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/23/The_great_ape.png/revision/latest?cb=20210330040027",
+    "hit_points": 157,
+    "hit_dice": "15d12",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 14
+    },
+    "xp": 2900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

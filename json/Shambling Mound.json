@@ -1,0 +1,47 @@
+{
+    "name": "Shambling Mound",
+    "hit_points": 136,
+    "hit_dice": "16d10",
+    "armor_class": 15,
+    "challenge_rating": 5,
+    "strength": 18,
+    "dexterity": 8,
+    "constitution": 16,
+    "intelligence": 5,
+    "wisdom": 10,
+    "charisma": 5,
+    "actions_desc": "The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage. The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time. ",
+    "special_abilities_desc": "Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt. ",
+    "description": "   They appeared to be moving, vaguely man-shaped mounds of rotting vegetation.[3] A serpentine shambling mound was one that had been corrupted by tainted blueberries. Their bodies were stretched so that they resembled serpents with the head and hands on one end and the legs on the other, but otherwise they had nothing in common with serpents. There were only a few of these creatures. They dwelled in the east starwood area of the forest of Cormanthor, north of the Halfaxe Trail.[7] Shambling mounds were often found in temperate marshlands.[3] In northwest Faer\u00fbn, they could be found in the Mere of Dead Men[8] and the Stump Bog.[9] In interior Faer\u00fbn, they could be found in the Vast Swamp of Cormyr.[10] In south Faer\u00fbn, they could be found in the Great Swamp of Rethild,[11] occasionally in the Thornwood,[12], occasionally in Chondalwood,[13] and wandering the jungles of Samarach.[14] In 1357 DR[15] and up to 1368 DR, shambling mounds could occasionally be found in the sewers beneath Waterdeep.[16] In 1374 DR, the Shadowscale lizardfolk lured a shambling mound into the back entrance of their warren by bringing it animal carcasses. It served a dual purpose as both guardian and waste disposal. However, when they stopped feeding it (being undead, they no longer needed to eat), it went off and hunted on its own, but used the area as a den. Two shocker lizards joined it, forming a mutualist relationship: they gained the shambler's protection and ate its leavings, while their electric shocks bolstered and healed the shambler.[6]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b2/Shambling_mound_-_Lars_Grant-West.jpg/revision/latest?cb=20200311074722",
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 10
+    },
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "fire"
+    ],
+    "damage_immunities": [
+        "lightning"
+    ]
+}

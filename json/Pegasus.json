@@ -1,0 +1,25 @@
+{
+    "name": "Pegasus",
+    "hit_points": 59,
+    "hit_dice": "7d10",
+    "armor_class": 12,
+    "challenge_rating": 2,
+    "strength": 18,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 10,
+    "wisdom": 15,
+    "charisma": 13,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. ",
+    "special_abilities_desc": "",
+    "description": "      Pegasi, at first glance, resembled mere horses with large bird-like wings. Despite this, they had other avian features as well: their lower legs were feathered instead of furred and their manes and tails were also of feathers.[3][5] Being wild and shy magical creatures, pegasi were not easily tamed and ridden. A pegasus would serve as an aerial steed only to a good-natured humanoid. In any cases they will strongly be opposed to wear saddle. The most common way they were trained was after being raised from birth though sometimes a grown pegasus might be tamed, with a friendly attitude to the tamer, making a worthy steed indeed.[3] Once tamed, a pegasus formed a bond with their rider, obeying their commands. If the rider became evil after it tamed a pegasus, the pegasus rejected them.[3] A pegasus acting as a mount for a Paladin. Being goodly creatures, they would only serve good causes and riders, with an absolute faithfulness for life. But it is excluded that they join neutral and evil character.[5] In combat, pegasi used their hooves and teeth as weapons. A common tactic was striking a target from above. The pegasus dove at a target from a height of up to 50\u202fft (15\u202fm) and delivered a devastating attack with their hooves. If facing an opponent larger then they were, pegasi lured them into a confining space, where the larger opponents size was at a disadvantage. This was a common pegais tactic against dragons. Pegasi preferred to avoid combat if they could, instead using their speed and agility to lead their opponent on a chase, tiring them out.[3] If the nest of a pegasi couple was attacked, one of them would defend the young while the other one attacked the invader, striking at them to get their attention. The goal was to enrage the opponent and lure them away from the nest. The pegasus lured them as far away from the nest as possible.[3] Pegasi had the innate ability to duplicate the effects of detect evil and detect good spells at will. This was used by the pegasus to detect the alignment of a potential rider.[3] Pegasi were social creatures, living in herds. Herds were sometimes led by a greater pegasus.[3] Many pegasi revered the gods Eachthighern and Lurue. On Evermeet, their queen was Yathaghera.[6] While pegasi considered all evil creatures vile, they harboured a particular hate for griffons and hippogriffs.[3] Pegasi were used by the Seldarine as mounts.[1] Pegasi most commonly lived in temperate or warm forests.[3] A pegasus and its foal. Pegasi were hebivores. Their diet mainly consisted of fruits and plants.[3] Along with their physical attributes, pegasi were also like birds in that they laid eggs[note 1] rather than giving birth to live young.[3] Pegasi laid eggs in nests high in the mountains, where only flying creatures can reach. A pegasus would mature at the same rate as a horse, however, and had somewhat similar habits.[2] A pegasi couple mated for life.[1] The origins of the pegasi could be traced back to the plane of Arborea.[1] Pegasi eggs are incredibly valuable on the market. A single egg could fetch up to 3,000 sp. Young pegasi were usually sold at a price of 5,000 sp each.[3] Greater pegasi looked like regular pegasi but were stronger and had a natural resistance to magic. It was thought that greater pegasi were born when a medusa was decapitated. As this only happened rarely, greater pegasi were far rarer than regular pegasi.[3] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1b/Pegasus-5e.png/revision/latest?cb=20171010192520",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 16
+    },
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

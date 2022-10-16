@@ -1,0 +1,25 @@
+{
+    "name": "Plesiosaurus",
+    "hit_points": 68,
+    "hit_dice": "8d10",
+    "armor_class": 13,
+    "challenge_rating": 2,
+    "strength": 18,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage. ",
+    "special_abilities_desc": "The plesiosaurus can hold its breath for 1 hour. ",
+    "description": "      Plesiosauruses had compact bodies and strong flippers that were used to swim. They had long and flexible necks that accounted for about a third of their length.[1] Plesiosauruses were aggressive predators. They attacked any creature that crossed their path.[1] They were also highly curious and considered to be one of the smartest species of dinosaurs.[2] Plesiosaurs were commonly found in the depths of the Lake of Mists[6] and some dwelled in the Methmere.[7] Beyond the Prime Material plane, some lived within the central lake of the Forbidden Plateau.[8] Sauropods: Anchisaurus \u2022 Brachiosaurus \u2022 Brontosaurus \u2022 Camarasaurus \u2022 Cetiosaurus \u2022 Diplodocus \u2022 Mamenchisaurus \u2022 Massospondylus \u2022 Plateosaurus\nOrnithopods: \u2022 Ankylosaurus \u2022 Camptosaurus \u2022 Dacentrurus \u2022 Hadrosaurus \u2022 Iguanodon \u2022 Kentrosaurus \u2022 Lambeosaurus \u2022 Monoclonius \u2022 Paleocinthus \u2022 Pentaceratops \u2022 Stegosaurus \u2022 Styracosaurus \u2022 Trachodon \u2022 Triceratops\nPterosaurids: Pteranodon \u2022 Pterosaurus \u2022 Quetzalcoatlus\nAquatic: Elasmosaurus \u2022 Mosasaurus \u2022 Nothosaurus \u2022 Plesiosaurus \u2022 Temnodontosaurus",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1f/Plesiosaurus-5e.jpg/revision/latest?cb=20170605020931",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

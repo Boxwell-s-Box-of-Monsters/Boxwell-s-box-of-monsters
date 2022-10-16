@@ -1,0 +1,26 @@
+{
+    "name": "Badger",
+    "armor_class": 10,
+    "challenge_rating": 0,
+    "strength": 4,
+    "dexterity": 11,
+    "constitution": 12,
+    "intelligence": 2,
+    "wisdom": 12,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage. ",
+    "special_abilities_desc": "The badger has advantage on Wisdom (Perception) checks that rely on smell. ",
+    "description": "Badgers a distinctive white stripe from the tip of its long nose to the back of its head and white cheeks.[2] They were a burrowing creature,[4][2] considered to be experts at digging.[2]AD5 Things You Should Never Do With Your Money, According to ExpertsBy The Penny HoarderBadgers were fierce fights[4] and notorious for their fury when threatened. Despite its small size, when angered a badger's strong bite and sharp claws could be highly dangerous.[2]Badgers were typically encountered solitarily, unless they had a mate.[4]In the Unapproachable East, badgers could be found in the Tannath Gap, Yuirwood, and Ashenwood.[5]In Kara-Tur they could be found in its temperate plains and forests, tropical forests, and steppelands.[6]Badgers were admired by the gnome race[7] and could often be seen serving as \"watchdogs\" for rock gnome homes.[8] They were also favored by rangers and druids as animal companions.[9]Badgers were a favored animal of the deities Garl Glittergold, Geb, Rillifane Rallathil, Sheela Peryroyl, Silvanus, and Tempus. They often chose these beasts to act as symbols of their favor to their followers.[10]Some creatures were known to hunt badgers for the pelts. These typically fetched prices of around 10 to 30 gold pieces.[4]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/ab/Giant_badger-5e.jpg/revision/latest?cb=20171011001822",
+    "hit_points": 3,
+    "hit_dice": "1d4",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": 11
+    },
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

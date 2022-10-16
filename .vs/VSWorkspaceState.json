@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\frames",
+    "\\json"
   ],
-  "SelectedNode": "\\MockUp.py",
+  "SelectedNode": "\\frames\\MainWindow.py",
   "PreviewInSolutionExplorer": false
 }

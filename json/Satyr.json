@@ -1,0 +1,25 @@
+{
+    "name": "Satyr",
+    "hit_points": 31,
+    "hit_dice": "7d8",
+    "armor_class": 14,
+    "challenge_rating": 0.5,
+    "strength": 12,
+    "dexterity": 16,
+    "constitution": 11,
+    "intelligence": 12,
+    "wisdom": 10,
+    "charisma": 14,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1 d6 + 3) piercing damage. Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage. ",
+    "special_abilities_desc": "The satyr has advantage on saving throws against spells and other magical effects. ",
+    "description": "   Satyrs looked like male humanoids of stout build, with fur-covered lower bodies and legs and cloven hooves similar to those of a goat. Similarly, goat-like horns topped their heads; these came in a variety of shapes and sizes, from small nubs to big curling ones akin to a ram. They were typically seen with facial hair.[1] They had only a male sex, as female satyrs was a phenomenon that just never naturally occurred.[4] Satyrs were well known for being curious and incredibly hedonistic. They were willing to go to any length to achieve their desires, giving little thought to the results of their actions, and often roped other creatures into participating in debauchery.[1] When facing a foe, satyrs were typically known to fight with either a shortsword or shortbow. Their most notable weapon was a set of pan pipes that induced a variety of magical effects on their enemies, including charming, frightening, and lulling them to sleep. Other satyrs were immune to the effects of these pipes.[1] When weapons were not available in close quarters situations they often would simply ram their opponents with their heads.[1] Due to their hedonistic nature, satyrs were known to frequently join in the celebration of holidays regardless of what they were for.[1] Satyrs in elven woods were known to believe that it was lucky to see a dragon when it was raining.[9] Being an all-male race, the satyrs required mating with other creatures in order to reproduce. These creatures were specifically their fellow fey, the dryads[4][10] and oreads.[10] They also shared the dryads' affection for humans of the opposite sex.[4] Such pairings were likely to result in a child that was a half-fey human, rather than a true satyr.[11] Areas in the Realms where satyrs were known to be found included the following: Satyrs were sometimes utilized as messengers or agents for the gods Erevan Ilesere, Hanali Celanil, Mielikki, Sharess, Sheela Peryroyl, Silvanus, and Sune.[20] Satyrs were often known to serve unicorns whenever one dwelled within their forest.[21]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/dc/Satyr-5e.jpg/revision/latest?cb=20160918232601",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 12
+    },
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}
