@@ -75,9 +75,9 @@ def initialize(fileLocInit, responseInit):
         document = {
             'name': monsterObj["name"],
             'hit_points': monsterObj["hit_points"],
-            'hit_dice': hit_dice = monsterObj["hit_dice"],
-            'armor_class': armor_class = monsterObj["armor_class"],
-            'challenge_rating': challenge_rating = monsterObj["challenge_rating"],
+            'hit_dice': monsterObj["hit_dice"],
+            'armor_class': monsterObj["armor_class"],
+            'challenge_rating': monsterObj["challenge_rating"],
             'strength': monsterObj["strength"],
             'dexterity': monsterObj["dexterity"],
             'constitution': monsterObj["constitution"],
