@@ -112,6 +112,7 @@ def modify(fileLocMod, responseMod):
     if exists(fileLoc):
         # API url to retrieve monster info
         monsterObj = requests.get("https://www.dnd5eapi.co" + responseMod['url']).json()
+        print(monsterObj) # To get pylint to shut up about unused variables, remove when necessary
         # Add keys to the document, ex: name = monsterObj["name"]
         # JSON object for a monster
         document = {
@@ -153,8 +154,8 @@ def webscrape(fileLocWeb, responseWeb):
                 fileWeb.write(currentJson)
         else:
             # Write bad json list to a file
-            with open(badFileLocWeb, "w", encoding="utf8") as file:
-                file.write(currentJson)
+            with open(badFileLocWeb, "w", encoding="utf8") as fileWeb:
+                fileWeb.write(currentJson)
 
         return currentJson
     return None
