@@ -1,0 +1,26 @@
+{
+    "name": "Quipper",
+    "hit_points": 1,
+    "hit_dice": "1d4",
+    "armor_class": 13,
+    "challenge_rating": 0,
+    "strength": 2,
+    "dexterity": 16,
+    "constitution": 9,
+    "intelligence": 1,
+    "wisdom": 7,
+    "charisma": 2,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage. ",
+    "special_abilities_desc": "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points. The quipper can breathe only underwater. ",
+    "description": "   Quippers were well adapted to many environments, but typically found in freshwater. It was not uncommon to find schools of quippers even in underground lakes.[1] They were common in rivers throughout Chult[5] and in the headwaters of the Styx in Pandemonium.[8] During the time of Netheril, schools of quippers lived in the southern Channel Lock, but never migrated into the deeper Narrow Sea, the reason unknown.[6] Quipper and chips was a popular dish served at the Yawning Portal in Waterdeep in the 1490s DR.[9]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d2/Quipper-5e.jpg/revision/latest?cb=20180911032357",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 8
+    },
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

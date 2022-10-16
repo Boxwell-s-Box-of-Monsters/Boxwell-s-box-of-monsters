@@ -1,0 +1,38 @@
+{
+    "name": "Horned Devil",
+    "hit_points": 178,
+    "hit_dice": "17d10",
+    "armor_class": 18,
+    "challenge_rating": 11,
+    "strength": 22,
+    "dexterity": 17,
+    "constitution": 21,
+    "intelligence": 12,
+    "wisdom": 16,
+    "charisma": 17,
+    "actions_desc": "The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing. Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire. ",
+    "special_abilities_desc": "Magical darkness doesn't impede the devil's darkvision. The devil has advantage on saving throws against spells and other magical effects. ",
+    "description": "  [3]     Cornugons were ogre-sized creatures whose bodies reached up to 9\u202fft (2.7\u202fm). They were 600\u202flb (270\u202fkg), roughly humanoid beings with bodies sheathed in repulsive scales.[2] The presence they possessed was considered intimidating even to other devils, as their massive wings, sweeping horns, and serpentine tails furthered their frightening appearance.[1][2] Despite being among the most capable and cunning of the baatezu, cornugons were also some of the least likely to betray their superiors, making them powerful assets.[3] The true source of their loyalty was a point of contention although they notably hated and feared those stronger than themselves and so acted to avoid risk to themselves.[1] While some claimed their true nature was militaristic and disciplined others said their loyalty stemmed from laziness, and their love of battle from belligerence.[1][3] Regardless of the reasons for their obedience, if thoroughly agitated they were capable of daunting rage.[1] The wings of a horned devil were not for show, allowing them to move across the battlefield far quicker than moving on foot. In addition to their ability to fight with their fangs and claws, cornugons inflicted infernal wounds on those whose skin they pierced with their tails.[4] Such wounds persistently and profusely bled, slowly draining the victim of their blood and never naturally healing. Only capable medicine or skilled healing magic was capable of ending the bleeding.[2] Cornugons could choose to radiate an aura of fear around themselves within a 5\u202fft (1.5\u202fm) radius, to terrify non-baatezu. They could also regenerate any damage they suffered except from good-aligned or silver weapons or inherently good spells.[2] Cornugons possessed a wide variety of innately magical abilities, allowing them to hurl lightning, create incredibly dangerous flames and craft powerful illusions. They also had the ability to call upon a wide variety of devils, including a small mob of lemures, a group of barbazus, a flock of abishai or a few more cornugons.[2][3] Cornugons often fought with military forks or spiked chains, with which they would stun their enemies.[3] They were bold in combat and rarely retreated even when dangerously outmatched. They typically swooped into combat from the air attempting to quickly disable and eliminate the most powerful threats first with their forks, chains or tails.[1][2] Spellcasters among the cornugons were infrequent. Few were willing to put aside their physical training long enough to become noteworthy wizards and only rarely did they retain any of their former allegiances to deities once they reached their place in the infernal hierarchy.[8] From left to right, a barbazu, a cornugon, and an erinyes. Cornugons occupied the lower circles of Hell, particularly Malbolge and Maladomini, where they served as its elite flying infantry.[1][4] Their armies numbered up to 2,000 of their kind and only beings of pit fiend status were allowed to lead their infernal legions. Horned devils were also the elite bodyguards of Baator, desired by powerful gelugons and pit fiends alike to serve as personal guards and retainers.[3] Along with hamatula, cornugons were among the fastest advancing baatezu. Cornugons capable of showcasing their abilities through several military successes would be given command over vast armies of lesser devil soldiers. The only faster path to advancement from that point would be direct service to the Dark Eight, making it an incredibly desired position.[3] Cornugons that did prove themselves particularly exceptional were allowed to serve among the 106 cornugons already protecting the Dark Eight. Said cornugons possessed an extreme loyalty rarely seen within the traitorous depths of Baator, rumored to be willing to die for the council whether out of genuine devotion or simply out of sheer terror of the consequences for forsaking them.[3] Cornugons that managed to serve with the 106, advanced relatively quickly for baatezu, reaching gelugon status within a millennium or so.[7] In the infernal hierarchy of the baatezu, cornugons were thought to be the least of the greater devils but still awarded with prestige for their rank.[3][note 2] Corugons often had names that translated into such things as \"Bent Wing\" or \"Evil Tail\".[4] A depiction of a vicious cornugon. In order to make cornugons more effective against the tanar'ri in the Blood War, experiments were performed to create a new form of horned devil. The altered cornugons could shoot bolts of acid as opposed to electricity and possessed browner skin and scaleless hands.[9] Least: Lemure \u2022 Nupperibo \u2022 Spinagon\nLesser: Abishai (Black \u2022 Blue \u2022 Green \u2022 Red \u2022 White) \u2022 Barbazu \u2022 Erinyes \u2022 Excruciarch \u2022 Ghargatula \u2022 Hamatula (Stony devil) \u2022 Kocrachon \u2022 Merregon \u2022 Osyluth \u2022 War devil \u2022 Xerfilstyx\nGreater: Amnizu \u2022 Cornugon \u2022 Gelugon \u2022 Logokron \u2022 Narzugon \u2022 Orthon \u2022 Paeliryon \u2022 Pit fiend\nBaatezu of unknown rank: Advespa \u2022 Dogai \u2022 Gulthir \u2022 Jerul",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/cb/Cornugon_5e.jpg/revision/latest?cb=20190915101416",
+    "condition_immunities": [
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 13
+    },
+    "xp": 7200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
+}

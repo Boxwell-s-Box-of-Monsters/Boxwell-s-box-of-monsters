@@ -1,0 +1,26 @@
+{
+    "name": "Giant Shark",
+    "armor_class": 13,
+    "challenge_rating": 5,
+    "strength": 23,
+    "dexterity": 11,
+    "constitution": 21,
+    "intelligence": 1,
+    "wisdom": 10,
+    "charisma": 5,
+    "actions_desc": "Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 22 (3d10 + 6) piercing damage. ",
+    "special_abilities_desc": "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points. The shark can breathe only underwater. ",
+    "description": "These monstrous sharks were some of the largest predators in the ocean.[5] They ranged in sizes of 20 to 65\u202ffeet (6.1 to 20\u202fmeters) in length,[4][5] with the larger sizes being more prevalent in ancient times,[4] and weighed between 10\u201260\u202ftons (9,100\u201254,000\u202fkg). Some were rumored to even reach lengths of 80 to 90\u202ffeet (24 to 27\u202fmeters).[5]Much like other sharks, megalodons were constantly in motion and driven by a voracious appetite. They were attracted by noises and would attack any creature they perceived as being edible.[4][5]Megalodons would go into frenzies when blood was in their watery habitats.[1][3][4] However, whenever this occured it was due to fishermen or other creatures hunting large aquatic life like whales. This is because their habit of swallowing prey whole almost never left any blood in the ocean.[3]Megalodons had very keen senses. They could smell from up to a 1\u202fmile (1,600\u202fmeters) away[5] and sense motions from up to the same distance.[3] They also could see around itself in a radius of 180\u202ffeet (55\u202fmeters).[5]These sharks could leap as high as 40\u202ffeet (12\u202fmeters) out of the water.[5] Much like other species of shark, megalodons needed to be constantly moving in order to force sufficient oxygen-rich water through their gills. Thus they would die if held immobile for a prolonged period. The other natural weakness of sharks shared by this species was that their thick, flexible cartilage tissue offered poor protection for their internal organs.[3]Megalodons were more effective at grappling their prey than other species of shark[5] and were capable of swallowing most things whole with their massive jaws.[5]The grand king of all sahuagin was rumored to possess a massive megalodon as a mount and guardian.[3]Megaladons lived either solitarily or in packs of up to five or twenty members.[2]Megalodons were a carnivorous species.[4] They were capable of swallowing some species of whale whole and would leap out of the water to bite at low-flying rocs. They were even known to attack members of their own species.[5]Beyond Toril, these creatures inhabited the planets of Armistice and Thalassa.[6]Outside of the Prime Material plane, there were fiendish megalodons that inhabited an ocean within the Gaping Maw layer of the Abyss.[7] They could also occasionally be found in Draga Salt-Biter's domain of Saragoss in the Domains of Dread.[8]Dragons were among the few creatures that megalodons were known to yield towards, though even then some would leap out of the water and bite at low-flying ones.[5]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/16/Megalodon-3e.jpg/revision/latest?cb=20200826190320",
+    "hit_points": 126,
+    "hit_dice": "11d12",
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "60 ft.",
+        "passive_perception": 13
+    },
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

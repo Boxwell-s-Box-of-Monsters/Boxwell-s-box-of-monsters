@@ -1,0 +1,27 @@
+{
+    "name": "Winter Wolf",
+    "hit_points": 75,
+    "hit_dice": "10d10",
+    "armor_class": 13,
+    "challenge_rating": 3,
+    "strength": 18,
+    "dexterity": 13,
+    "constitution": 14,
+    "intelligence": 7,
+    "wisdom": 12,
+    "charisma": 8,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell. The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated. The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain. ",
+    "description": "   It grew to about 8\u202ffeet (2.4\u202fmeters) in length, 4\u202fft 6\u202fin (1.4\u202fm) at the shoulder, and weighed around 450\u202flb (200,000\u202fg).[3] They had glistening white or silvery coats of fur and eyes that were either silvery or a very pale blue,[5] with the latter eye color being more predominant in their species.[3] These creatures were known to often have a foul disposition.[5] Using their fur as camouflage, winter wolves would lay in wait for prey.[1] When an ambush was triggered, winter wolves would encircle their prey and take turns to attack, or attempt to pin it. They could breathe gusts of cold as well as bite their victims. They could also trip their enemies. They were immune to cold and cold magic, but were vulnerable to fire.[3][5] A winter wolf attacking a group of Northlanders. Winter wolves typically lived in packs of around three to five.[3] They were well organized and their leaders were both the strongest and smartest among them. When hunting they typically traveled against the wind in order to ensure that their prey couldn't smell them.[6] Like all wolves, these creatures were a carnivorous species.[3][5] Winter wolves were only known to inhabit cold climates,[3][5] particularly in forests and plains.[3] They inhabited the region of High Ice, where they often hunted ice toads.[6] In the Unapproachable East, winter wolves could be found in the the High Country[7] and coastal regions of Rashemen,[8][9] as well as Ashanath and Rawlinswood.[10] Beyond Faer\u00fbn, they could be found in nearly all arctic areas of Kara-Tur.[11] Beyond the Prime Material plane they could be found in the plane of Clangor, where they were used as mounts by the plane's goblin inhabitants, and the plane of Jotunheim where they were as large as elephants.[12] Winter Wolves were known to speak their own bestial language,[1][5] as well as the language of worgs,[5] Common, and Giant.[3] Winter wolves were sometimes found as allies and guardians of frost giants, white dragons, and other evil arctic beings.[3] The pelts of these creatures could often sell for around 5,000 gp.[5]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/4d/Winter_wolf-5e.png/revision/latest?cb=20171012153220",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 15
+    },
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "cold"
+    ]
+}

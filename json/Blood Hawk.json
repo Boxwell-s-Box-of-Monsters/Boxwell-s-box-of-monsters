@@ -1,0 +1,25 @@
+{
+    "name": "Blood Hawk",
+    "armor_class": 12,
+    "challenge_rating": 0.125,
+    "strength": 6,
+    "dexterity": 14,
+    "constitution": 10,
+    "intelligence": 3,
+    "wisdom": 14,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. ",
+    "special_abilities_desc": "The hawk has advantage on Wisdom (Perception) checks that rely on sight. The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
+    "description": "Blood hawks were about the same size as a regular hawk with a large wingspan. They had speckled grey feathers. Their beaks and talons were strong and extremely sharp.[3]Male blood hawks hunted in groups called murders. Blood hawks were more vicious than other birds-of-prey. They possessed an insatiable desire for fresh blood. They were known to attack a target merely for the pleasure they gained from killing.[3][5]Blood hawks were very deadly opponents. They were very fast and maneuverable. They were stubborn fighters, continuing to attack a target even if they suffered injuries.[3]Evil bird maidens in Zakhara were known to shapeshift into blood hawks.[6]Male blood hawks often took gems from the corpses of their prey, which they used to decorate their nests to attract females.[3]Blood hawks were obligate carnivores and hunted humanoids, particularly humans. They got their name from their habit of consuming as much fresh blood as possible.[5]Outside of Faerun, blood hawks were known to be encountered in various deserts in Maztica.[7]Beyond the Prime Material plane, blood hawks could be found in the plane of Acheron.[8]Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/df/Hawk_5e.jpg/revision/latest?cb=20210408132609",
+    "hit_points": 7,
+    "hit_dice": "2d6",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 14
+    },
+    "xp": 25,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

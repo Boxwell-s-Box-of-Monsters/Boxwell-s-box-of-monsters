@@ -1,0 +1,28 @@
+{
+    "name": "Efreeti",
+    "armor_class": 17,
+    "challenge_rating": 11,
+    "strength": 22,
+    "dexterity": 12,
+    "constitution": 24,
+    "intelligence": 16,
+    "wisdom": 15,
+    "charisma": 16,
+    "actions_desc": "The efreeti makes two scimitar attacks or uses its Hurl Flame twice. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) fire damage. Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (5d6) fire damage. ",
+    "special_abilities_desc": "If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the djinni was wearing or carrying. The efreeti's innate spell casting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nAt will: detect magic\n3/day: enlarge/reduce, tongues\n1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire ",
+    "description": "Efreet were humanoid in appearance. They were very tall, generally reaching heights of 12\u202ffeet (3.7\u202fmeters), and massive and solid, weighing 2,000\u202fpounds (910\u202fkilograms). They were well-muscled, and had red or black skin that was always burning. For this reason, many resembled devils and were often mistaken for them. Their bodies were supposedly composed of basalt, bronze, and solidified fire.[4]Efreeti magic was comparable to that of other powerful creatures, such as demons and liches, and was quite versatile. One area in which it is preeminent was in magical weaponsmithing. Efreet were particularly renowned for their ability to create flaming weapons.[citation needed]Efreet were cruel and self-serving. They all considered themselves to be of noble character and assumed grand titles to make themselves seem impressive.[citation needed]As water was to most life forms, heat was to efreet. Heat and flame sustained their bodies. For this reason, they tended to reside near fumaroles, volcanoes, and other large natural heat sources.[citation needed]Efreet also inhabited the sun of Realmspace.[9]Fire elementals avoided the efreet if they could, fearing their oppression and opportunism. Djinn hated them, and there were numerous battles between the two genie races. Dao were tolerated by the efreet, whom they traded worked materials with in exchange for raw metals. Most other races were treated by the efreet as either servants or slaves.[4]Two related concepts, however, were foremost in the mind of an efreeti: honor and acquisition.[citation needed]Efreeti names were also part of this concept. They were exceedingly long and contained history and respectful details of lineage. When interacting with lesser creatures, they would normally take on a simpler name.[citation needed]It should also be noted that mages occasionally attempted to enslave efreet in order to harness their considerable power. Such binding, while of a very different nature than that involved in the binding of demons, was equally difficult, and just as likely to result in the wrath of the bound creature, should the attempt end in its escape.[citation needed]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/03/Efreeti-5e.png/revision/latest?cb=20171011020359",
+    "hit_points": 200,
+    "hit_dice": "16d10",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 12
+    },
+    "xp": 7200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire"
+    ]
+}

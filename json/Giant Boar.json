@@ -1,0 +1,25 @@
+{
+    "name": "Giant Boar",
+    "armor_class": 12,
+    "challenge_rating": 2,
+    "strength": 17,
+    "dexterity": 10,
+    "constitution": 16,
+    "intelligence": 2,
+    "wisdom": 7,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. ",
+    "special_abilities_desc": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead. ",
+    "description": "Unlike ordinary pigs, dire boars were vicious and would attack any creature that approached.[5]Dire boars typically tried to charge their opponents and gore them with their tusks.[3][2]Giant boars, much like regular boars, traveled in groups known as \"sounders.\"[2] The number of giant boars in a sounder varied, but oftentimes it totaled up to eight.[5]Giant boars were an omnivorous species.[2][5]In northwest Faer\u00fbn, these creatures could be found in Neverwinter Wood.[6] In the Shining South they were known to inhabit the Channath Vale and the Forest of Amtar.[7]Beyond Faer\u00fbn, dire boars were known to inhabit the moors, deciduous forests, and coniferous forests of the Moonshae Isles.[8] As well as the land of Chult.[9] In Anauroch, they could occasionally be found in the fertile areas of the Plain of Standing Stones.[10][11]Some humanoid races were known to domesticate dire boars, such as orcs and dwarves, the latter of which referred to their dire boar mounts as \"thundertusks.\" However, domestication was a difficult process, and after being domesticated dire boars were still known to be quite fierce and dangerous.[2]Dire boars were a favored animal of the deity Bahgtru.[14]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f5/DireBoar-4e.png/revision/latest?cb=20200711033719",
+    "hit_points": 42,
+    "hit_dice": "5d10",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 8
+    },
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

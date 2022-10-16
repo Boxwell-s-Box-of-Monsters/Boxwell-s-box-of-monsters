@@ -1,0 +1,72 @@
+{
+    "name": "Fire Elemental",
+    "armor_class": 13,
+    "challenge_rating": 5,
+    "strength": 10,
+    "dexterity": 17,
+    "constitution": 16,
+    "intelligence": 6,
+    "wisdom": 10,
+    "charisma": 7,
+    "actions_desc": "The elemental makes two touch attacks. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns. ",
+    "special_abilities_desc": "The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 ft. of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns. The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 ft.. For every 5 ft. the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage. ",
+    "description": "They were fast and agile creatures whose touch could set objects aflame. Owing to their fiery nature, they were unable to enter water. They were capable of speaking Ignan although they rarely spoke.[3]Being elementals, these creatures did not require any air, food, drink, or sleep to survive.[7]Besides fire, these elementals had ichor flowing through their bodies, which could be used as a magical ingredient.[8]Fire elementals usually chose to burn opponents with their touch. They attacked ferociously, enjoying burning things in the material plane to cinders. The fire elemental might also slam an opponent, possibly causing them to catch fire.[3]The fire elemental Jogaoh was forcibly transported from his home plane to the world of Toril by the extraplanar being Imgig Zu. Employing a Lockstone, Imgig Zu then trapped the powerful fire elemental in the form of a weak dwarf, which in turn bound him to Toril. In the Year of the Prince, 1357 DR, Vajra Valmeyjar and Priam Agrivar brought Jogaoh to the Lockstone, and the magical gem restored him to his true form. Jogaoh returned to his own plane.[9]A fire elemental emerged from the Great Door outside Waterdeep later in 1357 DR. Advised by his assistant Dunstanny, the wizard Parwyyd Hanifar used the elemental as a fire source for a pyrotechnics spell, causing fireworks that dazzled gargoyles and kenkus that also emerged from the Door.[10]These elementals could be summoned to the Prime Material plane through use of the spells elemental summoning[11] and conjure fire elemental.[12] There were also magical items that could achieve this, such as a brazier of commanding fire elementals, elemental gems,[13] and a fire elemental gem.[14]Such creatures could be summoned to fight on one's side by casting the conjure fire elemental spell or by using a fire elemental gem.[14]They were considered favored monsters, and therefore often used as divine servants, by the following deities: Dumathoin, Flandal Steelskin, Gaerdal Ironhand, Gorm Gulthyn, or Kossuth.[15]They were often harnessed by fire giants as guardians for their strongholds.[16]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b2/Fire_elemental-5e.jpg/revision/latest?cb=20171011161721",
+    "hit_points": 102,
+    "hit_dice": "12d10",
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
+}

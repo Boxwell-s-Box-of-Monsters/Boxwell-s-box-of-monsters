@@ -1,0 +1,65 @@
+{
+    "name": "Rug of Smothering",
+    "hit_points": 33,
+    "hit_dice": "6d10",
+    "armor_class": 12,
+    "challenge_rating": 2,
+    "strength": 17,
+    "dexterity": 14,
+    "constitution": 10,
+    "intelligence": 1,
+    "wisdom": 3,
+    "charisma": 1,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (2d6 + 3) bludgeoning damage. ",
+    "special_abilities_desc": "The rug is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute. While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half. While the rug remains motionless, it is indistinguishable from a normal rug. ",
+    "description": "   There was a large variety of shapes and appearances that a rug of smothering could be made into. They sometimes were built to resemble carpets of flying, but were otherwise indistinguishable from ordinary, non-magical rugs, except if inspected through magical detection.[1] The typical tactic adopted by a rug of smothering in combat was to rise and constrict a target creature standing on it or next to it. The trapped creature could not breathe while imprisoned and was slowly crushed by the rug unless freed. While a rug of smothering had a creature in its grasp, it had the ability to deflect part of any damage it received to its victim.[1] Like all constructs, rugs of smothering were susceptible to antimagic effects. They immediately fell unconscious while inside an antimagic field and could be knocked out for up to a minute if targeted by a dispel magic spell.[1]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b3/Rug_of_smothering-5e.jpg/revision/latest?cb=20191120223856",
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 6
+    },
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison",
+        "psychic"
+    ]
+}

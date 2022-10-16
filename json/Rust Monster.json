@@ -1,0 +1,26 @@
+{
+    "name": "Rust Monster",
+    "hit_points": 27,
+    "hit_dice": "5d8",
+    "armor_class": 14,
+    "challenge_rating": 0.5,
+    "strength": 13,
+    "dexterity": 12,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 13,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage. The rust monster corrodes a nonmagical ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. If the object is being worn or carried by a creature, the creature can make a DC 11 Dexterity saving throw to avoid the rust monster's touch.\nIf the object touched is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in the Rust Metal trait. ",
+    "special_abilities_desc": "The rust monster can pinpoint, by scent, the location of ferrous metal within 30 feet of it. Any nonmagical weapon made of metal that hits the rust monster corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Non magical ammunition made of metal that hits the rust monster is destroyed after dealing damage. ",
+    "description": "   A rust monster was the size of a small pony, with four insectlike legs and a squat, humped body. Its hide was thick and lumpy and was yellowish tan on the belly and rust-red on the back. Its tail ended in what looked like a double ended paddle. Two long antennae come out of its head, one under each eye.[6] Normally a docile creature,[1] a rust monster could smell metal from ninety feet away. They always went for the biggest source of metal first, and preferred ferrous metals over precious ones.[6] A rust monster had a weak bite and did not normally attack with it.[6] They attacked anyone who had metal, however, with their antennae. The touch of an antenna could turn even magical metal items into rust.[6] Rust monsters ate the rust of freshly rusted metal objects.[6] Some sages speculated that rust monsters might be related to or the larval form of rust dragons[8] The extremely few rust monsters who lived long enough to reach old age somehow transported themselves to the plane of Acheron, where they ravenously consumed the abundant metal from the plane's cubes for about one year. Afterwards, they encased themselves in cocoons made of spun metal, where they stayed for three years. Following this period, they emerged from their cocoons as rust dragon wyrmlings.[9] It was not known, however, whether rust monsters were native to Acheron and only traveled to the Prime Material plane as a part of their larval cycle to become rust dragons, or if rust monsters were in fact native to the Prime and were altered by the magic of Acheron once transported there.[9] Rust monster antennae were used in the creation of rust blades. They found these items extremely delicious and nourishing.[10]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/13/Monster_Manual_5e_-_Rust_Monster_-_p262.jpg/revision/latest?cb=20141115190808",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 11
+    },
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Ghoul",
+    "armor_class": 12,
+    "challenge_rating": 1,
+    "strength": 13,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 7,
+    "wisdom": 10,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. ",
+    "special_abilities_desc": "",
+    "description": "A ghoul appeared as an emaciated, roughly humanoid creature with an almost-hairless mottled, decaying hide stretched tight over its bones. It had the sharp teeth of a carnivore and sunken eyes that burned as if they were hot coals.[3]Ghouls could paralyze their victims with a claw or bite wound, though elves were immune. Paralysis lasted at least a dozen seconds and up to half a minute.[3][5] Like most types of undead, ghouls were immune to mind affecting spells, such as sleep.[5]The bite of a ghoul also inflicted a terrible disease, ghoul fever, deteriorating health and agility within a day. Any who died from the illness rose as a ghoul at midnight.[3]Ghouls sought to ambush and surprise unwary victims wherever they could, usually hiding behind gravestones or in shallow graves they could swiftly burst out of.[3] Once up close, they would slash at victims with their filthy claws and fangs.[5]Aside from the standard ghoul, a number of other varieties existed:Ghouls hunted alone, in gangs of up to four, or packs of seven to twelve members.[3]It was believed that a living man or woman who'd tasted the flesh of people would rise again as ghouls after they died. This was not proven, but it fitted their cannibalistic behavior. However, others believed that anyone who indulged in extreme debauchery and evil could become a ghoul after death.[3][note 1]Whatever the truth, it was clear that any humanoid who was bitten by a ghoul, contracted ghoul fever, and died of it would inevitably rise as a ghoul themselves the following night, at midnight.[3][5] Unless they were blessed or blessed and resurrected by a cleric before they could turn.[5]The new-risen ghoul lost all the skills and powers it had in life. Their minds became warped, turning them feral yet cunning and hungry for living flesh, becoming in all ways like another ghoul. They were not bound to serve other ghouls, however.[3][5]A more experienced or powerful victim would instead became a ghast.[3]Ghouls had a terrible hunger for carrion. They not only ate the dead, but also preyed on the living. They lurked in graveyards and on battlefields, wherever their foul food was plentiful and the air was thick with the smell of death.[3][5]Along with many other kinds of undead, ghouls were known to hunt within the Battle of Bones in the Western Heartlands by the mid\u201314th century DR.[9] Ghouls also dwelled inside the House of Stone on the edge of the Ardeep Forest.[10]Beyond the Prime Material plane, ghouls could be found in the Domains of Dread.[11]Ghouls spoke whatever languages they'd known in life, typically Common.[3]Some ghouls acted as servants of the deity Kiaransalee.[12]Ghoul warriors emerging from the ground.In the Year of the Prince, 1357 DR, Vajra Valmeyjar, Cybriana, Timoth Eyesbright, Onyx the Invincible, and Priam Agrivar were camping at the base of Stoner's Needle in the Sword Coast lands when ghoul warriors clawed their way out of the earth and snatched at them shortly before dawn. Their blades soon dismembered the undead, though the once-paladin Priam wished he could still turn them.[13]In 1369 DR, during the Pool of Radiance's resurgence in the ruins of Myth Drannor, some of the orcs opposing with the Cult of the Dragon failed to ward off the undead that roamed the ruins. The Dwarven Tombs deep under Myth Drannor became the permanent lair for some of them, turned into hulking, and terrifying orc ghouls.[14]The ghoul is of course based on the gh\u016bl, a demon of Arabic mythology that entered western mythology as the ghoul, with various meanings. Within D&D, in the Al-Qadim setting, the Arabic gh\u016bl was translated more directly as the great ghul and ghul-kin.",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8f/Ghoul-lmp-5e.png/revision/latest?cb=20180212162520",
+    "hit_points": 22,
+    "hit_dice": "5d8",
+    "condition_immunities": [
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
+}

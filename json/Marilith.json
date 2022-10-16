@@ -1,0 +1,39 @@
+{
+    "name": "Marilith",
+    "hit_points": 189,
+    "hit_dice": "18d10",
+    "armor_class": 18,
+    "challenge_rating": 16,
+    "strength": 18,
+    "dexterity": 20,
+    "constitution": 20,
+    "intelligence": 18,
+    "wisdom": 16,
+    "charisma": 20,
+    "actions_desc": "The marilith can make seven attacks: six with its longswords and one with its tail. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage. Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 15 (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets. The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see. ",
+    "special_abilities_desc": "The marilith has advantage on saving throws against spells and other magical effects. The marilith's weapon attacks are magical. The marilith can take one reaction on every turn in combat. ",
+    "description": "   From the waist up, mariliths appeared to be attractive humanoid women with six arms, but their lower halves were those of giant, green snakes.[3] In each hand they carried highly decorated weapons, and adorned themselves with bangles and jewelry. They measured 20\u202fft (6.1\u202fm) and weighed 2\u202ftons (1,800\u202fkg) when assessed from head to tail tip, but normally stood somewhere between 7\u20129\u202fft (2.1\u20122.7\u202fm) tall.[3][4] Mariliths had domineering and wicked personalities,[5] eager as they were to bring pain and betrayal to others, but their malice was accompanied by shrewdness and cunning.[9] They were highly intelligent beings with a good sense for strategy, their brilliance thriving in matters of army-level tactics.[3][4][5] Mariliths also had the rare ability to unite and coordinate the actions of other demons, a practically impossible task due to their chaotic nature.[1][4] Whether through disciplinary mastery or suppression of their natural instincts, they could predict the actions of law despite not truly understanding them in order to outwit the baatezu.[8] In the eyes of most mariliths, subtle temptation was but a silly game compared to true warfare planning.[4] They were proud of their martial skills and tactical superiority and often kept the weapons of their defeated foes as trophies.[2][4] Their weapons were among their most cherished possessions, and if stolen they would take extreme measures to retrieve them.[4] Mariliths could cast illusionary and charm spells, but they themselves had truesight, making it harder to use such spells against them.[3] They were able to gate in a large variety of other types of tanar'ri.[4] Drizzt Do'Urden battling a marilith. Mariliths eagerly joined melee combat if given the chance, though they carefully sized up a given situation first and plotted to use any terrain and vulnerabilities to their advantage. They could swiftly strike with each weapon in their six hands, typically longswords or scimitars. Their tails were capable of moving like a whip or constricting their foes.[3] Marilith wizards were truly terrifying beings. Not only did they not specialize in any one given school, but they had the rare power to cast spells with two of their arms while still fighting with two others. There were even rumors that some mariliths could cast more than one spell at once, but such claims were suspect.[10] A balor (left) and a marilith. Mariliths served as commanders and tactical experts for the Blood War, providing the stratagems to complement the malignant magnetism of the balors.[11] While the mariliths were typically the leaders of tanar'ri hordes, balors were often in charge of several hordes and commanded the masses in larger battles.[12] Mariliths believed the balors were in charge only because of their sheer power and were otherwise unneeded to conduct the Blood War, but they never acted on this belief in fear of that power.[11] Glabrezus were disliked by mariliths for their obnoxious insistence on using temptation and manipulation rather than outright warfare. Mariliths normally had to settle for merely undermining them as their balor superiors favored the glabrezus' sinister schemes.[11] Yuan-ti followers of Demogorgon and other demon princes displayed an affinity for the similarly serpentine mariliths. A good method of currying their service was the sacrifice of strong mortal warriors.[2] In 1373 DR, three mariliths known as the \"Triumvirate\" served under Kaanyr Vhok, the leader of the Scoured Legion of Hellgate Keep. One of those mariliths was Vhok's mother, Mulvassys the Sceptered.[13][14] In 1385 DR, the marilith Vhissilka, who served the balor Axithar, was trapped when the death of Mystra tore away a chunk of the Blood Rift. With the help of the cambion Kaanyr Vhok, Vhissilka was able to return to Axithar to wage war upon the House of the Triad.[15] In 1485\u20131486 DR, mariliths were among the demons that wandered the streets of Menzoberranzan and participated in the failed defense of Q'Xorlarrin against the dwarves. The great Marilith, for whom all mariliths were named, was among them. She allowed Malagdorl Del'Armgo to slay and banish her back to Abyss, but Gromph Baenre resummoned her days later, making a fool out of Malagdorl for claiming he'd defeated her. She was subsequently sent to fight against the dwarves at Q'Xorlarrin. She was confronted by Drizzt Do'Urden, who disabled her. Bruenor Battlehammer placed the final stroke that slew her and banished her.[16] Tanar'ri\nAdaru \u2022 Alkilith \u2022 Armanite \u2022 Arrow demon \u2022 Babau \u2022 Balor \u2022 Bar-lgura \u2022 Bulezau \u2022 Cerebrilith \u2022 Chasme \u2022 Dretch \u2022 Gadacro \u2022 Glabrezu \u2022 Goristro \u2022 Hezrou \u2022 Jovoc \u2022 Kastighur \u2022 Klurichir \u2022 Lilitu \u2022 Mane \u2022 Marilith \u2022 Maurezhi \u2022 Mavawhan \u2022 Molydeus \u2022 Myrmyxicus \u2022 Nabassu \u2022 Nalfeshnee \u2022 Palrethee \u2022 Rutterkin \u2022 Solamith \u2022 Sorrowsworn \u2022 Spyder-fiend \u2022 Succubus \u2022 Uridezu \u2022 Vrock \u2022 Yochlol\nObyriths\nDraudnu \u2022 Ekolid \u2022 Golothoma \u2022 Laghathti \u2022 Sibriex \u2022 Uzollru \u2022 Verakia \u2022 Wastrilith",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/ef/Marilith-5e.jpg/revision/latest?cb=20161120182923",
+    "condition_immunities": [
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "truesight": "120 ft.",
+        "passive_perception": 13
+    },
+    "xp": 15000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "fire",
+        "lightning",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ]
+}

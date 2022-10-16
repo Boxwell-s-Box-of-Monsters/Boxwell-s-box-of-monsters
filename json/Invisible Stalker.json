@@ -1,0 +1,71 @@
+{
+    "name": "Invisible Stalker",
+    "hit_points": 104,
+    "hit_dice": "16d8",
+    "armor_class": 14,
+    "challenge_rating": 6,
+    "strength": 16,
+    "dexterity": 19,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 15,
+    "charisma": 11,
+    "actions_desc": "The stalker makes two slam attacks. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. ",
+    "special_abilities_desc": "The stalker is invisible. The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner. ",
+    "description": "      As their name implied, stalkers were invisible and their true form was largely unknown. They could only be perceived as a shimmering mass of air on the Material, Astral and Ethereal planes, similar to the refraction that's caused by hot air passing in front of cold.[4] Invisible stalkers were known to deeply resent any task given to them, but were relentless in pursuing its completion. If the stated task took the stalker a week or more to complete, it would gradually pervert the stated intent of their assignment and look for loopholes. Because of this, commands had to be carefully worded.[4] Some held a deep distrust or outright hatred of humanoids, due to suffering at the hands of ones who summoned them or having been killed by humanoids.[4] Stalkers had the innate ability to remain invisible even in combat. Stalkers attacked by using gusts of wind to pummel their opponent. Killing an invisible stalker anywhere other than its home plane dismissed the stalker back to its home.[3] The life of invisible stalkers on their home elemental plane was largely unknown, with many assuming it was similar to that of the standard air elemental.[4] The presence of invisible stalkers on the material plane was typically due to being summoned by a mage or wizard to perform some task.[3][4]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/92/Invisible_Stalker-5e.png/revision/latest?cb=20171010162842",
+    "condition_immunities": [
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 18
+    },
+    "xp": 2300,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ]
+}

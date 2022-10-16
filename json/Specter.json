@@ -1,0 +1,82 @@
+{
+    "name": "Specter",
+    "hit_points": 22,
+    "hit_dice": "5d8",
+    "armor_class": 12,
+    "challenge_rating": 1,
+    "strength": 1,
+    "dexterity": 14,
+    "constitution": 11,
+    "intelligence": 10,
+    "wisdom": 10,
+    "charisma": 11,
+    "actions_desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. ",
+    "special_abilities_desc": "The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight. ",
+    "description": "   A specter appeared as a humanoid, with a mostly transparent and faintly luminous form. They looked much as they did in life, though the injuries that caused their violent deaths were visible on many specimen and could be recognized by someone who knew what the person looked like.[3] They were about the same size as a humanoid but weightless.[3] They had a hatred for all living things but retained their minds and capability to think.[3] A specter's touch wasn't only painful; it also drained the life energy from living creatures. The life energy had an invigorating effect on specters, and when the life energy of a creature was drained empty, the creature\u2014only in the case of a humanoid\u2014turned into a new specter enslaved by its creator.[3] As a general rule, they attacked their prey by moving through solid objects, including walls, ceilings, or even the ground.[3] They were generally encountered in a number of less than a dozen.[3] They were powerless in natural sunlight to the point of fleeing from it.[3] A specter was a type of undead that was categorized as a spectral creature. When someone tried to create a spectral creature out of a humanoid, instead of another sort of creature, the result was a specter. Unlike humanoid specters, other spectral creatures were capable of creating and enslaving other spectral creatures, or specters,[6] out of other lifeforms than humanoids.[3] The shadow dragons of Clan Jaezred conquered the drow city of Chaulssin and transformed its citizens into creatures of shadow,[7] among others spectral creatures.[8] Given that drow were humanoids,[9] the results were specters.[10] By 634 DR, the descendants of these drow overthrew their slavers and killed them. The shadow dragons were then turned into spectral creatures themselves.[7] These drow descendants later succeeded at turning some of them into drow-dragons.[11] A special kind of magic they mastered was to turn their breath weapon into one that created spectral creatures on killing their target with it.[12] Used on humanoids, it created a specter.[10] Beyond the Prime Material plane, spectres could be found in the Domains of Dread,[13] Palpitatia the 241st layer of the Abyss,[14] the Shadowfell,[citation needed] and in the Negative Energy plane.[citation needed] In Cormanthyr, the specters of many elves and dwarves haunted the ruins of the Old Elven Court.[15] A specter-haunted place and the vicinity of a specter was cold, though in no harmful way.[3] Animals also refused to get into the vicinity of a specter and suffered from uncontrollable fear when forced to go near one.[3] Being a type of undead connected to negative energy, specters acted as servants of the deities Jergal[16] and Kiaransalee.[17]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9f/Specter-5e.png/revision/latest?cb=20171011034152",
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "grappled",
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "index": "paralyzed",
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "index": "petrified",
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "index": "poisoned",
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "index": "restrained",
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "index": "unconscious",
+            "name": "Unconscious",
+            "url": "/api/conditions/unconscious"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 10
+    },
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "necrotic",
+        "poison"
+    ]
+}

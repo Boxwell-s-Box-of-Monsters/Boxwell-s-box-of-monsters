@@ -1,0 +1,26 @@
+{
+    "name": "Cockatrice",
+    "armor_class": 11,
+    "challenge_rating": 0.5,
+    "strength": 6,
+    "dexterity": 12,
+    "constitution": 12,
+    "intelligence": 2,
+    "wisdom": 13,
+    "charisma": 5,
+    "actions_desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours. ",
+    "special_abilities_desc": "",
+    "description": "Although about the size of a large turkey or goose and weighing 25\u202flb (11\u202fkg), a cockatrice more closely resembled a chicken, but it was a hideous hybrid with the wings of a bat and a lizard-like tail.[3] This tail had yellow-green scales, its bat wings were a grey shade, their feet and beak were yellow, and their feathers were of a golden-brown hue.[5]A male cockatrice had a rooster's wattles and comb, which the females lacked.[3] These wattles and comb, as well as the eyes and tongue of both sexes, were all red.[5]Cockatrices had an animal level of intelligence.[5]Female cockatrices were very rare, much more so than the males.[3]These creatures were closely related to the pyrolisk.[6]Any creature that a cockatrice bit could be permanently turned into stone.[5][3] Prior to the Time of Troubles, this petrifying aura extended even into the Astral and Ethereal planes, much like that of a basilisk.[5]Cockatrices were immune to their own petrifying bite and that of other cockatrices, though not of other petrifying creatures and spells.[3]Cockatrices ferociously attacked any creature that appeared to threaten them or their lairs. Typically, flocks of them would attempt to overwhelm or confuse their opponents, and flew at their faces.[3]These creatures could be found almost any region,[4] though they typically inhabited temperate or tropical regions, either underground or above ground[5] in plains.[3]Beyond the Prime Material plane, scattered numbers of cockatrices could be found in the Elemental Plane of Earth.[7]Some creatures were known to harvest the venom of cockatrices. Following the Spellplague, this venom typically fetched a price of 100 gold pieces.[8]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6d/Cockatrice-5e.jpg/revision/latest?cb=20161119200531",
+    "hit_points": 27,
+    "hit_dice": "6d6",
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 11
+    },
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}

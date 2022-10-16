@@ -1,0 +1,40 @@
+{
+    "name": "Androsphinx",
+    "armor_class": 17,
+    "challenge_rating": 17,
+    "strength": 22,
+    "dexterity": 10,
+    "constitution": 20,
+    "intelligence": 16,
+    "wisdom": 18,
+    "charisma": 23,
+    "actions_desc": "The sphinx makes two claw attacks. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage. The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.\n\nFirst Roar. Each creature that fails a DC 18 Wisdom saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nSecond Roar. Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nThird Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. ",
+    "special_abilities_desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage. The sphinx's weapon attacks are magical. The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:\n\n- Cantrips (at will): sacred flame, spare the dying, thaumaturgy\n- 1st level (4 slots): command, detect evil and good, detect magic\n- 2nd level (3 slots): lesser restoration, zone of truth\n- 3rd level (3 slots): dispel magic, tongues\n- 4th level (3 slots): banishment, freedom of movement\n- 5th level (2 slots): flame strike, greater restoration\n- 6th level (1 slot): heroes' feast ",
+    "description": "While they tended to be short-tempered and terse, androsphinxes possessed good-natured ideals and always attempted to do the right thing.[3]AD6 Strange Things Millionaires Do With Their Money, But Most of Us Have Never TriedBy The Penny HoarderAndrosphinxes were physically very powerful creatures and had terrifying,[5][3] deafening roars that could be heard from miles away that could inspire fear in other creatures to such a point that they would become momentarily paralyzed. Those standing within 3\u202ffeet (0.91\u202fmeters) were liable to be deafened and even knocked over if small enough.[5]These creatures had innate magical abilities,[3] with some being capable of casting clerical spells.[5]These creatures were typically capable of speaking both their own unique language and Common.[5][3][1] Some were also known to speak Draconic[3]Many andros shunned the company of their female counterparts, gynosphinxes, as they resented their greater intellects and neutral-dispositions.[5]Androsphinxes were favored monsters of the elven deities Aerdrie Faenya and Solonor Thelandira, the dwarven god Vergadain, the Mulhorandi god Horus-Re, and the god Nobanion. They would sometimes send them as messengers to their followers.[7]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9f/Monster_Manual_5e_-_Androsphinx_-_Brynn_Metheney_-_p281.jpg/revision/latest?cb=20150503210228",
+    "hit_points": 199,
+    "hit_dice": "19d10",
+    "condition_immunities": [
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        }
+    ],
+    "senses": {
+        "truesight": "120 ft.",
+        "passive_perception": 20
+    },
+    "xp": 18000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "psychic",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ]
+}

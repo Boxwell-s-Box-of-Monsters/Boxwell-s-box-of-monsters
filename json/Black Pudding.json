@@ -1,0 +1,62 @@
+{
+    "name": "Black Pudding",
+    "armor_class": 7,
+    "challenge_rating": 4,
+    "strength": 16,
+    "dexterity": 5,
+    "constitution": 16,
+    "intelligence": 1,
+    "wisdom": 6,
+    "charisma": 1,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. ",
+    "special_abilities_desc": "The pudding can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round. The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. ",
+    "description": "The average black pudding measured 15 ft (4.6 m) across and 2 ft (0.6 m) thick and they weighed around 18,000 lb (8.2 mt).[3] While most of these monsters were an inky black, some could be brown, grey, and even white.[5] In underground locations, these creatures appeared as dark blobs.[1]Some black puddings that managed to survive for a very long time came to be known as elder black puddings, they were significantly bigger than their younger counterparts and had almost impenetrable outer layer of aged material. These ancient black puddings were immune to all damage, unless the outer layers were dissolved first by a very specific concoction.[7]These creatures were mindless underground-dwelling hunters and scavengers that wandered and absorbed whatever they found.[5][4][3] A black pudding would position itself in a dungeon hallway like a shadow and wait for unsuspecting prey.[1]Black pudding attacked by grabbing, grappling, and constricting prey directly into their liquid-esque mass. Like other oozes, they also secreted a deadly acidic substance which strongly and quickly dissolved weapons, clothing, and organic tissue alike. When slashed at or pierced, the black pudding split into two smaller puddings, both of which would do the same; this continued until they were too small and weak to do so further.[3] A black pudding would eat bone, metal, and wood leaving only stone behind.[1]Like other oozes, black pudding desire warmth and sense their prey through movement. While the creatures seek living and breathing targets, they will feast on animal guts, slime, and mushrooms.[8]Black puddings could be found inhabiting shrines and temples dedicated to Ghaunadaur, the drow deity of oozes. The worshipers of the deity cultivated alliances with black pudding for mutual defense.[9]Circa 1490 DR, the especially huge ancient Elder black pudding created a lair for itself in the Noxious Chasm just outside of Luskan that served as the city's sewer's exhaust. The significant age of the creature granted it an almost impenetrable crust of aged material making it almost invincible. The Elder has been disposed of using Relona's anti-pudding dissolving agent that dissolved its aged armor making it vulnerable.[7]In 1492 DR, a black ooze could be found hiding on a statue in the Dungeon Level of Undermountain.[10]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/34/Black_pudding-5e.jpg/revision/latest?cb=20171010160248",
+    "hit_points": 85,
+    "hit_dice": "10d10",
+    "condition_immunities": [
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "charmed",
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "index": "blinded",
+            "name": "Blinded",
+            "url": "/api/conditions/blinded"
+        },
+        {
+            "index": "exhaustion",
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "index": "frightened",
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "index": "prone",
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        }
+    ],
+    "senses": {
+        "blindsight": "60 ft. (blind beyond this radius)",
+        "passive_perception": 8
+    },
+    "xp": 1100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid",
+        "cold",
+        "lightning",
+        "slashing"
+    ]
+}

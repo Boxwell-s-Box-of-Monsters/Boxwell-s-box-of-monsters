@@ -1,0 +1,26 @@
+{
+    "name": "Giant Poisonous Snake",
+    "armor_class": 14,
+    "challenge_rating": 0.25,
+    "strength": 10,
+    "dexterity": 18,
+    "constitution": 13,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 3,
+    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. ",
+    "special_abilities_desc": "",
+    "description": "As the name suggested, these creatures were the giant versions of snakes. They were identical in all but size and predatory habits (as their larger size allowed for them to tackle larger and more powerful prey). Unlike some other altered forms of animals, giant snakes only possessed animal-like intelligence.[1]Due to the large variety in giant snake species, they were usually described by their individual types: amphisbaena, constrictor, poisonous, sea, and spitting. These species had different sizes, habits, and methods of attack.[1]All types of giant snake were carnivorous. They were deadly predators, and often sought out other giant animals, such as giant frogs.[2]Giant snakes either attacked by utilizing their natural poisons or constricting their prey.[1]These giant serpents could survive in all but the coldest climates.[1] As such, giant snakes were known to have inhabited many places within Faer\u00fbn,[3][4][5][6][7][8][9] Kara-Tur,[10] and Zakhara.[11] The Forest of Amtar in Dambrath was full of reptiles, such as giant snakes.[3]Priests of Sseth were known to construct special shields by treating the shed skin of giant snakes and wrapping them around a core of ironwood.[12]In 1357 DR, many settlements along the Tumen River in Koryo were destroyed by such creatures.[10]In 1373 DR, Zasian Menz and Kaanyr Vhok used a portal that connected a giant snake to the stomach of a storm dragon. This allowed them to be transported to Celestia from the Elemental Plane of Fire.[13]",
+    "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9c/Gcs_ad%26d_card.png/revision/latest?cb=20200116153156",
+    "hit_points": 11,
+    "hit_dice": "2d8",
+    "condition_immunities": [],
+    "senses": {
+        "blindsight": "10 ft.",
+        "passive_perception": 12
+    },
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
+}
