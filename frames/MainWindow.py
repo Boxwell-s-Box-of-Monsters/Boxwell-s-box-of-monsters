@@ -150,6 +150,9 @@ class MainWindow(tk.Tk):
                 self.resultImage.configure(image=newImage)
                 self.resultImage.image = newImage
         else:
+            displayBlank()
+    
+    def displayBlank(self):
             im = Image.open('images/placeholderMonster.png')
             newImage = ImageTk.PhotoImage(im)
             self.resultImage.configure(image=newImage)
@@ -167,4 +170,5 @@ class MainWindow(tk.Tk):
             self.printImage(response)
         else:
             responseText = "Error, no monsters found"
+            self.displayBlank()
         self.result.set(responseText)
