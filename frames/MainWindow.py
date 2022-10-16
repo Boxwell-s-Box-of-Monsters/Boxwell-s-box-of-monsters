@@ -156,7 +156,7 @@ class MainWindow(tk.Tk):
                 self.resultImage.configure(image=newImage)
                 self.resultImage.image = newImage
         else:
-            displayBlank()
+            self.displayBlank()
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
