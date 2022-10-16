@@ -55,11 +55,11 @@ def imageAdapter(session, headers, webpage):
         return None
     return img['href']
 
-def initialize(fileLoc, response):
+def initialize(fileLocInit, responseInit):
     # Skips existing files
-    if not exists(fileLoc):
+    if not exists(fileLocInit):
         # API url to retrieve monster info
-        monsterObj = requests.get("https://www.dnd5eapi.co" + response['url']).json()
+        monsterObj = requests.get("https://www.dnd5eapi.co" + responseInit['url']).json()
         name = monsterObj["name"]
         hp = monsterObj["hit_points"]
         hit_dice = monsterObj["hit_dice"]
@@ -101,14 +101,13 @@ def initialize(fileLoc, response):
             'imageURL': imageURL
         }
         # Write json list to a file
-        json_str = json.dumps(document, indent=4)
+        json_str_init = json.dumps(document, indent=4)
 
-        with open(fileLoc, "w", encoding="utf8") as file:
-            file.write(json_str)
-        
+        with open(fileLocInit, "w", encoding="utf8") as file:
+            file.write(json_str_init)
         return document
 
-def modify(fileLoc, response):
+def modify(fileLocMod, responseMod):
     if exists(fileLoc):
         # API url to retrieve monster info
         # monsterObj = requests.get("https://www.dnd5eapi.co" + response['url']).json()
@@ -118,51 +117,50 @@ def modify(fileLoc, response):
             # ex: 'name': name
         }
         # updates the json to either a good file or a 'bad' one for inspection
-        with open(fileLoc, "r") as jsonFile:
+        with open(fileLocMod, "r") as jsonFile:
             currentJson = json.load(jsonFile)
             currentJson.update(document)
             return currentJson
+    return None
 
-def webscrape(fileLoc, response):
-        if exists(fileLoc):
-            badFileLoc = "json/1" + response['name'] + ".json"
+def webscrape(fileLocWeb, responseWeb):
+    if exists(fileLocWeb):
+        badFileLocWeb = "json/1" + response['name'] + ".json"
 
-            if response['name'] == "Succubus/Incubus": # Cornercase naming convention
-                fileLoc = "json/Succubus+Incubus.json"
-                badFileLoc = "json/1Succubus+Incubus.json"
-            # API url to retrieve monster info
-            description, imageURL = webScrape(response)
-            # JSON object for a monster
-            document = {
-                'description': description,
-                'imageURL': imageURL
-            }
+        if responseWeb['name'] == "Succubus/Incubus": # Cornercase naming convention
+            fileLocWeb = "json/Succubus+Incubus.json"
+            badFileLocWeb = "json/1Succubus+Incubus.json"
+        # API url to retrieve monster info
+        description, imageURL = webScrape(responseWeb)
+        # JSON object for a monster
+        document = {
+            'description': description,
+            'imageURL': imageURL
+        }
 
-            # Update json
-            with open(fileLoc, "r") as jsonFile:
-                currentJson = json.load(jsonFile)
+        # Update json
+        with open(fileLocWeb, "r") as jsonFile:
+            currentJson = json.load(jsonFile)
 
-                currentJson.update(document)
+            currentJson.update(document)
 
 
-            # prints the json to either a good file or a 'bad' one for inspection
-            if description != "" and imageURL is not None:
+        # prints the json to either a good file or a 'bad' one for inspection
+        if description != "" and imageURL is not None:
 
-                with open(fileLoc, "w", encoding="utf8") as file:
-                    file.write(currentJson)
-            else:
-                # Write bad json list to a file
-                with open(badFileLoc, "w", encoding="utf8") as file:
-                    file.write(currentJson)
+            with open(fileLocWeb, "w", encoding="utf8") as file:
+                file.write(currentJson)
+        else:
+            # Write bad json list to a file
+            with open(badFileLocWeb, "w", encoding="utf8") as file:
+                file.write(currentJson)
 
-            return currentJson
+        return currentJson
 
 for response in responseList:
     fileLoc = "json/" + response['name'] + ".json"
-
     if response['name'] == "Succubus/Incubus": # Cornercase naming convention
         fileLoc = "json/Succubus+Incubus.json"
-        
     print(response['name'])
     # Alternates functionalitty based on command line argument
     if len(sys.argv) == 2:
@@ -177,7 +175,3 @@ json_str = json.dumps(monsterList, indent=4)
 
 with open("json/data.json", "w", encoding="utf8") as file:
     file.write(json_str)
-
-
-
-
