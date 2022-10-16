@@ -153,10 +153,10 @@ class MainWindow(tk.Tk):
             displayBlank()
     
     def displayBlank(self):
-            im = Image.open('images/placeholderMonster.png')
-            newImage = ImageTk.PhotoImage(im)
-            self.resultImage.configure(image=newImage)
-            self.resultImage.image = newImage
+        im = Image.open('images/placeholderMonster.png')
+        newImage = ImageTk.PhotoImage(im)
+        self.resultImage.configure(image=newImage)
+        self.resultImage.image = newImage
 
 
     # Button Code
