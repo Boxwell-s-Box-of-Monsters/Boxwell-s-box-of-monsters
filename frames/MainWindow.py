@@ -140,6 +140,12 @@ class MainWindow(tk.Tk):
             responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
 
+    def displayBlank(self):
+        im = Image.open('images/placeholderMonster.png')
+        newImage = ImageTk.PhotoImage(im)
+        self.resultImage.configure(image=newImage)
+        self.resultImage.image = newImage
+
     def printImage(self, response):
         # Display the updated monster's image
         if response['imageURL'] is not None:
@@ -151,13 +157,6 @@ class MainWindow(tk.Tk):
                 self.resultImage.image = newImage
         else:
             displayBlank()
-    
-    def displayBlank(self):
-        im = Image.open('images/placeholderMonster.png')
-        newImage = ImageTk.PhotoImage(im)
-        self.resultImage.configure(image=newImage)
-        self.resultImage.image = newImage
-
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
