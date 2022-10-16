@@ -11,19 +11,27 @@ class CharacterFrame(tk.Frame):
     def __init__(self, container):
         super().__init__(container)
 
-        options = {'padx': 5, 'pady': 5}
-
         self.configure(borderwidth=2, relief="groove", bg=LIGHT,
                        bd=0)
+        
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_columnconfigure(1, weight=1)
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_rowconfigure(1, weight=1)
+        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(3, weight=1)
+        self.grid_rowconfigure(4, weight=1)
+        self.grid_rowconfigure(5, weight=1)
 
         # Character Container Label
         self.characterContainerLabel = tk.Label(self,
                                                 text="Adventuring Party",
-                                                font=(FONT, 9, "bold"),
+                                                font=(FONT, 14, "bold"),
                                                 background=LIGHT,
-                                                fg=BLACK)
+                                                fg=BLACK,
+                                                anchor="center")
         self.characterContainerLabel.grid(
-            column=0, row=0, columnspan=3, **options)
+            row=0, columnspan=2, pady=10)
 
         # # Add/Remove Buttons
         # self.addCharacter = tk.Button(self, text='Add Character', font=(FONT, 8),
@@ -34,14 +42,14 @@ class CharacterFrame(tk.Frame):
         # self.removeCharacter.grid(column=1, row=1, sticky=tk.W, **options)
 
         # Labels for Character table
-        self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
-                                       fg=BLACK)
-        self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
-                                 fg=BLACK)
+        self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 12, "bold"),
+                                       fg=BLACK, anchor="center")
+        self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 12, "bold"),
+                                 fg=BLACK, anchor="center")
         # self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
         #                             fg=BLACK)
-        self.characterLabel.grid(column=0, row=2, sticky=tk.W, **options)
-        self.lvlLabel.grid(column=1, row=2, sticky=tk.W, **options)
+        self.characterLabel.grid(column=0, row=1)
+        self.lvlLabel.grid(column=1, row=1)
         # self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
 
         # Drop down for dmg types
@@ -57,7 +65,7 @@ class CharacterFrame(tk.Frame):
                 self, charVar, *charType)
             chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
             chrDropDown.grid(
-                column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
+                column=0, row=(2 + i), pady=5, padx=2)
             characterRow['characterDrop'] = chrDropDown
             characterRow['character'] = charVar
 
@@ -65,7 +73,7 @@ class CharacterFrame(tk.Frame):
                 self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
             validatecommand=(self.register(self.validateLvl), "%P"))
             characterRow['level'].grid(
-                column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
+                column=1, row=(2 + i), pady=5, padx=2)
 
             # characterRow['Damage'] = tk.Label(
             #     characterContainer, text='Fire', font=(FONT, 8), bg=LIGHT)

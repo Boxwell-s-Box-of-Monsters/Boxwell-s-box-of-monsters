@@ -28,21 +28,33 @@ class MainWindow(tk.Tk):
         self.es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
         # End Elastic Search
 
-        self.geometry("350x750")
+        self.minsize(500, 800) # min window size
+        self.maxsize(False, 850) # max window size
+        self.resizable(False, False) # cannot resize manually
         self.title("Monster Generator")
         self.configure(bg=TAN)
+        
+        # Make root grid responsive
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_rowconfigure(1, weight=3)
+        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(3, weight=1)
+        self.grid_rowconfigure(4, weight=1)
+        self.grid_rowconfigure(5, weight=1)
+        self.grid_rowconfigure(6, weight=1)
 
-        options = {'padx': 5, 'pady': 5}
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_columnconfigure(1, weight=1)
 
         # Top Label
         self.label = tk.Label(self,
                               text="Welcome to the monster library, please enter the relevant information below.",
-                              wraplength=300,
-                              justify="center",
+                              wraplength=500,
+                              anchor="center",
                               background=TAN,
-                              font=(FONT, 10, "bold"),
+                              font=(FONT, 20, "bold"),
                               fg=BLACK)
-        self.label.grid(column=1, row=0, sticky=tk.W, **options)
+        self.label.grid(columnspan=2, row=0)
 
         # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
         # terrainFrame = TerrainFrame(self)
@@ -50,7 +62,7 @@ class MainWindow(tk.Tk):
 
         # Characters Frame
         characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=1, row=1, sticky=tk.W, **options)
+        characterFrame.grid(columnspan=2, row=1, ipadx=90, ipady=20, pady=(0, 5))
 
         # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
         # dmgTypeFrame = DamageTypeFrame(self)
@@ -58,11 +70,11 @@ class MainWindow(tk.Tk):
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(column=1, row=2, sticky=tk.W, **options)
+        descriptFrame.grid(columnspan=2, row=2, ipadx=30, ipady=30, pady=(0, 5))
 
         # Difficulty Frame
         difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(column=1, row=3, sticky=tk.W, **options)
+        difficultyFrame.grid(columnspan=2, row=3, pady=(0, 5))
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -77,14 +89,14 @@ class MainWindow(tk.Tk):
                                 highlightbackground=TAN,
                                 font=(FONT, 9, "bold"),
                                 fg=BLACK)
-        self.button.grid(column=1, row=4, sticky=tk.W, **options)
+        self.button.grid(columnspan=2, row=4)
 
         # Print the result of the button
-        self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 10),
+        self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        self.resultLabel.grid(column=1, row=5)
+        self.resultLabel.grid(columnspan=2, row=5)
         self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
-        self.resultImage.grid(column=1, row=6)
+        self.resultImage.grid(columnspan=2, row=6)
 
     ############################
     # Button Functions
