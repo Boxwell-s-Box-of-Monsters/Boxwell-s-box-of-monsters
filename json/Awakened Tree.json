@@ -14,6 +14,11 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/ce/Lifferlas.png/revision/latest?cb=20161229122615",
     "hit_points": 59,
     "hit_dice": "7d12",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 450,
     "damage_vulnerabilities": [
         "fire"
     ],
@@ -21,10 +26,5 @@
         "bludgeoning",
         "piercing"
     ],
-    "damage_immunities": [],
-    "condition_immunities": [],
-    "senses": {
-        "passive_perception": 10
-    },
-    "xp": 450
+    "damage_immunities": []
 }

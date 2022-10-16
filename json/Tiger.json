@@ -14,13 +14,13 @@
     "special_abilities_desc": "The tiger has advantage on Wisdom (Perception) checks that rely on smell. If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action. ",
     "description": "   Tigers were distinguished from other great cats by their orange fur and black stripes. Also, unlike other great cats, tigers were great swimmers.[7] Tigers were excellent climbers and could jump long distances. They could jump 10\u202ffeet (3\u202fmeters) into the air and leap outward to ranges of 30 to 50\u202ffeet (9.1 to 15\u202fmeters).[5] These creatures typically hunted in pairs or family groups.[5] Tigers were a highly adaptable species, known to inhabit both tropical and subarctic forests across the Realms.[5][7] In South Faer\u00fbn, they inhabited the Ajmer Forest and the Forest of Amtar.[9] Beyond the Prime Material plane, like most mundane animals these creatures could be found in the Beastlands,[10] particularly on the layer of Brux.[11] Aurora's Whole Realms Catalogue sold tiger hides for 25 gp a piece.[12]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b4/Tigerdruid.png/revision/latest?cb=20190808191715",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 13
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

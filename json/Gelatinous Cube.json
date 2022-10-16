@@ -14,9 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/20/Gelatinouscube5e.jpg/revision/latest?cb=20171011000953",
     "hit_points": 84,
     "hit_dice": "8d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "blinded",
@@ -53,5 +50,8 @@
         "blindsight": "60 ft. (blind beyond this radius)",
         "passive_perception": 8
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

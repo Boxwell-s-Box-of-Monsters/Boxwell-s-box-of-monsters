@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/45/Green_Hag-5e.png/revision/latest?cb=20171011031715",
     "hit_points": 82,
     "hit_dice": "11d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 14
     },
-    "xp": 700
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

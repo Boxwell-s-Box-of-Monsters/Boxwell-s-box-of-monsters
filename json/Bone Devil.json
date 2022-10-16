@@ -14,15 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/ca/Bone-devil-5e.png/revision/latest?cb=20161120192129",
     "hit_points": 142,
     "hit_dice": "15d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -34,5 +25,14 @@
         "darkvision": "120 ft.",
         "passive_perception": 9
     },
-    "xp": 8400
+    "xp": 8400,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

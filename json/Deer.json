@@ -14,12 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1a/Deer_portrait_NWN.png/revision/latest?cb=20210705181418",
     "hit_points": 4,
     "hit_dice": "1d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 12
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

@@ -14,11 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8f/Ghoul-lmp-5e.png/revision/latest?cb=20180212162520",
     "hit_points": 22,
     "hit_dice": "5d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -40,5 +35,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

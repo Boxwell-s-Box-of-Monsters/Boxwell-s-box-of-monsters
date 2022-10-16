@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/14/Constrictor_snake_2e.png/revision/latest?cb=20210131093401",
     "hit_points": 60,
     "hit_dice": "8d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "10 ft.",
         "passive_perception": 12
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

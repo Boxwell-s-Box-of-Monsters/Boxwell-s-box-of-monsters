@@ -14,16 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/35/Monster_Manual_5e_-_Demon%2C_Balor_-_Conceptopolis_-_p55.jpg/revision/latest?cb=20190820204815",
     "hit_points": 262,
     "hit_dice": "21d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "lightning",
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -35,5 +25,15 @@
         "truesight": "120 ft.",
         "passive_perception": 13
     },
-    "xp": 22000
+    "xp": 22000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "lightning",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

@@ -14,12 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d6/Giant_eagle-5e.jpg/revision/latest?cb=20171010183859",
     "hit_points": 26,
     "hit_dice": "4d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 14
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

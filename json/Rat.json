@@ -14,13 +14,13 @@
     "special_abilities_desc": "The rat has advantage on Wisdom (Perception) checks that rely on smell. ",
     "description": "   Rats were generally cowardly creatures, but would become fierce if cornered or trapped. They feared fire, but if hungry enough could be driven to ignore this base instinct.[5] Rats thrived in urban environments where they could easily feed off the leftover food and waste of the community.[2] Deep in the Underdark near Menzoberranzan, scurry rats were hunted by riding lizards of the drow.[11] Beyond the Prime Material plane, rats could be found in the Domains of Dread.[12]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b6/Rat-5e.jpg/revision/latest?cb=20171010174359",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "30 ft.",
         "passive_perception": 10
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

@@ -14,14 +14,14 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c2/FireGiant-5e.jpg/revision/latest?cb=20141112154314",
     "hit_points": 162,
     "hit_dice": "13d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire"
-    ],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 16
     },
-    "xp": 5000
+    "xp": 5000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire"
+    ]
 }

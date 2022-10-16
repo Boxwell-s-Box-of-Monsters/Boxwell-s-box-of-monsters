@@ -14,12 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f5/DireBoar-4e.png/revision/latest?cb=20200711033719",
     "hit_points": 42,
     "hit_dice": "5d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 8
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

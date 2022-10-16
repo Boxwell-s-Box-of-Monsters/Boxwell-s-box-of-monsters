@@ -14,12 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/25/CloudGiant-5e.jpg/revision/latest?cb=20141112145156",
     "hit_points": 200,
     "hit_dice": "16d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 17
     },
-    "xp": 5000
+    "xp": 5000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

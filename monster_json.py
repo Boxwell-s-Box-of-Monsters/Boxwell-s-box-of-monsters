@@ -98,19 +98,24 @@ def initialize(fileLocInit, responseInit):
     return None
 
 def modify(fileLocMod, responseMod):
-    if exists(fileLoc):
+    if exists(fileLocMod):
         # API url to retrieve monster info
         monsterObj = requests.get("https://www.dnd5eapi.co" + responseMod['url']).json()
-        print(monsterObj) # To get pylint to shut up about unused variables, remove when necessary
-        # Add keys to the document, ex: name = monsterObj["name"]
-        # JSON object for a monster
+
         document = {
-            # ex: 'name': name
+            'damage_vulnerabilities': monsterObj['damage_vulnerabilities'],
+            'damage_resistances': monsterObj['damage_resistances'],
+            'damage_immunities': monsterObj['damage_immunities']
         }
-        # updates the json to either a good file or a 'bad' one for inspection
+
+        # updates the json
         with open(fileLocMod, "r") as jsonFile:
             currentJson = json.load(jsonFile)
             currentJson.update(document)
+            json_str_mod = json.dumps(currentJson, indent=4)
+            with open(fileLocMod, "w", encoding="utf8") as fileWeb:
+                fileWeb.write(json_str_mod)
+
             return currentJson
     return None
 

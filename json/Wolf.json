@@ -14,12 +14,12 @@
     "special_abilities_desc": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell. The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
     "description": "   Aurora's Whole Realms Catalogue sold wolf hides for 8 gp a piece.[13] An Utter Eastern gray wolf. In the Utter East, packs of gray wolves were known to hunt and prey on weaker creatures, even humans and basal golems.[14]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/27/Wolf_bg3.png/revision/latest?cb=20210306092541",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

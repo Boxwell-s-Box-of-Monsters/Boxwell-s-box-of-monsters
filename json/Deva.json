@@ -14,12 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/12/Deva-5e.jpg/revision/latest?cb=20161119153420",
     "hit_points": 136,
     "hit_dice": "16d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "radiant",
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -41,5 +35,11 @@
         "darkvision": "120 ft.",
         "passive_perception": 19
     },
-    "xp": 5900
+    "xp": 5900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "radiant",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": []
 }

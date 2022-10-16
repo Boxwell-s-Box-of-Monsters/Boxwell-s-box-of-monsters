@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9e/Monster_Manual_5e_-_Dragon%2C_Black_-_p87.jpg/revision/latest?cb=20141111142707",
     "hit_points": 33,
     "hit_dice": "6d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "acid"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "10 ft.",
         "darkvision": "60 ft.",
         "passive_perception": 14
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid"
+    ]
 }

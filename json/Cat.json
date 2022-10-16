@@ -14,12 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/32/Cat1.png/revision/latest?cb=20190814175842",
     "hit_points": 2,
     "hit_dice": "1d4",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f8/Monster_Manual_5e_-_Bugbear_-_p33.jpg/revision/latest?cb=20200313165121",
     "hit_points": 27,
     "hit_dice": "5d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

@@ -14,12 +14,6 @@
     "special_abilities_desc": "The kraken can breathe air and water. The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be restrained. It can spend 5 feet of movement to escape from nonmagical restraints or being grappled. The kraken deals double damage to objects and structures. ",
     "description": "   Krakens were feared across the known world. They were creatures that dwell in the depths of the ocean and came to the surface to prey upon ships and their crews.[citation needed]    They were akin to squids except larger in size, with a body almost 30\u202ffeet (9.1\u202fmeters) long. They had a similar body, with a ring of tentacles surrounding a mouth connected to a conical central body. Two of its ten tentacles were longer than the rest and had deadly barbs. The kraken had very large eyes, and fins protruded from the upper part of its elongated central body.[4] When younger, krakens resembled a pale squid.[10] Their massive tentacles could crush the hull of a galleon. The average kraken was about 100\u202ffeet (30\u202fmeters) in length and weighed about 4,000\u202fpounds (1,800\u202fkilograms).[citation needed] Krakens were highly destructive and evil creatures. With their strong tentacles and massive strength, they could pull an entire ship down into the ocean. They often completely wiped tropical islands of all life, and deep beneath the ocean, they had cavernous lairs where they bred human slaves to feed and tend them.[4] While the kraken itself was quite powerful, many never saw the creature's body. It hid below the surface of the water, where it could be protected from any attacks by a ship's defenders. The kraken instead sent forth its massive tentacles to catch crewmen and drag them below the water, where the beast could devour the unfortunate souls in one gulp.[citation needed] Krakens attacked predominantly with their tentacles. They could both constrict opponents and bring them into the reach of the creature's huge jaws. In addition, krakens could also release an enormous cloud of jet-black ink, regenerate severed limbs, and even cast spells.[4] A juvenile kraken. Krakens could speak some languages of surface-dwelling races but most commonly spoke Common, Aquan,[4] or a language of their own similar to that of whales.[citation needed] In the area around Ser\u00f4s krakens were known to be actively hunted by both storm giants and merrows, keeping their population low.[11] Krakens were supposedly once the rulers of the sea, but eventually the forces of good drove them back, though legends said they would one day rise again.[citation needed] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/fc/Kraken-5e.jpg/revision/latest?cb=20200411084304",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "lightning",
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
     "condition_immunities": [
         {
             "index": "frightened",
@@ -36,5 +30,11 @@
         "truesight": "120 ft.",
         "passive_perception": 14
     },
-    "xp": 50000
+    "xp": 50000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ]
 }

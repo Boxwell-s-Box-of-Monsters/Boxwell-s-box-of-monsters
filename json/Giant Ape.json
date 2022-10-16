@@ -14,12 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/23/The_great_ape.png/revision/latest?cb=20210330040027",
     "hit_points": 157,
     "hit_dice": "15d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 14
     },
-    "xp": 2900
+    "xp": 2900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

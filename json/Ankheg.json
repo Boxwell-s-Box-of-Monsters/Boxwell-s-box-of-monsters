@@ -14,14 +14,14 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/86/Monster_Manual_5e_-_Ankheg_-_Devon_Cady-Lee_-_p21.jpg/revision/latest?cb=20150118224815",
     "hit_points": 39,
     "hit_dice": "6d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "tremorsense": "60 ft.",
         "passive_perception": 11
     },
-    "xp": 250
+    "xp": 250,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

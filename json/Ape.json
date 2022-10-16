@@ -14,12 +14,12 @@
     "special_abilities_desc": "",
     "description": " Ape\n5e\n3e\n1e\n5th Edition Statistics[1]\nSize\nMedium\nType\nBeast\nAlignment\nUnaligned\nChallenge rating\n1\u20442\nGeneral Information[2]\nMovement\nClimbing\nVision\nLow-light vision\nDiet\nOmnivore\nIntelligence\nAnimal[2] to low[3]\nFavored climate\nWarm\nFavored terrain\nForests\nApes were a type of animal found in tropical regions. They were usually quite shy, but would fight if threatened or cornered.[3]\nContents\nHabitat\nTrivia\nAppendix\nAppearances\nReferences\nHabitat\nMany species of apes could be found in the jungles of Chult.[4]\nOne curious species of apes from Chult was a size of a human child with bright white and yellow fur. Their faces had a shaggy frill and blood-red fangs, which the apes exposed when trying to intimidate others. They had notably long arms and bristling spines on the backs.[5]\nTrivia\nAn ape could be summoned by the conjure animals spell.[6]\nAppendix\nThis Realmslore article about a creature is a stub. You can help the Forgotten Realms Wiki by expanding it.\nAppearances\nAdventures\nTomb of Annihilation \u2022 Candlekeep Mysteries: \"Lore of Lurue\"\nNovels\nThe Ring of Winter\nReferences\n\u2191 Mike Mearls, Jeremy Crawford, Christopher Perkins (2014-09-30). Monster Manual 5th edition. Edited by Scott Fitzgerald Gray. (Wizards of the Coast), p. 317. ISBN 978-0786965614.\n\u2191\n2.0 2.1 2.2 Skip Williams, Jonathan Tweet, Monte Cook (July 2003). Monster Manual v.3.5. (Wizards of the Coast), p. 268. ISBN 0-7869-2893-X.\n\u2191\n3.0 3.1 3.2 Gary Gygax (December 1977). Monster Manual, 1st edition. (TSR, Inc), p. 7. ISBN 0-935696-00-8.\n\u2191 Christopher Perkins, Will Doyle, Steve Winter (September 19, 2017). Tomb of Annihilation. Edited by Michele Carter, Scott Fitzgerald Gray. (Wizards of the Coast), p. 196. ISBN 978-0-7869-6610-3.\n\u2191 James Lowder (November 1992). The Ring of Winter. (TSR, Inc), p. 106. ISBN 978-1560763307.\n\u2191 Gary Gygax (1979). Dungeon Masters Guide 1st edition. (TSR, Inc.), p. 222. ISBN 0-9356-9602-4.   Many species of apes could be found in the jungles of Chult.[4] One curious species of apes from Chult was a size of a human child with bright white and yellow fur. Their faces had a shaggy frill and blood-red fangs, which the apes exposed when trying to intimidate others. They had notably long arms and bristling spines on the backs.[5] An ape could be summoned by the conjure animals spell.[6]",
     "imageURL": "https://qph.cf2.quoracdn.net/main-qimg-d214873de7b6e64fe4facab1d5d284bd-lq",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 100
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

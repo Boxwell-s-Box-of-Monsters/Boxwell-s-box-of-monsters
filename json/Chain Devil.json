@@ -14,15 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/c9/Chain_devil.JPG/revision/latest?cb=20181120091218",
     "hit_points": 85,
     "hit_dice": "10d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -34,5 +25,14 @@
         "darkvision": "120 ft.",
         "passive_perception": 11
     },
-    "xp": 3900
+    "xp": 3900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

@@ -14,12 +14,12 @@
     "imageURL": "https://angrygolem-games.com/wp-content/uploads/2021/11/Giant-Goat.jpg",
     "hit_points": 19,
     "hit_dice": "3d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 11
     },
-    "xp": 100
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

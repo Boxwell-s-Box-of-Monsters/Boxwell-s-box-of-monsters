@@ -14,12 +14,12 @@
     "imageURL": "https://d1vzi28wh99zvq.cloudfront.net/images/8957/193701.jpg",
     "hit_points": 11,
     "hit_dice": "2d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 12
     },
-    "xp": 25
+    "xp": 25,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

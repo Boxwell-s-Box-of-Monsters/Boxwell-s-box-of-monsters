@@ -14,13 +14,6 @@
     "special_abilities_desc": "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points. The swarm can breathe only underwater. ",
     "description": "   Quippers were well adapted to many environments, but typically found in freshwater. It was not uncommon to find schools of quippers even in underground lakes.[1] They were common in rivers throughout Chult[5] and in the headwaters of the Styx in Pandemonium.[8] During the time of Netheril, schools of quippers lived in the southern Channel Lock, but never migrated into the deeper Narrow Sea, the reason unknown.[6] Quipper and chips was a popular dish served at the Yawning Portal in Waterdeep in the 1490s DR.[9]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/d2/Quipper-5e.jpg/revision/latest?cb=20180911032357",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "bludgeoning",
-        "piercing",
-        "slashing"
-    ],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -67,5 +60,12 @@
         "darkvision": "60 ft.",
         "passive_perception": 8
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+    ],
+    "damage_immunities": []
 }

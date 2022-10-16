@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/74/Giant_fire_beetle-5e.png/revision/latest?cb=20171010170458",
     "hit_points": 4,
     "hit_dice": "1d6",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "30 ft.",
         "passive_perception": 8
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

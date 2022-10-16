@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/16/Megalodon-3e.jpg/revision/latest?cb=20200826190320",
     "hit_points": 126,
     "hit_dice": "11d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "passive_perception": 13
     },
-    "xp": 1800
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

@@ -14,12 +14,12 @@
     "special_abilities_desc": "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell. ",
     "description": "   Like ferrets, these animals were small, slender-bodied predators.[4] The various breeds of weasel ranged in length from 5 to 16\u202finches (0.13 to 0.41\u202fmeters) on the lower end,[3] measuring from head to tail, to 1 to 2\u202ffeet (0.3 to 0.61\u202fmeters) on the larger end of the spectrum.[6] Weasels could be extremely aggressive but chose to attack smaller prey.[2] In the land of Kara-Tur wild weasels could be found in its temperate forests, plains, and swamps. As well as in its more arctic regions.[7] These animals could be trained and domesticated.[4][5] And some wizards were known to have them as familiars.[8] Weasels were a favored animal of the deities Garagos, Garl Glittergold, and Thoth.[9] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/45/Weaseltreasure.png/revision/latest?cb=20190721090559",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

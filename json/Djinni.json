@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/ef/Djinn5E.PNG/revision/latest?cb=20171010234809",
     "hit_points": 161,
     "hit_dice": "14d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "lightning",
-        "thunder"
-    ],
     "condition_immunities": [],
     "senses": {
         "darkvision": "120 ft.",
         "passive_perception": 13
     },
-    "xp": 7200
+    "xp": 7200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning",
+        "thunder"
+    ]
 }

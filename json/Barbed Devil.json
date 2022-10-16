@@ -14,15 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/93/Barbed_Devil.jpg/revision/latest?cb=20190417203703",
     "hit_points": 110,
     "hit_dice": "13d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -34,5 +25,14 @@
         "darkvision": "120 ft.",
         "passive_perception": 18
     },
-    "xp": 1800
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

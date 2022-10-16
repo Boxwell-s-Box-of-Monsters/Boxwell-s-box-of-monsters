@@ -14,15 +14,15 @@
     "special_abilities_desc": "The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies. The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell. ",
     "description": "   Weretigers in humanoid form tended to be sleekly muscular, taller than average, and very agile.[1] In this form their voices were said to be husky with a tendency to roll their r's.[4] They didn't often wear clothes beyond jewelry due to the fact that even in \"human\" form they were covered in tiger-like fur.[citation needed] In hybrid form their ears, nose, and teeth became more tiger-like - though the eyes and overall shape of the head was still humanoid. Their legs became more feline, forcing them to walk on their toes. They nails grew out into claws and a 3\u202ffeet (0.91\u202fmeters) long tail extended from their spines.[4] Weretigers were often known to be arrogant and perfectionists.[6] Out of all lycanthropes they were considered the most adaptable, feeling equally at home in the company of humans and monsters.[4] They also were generally disinterested in spreading their curse, for they viewed the propagation of weretigers as the creation of more competition for territory and prey.[6] Weretigeresses were typically known to bear one to two cubs. Such cubs were born in their hybrid state, though would appear human if born to a human mother. They matured at a faster rate than humans, crawling within days and walking within a month. At age 6 they were capable of transforming into a fully humanoid form and at age 12 gained access to their full-tiger forms.[4] Some, though not all, giant races were susceptible to this form of lycanthropy. Those most likely to be found inflicted were jungle giants.[7] When possible, weretigers liked to fight in their humanoid forms.[6] The majority of weretigers were known to be female. They generally did not marry, but rather had preferred mates.[4] Weretigers were rarely found living in cities or large towns, as doing so would make it difficult to hide their true nature. Whenever encountered in such a setting they were likely on an errand, mission, or celebration. They instead preferred to live in cabins near human settlements that they kept well maintained. These typically featured small gardens of herbs or vegetables, as well as poultry and a variety of cats.[4] Weretiger prides or families could often be found in the jungles of Chult. Although most of them were solitary, and avoided contact, a few evil weretigers saw explorers as a kind of sport to hunt, which they did by posing as normal humans to lure people into their traps. This was seen as justified by them, as they believed it villainous for people to plunder their land.[8] Most evil weretigers worshiped Malar, god of the hunt.[8] Weretigers were treated in a friendly manner by most feline species, though were rarely found in the company of actual tigers.[4]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/cd/Weretiger-5e.png/revision/latest?cb=20171010183220",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-    ],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 15
     },
-    "xp": 1100
+    "xp": 1100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
+    ]
 }

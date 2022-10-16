@@ -14,12 +14,12 @@
     "special_abilities_desc": "The tiger has advantage on Wisdom (Perception) checks that rely on smell. If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action. ",
     "description": "   These creatures were twice as large as any lion. Their roars were likewise twice as loud as that of any lion. Two large, curved fangs jutted out from their mouths, upon which their name was derived.[2] On average these measured around 6\u202finches (0.15\u202fmeters) in length.[3][4] These creatures were very aggressive and ferocious predators,[4] though were known to sometimes ignore prey that remained motionless.[2] Saber-toothed tigers rarely ever pursued prey over long distances. Often they would attack in groups, ambushing their prey. One half of a pride would startle and chase their prey, steering them straight into the direction of the other half.[2] In 640 DR, the people of Ormath and Lheshayl, as well as patrols from the Shining Plains, experienced frequent attacks from saber-toothed tigers.[7] In the late 15th century DR, a man in Barovia by the name of Rictavio owned a saber-toothed tiger.[8] Around that same time, Queen Bjornhild Solvigsdottir of the Tribe of the Tiger had a pet saber-toothed tiger named Grava.[9] These creatures lived in prides ruled over by female members and worked as a group, much like lions. Infighting over dominance, prey, territory, and mates was quite common. At times this could be quite lethal.[2] Weaker members of prides were often driven out in pairs, forcing them to set up their own hunting territories.[2] Saber-toothed tigers were a carnivorous species.[3] These creatures were most often known to prey upon giant elks,[10] brantas, glyptodons, horses, megaloceros, and mammoths.[2] These creatures were typically found in the forests of either warm or cold climate regions, as well as plains and hills. They laired within caves or small earthen dens when bearing and rearing their young.[2] Smilodons could be found in the Ice Spires,[11] the Shining Plains,[12][13] and much of the Savage Frontier,[14] In the late-15th century DR, they could be found in the jungles of Chult near the River Soshenstar, where they were mistaken by locals for a variety of Chultan tiger.[15] Beyond Toril, they inhabited the warm marshes and swamps of the planet Oerth.[16] Saber-toothed tigers were sometimes domesticated by neanderthals.[17] In the Ice Spires region, both frost giants and the Ice Spire ogres of Dour Fissure were known to have domesticated smilodons.[11] Some arctic rangers were known to have smilodons as animal companions.[18] The fangs of smilodons were a source of ivory, primarily fossilized ivory.[19]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e2/Saber-toothed_tiger-3e.jpg/revision/latest?cb=20200908031311",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

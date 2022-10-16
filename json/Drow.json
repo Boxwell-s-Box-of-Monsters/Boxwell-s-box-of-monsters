@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/3a/Drow_5E-Gray_background.jpg/revision/latest?cb=20200618163735",
     "hit_points": 13,
     "hit_dice": "3d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "120 ft.",
         "passive_perception": 12
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

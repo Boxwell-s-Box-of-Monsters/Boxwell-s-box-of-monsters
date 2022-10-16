@@ -14,12 +14,12 @@
     "special_abilities_desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight. ",
     "description": "   A scout often uses light melee weapons, such as daggers and shortswords, and a small ranged weapon, like a shortbow or hand crossbow. They fight dirty, preferring to end the fight quick and are generally they are proficient in stealth and lock-picking.",
     "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/0/163/1000/1000/636252759915100020.jpeg",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 15
     },
-    "xp": 100
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

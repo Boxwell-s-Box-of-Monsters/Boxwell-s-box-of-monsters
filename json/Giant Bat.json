@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e1/Giant_bat-5e.png/revision/latest?cb=20180809021313",
     "hit_points": 22,
     "hit_dice": "4d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "passive_perception": 11
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

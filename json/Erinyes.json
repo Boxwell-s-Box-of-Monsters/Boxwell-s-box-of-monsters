@@ -14,15 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/78/Erinyes-5e.jpg/revision/latest?cb=20161013133923",
     "hit_points": 153,
     "hit_dice": "18d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -34,5 +25,14 @@
         "truesight": "120 ft.",
         "passive_perception": 12
     },
-    "xp": 8400
+    "xp": 8400,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

@@ -14,11 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/93/Chuul-5e.jpg/revision/latest?cb=20161119180436",
     "hit_points": 93,
     "hit_dice": "11d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -30,5 +25,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 14
     },
-    "xp": 1100
+    "xp": 1100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

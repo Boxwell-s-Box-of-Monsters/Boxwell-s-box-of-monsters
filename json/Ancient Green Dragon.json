@@ -14,11 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8e/Monster_Manual_5e_-_Dragon%2C_Green_-_p93.jpg/revision/latest?cb=20200814203808",
     "hit_points": 385,
     "hit_dice": "22d20",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -31,5 +26,10 @@
         "darkvision": "120 ft.",
         "passive_perception": 27
     },
-    "xp": 41000
+    "xp": 41000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

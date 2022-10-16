@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/79/Monster_Manual_5e_-_Chimera_-_p39.jpg/revision/latest?cb=20200313170057",
     "hit_points": 114,
     "hit_dice": "12d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 18
     },
-    "xp": 2300
+    "xp": 2300,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

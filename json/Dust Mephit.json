@@ -14,13 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/0a/Dust_Mephit-5e.png/revision/latest?cb=20171011030619",
     "hit_points": 17,
     "hit_dice": "5d6",
-    "damage_vulnerabilities": [
-        "fire"
-    ],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -32,5 +25,12 @@
         "darkvision": "60 ft.",
         "passive_perception": 12
     },
-    "xp": 100
+    "xp": 100,
+    "damage_vulnerabilities": [
+        "fire"
+    ],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

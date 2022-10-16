@@ -14,14 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b2/Fire_elemental-5e.jpg/revision/latest?cb=20171011161721",
     "hit_points": 102,
     "hit_dice": "12d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "exhaustion",
@@ -68,5 +60,13 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 1800
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

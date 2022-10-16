@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/c/ce/Monster_Manual_5e_-_Dragon%2C_White_-_p100.jpg/revision/latest?cb=20141112093923",
     "hit_points": 200,
     "hit_dice": "16d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "cold"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 21
     },
-    "xp": 10000
+    "xp": 10000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "cold"
+    ]
 }

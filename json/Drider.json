@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/5d/Monster_Manual_5e_-_Drider_-_p120.jpg/revision/latest?cb=20141112143053",
     "hit_points": 123,
     "hit_dice": "13d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "120 ft.",
         "passive_perception": 15
     },
-    "xp": 2300
+    "xp": 2300,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

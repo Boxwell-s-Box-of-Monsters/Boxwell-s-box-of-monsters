@@ -14,16 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/5d/Glabrezu-5e.jpg/revision/latest?cb=20161120142628",
     "hit_points": 157,
     "hit_dice": "15d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "fire",
-        "lightning",
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -35,5 +25,15 @@
         "truesight": "120 ft.",
         "passive_perception": 13
     },
-    "xp": 5000
+    "xp": 5000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "fire",
+        "lightning",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "poison"
+    ]
 }

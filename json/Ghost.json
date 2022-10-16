@@ -14,19 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/84/Ghost-5e.png/revision/latest?cb=20171011023856",
     "hit_points": 45,
     "hit_dice": "10d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "acid",
-        "fire",
-        "lightning",
-        "thunder",
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
-    "damage_immunities": [
-        "cold",
-        "necrotic",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -78,5 +65,18 @@
         "darkvision": "60 ft.",
         "passive_perception": 11
     },
-    "xp": 1100
+    "xp": 1100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "fire",
+        "lightning",
+        "thunder",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "cold",
+        "necrotic",
+        "poison"
+    ]
 }

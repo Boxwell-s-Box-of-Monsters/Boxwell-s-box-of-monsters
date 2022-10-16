@@ -14,9 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/80/Gibberingmouther5e.png/revision/latest?cb=20171010155207",
     "hit_points": 67,
     "hit_dice": "9d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "prone",
@@ -28,5 +25,8 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

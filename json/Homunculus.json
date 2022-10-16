@@ -14,11 +14,6 @@
     "special_abilities_desc": "While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically. ",
     "description": "      Homunculi were small constructs that were usually the same size as typical squirrels.[1] These constructs were completely loyal to their masters and remained their faithful companions until death.[1] Any homunculus could telepathically transmit anything it saw or heard back to its creator. It also knew everything its creator knew, including the ability to understand and read any languages known by its creator. Although they possessed a telepathic link to their masters, homunculi could not verbally speak.[1] If the creator of a homunculus died, the creature also perished[1][7] and its body melted away into a pool of ichor.[3] Homunculi were very poor combatants, only being able to utilize a bite with their little mouths. However, they had a small chance to poison their foes. If their foes reacted badly to the poison, they could become unconscious.[1] A close up of the hand and foot of a homunculus. The vast majority of homunculi were created by wizards and artificers.[8] Some artificers were also capable of constructing specialized homunculi designed to aid them and their allies in battle.[9] As constructed creatures, homunculi did not require food or water to survive. They also did not need to breathe or sleep.[8] Homunculi were created through a lengthy procedure involving sculpting the construct's body from clay, ash, mandrake root, and spring water. The entire procedure needed to be carried out in a properly equipped alchemist's laboratory. The base component cost for shaping the body was 50 gp, but stronger homunculi could be created by employing finer components at a larger cost.[3] The sculpture was then brought into life by mixing it with 1\u202fpint (470\u202fmilliliters) of its creator's blood.[1][3] The blood needed to be collected through the use of a ceremonial dagger encrusted with jewels worth no less than 1,000 gp. The sculpted body was then brought to life via a 1-hour-long incantation of the create homunculus spell. A spellcaster could only have one homunculus at a time.[7] A depiction of a tiny winged homunculus. This blood created a mystical bond, allowing the creator to see and hear everything the homunculus experienced over great distances, so long as they were on the same plane. However, there was a drawback in that if the construct was slain, the creator suffered damage.[3][1] It was also possible to transfer some of the homunculus's master's own vitality into the construct, in order to temporarily boost its vitality.[7]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/fc/Homunculus-5e.png/revision/latest?cb=20161208213136",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -35,5 +30,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

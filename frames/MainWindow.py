@@ -132,9 +132,12 @@ class MainWindow(tk.Tk):
         responseText += "\tWis: " + str(response['wisdom'])
         responseText += "\tCha: " + str(response['charisma'])
         # New line with Monster weaknesses and resistances
-        responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
-        responseText += "\tresistances: " + str(response['damage_resistances'])
-        responseText += "\timmunities: " + str(response['damage_immunities'])
+        if "damage_vulnerabilities" in response:
+            responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
+        if "damage_resistances" in response:
+            responseText += "\tresistances: " + str(response['damage_resistances'])
+        if "damage_immunities" in response:
+            responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
 
     def printImage(self, response):
@@ -142,16 +145,16 @@ class MainWindow(tk.Tk):
         if response['imageURL'] is not None:
             with urlopen(response['imageURL']) as imageURL:
                 u = imageURL
-
-            im = Image.open(BytesIO(u.read())).resize((200,200))
-            newImage = ImageTk.PhotoImage(im)
-            self.resultImage.configure(image=newImage)
-            self.resultImage.image = newImage
+                im = Image.open(BytesIO(u.read())).resize((200,200))
+                newImage = ImageTk.PhotoImage(im)
+                self.resultImage.configure(image=newImage)
+                self.resultImage.image = newImage
         else:
             im = Image.open('images/placeholderMonster.png')
             newImage = ImageTk.PhotoImage(im)
             self.resultImage.configure(image=newImage)
             self.resultImage.image = newImage
+
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):

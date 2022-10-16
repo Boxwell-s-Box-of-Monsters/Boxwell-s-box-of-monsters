@@ -14,15 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/e8/Bearded_devil-5e.jpg/revision/latest?cb=20161120191131",
     "hit_points": 52,
     "hit_dice": "8d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
-    ],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -34,5 +25,14 @@
         "darkvision": "120 ft.",
         "passive_perception": 10
     },
-    "xp": 700
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
+    ],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

@@ -14,15 +14,15 @@
     "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/0/167/1000/1000/636252760213195530.jpeg",
     "hit_points": 99,
     "hit_dice": "18d8",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 12
+    },
+    "xp": 8400,
     "damage_vulnerabilities": [],
     "damage_resistances": [
         "damage from spells",
         "non magical bludgeoning, piercing, and slashing (from stoneskin)"
     ],
-    "damage_immunities": [],
-    "condition_immunities": [],
-    "senses": {
-        "passive_perception": 12
-    },
-    "xp": 8400
+    "damage_immunities": []
 }

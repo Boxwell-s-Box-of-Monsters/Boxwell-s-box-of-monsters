@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/01/Sea_hag_coven_5e.jpg/revision/latest?cb=20210325100054",
     "hit_points": 13,
     "hit_dice": "3d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "30 ft.",
         "passive_perception": 9
     },
-    "xp": 25
+    "xp": 25,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

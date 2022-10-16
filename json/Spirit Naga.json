@@ -14,11 +14,6 @@
     "special_abilities_desc": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning. The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:\n\n- Cantrips (at will): mage hand, minor illusion, ray of frost\n- 1st level (4 slots): charm person, detect magic, sleep\n- 2nd level (3 slots): detect thoughts, hold person\n- 3rd level (3 slots): lightning bolt, water breathing\n- 4th level (3 slots): blight, dimension door\n- 5th level (2 slots): dominate person ",
     "description": "   They had a human female head on a snake body. Spirit nagas had serpentine bodies with black scales and red bands. Their humanoid faces were framed with stringy hair.[2] The average spirit naga was 15 feet long and weighed about 300 pounds.[4] The spirit nagas emitted stench of carrion, making them look as foul as they smell.[8] Which was very appropriate for their favorite meal was rotting flesh.[4] Some if not all spirit nagas possessed the ability to shapeshift to a human or demihuman bodies but disliked humanoid forms, preferring the advantage of a tail.[9] Spirit nagas' blood was quite acidic and, when spilled, the blood emitted hissing sizzling sound, the telltale sign of its corrosive quality.[7] They were even more mysterious and enigmatic than the others of their kind, seeking lost magic to a fanatical extent. They saw only evil, ugliness, and they delighted in causing suffering and death with the powers they possessed.[10] Spirit nagas were powerful spellcasters. The bite of a spirit naga was deadly, as it contained venom. The eyes of the creature were no better, as their gaze could cause others to fall under the control of the naga. These nagas come back to life just a few days after their death, making them virtually immortal, this ability could only be stopped via wish spell.[1] Spirit nagas were cunning creatures preferring spells and traps often attacking without warning.[4] Spirit nagas preferred solitude or ruling over lower creatures, being worshiped in cults.[11] In Chult, spirit nagas often took on the role of chieftain over pterafolk tribes.[12] A spirit naga as depicted in Dungeon Hack. Most nagas respected culture and lore and considered it to be a worthy goal to preserve it, leading them to claim homes in ruins of ancient civilizations long gone. Even vile and evil spirit nagas that loved destruction established lairs in lost cities, temples, or castles (sometimes that they themselves brought to ruin).[11] Ha-nagas were massive and powerful naga lords and often worshiped by spirit nagas as gods.[13] Nagas were created via magical inbreeding by the sarrukh early on in the era of Mhairshaulk. By \u201324000 DR, Mhairshaulk has been in decline and the nagas have almost completely abandoned their homeland spreading all around Faer\u00fbn. In the following millennia, nagas naturally branched and evolved into numerous naga species, including spirit nagas.[8] Some spirit nagas unearthed ancient rituals of their creators transforming themselves into powerful being called ha-nagas.[8] In 1372 DR spirit nagas were a recent addition to the city of Najara. A dozen spirit nagas served the King of Najara as protectors of the royal line.[14] In 1373 DR, a foul spirit naga was encountered in one of the frozen caverns up in the Sunrise Mountains.[7]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/90/Spirit_Naga-5e.png/revision/latest?cb=20161127000522",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -35,5 +30,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 12
     },
-    "xp": 3900
+    "xp": 3900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

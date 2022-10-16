@@ -14,12 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/08/Azer-5e.jpg/revision/latest?cb=20200411071333",
     "hit_points": 39,
     "hit_dice": "6d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -30,5 +24,11 @@
     "senses": {
         "passive_perception": 11
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

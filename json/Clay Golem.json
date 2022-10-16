@@ -14,14 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/d/de/Clay_golem-5e.jpg/revision/latest?cb=20161122152214",
     "hit_points": 133,
     "hit_dice": "14d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "acid",
-        "poison",
-        "psychic",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -58,5 +50,13 @@
         "darkvision": "60 ft.",
         "passive_perception": 9
     },
-    "xp": 5000
+    "xp": 5000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid",
+        "poison",
+        "psychic",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ]
 }

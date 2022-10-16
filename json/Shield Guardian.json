@@ -14,11 +14,6 @@
     "special_abilities_desc": "The shield guardian is magically bound to an amulet. As long as the guardian and its amulet are on the same plane of existence, the amulet's wearer can telepathically call the guardian to travel to it, and the guardian knows the distance and direction to the amulet. If the guardian is within 60 feet of the amulet's wearer, half of any damage the wearer takes (rounded up) is transferred to the guardian. The shield guardian regains 10 hit points at the start of its turn if it has at least 1 hit. point. A spellcaster who wears the shield guardian's amulet can cause the guardian to store one spell of 4th level or lower. To do so, the wearer must cast the spell on the guardian. The spell has no effect but is stored within the guardian. When commanded to do so by the wearer or when a situation arises that was predefined by the spellcaster, the guardian casts the stored spell with any parameters set by the original caster, requiring no components. When the spell is cast or a new spell is stored, any previously stored spell is lost. ",
     "description": "   Shield guardians could be made with various sizes and strengths, but the simplest and cheapest to make stood about 9\u202ffeet (2.7\u202fmeters) tall and weighed over 1,200\u202fpounds (540\u202fkilograms). They looked something like a large stick figure made of wood with rocky appendages and metal parts.[3] Each shield guardian was keyed to a special magical amulet. If the amulet were destroyed, the guardian would cease to function until keyed to a replacement amulet. A replacement amulet could cost 1,000[1] to 20,000 gold pieces[3] depending on materials and the crafter, and took seven days to construct.[1] Whoever wore the amulet could control the shield guardian, and if the last wearer died, the guardian would obey its final orders to the best of its ability.[3] A shield guardian could not speak, but it could magically understand the commands of anyone controlling it through the amulet, no matter the speaker's language. Moreover, the wearer of the amulet could summon the shield guardian magically from anywhere within the same plane. Though the guardian might have some difficulty making the journey, it would always know the location of its amulet.[3] The default behavior of a shield guardian was to follow its master everywhere and protect him or her. If given other orders, it would do its best to obey, though it was not adept at solving problems. One could be programmed to perform certain tasks at certain times or in response to certain stimuli.[3] A shield guardian protected its master with great speed and agility, attempting to deflect blows and attacks. If commanded to, a shield guardian could generate a magical shield that would partially defend its master from harm, provided the master remained within 100 feet (30 meters) of the guardian. A shield guardian also acted similar to a ring of spell storing, being able to store a single spell that was cast upon and recast the same spell at a later time, provided it was commanded to do so.[3] A shield guardian offering a flower to a girl during the Day of Wonders parade in Waterdeep. A shield guardian was constructed from at least 5,000-gold pieces-worth of bronze, stone, steel, and wood and required skill in blacksmithing and carpentry. The magical amulet through which the construct was controlled usually cost between 1,000[1] and 20,000[3] gold pieces. The shield guardian could only be animated in the presence of the amulet, and the process required a special laboratory, knowledge of the art of crafting constructs, and an extended ritual that involved the casting of the spells discern location, limited wish, shield, and shield other.[3] After the war between the elves of Evereska and the phaerimms, shield guardians were used to guard the houses and mansions from intruders.[5] Likewise, the lake surrounding Herald's Hall was patrolled by shield guardians.[6][7] A shield guardian amulet.",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f9/Shield_Guardian-5e.png/revision/latest?cb=20171011015212",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -51,5 +46,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 2900
+    "xp": 2900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

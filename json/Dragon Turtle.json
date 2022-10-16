@@ -14,15 +14,15 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/e/ec/Dragon_turtle_mm5e.jpg/revision/latest?cb=20161005232712",
     "hit_points": 341,
     "hit_dice": "22d20",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "fire"
-    ],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "120 ft.",
         "passive_perception": 11
     },
-    "xp": 18000
+    "xp": 18000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "fire"
+    ],
+    "damage_immunities": []
 }

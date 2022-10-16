@@ -14,13 +14,13 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/4d/Frog-5e.jpg/revision/latest?cb=20171011005521",
     "hit_points": 18,
     "hit_dice": "4d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "30 ft.",
         "passive_perception": 12
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

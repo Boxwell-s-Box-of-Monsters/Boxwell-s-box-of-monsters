@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/37/Monster_Manual_5e_-_Dragon%2C_Blue_-_p90.jpg/revision/latest?cb=20200827214616",
     "hit_points": 225,
     "hit_dice": "18d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "lightning"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 22
     },
-    "xp": 15000
+    "xp": 15000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning"
+    ]
 }

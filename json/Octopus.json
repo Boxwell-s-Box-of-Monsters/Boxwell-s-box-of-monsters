@@ -14,13 +14,13 @@
     "special_abilities_desc": "While out of water, the octopus can hold its breath for 30 minutes. The octopus has advantage on Dexterity (Stealth) checks made while underwater. The octopus can breathe only underwater. ",
     "description": "      An octopus tentacle. Generally, regular octopuses were not dangerous unless provoked, and in this case, would usually try to escape.[2] Aurora's Whole Realms Catalogue sold dried up octopus tentacles for 4 gp a piece.[7] The city of Bral on the Rock of Bral had a tavern named the Drunken Octopus.[9]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/62/Khaspere_Drylund.jpg/revision/latest?cb=20180103174403",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "30 ft.",
         "passive_perception": 12
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

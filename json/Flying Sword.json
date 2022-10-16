@@ -14,12 +14,6 @@
     "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/77/599/1000/1000/636473151106171093.png",
     "hit_points": 17,
     "hit_dice": "5d6",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison",
-        "psychic"
-    ],
     "condition_immunities": [
         {
             "index": "blinded",
@@ -61,5 +55,11 @@
         "blindsight": "60 ft. (blind beyond this radius)",
         "passive_perception": 7
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison",
+        "psychic"
+    ]
 }

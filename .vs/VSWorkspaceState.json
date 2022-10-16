@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\frames"
+    "\\frames",
+    "\\images",
+    "\\json"
   ],
-  "SelectedNode": "\\modify_json.py",
+  "SelectedNode": "\\frames\\MainWindow.py",
   "PreviewInSolutionExplorer": false
 }

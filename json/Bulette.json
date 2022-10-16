@@ -14,14 +14,14 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/be/Monster_Manual_5e_-_Bulette_-_p34.jpg/revision/latest?cb=20200313165455",
     "hit_points": 94,
     "hit_dice": "9d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "tremorsense": "60 ft.",
         "passive_perception": 16
     },
-    "xp": 1800
+    "xp": 1800,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

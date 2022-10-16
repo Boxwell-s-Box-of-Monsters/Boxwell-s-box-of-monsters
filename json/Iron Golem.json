@@ -14,14 +14,6 @@
     "special_abilities_desc": "Whenever the golem is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt. The golem is immune to any spell or effect that would alter its form. The golem has advantage on saving throws against spells and other magical effects. The golem's weapon attacks are magical. ",
     "description": "      These constructs were generally made with a bipedal, humanoid shape,[6] but stylized to suit their creator. Though they typically were built to resemble some form of armor. The features of their comparatively smoother than that of a stone golem.[4] The average iron golem was about 12\u202fft (3.7\u202fm) tall and weighed 5,000\u202flb (2,300,000\u202fg).[1] Iron golems were always dutifully obedient to whoever constructed them. When left in a room with no activity going on they would move into a dormant state, standing still.[6] Like any golem, these constructs possessed an immunity to magic and could not be harmed by normal weaponry. Only weapons with an enchantment of +3 or greater and magical lightning was known to be capable of harming them. However, their bodies of were particularly vulnerable to rust monsters.[4][6] The strength of these constructs was three times that of any flesh golem.[6] Due to the use of the spell cloudkill in their construction, iron golems were known to be capable of breathing out clouds of poisonous gas.[3][4][6] Much like a stone golem, these constructs relied heavily on their brute strength when fighting. However, unlike them an iron golem was known to wield swords, occasionally even enchanted ones, that were part of its construction.[4] Like any construct, iron golems could be found anywhere across the Realms regardless of climate or terrain.[4] In older ages the combined cost of spell components and the 5,000\u202flb (2,300,000\u202fg) of iron needed to construct an iron golem was around 80,000 gp. An ornate sword was also required \u2014 if the sword was magical, there was half a chance that its magic would be drained as the golem was animated. The construction process took about three months and forging of their body needed to be done by a smith skilled in working iron.[4] Construction of these constructs could only be undertaken by magic-users of an 18th level or higher and required use of the spells cloudkill, geas, polymorph any object, and wish.[4][6] These spells could be cast by the user themselves or by means of an enchanted item, such as a scroll or wand.[4] Alternatively, the construction of an iron golem could be undertaken by any individual that owned a manual of golems[7] or the Tome of the Unicorn.[8] Iron golems were typically used to guard locations or valuable items.[4] Iron golems, called the dwarven statue golems, were used by inhabitants of the Dwarven Dungeons in Myth Drannor before its fall. In 1369 DR their magic was still strong and the constructs could be found still guarding the areas assigned to them hundreds of years prior.[9] Iron golems were not only used by mortals; the gnome god Flandal Steelskin also sent them to the Material Plane to do his bidding.[10]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6d/Iron_golem-5e.jpg/revision/latest?cb=20161121014222",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire",
-        "poison",
-        "psychic",
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -58,5 +50,13 @@
         "darkvision": "120 ft.",
         "passive_perception": 10
     },
-    "xp": 15000
+    "xp": 15000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire",
+        "poison",
+        "psychic",
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ]
 }

@@ -14,9 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/fc/Doppelganger-5e.jpg/revision/latest?cb=20170309004652",
     "hit_points": 52,
     "hit_dice": "8d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -28,5 +25,8 @@
         "darkvision": "60 ft.",
         "passive_perception": 11
     },
-    "xp": 700
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

@@ -14,16 +14,16 @@
     "special_abilities_desc": "While the shrub remains motionless, it is indistinguishable from a normal shrub. ",
     "description": " Lifferlas, the awakened tree of Goldenfields.\nAwakened Tree\n5e\n5th Edition Statistics[1]\nSize\nHuge\nType\nPlant\nAlignment\nUnaligned\nChallenge rating\n2\nGeneral Information[1]\nLanguage(s)\nVaries\nAn awakened tree was simply put a mundane tree that possessed some form of intelligence, often by means of the awaken spell or other magic.[1]\nContents\nAbilities\nCombat\nHistory\nNotable Awakened Trees\nAppendix\nAppearances\nReferences\nAbilities\nWhen an awakened tree remained still, it appeared as if it were an ordinary, unremarkable tree of its type.[1]\nThey were granted the ability to speak the language of their creator.[1]\nThey were well-protected against attacks from bludgeons or weapons with a piercing edge, but were especially vulnerable to being harmed by fire.[1]\nCombat\nAwakened trees slammed their foes in combat.[1]\nHistory\nCirca the late 15th century DR, one awakened tree remained within the garden of the Temple of the Restful Lilly. It was kept by the evil hag, Vile Sazha.[2]\nAround that same time, coniferous awakened trees were sometimes witnessed accompanying frost druids that dwelled in the wilderness of Icewind Dale.[3]\nNotable Awakened Trees\nHallastree, the personal usher of Wyllow, an apprentice to Halaster Blackcloak with her own domain in Undermountain.[4]\nLifferlas, the longest-living resident of Goldenfields as of the late 1480s DR.[5]\nAppendix\nAppearances\nAdventures\nStorm King's Thunder \u2022 Candlekeep Mysteries: \"The Book of Inner Alchemy\"\nReferenced only\nIcewind Dale: Rime of the Frostmaiden\nOrganized Play & Licensed Adventures\nReferenced only\nTyranny of Dragons (Raiders of the Twilight Marsh) \u2022 Rage of Demons (Herald of the Moon) \u2022 Storm King's Thunder (Uninvited Guests) \u2022 Curse of Strahd (Reclamation of Phlan) \u2022 Tomb of Annihilation (Putting the Dead to Rest)\nReferences\n\u2191 1.0 1.1 1.2 1.3 1.4 1.5 1.6 Mike Mearls, Jeremy Crawford, Christopher Perkins (2014-09-30). Monster Manual 5th edition. Edited by Scott Fitzgerald Gray. (Wizards of the Coast), p. 317. ISBN 978-0786965614.\n\u2191 Mark Hulmes, Scott Fitzgerald Gray (March 2021). \u201cThe Price of Beauty\u201d. In Scott Fitzgerald Gray ed. Candlekeep Mysteries (Wizards of the Coast), p. 83. ISBN 978-0-7869-6722-3.\n\u2191 Christopher Perkins (September 2020). Icewind Dale: Rime of the Frostmaiden. Edited by Kim Mohan. (Wizards of the Coast), p. 108. ISBN 978-0786966981.\n\u2191 Christopher Perkins (November 2018). Waterdeep: Dungeon of the Mad Mage. Edited by Jeremy Crawford. (Wizards of the Coast), p. 74. ISBN 978-0-7869-6626-4.\n\u2191 Christopher Perkins (September 6, 2016). Storm King's Thunder. Edited by Kim Mohan, Michele Carter. (Wizards of the Coast), p. 47. ISBN 978-0786966004.   When an awakened tree remained still, it appeared as if it were an ordinary, unremarkable tree of its type.[1] They were granted the ability to speak the language of their creator.[1] They were well-protected against attacks from bludgeons or weapons with a piercing edge, but were especially vulnerable to being harmed by fire.[1] Awakened trees slammed their foes in combat.[1] Circa the late 15th century DR, one awakened tree remained within the garden of the Temple of the Restful Lilly. It was kept by the evil hag, Vile Sazha.[2] Around that same time, coniferous awakened trees were sometimes witnessed accompanying frost druids that dwelled in the wilderness of Icewind Dale.[3]",
     "imageURL": "https://i.redd.it/k5tpifk8ht531.jpg",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 10
+    },
+    "xp": 10,
     "damage_vulnerabilities": [
         "fire"
     ],
     "damage_resistances": [
         "piercing"
     ],
-    "damage_immunities": [],
-    "condition_immunities": [],
-    "senses": {
-        "passive_perception": 10
-    },
-    "xp": 10
+    "damage_immunities": []
 }

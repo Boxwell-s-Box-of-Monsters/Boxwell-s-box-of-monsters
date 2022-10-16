@@ -14,14 +14,14 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/98/Giant_spider-5e.jpg/revision/latest?cb=20161125191001",
     "hit_points": 26,
     "hit_dice": "4d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "10 ft.",
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

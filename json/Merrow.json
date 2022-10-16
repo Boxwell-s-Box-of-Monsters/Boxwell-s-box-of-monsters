@@ -14,13 +14,13 @@
     "special_abilities_desc": "The merrow can breathe air and water. ",
     "description": "      Merrow on the Material Plane lived in undersea caves. They filled their abodes with treasures and used the rotted corpses of dead creatures tied to kelp to mark their territory.[1] A merrow was often armed with a harpoon. It also fought with its sharp claws and its fanged bite.[1] Merrow were created when a tribe of merfolk found an idol to Demogorgon that drove them all insane. The king of this tribe demanded a blood sacrifice to the idol that opened a rift to the Abyss. The corrupted merfolk slowly transformed into the monsters now known as merrow over multiple generations there.[1]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/14/Merrow-5e.png/revision/latest?cb=20161217025855",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

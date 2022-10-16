@@ -14,13 +14,13 @@
     "special_abilities_desc": "The whale can't use its blindsight while deafened. The whale can hold its breath for 30 minutes The whale has advantage on Wisdom (Perception) checks that rely on hearing. ",
     "description": "   Despite their relatively small sizes compared to other whales,[4] killer whales were among the largest sea predatory mammals.[3] Killer whales used their echolocation by emitting high-pitched sound to detect objects and other creatures. This ability did not work if the whale's hearing were to be impaired or if its detecting area was under the effect of a silence spell.[2][1] Orcas were vicious predators that attacked anything within their range of detection.[2] However, they were not excessively hostile, usually only attacking when hungry or provoked.[3] They were also intelligent animals that could be communicated with.[3] A killer whale fights off a group of blood frenzied sahuagin The main weapons killer whales used in combat were their powerful bites, which they could use to hold down their prey until it drowned.[2][1][3] Despite being aggressive hunters, killer whales had a caring family structure, fiercely defending their calves, and sometimes even other whales, against threats. They were also known to ally themselves with aquatic elves.[3] Killer whales were typically known to hunt fish and squids, as well as several kinds of warm-blooded animals, including seals, other whales,[2][3] porpoises, dolphins, walruses, and penguins.[5] They were resourceful hunters that employed sophisticated hunting strategies such as breaking ice sheets to knock their occupants into freezing cold water. A pod of killer whales was capable of collaborating to bring down much larger prey.[2][3] One of the bodies of water that they were most often encountered in was the Sea of Fallen Stars.[6] They were also known to be found in waters around the North.[7] Beyond Toril, orcas were commonly found in the temperate latitudes of the planet Karpri. Whales native to that planet were unusually calm and graceful, a trait which caused them to be heavily hunted by outsiders.[8]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/48/KillerWhale.png/revision/latest?cb=20200728045332",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "blindsight": "120 ft.",
         "passive_perception": 13
     },
-    "xp": 700
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

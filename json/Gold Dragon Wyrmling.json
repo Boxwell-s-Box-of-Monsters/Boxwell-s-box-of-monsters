@@ -14,16 +14,16 @@
     "imageURL": "https://www.dndbeyond.com/avatars/thumbnails/7/516/1000/1000/636285466148376212.jpeg",
     "hit_points": 60,
     "hit_dice": "8d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "10 ft.",
         "darkvision": "60 ft.",
         "passive_perception": 14
     },
-    "xp": 700
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire"
+    ]
 }

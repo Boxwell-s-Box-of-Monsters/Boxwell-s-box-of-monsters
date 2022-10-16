@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/84/Monster_Manual_5e_-_Dragon%2C_Red_-_p97.jpg/revision/latest?cb=20200827230918",
     "hit_points": 256,
     "hit_dice": "19d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 23
     },
-    "xp": 18000
+    "xp": 18000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire"
+    ]
 }

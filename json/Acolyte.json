@@ -14,12 +14,12 @@
     "special_abilities_desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:\n\n- Cantrips (at will): light, sacred flame, thaumaturgy\n- 1st level (3 slots): bless, cure wounds, sanctuary ",
     "description": " Acolyte\n5e\n5th Edition Statistics[note 1]\nSize\nMedium\nType\nHumanoid\nTag(s)\nAny\nAlignment\nAny\nChallenge rating\n1\u20444\nAcolytes (pronounced: /\u02c8\u00e6ko\u028ala\u026at/ \u00c6K-o-leyet[1]  listen) were junior members of a clergy, usually answerable to a priest. They performed a variety of functions in a temple and were granted minor spellcasting power by their deities.[2]\nAppendix\nNotes\n\u2191 For the purposes of game mechanics, nonplayer-character acolytes were treated similarly to creatures in the 5th edition Monster Manual.\nReference\n\u2191 Frank Mentzer (January 1985). \u201cAy pronunseeAYshun gyd\u201d. In Kim Mohan ed. Dragon #93 (TSR, Inc.), p. 25.\n\u2191 Wizards RPG Team (2014). Monster Manual 5th edition. (Wizards of the Coast). ISBN 9780786965614 Survey: How do you feel about gaming microtransactions?  ",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/77/Acolyte.jpg/revision/latest?cb=20190202025341",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 12
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

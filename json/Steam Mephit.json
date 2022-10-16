@@ -14,12 +14,6 @@
     "special_abilities_desc": "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 ft. of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage. The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma. ",
     "description": "   In the ancient city of Cursrah, steam mephits used their special talents to help clear clogged drains in the city's sewer system.[6] ",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/4d/Steam_Mephit-5e.png/revision/latest?cb=20171011031413",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire",
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -31,5 +25,11 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire",
+        "poison"
+    ]
 }

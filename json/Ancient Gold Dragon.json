@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/0/0e/Monster_Manual_5e_-_Dragon%2C_Gold_-_p113.jpg/revision/latest?cb=20141111205752",
     "hit_points": 546,
     "hit_dice": "28d20",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 27
     },
-    "xp": 62000
+    "xp": 62000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire"
+    ]
 }

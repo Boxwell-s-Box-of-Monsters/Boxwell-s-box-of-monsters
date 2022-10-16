@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6d/Monster_Manual_5e_-_Dragon%2C_Copper_-_p110.jpg/revision/latest?cb=20200820002030",
     "hit_points": 350,
     "hit_dice": "20d20",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "acid"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 27
     },
-    "xp": 33000
+    "xp": 33000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid"
+    ]
 }

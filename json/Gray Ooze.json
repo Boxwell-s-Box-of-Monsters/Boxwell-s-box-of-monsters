@@ -14,13 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/26/Grayooze5e.png/revision/latest?cb=20171011011542",
     "hit_points": 22,
     "hit_dice": "3d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "acid",
-        "cold",
-        "fire"
-    ],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "blinded",
@@ -57,5 +50,12 @@
         "blindsight": "60 ft. (blind beyond this radius)",
         "passive_perception": 8
     },
-    "xp": 100
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "acid",
+        "cold",
+        "fire"
+    ],
+    "damage_immunities": []
 }

@@ -14,14 +14,14 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/36/FrostGiant5e.jpg/revision/latest?cb=20141112160119",
     "hit_points": 138,
     "hit_dice": "12d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "cold"
-    ],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 3900
+    "xp": 3900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "cold"
+    ]
 }

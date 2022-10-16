@@ -14,11 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/a6/Guardian_naga-5e.jpg/revision/latest?cb=20171010180024",
     "hit_points": 127,
     "hit_dice": "15d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -35,5 +30,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 14
     },
-    "xp": 5900
+    "xp": 5900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

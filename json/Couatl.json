@@ -14,6 +14,12 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/54/Couatl-5e.jpg/revision/latest?cb=20161120043508",
     "hit_points": 97,
     "hit_dice": "13d8",
+    "condition_immunities": [],
+    "senses": {
+        "truesight": "120 ft.",
+        "passive_perception": 15
+    },
+    "xp": 1100,
     "damage_vulnerabilities": [],
     "damage_resistances": [
         "radiant"
@@ -21,11 +27,5 @@
     "damage_immunities": [
         "psychic",
         "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
-    "condition_immunities": [],
-    "senses": {
-        "truesight": "120 ft.",
-        "passive_perception": 15
-    },
-    "xp": 1100
+    ]
 }

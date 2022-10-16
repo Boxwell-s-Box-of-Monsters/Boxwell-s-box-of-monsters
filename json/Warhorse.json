@@ -14,12 +14,12 @@
     "special_abilities_desc": "If the horse moves at least 20 ft. straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action. ",
     "description": "   Horses were classified in a number of different manners. Chargers, or more plainly warhorses were those horses bred to ride in battle.[9] Light warhorses were referred to as coursers while heavy warhorses were known as destriers.[10] Some of the best-trained horses were trained by the elven House Korianthil.[11] Horses were considered sacred to many faiths of Faer\u00fbn. Warhorses were important to followers of Anhur, the Red Knight, and Tempus. Pinto and piebald horses were particularly favored by Deneir; palomino horses to Waukeen. Gray-haired horsed were sacred to Mask, while white ones were sacred to Milil, and chestnut-colored horses to Sune. Mystra favored donkeys, horses, and mules with blue or mismatched eyes. Intelligent horses were also native to the celestial realms of Sehanine Moonbow.[12] Horses were a kind of novelty for Thymari dragonborn, as such beasts weren't common in Abeir. As such, horses, specially warhorses were highly valued by Thymari, who cared for them as precious friends.[13] A white horse was the symbol for the sun elf house of Evanara.[14]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/4/4b/Horse-5e.jpg/revision/latest?cb=20171010175151",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 11
     },
-    "xp": 100
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

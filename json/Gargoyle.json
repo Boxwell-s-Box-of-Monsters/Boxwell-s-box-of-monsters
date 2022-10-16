@@ -14,13 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/7/74/Gargoyle-5e.png/revision/latest?cb=20161123190953",
     "hit_points": 52,
     "hit_dice": "7d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-    ],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "exhaustion",
@@ -42,5 +35,12 @@
         "darkvision": "60 ft.",
         "passive_perception": 10
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
+    ],
+    "damage_immunities": [
+        "poison"
+    ]
 }

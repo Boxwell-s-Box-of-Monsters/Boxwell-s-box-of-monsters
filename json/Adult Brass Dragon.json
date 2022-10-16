@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/2b/Monster_Manual_5e_-_Dragon%2C_Brass_-_p104.jpg/revision/latest?cb=20200827225239",
     "hit_points": 172,
     "hit_dice": "15d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "fire"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 21
     },
-    "xp": 10000
+    "xp": 10000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "fire"
+    ]
 }

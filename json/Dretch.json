@@ -14,15 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/82/Dretch-5e.jpeg/revision/latest?cb=20161120141633",
     "hit_points": 18,
     "hit_dice": "4d6",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [
-        "cold",
-        "fire",
-        "lightning"
-    ],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -34,5 +25,14 @@
         "darkvision": "60 ft.",
         "passive_perception": 9
     },
-    "xp": 25
+    "xp": 25,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "cold",
+        "fire",
+        "lightning"
+    ],
+    "damage_immunities": [
+        "poison"
+    ]
 }

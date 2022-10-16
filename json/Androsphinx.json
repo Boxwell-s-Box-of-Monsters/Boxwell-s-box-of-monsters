@@ -14,12 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9f/Monster_Manual_5e_-_Androsphinx_-_Brynn_Metheney_-_p281.jpg/revision/latest?cb=20150503210228",
     "hit_points": 199,
     "hit_dice": "19d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "psychic",
-        "bludgeoning, piercing, and slashing from nonmagical weapons"
-    ],
     "condition_immunities": [
         {
             "index": "charmed",
@@ -36,5 +30,11 @@
         "truesight": "120 ft.",
         "passive_perception": 20
     },
-    "xp": 18000
+    "xp": 18000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "psychic",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ]
 }

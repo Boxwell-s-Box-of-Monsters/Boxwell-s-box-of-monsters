@@ -14,12 +14,12 @@
     "special_abilities_desc": "The knight has advantage on saving throws against being frightened. ",
     "description": " A knight was an armored, mounted warrior serving a lord in feudal societies. In the Realms, the term could also refer to, among other things: It could also refer to a specific type of character in various editions of the Dungeons & Dragons rules: ",
     "imageURL": "https://i.pinimg.com/236x/c5/9c/25/c59c25e66d3a4b6ba706c55856cfded7.jpg",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 10
     },
-    "xp": 700
+    "xp": 700,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

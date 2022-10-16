@@ -14,9 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8e/Grimlock-5e.png/revision/latest?cb=20171011040019",
     "hit_points": 11,
     "hit_dice": "2d8",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [
         {
             "index": "blinded",
@@ -28,5 +25,8 @@
         "blindsight": "30 ft. or 10 ft. while deafened (blind beyond this radius)",
         "passive_perception": 13
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

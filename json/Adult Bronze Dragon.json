@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/b/b7/Monster_Manual_5e_-_Dragon%2C_Bronze_-_p107.jpg/revision/latest?cb=20200827225050",
     "hit_points": 212,
     "hit_dice": "17d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "lightning"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 22
     },
-    "xp": 13000
+    "xp": 13000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning"
+    ]
 }

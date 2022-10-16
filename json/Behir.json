@@ -14,15 +14,15 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f1/Behir-5e.jpg/revision/latest?cb=20190715040912",
     "hit_points": 168,
     "hit_dice": "16d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "lightning"
-    ],
     "condition_immunities": [],
     "senses": {
         "darkvision": "90 ft.",
         "passive_perception": 16
     },
-    "xp": 7200
+    "xp": 7200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "lightning"
+    ]
 }

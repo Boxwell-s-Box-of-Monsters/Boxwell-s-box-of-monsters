@@ -14,13 +14,13 @@
     "special_abilities_desc": "The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:\n\nAt will: darkness, invisibility\n1/day each: charm person, cone of cold, gaseous form, sleep The oni's weapon attacks are magical. The oni regains 10 hit points at the start of its turn if it has at least 1 hit point. ",
     "description": "   Besides great strength, many oni had regenerative abilities similar to trolls, and all oni had multiple magical abilities, including the ability to fly without wings, change their own shape, and turn themselves invisible.[2] There were many varieties of oni. The most common were: Oni enjoyed both dancing and music. They particularly enjoyed the music of flutes. It was considered unwise to interrupt an oni dancing celebration![3] Among animals, oni preferred black-colored ones.[3] Oni also were very fond of treasures of all varieties. Some oni would swallow their treasures to protect them, regurgitating them later.[3] Oni often lived in desolate areas,[4] or they might make homes along highways or within cities, living in disguise. In rare cases, they might even rule over small human villages.[3] A band of oni might contain a hundred members, in obedience to the largest and wisest oni, whether male or female. They might be found allied with bakemono, gaki, goblin rats, or varieties of evil humanoids.[3] Oni had their own language, but spoke other languages as well.[3] Oni were carnivorous and had massive appetites. They ate both wild game and domesticated animals, and would eat humanoids as well.[3] Males and females were equally powerful.[3] The origin of oni remained a mystery to scholars. Many believed that they were the corrupted spirits of evil humans, but others thought them to have been created specifically by the Celestial Bureaucracy to test humans and establish a balance between good and evil.[3] Still others saw many similarities between the oni of the east and the ogres of the west and argued that they were in fact related races,[6][7][8][9][10] or that oni were related to trolls.[9] Other sages told the tale that oni were descended from the god Vaprak's three sons, Anori, Hakuni, and Muaj.[9] It was said that an island populated almost exclusively by oni was said to exist somewhere in the Celestial Sea, but if true, no human explorer had ever found the island and returned. Strangely, the island was said to be guarded by thousands of one-foot tall black oni with powers as great as larger oni.[3] It was rumored that amethysts could repel oni.[11]  True Giant Offshoots\nAsh \u2022 Craa'ghoran \u2022 Maur \u2022 Phaerlin\nGiant-Kin\nCyclops (Cyclopskin) \u2022 Firbolg \u2022 Fomorian \u2022 Ogre (Oni) \u2022 Verbeeg \u2022 Voadkyn\nZakharan Giants\nDesert \u2022 Island \u2022 Jungle \u2022 Ogre giant \u2022 Reef",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/17/Oni3e.jpg/revision/latest?cb=20170410191517",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "darkvision": "60 ft.",
         "passive_perception": 14
     },
-    "xp": 2900
+    "xp": 2900,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

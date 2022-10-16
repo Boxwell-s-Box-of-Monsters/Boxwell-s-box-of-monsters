@@ -14,12 +14,12 @@
     "special_abilities_desc": "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell. The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated. ",
     "description": "   Vultures were large birds with filthy feathers. Their main distinguishing feature was their featherless pink head.[2] Vultures were considered to be cowardly animals.[2] Upon sighting anything on the ground that appeared injured or dead, a vulture would quickly swoop down to investigate.[3] Vultures had an acute, long distance vision.[4] Their keen eyesight is comparable to that of any eagle, falcon, or hawk.[3] Being carrion eaters, they developed the ability to consume infected, poisoned or rotting meat safely.[2] A female vulture could lay up to four eggs at a time. These eggs were incubated over a period of two months until they hatched. A young vulture could fly at four months of age.[2] Vultures were scavengers, attacking prey only once it has died or collapsed from exhaustion. Vultures only attacked moving prey if in a group, and only if the prey was already near collapsing.[2] Vultures typically lived in flocks.[2] These creatures were carrion eaters. They fed upon creatures that were either injured or already dead. Though they were also liable to attack creatures that were unconscious, restrained, or sleeping.[3] Vultures typically inhabited high altitudes, such as mountains, within temperate or tropical regions.[3] They were usually encountered in warm areas, floating on updrafts over open spaces.[2] In the Hordelands they could be found in the Katakoro Plateau, the Raurin and Quoya Deserts, and among its many mountain ranges.[7] In the Zakhara region's Crowded Sea, they could be found on the island chain of Nada al-Hazan[8] and the archipelago of Jazayir al-Sartan.[9] Beyond the Prime Material plane, vultures could be found in the plane of Acheron.[10] Vultures were a symbol and favored animal of Thasmudyan, the god of undeath in the Zakharan pantheon.[11] Evil swanmays sometimes shapechanged into the form of a vulture.[12] The bones and feathers of a vulture were used as material components in the casting of some spells.[13][14]",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/1/1c/Vulture_1e.png/revision/latest?cb=20210321064352",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 13
     },
-    "xp": 10
+    "xp": 10,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

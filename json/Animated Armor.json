@@ -14,12 +14,6 @@
     "special_abilities_desc": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute. While the armor remains motionless, it is indistinguishable from a normal suit of armor. ",
     "description": " Animated Armor\n5e\n5th Edition Statistics[1]\nSize\nMedium\nType\nConstruct\nAlignment\nUnaligned\nChallenge rating\n1\nAn animated armor was a suit of armor that was crafted with magic to follow the command of its creators.[1]\nContents\nNotable Armors\nAppendix\nAppearances\nReferences\nNotable Armors\nKlank, one of the bouncers for the Elfsong Tavern[2]\nAppendix\nThis Realmslore article about a creature is a stub. You can help the Forgotten Realms Wiki by expanding it.\nAppearances\nAdventures\nBaldur's Gate: Descent into Avernus\nStorm King's Thunder\nTomb of Annihilation\nCurse of Strahd\nReferences\n\u2191\n1.0 1.1 Mike Mearls, Jeremy Crawford, Christopher Perkins (2014-09-30). Monster Manual 5th edition. Edited by Scott Fitzgerald Gray. (Wizards of the Coast), p. 19. ISBN 978-0786965614.\n\u2191 Adam Lee, et al. (September 2019). Baldur's Gate: Descent into Avernus. Edited by Michele Carter, et al. (Wizards of the Coast), p. 16. ISBN 978-0-7869-6687-5.  ",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/5/57/Animatedarmor.jpeg/revision/latest?cb=20190923172952",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison",
-        "psychic"
-    ],
     "condition_immunities": [
         {
             "index": "blinded",
@@ -66,5 +60,11 @@
         "blindsight": "60 ft. (blind beyond this radius)",
         "passive_perception": 6
     },
-    "xp": 200
+    "xp": 200,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison",
+        "psychic"
+    ]
 }

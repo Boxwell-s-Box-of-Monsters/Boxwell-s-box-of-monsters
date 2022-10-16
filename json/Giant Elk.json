@@ -14,12 +14,12 @@
     "imageURL": "https://angrygolem-games.com/wp-content/uploads/2021/11/Giant-Elk.jpg",
     "hit_points": 42,
     "hit_dice": "5d12",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [],
     "condition_immunities": [],
     "senses": {
         "passive_perception": 14
     },
-    "xp": 450
+    "xp": 450,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

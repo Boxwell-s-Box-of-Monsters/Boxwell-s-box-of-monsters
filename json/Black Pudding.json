@@ -14,14 +14,6 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/3/34/Black_pudding-5e.jpg/revision/latest?cb=20171010160248",
     "hit_points": 85,
     "hit_dice": "10d10",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "acid",
-        "cold",
-        "lightning",
-        "slashing"
-    ],
     "condition_immunities": [
         {
             "index": "blinded",
@@ -58,5 +50,13 @@
         "blindsight": "60 ft. (blind beyond this radius)",
         "passive_perception": 8
     },
-    "xp": 1100
+    "xp": 1100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "acid",
+        "cold",
+        "lightning",
+        "slashing"
+    ]
 }

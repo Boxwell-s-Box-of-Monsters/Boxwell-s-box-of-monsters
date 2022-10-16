@@ -14,11 +14,6 @@
     "special_abilities_desc": "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead. ",
     "description": "   Basically, a zombie was the corpse of a creature that had been animated by someone who could manipulate negative energy, such as a cleric. For example, a cleric would be able to use negative energy on a corpse and make it move its body, arms, legs, etc.[3] Zombies could also rise spontaneously if an area was saturated with necromantic magic.[1] Zombies dragged their feet and so did not leave clear prints.[7] Necromancers used demons' blood as a powerful magical adhesive liberally applied to zombies' joint to stave the rotting and disintegration of tissues.[8] Disclaimer: The views expressed in the following links do not necessarily represent the views of the editors of this wiki, nor does any lore presented necessarily adhere to established canon.",
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/2/2e/Zombie-5e.jpg/revision/latest?cb=20180128175418",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "poison"
-    ],
     "condition_immunities": [
         {
             "index": "poisoned",
@@ -30,5 +25,10 @@
         "darkvision": "60 ft.",
         "passive_perception": 8
     },
-    "xp": 50
+    "xp": 50,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ]
 }

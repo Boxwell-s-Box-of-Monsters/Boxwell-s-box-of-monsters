@@ -14,16 +14,16 @@
     "imageURL": "https://static.wikia.nocookie.net/forgottenrealms/images/a/ae/Monster_Manual_5e_-_Dragon%2C_Silver_-_p136.jpg/revision/latest?cb=20141112093114",
     "hit_points": 487,
     "hit_dice": "25d20",
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": [
-        "cold"
-    ],
     "condition_immunities": [],
     "senses": {
         "blindsight": "60 ft.",
         "darkvision": "120 ft.",
         "passive_perception": 26
     },
-    "xp": 50000
+    "xp": 50000,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "cold"
+    ]
 }
