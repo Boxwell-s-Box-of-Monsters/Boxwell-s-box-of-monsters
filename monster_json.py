@@ -103,14 +103,15 @@ def initialize(fileLocInit, responseInit):
         # Write json list to a file
         json_str_init = json.dumps(document, indent=4)
 
-        with open(fileLocInit, "w", encoding="utf8") as file:
-            file.write(json_str_init)
+        with open(fileLocInit, "w", encoding="utf8") as fileInit:
+            fileInit.write(json_str_init)
         return document
+    return None
 
 def modify(fileLocMod, responseMod):
     if exists(fileLoc):
         # API url to retrieve monster info
-        # monsterObj = requests.get("https://www.dnd5eapi.co" + response['url']).json()
+        monsterObj = requests.get("https://www.dnd5eapi.co" + responseMod['url']).json()
         # Add keys to the document, ex: name = monsterObj["name"]
         # JSON object for a monster
         document = {
@@ -148,14 +149,15 @@ def webscrape(fileLocWeb, responseWeb):
         # prints the json to either a good file or a 'bad' one for inspection
         if description != "" and imageURL is not None:
 
-            with open(fileLocWeb, "w", encoding="utf8") as file:
-                file.write(currentJson)
+            with open(fileLocWeb, "w", encoding="utf8") as fileWeb:
+                fileWeb.write(currentJson)
         else:
             # Write bad json list to a file
             with open(badFileLocWeb, "w", encoding="utf8") as file:
                 file.write(currentJson)
 
         return currentJson
+    return None
 
 for response in responseList:
     fileLoc = "json/" + response['name'] + ".json"
