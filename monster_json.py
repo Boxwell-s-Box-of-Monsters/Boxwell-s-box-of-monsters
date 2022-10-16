@@ -60,17 +60,6 @@ def initialize(fileLocInit, responseInit):
     if not exists(fileLocInit):
         # API url to retrieve monster info
         monsterObj = requests.get("https://www.dnd5eapi.co" + responseInit['url']).json()
-        name = monsterObj["name"]
-        hp = monsterObj["hit_points"]
-        hit_dice = monsterObj["hit_dice"]
-        armor_class = monsterObj["armor_class"]
-        challenge_rating = monsterObj["challenge_rating"]
-        strength = monsterObj["strength"]
-        dexterity = monsterObj["dexterity"]
-        constitution = monsterObj["constitution"]
-        intelligence = monsterObj["intelligence"]
-        wisdom = monsterObj["wisdom"]
-        charisma = monsterObj["charisma"]
         special_abilities = monsterObj["special_abilities"]
         SPECIAL_ABILITIES_DESC = ""
         actions = monsterObj["actions"]
@@ -84,17 +73,17 @@ def initialize(fileLocInit, responseInit):
 
         # JSON object for a monster
         document = {
-            'name': name,
-            'hit_points': hp,
-            'hit_dice': hit_dice,
-            'armor_class': armor_class,
-            'challenge_rating': challenge_rating,
-            'strength': strength,
-            'dexterity': dexterity,
-            'constitution': constitution,
-            'intelligence': intelligence,
-            'wisdom': wisdom,
-            'charisma': charisma,
+            'name': monsterObj["name"],
+            'hit_points': monsterObj["hit_points"],
+            'hit_dice': hit_dice = monsterObj["hit_dice"],
+            'armor_class': armor_class = monsterObj["armor_class"],
+            'challenge_rating': challenge_rating = monsterObj["challenge_rating"],
+            'strength': monsterObj["strength"],
+            'dexterity': monsterObj["dexterity"],
+            'constitution': monsterObj["constitution"],
+            'intelligence': monsterObj["intelligence"],
+            'wisdom': monsterObj["wisdom"],
+            'charisma': monsterObj["charisma"],
             'actions_desc': ACTIONS_DESC,
             'special_abilities_desc': SPECIAL_ABILITIES_DESC,
             'description': description,
