@@ -60,6 +60,7 @@ for response in responseList:
 
     if response['name'] == "Succubus/Incubus": # Cornercase naming convention
         fileLoc = "json/Succubus+Incubus.json"
+        badFileLoc = "json/1Succubus+Incubus.json"
 
     if exists(fileLoc):
         # API url to retrieve monster info
