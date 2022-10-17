@@ -118,7 +118,7 @@ class MainWindow(tk.Tk):
                     [2400, 4900, 7300, 10900],
                     [2800, 5700, 8500, 12700]]
 
-        return xpTable[level][diff.get()]
+        return xpTable[level-1][diff.get()]
 
     # Gets a list of monsters from the challenge rating
     def responseListAdapter(self, targetXP, monsterWindow):

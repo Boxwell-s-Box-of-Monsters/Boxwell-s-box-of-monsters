@@ -11,6 +11,9 @@ class CharacterFrame(tk.Frame):
     def __init__(self, container):
         super().__init__(container)
 
+        self.characterLimit = 8
+        self.numberOfCharacters = 1
+
         options = {'padx': 5, 'pady': 5}
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT,
@@ -25,54 +28,34 @@ class CharacterFrame(tk.Frame):
         self.characterContainerLabel.grid(
             column=0, row=0, columnspan=3, **options)
 
-        # # Add/Remove Buttons
-        # self.addCharacter = tk.Button(self, text='Add Character', font=(FONT, 8),
-        #                               fg=BLACK, highlightbackground=LIGHT)
-        # self.removeCharacter = tk.Button(self, text="Remove Character", font=(FONT, 8),
-        #                                  fg=BLACK, highlightbackground=LIGHT)
-        # self.addCharacter.grid(column=0, row=1, sticky=tk.W, **options)
-        # self.removeCharacter.grid(column=1, row=1, sticky=tk.W, **options)
+        # Add/Remove Buttons
+        self.addCharacterBtn = tk.Button(self, text='Add Character', font=(FONT, 8),
+                                      fg=BLACK, highlightbackground=LIGHT, command=self.addCharacter)
+        self.removeCharacterBtn = tk.Button(self, text="Remove Character", font=(FONT, 8),
+                                         fg=BLACK, highlightbackground=LIGHT, command=self.removeCharacter)
+        self.addCharacterBtn.grid(column=0, row=1, sticky=tk.W, **options)
+        self.removeCharacterBtn.grid(column=1, row=1, sticky=tk.W, **options)
+        self.removeCharacterBtn['state'] = tk.DISABLED
 
         # Labels for Character table
         self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
                                        fg=BLACK)
         self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
                                  fg=BLACK)
-        # self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
-        #                             fg=BLACK)
+        self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
+                                    fg=BLACK)
         self.characterLabel.grid(column=0, row=2, sticky=tk.W, **options)
         self.lvlLabel.grid(column=1, row=2, sticky=tk.W, **options)
-        # self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
+        self.damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
 
         # Drop down for dmg types
-        charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
+        self.charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
                     "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
+        self.damageTypes = ['Acid', 'Bludgeoning', 'Cold', 'Fire', 'Force', 'Lightning', 'Necrotic', 'Piercing', 'Poison', 'Psychic', 'Radiant', 'Slashing', 'Thunder']        
         # Characters
         self.characters = []
-        for i in range(4):
-            characterRow = {}
-            charVar = tk.StringVar(self)
-
-            chrDropDown = tk.OptionMenu(
-                self, charVar, *charType)
-            chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
-            chrDropDown.grid(
-                column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
-            characterRow['characterDrop'] = chrDropDown
-            characterRow['character'] = charVar
-
-            characterRow['level'] = tk.Spinbox(
-                self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
-            validatecommand=(self.register(self.validateLvl), "%P"))
-            characterRow['level'].grid(
-                column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
-
-            # characterRow['Damage'] = tk.Label(
-            #     characterContainer, text='Fire', font=(FONT, 8), bg=LIGHT)
-            # characterRow['Damage'].grid(
-            #     column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
-
-            self.characters.append(characterRow)
+        for i in range(self.numberOfCharacters):
+            self.characters.append(self.createCharacterRow(i))
 
     # used by the character level spinbox to check that input is an int between 0 and 20
     def validateLvl(self, potentialInput):
@@ -82,3 +65,64 @@ class CharacterFrame(tk.Frame):
             if rangeCheck > 20 or rangeCheck < 0:
                 r = False
         return r
+
+    # used by add character button to create a new character entry area
+    def addCharacter(self):
+        self.characters.append(self.createCharacterRow(self.numberOfCharacters))
+        self.numberOfCharacters+=1
+
+        #check number of characters
+        if self.numberOfCharacters >= 8:
+            #disable add character button
+            self.addCharacterBtn['state'] = tk.DISABLED
+        
+        #make sure remove charactrer button is enabled
+        self.removeCharacterBtn['state'] = tk.NORMAL
+
+    # used to remove character button to remove the last character entry 
+    def removeCharacter(self):
+        rowToDelete = self.characters[-1]
+
+        #delete the 3 tkinter widgets so they dont get rendered anymore
+        rowToDelete['characterDrop'].destroy()
+        rowToDelete['level'].destroy()
+        rowToDelete['damage'].destroy()
+
+        self.characters.pop()
+        self.numberOfCharacters -= 1
+        #check number of characters
+        if self.numberOfCharacters <= 1:
+            #disable remove character button
+            self.removeCharacterBtn['state'] = tk.DISABLED
+
+        #make sure add character button is now enabled
+        self.addCharacterBtn['state'] = tk.NORMAL
+
+
+
+
+    def createCharacterRow(self, i):
+        characterRow = {}
+        charVar = tk.StringVar(self)
+        damageVar = tk.StringVar(self)
+
+        chrDropDown = tk.OptionMenu(
+            self, charVar, *self.charType)
+        chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
+        chrDropDown.grid(
+            column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
+        characterRow['characterDrop'] = chrDropDown
+        characterRow['character'] = charVar
+
+        characterRow['level'] = tk.Spinbox(
+            self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
+        validatecommand=(self.register(self.validateLvl), "%P"))
+        characterRow['level'].grid(
+            column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
+
+        characterRow['damage'] = tk.OptionMenu(
+            self, damageVar, *self.damageTypes)
+        characterRow['damage'].grid(
+            column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
+
+        return characterRow
