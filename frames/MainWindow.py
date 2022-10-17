@@ -131,12 +131,42 @@ class MainWindow(tk.Tk):
         response = s.execute()
         return response
 
-    # Picks a best monster from the available list
-    def bestResponseAdapter(self, responseList):
-        # Later we will want to change this function based on elastic search
-        random.seed(random.randint(0, 100))
-        randIdx = random.randint(0, len(responseList) - 1)
-        return responseList.hits[randIdx]
+    # Picks the best monsters for the encounter
+    def bestResponseAdapter(self, maxEncounterXP, responseList):
+        currentEncounterXP = 0
+        monsterList = []
+        monsterQuantity = 0
+
+        # From the users description, add the paragon monster 
+        monsterQuantity += self.monstersMultiplied(responseList[0], currentEncounterXP, maxEncounterXP, monsterQuantity)
+        monsterList.append([responseList[0], monsterQuantity])
+        currentEncounterXP += int(responseList[0]['xp']) * monsterQuantity
+
+        # Make a new list of monsters based on best matches to the paragon monster
+        matchingMonsters = self.responseListAdapter(responseList[0][0]['xp']-1, monsterList[0][0]['description'])
+
+        # Adds the best monsters based on the paragon monster to the encounter until the list is empty or the encounter has reached 10
+        while len(matchingMonsters) > 1 and monsterQuantity <= 10:
+            # if the number of monsters that can be added is not 0, add it.
+            newMonsters = self.monstersMultiplied(matchingMonsters[0], currentEncounterXP, maxEncounterXP, monsterQuantity)
+            if newMonsters > 0:
+                monsterList.append([matchingMonsters[0], newMonsters])
+                currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
+                monsterQuantity += newMonsters
+            matchingMonsters.pop(0)
+        return monsterList
+
+    # returns an integer for the number of monsters that can be added to the encounter for a specific monster
+    def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, monsterQuantity):
+        xpMult = 1
+        # checks if the same monster can be added again, taking into account the multiplier and the preexisting encounter xp
+        while (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult > 0) and (monsterQuantity <= 10):
+            monsterQuantity += 1
+            encounterXP += int(monster['xp'])
+            if monsterQuantity+1 >= 7: xpMult = 2.5
+            elif monsterQuantity+1 >= 3: xpMult = 2
+            elif monsterQuantity+1 == 2: xpMult = 1.5
+        return monsterQuantity
 
     # Prints the current best monster
     def printAdapter(self, response):
@@ -181,13 +211,13 @@ class MainWindow(tk.Tk):
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
-        xp = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(xp, monsterWindow)
+        maxEncounterXP = self.getAppropriateCR(characterList, diff)
+        responseList = self.responseListAdapter(maxEncounterXP, monsterWindow)
         # Get top result
         if len(responseList) > 0:
-            response = self.bestResponseAdapter(responseList)
-            responseText = self.printAdapter(response)
-            self.printImage(response)
+            response = self.bestResponseAdapter(maxEncounterXP, responseList)
+            #responseText = self.printAdapter(response)
+            #self.printImage(response)
         else:
             responseText = "Error, no monsters found"
             self.displayBlank()
