@@ -14,8 +14,7 @@ class DescriptionFrame(tk.Frame):
         
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
-        self.grid_rowconfigure(0, weight=1)
-        self.grid_rowconfigure(1, weight=1)
+        self.grid_rowconfigure((0,1), weight=1)
 
         # label
         self.monsterLabel = tk.Label(self,
@@ -27,6 +26,6 @@ class DescriptionFrame(tk.Frame):
         self.monsterLabel.grid(columnspan=2, row=0)
 
         # text input box
-        self.monsterWindow = tk.Text(self, height=10, width=35, font=(FONT, 12),
+        self.monsterWindow = tk.Text(self, font=(FONT, 12),
                                      fg=BLACK, bg=WHITE)
         self.monsterWindow.grid(columnspan=2, row=1)

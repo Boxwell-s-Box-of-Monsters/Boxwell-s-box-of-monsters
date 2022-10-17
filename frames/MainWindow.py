@@ -69,11 +69,11 @@ class MainWindow(tk.Tk):
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(column=1, row=1, ipadx=10, ipady=10, padx=(0, 5), sticky=tk.N)
+        descriptFrame.grid(column=1, row=1, ipadx=10, ipady=10, padx=(0, 5), sticky=tk.NS)
 
         # Difficulty Frame
         difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(columnspan=2, row=2, sticky=tk.N)
+        difficultyFrame.grid(column=0, columnspan=2, row=2, sticky=tk.NS, pady=5)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -88,14 +88,14 @@ class MainWindow(tk.Tk):
                                 highlightbackground=TAN,
                                 font=(FONT, 12, "bold"),
                                 fg=BLACK)
-        self.button.grid(columnspan=2, row=3, ipadx=5, ipady=5, sticky=tk.N)
+        self.button.grid(columnspan=2, column=0, row=3, ipadx=5, ipady=5, sticky=tk.NS)
 
         # Print the result of the button
         self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        self.resultLabel.grid(columnspan=2, row=4, sticky=tk.N)
+        self.resultLabel.grid(columnspan=2, row=4, sticky=tk.NS)
         self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
-        self.resultImage.grid(columnspan=2, row=5, sticky=tk.N)
+        self.resultImage.grid(columnspan=2, column=0, row=5, sticky=tk.NS)
 
     ############################
     # Button Functions
