@@ -36,12 +36,11 @@ class MainWindow(tk.Tk):
         
         # Make root grid responsive
         self.grid_rowconfigure(0, weight=1)
-        self.grid_rowconfigure(1, weight=3)
+        self.grid_rowconfigure(1, weight=1)
         self.grid_rowconfigure(2, weight=1)
         self.grid_rowconfigure(3, weight=1)
         self.grid_rowconfigure(4, weight=1)
         self.grid_rowconfigure(5, weight=1)
-        self.grid_rowconfigure(6, weight=1)
 
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
@@ -62,7 +61,7 @@ class MainWindow(tk.Tk):
 
         # Characters Frame
         characterFrame = CharacterFrame(self)
-        characterFrame.grid(columnspan=2, row=1, ipadx=90, ipady=20, pady=(0, 5))
+        characterFrame.grid(column=0, row=1, ipadx=50, ipady=10, padx=5, sticky=tk.N)
 
         # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
         # dmgTypeFrame = DamageTypeFrame(self)
@@ -70,11 +69,11 @@ class MainWindow(tk.Tk):
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(columnspan=2, row=2, ipadx=30, ipady=30, pady=(0, 5))
+        descriptFrame.grid(column=1, row=1, ipadx=10, ipady=10, padx=(0, 5), sticky=tk.N)
 
         # Difficulty Frame
         difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(columnspan=2, row=3, pady=(0, 5))
+        difficultyFrame.grid(columnspan=2, row=2, sticky=tk.N)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -87,16 +86,16 @@ class MainWindow(tk.Tk):
                                 command=lambda: self.handleGetMonsterButton(
                                     characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
                                 highlightbackground=TAN,
-                                font=(FONT, 9, "bold"),
+                                font=(FONT, 12, "bold"),
                                 fg=BLACK)
-        self.button.grid(columnspan=2, row=4)
+        self.button.grid(columnspan=2, row=3, ipadx=5, ipady=5, sticky=tk.N)
 
         # Print the result of the button
         self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        self.resultLabel.grid(columnspan=2, row=5)
+        self.resultLabel.grid(columnspan=2, row=4, sticky=tk.N)
         self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
-        self.resultImage.grid(columnspan=2, row=6)
+        self.resultImage.grid(columnspan=2, row=5, sticky=tk.N)
 
     ############################
     # Button Functions

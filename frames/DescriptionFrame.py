@@ -27,6 +27,6 @@ class DescriptionFrame(tk.Frame):
         self.monsterLabel.grid(columnspan=2, row=0)
 
         # text input box
-        self.monsterWindow = tk.Text(self, height=3, width=35, font=(FONT, 12),
+        self.monsterWindow = tk.Text(self, height=10, width=35, font=(FONT, 12),
                                      fg=BLACK, bg=WHITE)
         self.monsterWindow.grid(columnspan=2, row=1)
