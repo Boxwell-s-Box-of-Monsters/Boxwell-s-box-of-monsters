@@ -102,23 +102,44 @@ class MainWindow(tk.Tk):
     # Button Functions
     ############################
     def getAppropriateCR(self, characterList, diff):
-        challengeRating = 0
+        level = 0
         for character in characterList:
-            challengeRating += int(character['level'].get())
-        challengeRating /= 4
-        challengeRating += diff.get()
+            level += int(character['level'].get())
+        level /= 4
+        level = int(round(level, 0))
 
-        return round(challengeRating, 0)
+        #Probably want to move this later
+        xpTable = [[25, 50, 75, 100],
+                    [50, 100, 150, 200],
+                    [75, 150, 225, 400],
+                    [125, 250, 375, 500],
+                    [250, 500, 750, 1100],
+                    [300, 600, 900, 1400],
+                    [350, 750, 1100, 1700],
+                    [450, 900, 1400, 2100],
+                    [550, 1100, 1600, 2400],
+                    [600, 1200, 1900, 2800],
+                    [800, 1600, 2400, 3600],
+                    [1000, 2000, 3000, 4500],
+                    [1100, 2200, 3400, 5100],
+                    [1250, 2500, 3800, 5700],
+                    [1400, 2800, 4300, 6400],
+                    [1600, 3200, 4800, 7200],
+                    [2000, 3900, 5900, 8800],
+                    [2100, 4200, 6300, 9500],
+                    [2400, 4900, 7300, 10900],
+                    [2800, 5700, 8500, 12700]]
+
+        return xpTable[level][diff.get()]
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, challengeRating, monsterWindow):
+    def responseListAdapter(self, targetXP, monsterWindow):
         # Get list of monsters
-        query = Q('match', challenge_rating=challengeRating) & \
-                Q(MoreLikeThis(like=monsterWindow.get("1.0", 'end-1c'),
+        query = Q(MoreLikeThis(like=monsterWindow.get("1.0", 'end-1c'),
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
 
-        s = Search(using=self.es, index='monster_index').query(query)
+        s = Search(using=self.es, index='monster_index').filter('range', xp={'lte': targetXP}).query(query)
         response = s.execute()
         return response
 
@@ -152,6 +173,12 @@ class MainWindow(tk.Tk):
             responseText += "\timmunities: " + str(response['damage_immunities'])
         return responseText
 
+    def displayBlank(self):
+        im = Image.open('images/placeholderMonster.png')
+        newImage = ImageTk.PhotoImage(im)
+        self.resultImage.configure(image=newImage)
+        self.resultImage.image = newImage
+
     def printImage(self, response):
         # Display the updated monster's image
         if response['imageURL'] is not None:
@@ -163,18 +190,11 @@ class MainWindow(tk.Tk):
                 self.resultImage.image = newImage
         else:
             self.displayBlank()
-    
-    def displayBlank(self):
-        im = Image.open('images/placeholderMonster.png')
-        newImage = ImageTk.PhotoImage(im)
-        self.resultImage.configure(image=newImage)
-        self.resultImage.image = newImage
-
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
-        cr = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(cr, monsterWindow)
+        xp = self.getAppropriateCR(characterList, diff)
+        responseList = self.responseListAdapter(xp, monsterWindow)
         # Get top result
         if len(responseList) > 0:
             response = self.bestResponseAdapter(responseList)
