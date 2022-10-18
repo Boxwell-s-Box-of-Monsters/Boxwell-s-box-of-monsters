@@ -105,12 +105,6 @@ class MainWindow(tk.Tk):
     # Button Functions
     ############################
     def getAppropriateCR(self, characterList, diff):
-        level = 0
-        for character in characterList:
-            level += int(character['level'].get())
-        level /= len(characterList)
-        level = int(round(level, 0))
-
         #Probably want to move this later
         xpTable = [[25, 50, 75, 100],
                     [50, 100, 150, 200],
@@ -133,7 +127,12 @@ class MainWindow(tk.Tk):
                     [2400, 4900, 7300, 10900],
                     [2800, 5700, 8500, 12700]]
 
-        return xpTable[level-1][diff.get()]
+        xp = 0
+        for character in characterList:
+            level = int(character['level'].get())
+            xp += xpTable[level-1][diff.get()]
+
+        return xp
 
     # Gets a list of monsters from the challenge rating
     def responseListAdapter(self, targetXP, monsterWindow):
@@ -142,8 +141,16 @@ class MainWindow(tk.Tk):
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
 
-        s = Search(using=self.es, index='monster_index').filter('range', xp={'lte': targetXP}).query(query)
+        lowerBound = 0.9
+        s = Search(using=self.es, index='monster_index') \
+            .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
         response = s.execute()
+
+        while len(response) <= 3 and lowerBound >= 0:
+            lowerBound -= .1
+            s = Search(using=self.es, index='monster_index') \
+                .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+            response = s.execute()
         return response
 
     # Picks a best monster from the available list
@@ -158,8 +165,9 @@ class MainWindow(tk.Tk):
         # Create a string
         responseText = response['name']
         responseText += "\nHP: " + str(response['hit_points'])
-        responseText += "\nAC: " + str(response['armor_class'])
+        responseText += "\tAC: " + str(response['armor_class'])
         responseText += "\tCR: " + str(response['challenge_rating'])
+        responseText += "\tXP: " + str(response['xp'])
         # New Line with Monster Stats
         responseText += "\nStr: " + str(response['strength'])
         responseText += "\tDex: " + str(response['dexterity'])
