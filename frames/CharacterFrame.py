@@ -16,15 +16,8 @@ class CharacterFrame(tk.Frame):
         self.configure(borderwidth=2, relief="groove", bg=LIGHT,
                        bd=0)
         
-        self.grid_columnconfigure(0, weight=1)
-        self.grid_columnconfigure(1, weight=1)
-        self.grid_columnconfigure(2, weight=1)
-        self.grid_rowconfigure(0, weight=1)
-        self.grid_rowconfigure(1, weight=1)
-        self.grid_rowconfigure(2, weight=1)
-        self.grid_rowconfigure(3, weight=1)
-        self.grid_rowconfigure(4, weight=1)
-        self.grid_rowconfigure(5, weight=1)
+        self.grid_columnconfigure((0,1,2), weight=1)
+        self.grid_rowconfigure((0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11), weight=1)
 
         # Character Container Label
         self.characterContainerLabel = tk.Label(self,
@@ -41,8 +34,8 @@ class CharacterFrame(tk.Frame):
                                       fg=BLACK, highlightbackground=LIGHT, command=self.addCharacter)
         self.removeCharacterBtn = tk.Button(self, text="Remove Character", font=(FONT, 12),
                                          fg=BLACK, highlightbackground=LIGHT, command=self.removeCharacter)
-        self.addCharacterBtn.grid(column=0, row=1)
-        self.removeCharacterBtn.grid(column=1, row=1)
+        self.addCharacterBtn.grid(column=0, row=1, ipadx=2, ipady=2)
+        self.removeCharacterBtn.grid(column=1, row=1, ipadx=2, ipady=2)
         self.removeCharacterBtn['state'] = tk.DISABLED
 
         # Labels for Character table
@@ -52,9 +45,9 @@ class CharacterFrame(tk.Frame):
                                  fg=BLACK)
         damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 12, "bold"),
                                     fg=BLACK)
-        characterLabel.grid(column=0, row=2, sticky=tk.W)
-        lvlLabel.grid(column=1, row=2, sticky=tk.W)
-        damageLabel.grid(column=2, row=2, sticky=tk.W)
+        characterLabel.grid(column=0, row=2, sticky=tk.NS)
+        lvlLabel.grid(column=1, row=2, sticky=tk.NS)
+        damageLabel.grid(column=2, row=2, sticky=tk.NS)
 
         # Drop down for dmg types
         self.charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
@@ -110,9 +103,9 @@ class CharacterFrame(tk.Frame):
 
         chrDropDown = tk.OptionMenu(
             self, charVar, *self.charType)
-        chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
+        chrDropDown.config(width=10, bg=LIGHT)
         chrDropDown.grid(
-            column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
+            column=0, row=3 + i, sticky=tk.NS, padx=5, pady=5)
         characterRow['characterDrop'] = chrDropDown
         characterRow['character'] = charVar
 
@@ -120,12 +113,12 @@ class CharacterFrame(tk.Frame):
             self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
         validatecommand=(self.register(self.validateLvl), "%P"))
         characterRow['level'].grid(
-            column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
+            column=1, row=3 + i, sticky=tk.NS, padx=5, pady=5)
 
         characterRow['damage'] = tk.OptionMenu(
             self, damageVar, *self.damageTypes)
         characterRow['damage'].grid(
-            column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
+            column=2, row=3 + i, sticky=tk.NS, padx=5, pady=5)
 
         return characterRow
     
