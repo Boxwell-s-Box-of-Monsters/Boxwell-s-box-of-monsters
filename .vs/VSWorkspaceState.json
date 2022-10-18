@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\elastic",
+    "\\frames",
     "\\json"
   ],
-  "SelectedNode": "\\frames",
+  "SelectedNode": "\\frames\\MainWindow.py",
   "PreviewInSolutionExplorer": false
 }

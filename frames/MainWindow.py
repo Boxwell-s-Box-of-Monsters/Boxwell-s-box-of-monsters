@@ -123,7 +123,10 @@ class MainWindow(tk.Tk):
     # Gets a list of monsters from the challenge rating
     def responseListAdapter(self, targetXP, monsterWindow):
         # Get list of monsters
-        query = Q(MoreLikeThis(like=monsterWindow.get("1.0", 'end-1c'),
+        if isinstance(monsterWindow, str) is False:
+            monsterWindow = monsterWindow.get("1.0", 'end-1c')
+
+        query = Q(MoreLikeThis(like=monsterWindow,
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
 
@@ -133,6 +136,7 @@ class MainWindow(tk.Tk):
 
     # Picks the best monsters for the encounter
     def bestResponseAdapter(self, maxEncounterXP, responseList):
+        #print(type(responseList))
         currentEncounterXP = 0
         monsterList = []
         monsterQuantity = 0
@@ -143,30 +147,35 @@ class MainWindow(tk.Tk):
         currentEncounterXP += int(responseList[0]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter(responseList[0][0]['xp']-1, monsterList[0][0]['description'])
+        matchingMonsters = self.responseListAdapter((responseList[0]['xp'])-1, responseList[0]['description'])
 
         # Adds the best monsters based on the paragon monster to the encounter until the list is empty or the encounter has reached 10
         while len(matchingMonsters) > 1 and monsterQuantity <= 10:
             # if the number of monsters that can be added is not 0, add it.
             newMonsters = self.monstersMultiplied(matchingMonsters[0], currentEncounterXP, maxEncounterXP, monsterQuantity)
+            monsterQuantity += newMonsters
             if newMonsters > 0:
                 monsterList.append([matchingMonsters[0], newMonsters])
                 currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
                 monsterQuantity += newMonsters
-            matchingMonsters.pop(0)
+            matchingMonsters = matchingMonsters[1:]
         return monsterList
 
     # returns an integer for the number of monsters that can be added to the encounter for a specific monster
     def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, monsterQuantity):
-        xpMult = 1
+        addedMonsters = 0
+        xpMult = 0
+        if monsterQuantity+addedMonsters+1 >= 7: xpMult = 2.5
+        elif monsterQuantity+addedMonsters+1 >= 3: xpMult = 2
+        elif monsterQuantity+addedMonsters+1 == 2: xpMult = 1.5
         # checks if the same monster can be added again, taking into account the multiplier and the preexisting encounter xp
-        while (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult > 0) and (monsterQuantity <= 10):
-            monsterQuantity += 1
-            encounterXP += int(monster['xp'])
-            if monsterQuantity+1 >= 7: xpMult = 2.5
-            elif monsterQuantity+1 >= 3: xpMult = 2
-            elif monsterQuantity+1 == 2: xpMult = 1.5
-        return monsterQuantity
+        while (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0) and (monsterQuantity <= 10):
+            addedMonsters += 1
+            currentEncounterXP += int(monster['xp'])
+            if monsterQuantity+addedMonsters+1 >= 7: xpMult = 2.5
+            elif monsterQuantity+addedMonsters+1 >= 3: xpMult = 2
+            elif monsterQuantity+addedMonsters+1 == 2: xpMult = 1.5
+        return addedMonsters
 
     # Prints the current best monster
     def printAdapter(self, response):
@@ -184,11 +193,17 @@ class MainWindow(tk.Tk):
         responseText += "\tCha: " + str(response['charisma'])
         # New line with Monster weaknesses and resistances
         if "damage_vulnerabilities" in response:
-            responseText += "\nweaknesses: " + str(response['damage_vulnerabilities'])
+            responseText += "\nweaknesses: "
+            for r in response['damage_vulnerabilities']:
+                responseText += str(r) + ' '
         if "damage_resistances" in response:
-            responseText += "\tresistances: " + str(response['damage_resistances'])
+            responseText += "\tresistances: "
+            for r in response['damage_resistances']:
+                responseText += str(r) + ' '
         if "damage_immunities" in response:
-            responseText += "\timmunities: " + str(response['damage_immunities'])
+            responseText += "\timmunities: "
+            for r in response['damage_immunities']:
+                responseText += str(r) + ' '
         return responseText
 
     def displayBlank(self):
@@ -216,8 +231,10 @@ class MainWindow(tk.Tk):
         # Get top result
         if len(responseList) > 0:
             response = self.bestResponseAdapter(maxEncounterXP, responseList)
-            #responseText = self.printAdapter(response)
-            #self.printImage(response)
+            responseText = self.printAdapter(response[0][0])
+            self.printImage(response[0][0])
+            for r in response:
+                print(r[0]['name'] + ' ' + str(r[1]))
         else:
             responseText = "Error, no monsters found"
             self.displayBlank()
