@@ -1,4 +1,5 @@
 import tkinter as tk
+from turtle import width
 
 from Styles import *
 
@@ -13,43 +14,42 @@ class CharacterFrame(tk.Frame):
 
         self.characterLimit = 8
 
-        options = {'padx': 5, 'pady': 5}
+        options = {'padx': 2, 'pady': 2}
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT,
-                       bd=0)
+                       bd=2)
         
-        self.grid_columnconfigure((0,1,2), weight=1)
-        self.grid_rowconfigure((0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11), weight=1)
-
+        self.grid_rowconfigure((3, 4, 5, 6, 7, 8, 9, 10), weight=1)
+        
         # Character Container Label
         self.characterContainerLabel = tk.Label(self,
                                                 text="Adventuring Party",
-                                                font=(FONT, 14, "bold"),
+                                                font=(FONT, 12, "bold"),
                                                 background=LIGHT,
                                                 fg=BLACK,
                                                 anchor="center")
         self.characterContainerLabel.grid(
-            row=0, columnspan=3, pady=10)
+            row=0, column=0, columnspan=3, pady=2, sticky=tk.S)
 
         # Add/Remove Buttons
-        self.addCharacterBtn = tk.Button(self, text='Add Character', font=(FONT, 8),
+        self.addCharacterBtn = tk.Button(self, text='Add Character', font=(FONT, 10),
                                       fg=BLACK, highlightbackground=LIGHT, command=self.addCharacter)
-        self.removeCharacterBtn = tk.Button(self, text="Remove Character", font=(FONT, 8),
+        self.removeCharacterBtn = tk.Button(self, text="Remove Character", font=(FONT, 10),
                                          fg=BLACK, highlightbackground=LIGHT, command=self.removeCharacter)
-        self.addCharacterBtn.grid(column=0, row=1, sticky=tk.W, **options)
-        self.removeCharacterBtn.grid(column=1, row=1, sticky=tk.W, **options)
+        self.addCharacterBtn.grid(column=0, row=1, sticky=tk.N, **options)
+        self.removeCharacterBtn.grid(column=1, row=1, sticky=tk.N, **options)
         self.removeCharacterBtn['state'] = tk.DISABLED
 
         # Labels for Character table
-        characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 8, "bold"),
+        characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 10, "bold"),
                                        fg=BLACK)
-        lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 8, "bold"),
+        lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 10, "bold"),
                                  fg=BLACK)
-        damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 8, "bold"),
+        damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 10, "bold"),
                                     fg=BLACK)
-        characterLabel.grid(column=0, row=2, sticky=tk.W, **options)
-        lvlLabel.grid(column=1, row=2, sticky=tk.W, **options)
-        damageLabel.grid(column=2, row=2, sticky=tk.W, **options)
+        characterLabel.grid(column=0, row=2, sticky=tk.S, **options)
+        lvlLabel.grid(column=1, row=2, sticky=tk.S, **options)
+        damageLabel.grid(column=2, row=2, sticky=tk.S, **options)
 
         # Drop down for dmg types
         self.charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
@@ -107,20 +107,20 @@ class CharacterFrame(tk.Frame):
             self, charVar, *self.charType)
         chrDropDown.config(bg=LIGHT, fg=BLACK)
         chrDropDown.grid(
-            column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
+            column=0, row=3 + i, sticky=tk.N, padx=2, pady=(2, 2))
         characterRow['characterDrop'] = chrDropDown
         characterRow['character'] = charVar
 
         characterRow['level'] = tk.Spinbox(
-            self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
+            self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key", width=2,
         validatecommand=(self.register(self.validateLvl), "%P"))
         characterRow['level'].grid(
-            column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
+            column=1, row=3 + i, sticky=tk.N, padx=2, pady=(0, 2))
 
         characterRow['damage'] = tk.OptionMenu(
             self, damageVar, *self.damageTypes)
         characterRow['damage'].config(bg=LIGHT, fg=BLACK)
         characterRow['damage'].grid(
-            column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
+            column=2, row=3 + i, sticky=tk.N, padx=2)
 
         return characterRow

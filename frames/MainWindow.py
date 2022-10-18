@@ -11,6 +11,7 @@ from Styles import *
 from frames.CharacterFrame import CharacterFrame
 from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
+from frames.ResultFrame import ResultFrame
 
 
 ############################
@@ -28,22 +29,24 @@ class MainWindow(tk.Tk):
         self.es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
         # End Elastic Search
 
-        self.minsize(500, 800) # min window size
+        self.minsize(600, 800) # min window size
         self.maxsize(False, 850) # max window size
         self.resizable(False, False) # cannot resize manually
         self.title("Monster Generator")
         self.configure(bg=TAN)
         
         # Make root grid responsive
-        self.grid_rowconfigure(0, weight=1)
-        self.grid_rowconfigure(1, weight=1)
-        self.grid_rowconfigure(2, weight=1)
-        self.grid_rowconfigure(3, weight=1)
+        self.grid_rowconfigure(0, weight=2)
+        self.grid_rowconfigure(1, weight=4)
+        self.grid_rowconfigure(2, weight=2)
+        self.grid_rowconfigure(3, weight=2)
         self.grid_rowconfigure(4, weight=1)
-        self.grid_rowconfigure(5, weight=1)
 
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
+        
+        padding = {"pady": (0, 5), "padx": (2, 2)}
+        innerPadding = {"ipadx": 3, "ipady":3}
 
         # Top Label
         self.label = tk.Label(self,
@@ -51,9 +54,9 @@ class MainWindow(tk.Tk):
                               wraplength=500,
                               anchor="center",
                               background=TAN,
-                              font=(FONT, 20, "bold"),
+                              font=(FONT, 14, "bold"),
                               fg=BLACK)
-        self.label.grid(columnspan=2, row=0)
+        self.label.grid(columnspan=2, row=0, column=0, sticky=tk.NS, **padding)
 
         # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
         # terrainFrame = TerrainFrame(self)
@@ -61,7 +64,7 @@ class MainWindow(tk.Tk):
 
         # Characters Frame
         characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=0, row=1, ipadx=50, ipady=10, padx=5, sticky=tk.N)
+        characterFrame.grid(column=0, row=1, sticky=tk.NS, **padding)
 
         # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
         # dmgTypeFrame = DamageTypeFrame(self)
@@ -69,11 +72,11 @@ class MainWindow(tk.Tk):
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(column=1, row=1, ipadx=10, ipady=10, padx=(0, 5), sticky=tk.NS)
+        descriptFrame.grid(column=0, row=2, sticky=tk.NS, **innerPadding, **padding)
 
         # Difficulty Frame
         difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(column=0, columnspan=2, row=2, sticky=tk.NS, pady=5)
+        difficultyFrame.grid(column=0, row=3, sticky=tk.NS, **padding)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -85,17 +88,18 @@ class MainWindow(tk.Tk):
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
                                     characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
+                                font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
-                                font=(FONT, 12, "bold"),
                                 fg=BLACK)
-        self.button.grid(columnspan=2, column=0, row=3, ipadx=5, ipady=5, sticky=tk.NS)
+        self.button.grid(column=0, row=4, sticky=tk.N, **innerPadding)
 
         # Print the result of the button
-        self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 14),
+        self.resultFrame = ResultFrame(self)
+        self.resultLabel = tk.Label(self.resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        self.resultLabel.grid(columnspan=2, row=4, sticky=tk.NS)
-        self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
-        self.resultImage.grid(columnspan=2, column=0, row=5, sticky=tk.NS)
+        self.resultImage = tk.Label(self.resultFrame, image=self.monsterImage, bg=TAN)
+        self.resultFrame.setPositions(self.resultLabel, self.resultImage)
+        self.resultFrame.grid(column=1, row=1, sticky=tk.N)
 
     ############################
     # Button Functions
