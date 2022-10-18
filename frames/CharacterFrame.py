@@ -101,7 +101,7 @@ class CharacterFrame(tk.Frame):
 
         chrDropDown = tk.OptionMenu(
             self, charVar, *self.charType)
-        chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
+        chrDropDown.config(bg=LIGHT, fg=BLACK)
         chrDropDown.grid(
             column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
         characterRow['characterDrop'] = chrDropDown
@@ -115,6 +115,7 @@ class CharacterFrame(tk.Frame):
 
         characterRow['damage'] = tk.OptionMenu(
             self, damageVar, *self.damageTypes)
+        characterRow['damage'].config(bg=LIGHT, fg=BLACK)
         characterRow['damage'].grid(
             column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
