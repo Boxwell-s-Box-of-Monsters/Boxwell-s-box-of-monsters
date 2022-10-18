@@ -104,7 +104,7 @@ class MainWindow(tk.Tk):
         level = 0
         for character in characterList:
             level += int(character['level'].get())
-        level /= 4
+        level /= len(characterList)
         level = int(round(level, 0))
 
         #Probably want to move this later
@@ -181,6 +181,7 @@ class MainWindow(tk.Tk):
     def printImage(self, response):
         # Display the updated monster's image
         if response['imageURL'] is not None:
+            print(response['imageURL'])
             with urlopen(response['imageURL']) as imageURL:
                 u = imageURL
                 im = Image.open(BytesIO(u.read())).resize((200,200))
@@ -203,3 +204,6 @@ class MainWindow(tk.Tk):
             responseText = "Error, no monsters found"
             self.displayBlank()
         self.result.set(responseText)
+        
+    
+        
