@@ -34,7 +34,7 @@ class MainWindow(tk.Tk):
         self.resizable(False, False) # cannot resize manually
         self.title("Monster Generator")
         self.configure(bg=TAN)
-        
+
         # Make root grid responsive
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
@@ -44,7 +44,7 @@ class MainWindow(tk.Tk):
 
         self.grid_columnconfigure(0, weight=1)
         self.grid_columnconfigure(1, weight=1)
-        
+
         padding = {"pady": (0, 5), "padx": (2, 2)}
         innerPadding = {"ipadx": 3, "ipady":3}
 
