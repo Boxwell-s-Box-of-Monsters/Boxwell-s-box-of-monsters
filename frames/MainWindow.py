@@ -125,14 +125,16 @@ class MainWindow(tk.Tk):
         query = Q(MoreLikeThis(like=monsterWindow.get("1.0", 'end-1c'),
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
-        
+
         lowerBound = 0.9
-        s = Search(using=self.es, index='monster_index').filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+        s = Search(using=self.es, index='monster_index') \
+            .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
         response = s.execute()
 
         while len(response) <= 3 and lowerBound >= 0:
             lowerBound -= .1
-            s = Search(using=self.es, index='monster_index').filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+            s = Search(using=self.es, index='monster_index') \
+                .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
             response = s.execute()
         return response
 
