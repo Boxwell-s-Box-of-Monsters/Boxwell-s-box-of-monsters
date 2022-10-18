@@ -1,4 +1,5 @@
 import tkinter as tk
+from turtle import width
 from Styles import *
 
 
@@ -100,10 +101,13 @@ class CharacterFrame(tk.Frame):
         characterRow = {}
         charVar = tk.StringVar(self)
         damageVar = tk.StringVar(self)
-
+        charWidth = len(max(self.charType, key=len))
+        print(charWidth)
+        damageWidth = len(max(self.damageTypes, key=len))
+        print(damageWidth)
         chrDropDown = tk.OptionMenu(
             self, charVar, *self.charType)
-        chrDropDown.config(bg=LIGHT, fg=BLACK)
+        chrDropDown.config(bg=LIGHT, fg=BLACK, width=charWidth)
         chrDropDown.grid(
             column=0, row=3 + i, sticky=tk.N, padx=2, pady=(2, 2))
         characterRow['characterDrop'] = chrDropDown
@@ -117,7 +121,7 @@ class CharacterFrame(tk.Frame):
 
         characterRow['damage'] = tk.OptionMenu(
             self, damageVar, *self.damageTypes)
-        characterRow['damage'].config(bg=LIGHT, fg=BLACK)
+        characterRow['damage'].config(bg=LIGHT, fg=BLACK, width=damageWidth)
         characterRow['damage'].grid(
             column=2, row=3 + i, sticky=tk.N, padx=2)
 
