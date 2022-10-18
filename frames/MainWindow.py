@@ -36,10 +36,10 @@ class MainWindow(tk.Tk):
         self.configure(bg=TAN)
         
         # Make root grid responsive
-        self.grid_rowconfigure(0, weight=2)
-        self.grid_rowconfigure(1, weight=4)
-        self.grid_rowconfigure(2, weight=2)
-        self.grid_rowconfigure(3, weight=2)
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_rowconfigure(1, weight=1)
+        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(3, weight=1)
         self.grid_rowconfigure(4, weight=1)
 
         self.grid_columnconfigure(0, weight=1)
@@ -91,7 +91,7 @@ class MainWindow(tk.Tk):
                                 font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
-        self.button.grid(column=0, row=4, sticky=tk.N, **innerPadding)
+        self.button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
 
         # Print the result of the button
         self.resultFrame = ResultFrame(self)
