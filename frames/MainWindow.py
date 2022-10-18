@@ -93,7 +93,7 @@ class MainWindow(tk.Tk):
         level = 0
         for character in characterList:
             level += int(character['level'].get())
-        level /= 4
+        level /= len(characterList)
         level = int(round(level, 0))
 
         #Probably want to move this later
