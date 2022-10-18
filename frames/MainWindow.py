@@ -49,14 +49,14 @@ class MainWindow(tk.Tk):
         innerPadding = {"ipadx": 3, "ipady":3}
 
         # Top Label
-        self.label = tk.Label(self,
+        label = tk.Label(self,
                               text="Welcome to the monster library, please enter the relevant information below.",
                               wraplength=500,
                               anchor="center",
                               background=TAN,
                               font=(FONT, 14, "bold"),
                               fg=BLACK)
-        self.label.grid(columnspan=2, row=0, column=0, sticky=tk.NS, **padding)
+        label.grid(columnspan=2, row=0, column=0, sticky=tk.NS, **padding)
 
         # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
         # terrainFrame = TerrainFrame(self)
@@ -84,22 +84,22 @@ class MainWindow(tk.Tk):
         monsterImage = Image.open('images/placeholderMonster.png')
         self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
-        self.button = tk.Button(self,
+        button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
                                     characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
                                 font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
-        self.button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
+        button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
 
         # Print the result of the button
-        self.resultFrame = ResultFrame(self)
-        self.resultLabel = tk.Label(self.resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
+        resultFrame = ResultFrame(self)
+        resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        self.resultImage = tk.Label(self.resultFrame, image=self.monsterImage, bg=TAN)
-        self.resultFrame.setPositions(self.resultLabel, self.resultImage)
-        self.resultFrame.grid(column=1, row=1, sticky=tk.N)
+        self.resultImage = tk.Label(resultFrame, image=self.monsterImage, bg=TAN)
+        resultFrame.setPositions(resultLabel, self.resultImage)
+        resultFrame.grid(column=1, row=1, sticky=tk.N)
 
     ############################
     # Button Functions
@@ -215,6 +215,3 @@ class MainWindow(tk.Tk):
             responseText = "Error, no monsters found"
             self.displayBlank()
         self.result.set(responseText)
-        
-    
-        
