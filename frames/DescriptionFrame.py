@@ -11,7 +11,7 @@ class DescriptionFrame(tk.Frame):
         super().__init__(container)
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=2)
-                
+
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=2)
         # label

@@ -11,15 +11,15 @@ class DifficultyFrame(tk.Frame):
         super().__init__(container)
 
         self.configure(borderwidth=2, relief="groove", bd=0, bg=TAN)
-        
+
         self.grid_columnconfigure((0, 1, 2, 3), weight=1)
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=3)
-        
+
         self.label = tk.Label(self,
                               text="Difficulty",
                               fg=BLACK,
-                              bg=TAN, 
+                              bg=TAN,
                               anchor="center",
                               font=(FONT, 12, "bold"))
         self.label.grid(row=0, column=0, columnspan=4, sticky=tk.S)

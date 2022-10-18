@@ -1,6 +1,4 @@
 import tkinter as tk
-from turtle import width
-
 from Styles import *
 
 
@@ -20,7 +18,7 @@ class CharacterFrame(tk.Frame):
                        bd=2)
         
         self.grid_rowconfigure((3, 4, 5, 6, 7, 8, 9, 10), weight=1)
-        
+
         # Character Container Label
         self.characterContainerLabel = tk.Label(self,
                                                 text="Adventuring Party",
