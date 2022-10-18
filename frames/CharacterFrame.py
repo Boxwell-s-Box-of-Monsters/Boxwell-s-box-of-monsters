@@ -12,7 +12,6 @@ class CharacterFrame(tk.Frame):
         super().__init__(container)
 
         self.characterLimit = 8
-        self.numberOfCharacters = 1
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT,
                        bd=0)
@@ -42,29 +41,29 @@ class CharacterFrame(tk.Frame):
                                       fg=BLACK, highlightbackground=LIGHT, command=self.addCharacter)
         self.removeCharacterBtn = tk.Button(self, text="Remove Character", font=(FONT, 12),
                                          fg=BLACK, highlightbackground=LIGHT, command=self.removeCharacter)
-        self.addCharacterBtn.grid(column=0, row=1, ipadx=2, ipady=2)
-        self.removeCharacterBtn.grid(column=1, row=1, ipadx=2, ipady=2)
+        self.addCharacterBtn.grid(column=0, row=1)
+        self.removeCharacterBtn.grid(column=1, row=1)
         self.removeCharacterBtn['state'] = tk.DISABLED
 
         # Labels for Character table
-        self.characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 12, "bold"),
-                                       fg=BLACK, anchor="center")
-        self.lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 12, "bold"),
-                                 fg=BLACK, anchor="center")
-        self.damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 12, "bold"),
+        characterLabel = tk.Label(self, text="Character", bg=LIGHT, font=(FONT, 12, "bold"),
+                                       fg=BLACK)
+        lvlLabel = tk.Label(self, text="Level", bg=LIGHT, font=(FONT, 12, "bold"),
+                                 fg=BLACK)
+        damageLabel = tk.Label(self, text="Damage", bg=LIGHT, font=(FONT, 12, "bold"),
                                     fg=BLACK)
-        self.characterLabel.grid(column=0, row=2)
-        self.lvlLabel.grid(column=1, row=2)
-        self.damageLabel.grid(column=2, row=2)
+        characterLabel.grid(column=0, row=2, sticky=tk.W)
+        lvlLabel.grid(column=1, row=2, sticky=tk.W)
+        damageLabel.grid(column=2, row=2, sticky=tk.W)
 
         # Drop down for dmg types
         self.charType = ["Artificer", "Barbarian", "Bard", "Cleric", "Druid", "Fighter",
                     "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"]
-        self.damageTypes = ['Acid', 'Bludgeoning', 'Cold', 'Fire', 'Force', 'Lightning', 'Necrotic', 'Piercing', 'Poison', 'Psychic', 'Radiant', 'Slashing', 'Thunder']        
+        self.damageTypes = ['Acid', 'Bludgeoning', 'Cold', 'Fire', 'Force', 'Lightning',
+                    'Necrotic', 'Piercing', 'Poison', 'Psychic', 'Radiant', 'Slashing', 'Thunder']
         # Characters
         self.characters = []
-        for i in range(self.numberOfCharacters):
-            self.characters.append(self.createCharacterRow(i))
+        self.characters.append(self.createCharacterRow(0))
 
     # used by the character level spinbox to check that input is an int between 0 and 20
     def validateLvl(self, potentialInput):
@@ -77,18 +76,16 @@ class CharacterFrame(tk.Frame):
 
     # used by add character button to create a new character entry area
     def addCharacter(self):
-        self.characters.append(self.createCharacterRow(self.numberOfCharacters))
-        self.numberOfCharacters+=1
+        self.characters.append(self.createCharacterRow(len(self.characters)))
 
         #check number of characters
-        if self.numberOfCharacters >= 8:
+        if len(self.characters) >= 8:
             #disable add character button
             self.addCharacterBtn['state'] = tk.DISABLED
-        
         #make sure remove charactrer button is enabled
         self.removeCharacterBtn['state'] = tk.NORMAL
 
-    # used to remove character button to remove the last character entry 
+    # used to remove character button to remove the last character entry
     def removeCharacter(self):
         rowToDelete = self.characters[-1]
 
@@ -98,15 +95,13 @@ class CharacterFrame(tk.Frame):
         rowToDelete['damage'].destroy()
 
         self.characters.pop()
-        self.numberOfCharacters -= 1
         #check number of characters
-        if self.numberOfCharacters <= 1:
+        if len(self.characters) <= 1:
             #disable remove character button
             self.removeCharacterBtn['state'] = tk.DISABLED
 
         #make sure add character button is now enabled
         self.addCharacterBtn['state'] = tk.NORMAL
-
 
     def createCharacterRow(self, i):
         characterRow = {}
@@ -115,9 +110,9 @@ class CharacterFrame(tk.Frame):
 
         chrDropDown = tk.OptionMenu(
             self, charVar, *self.charType)
-        chrDropDown.config(bg=LIGHT)
+        chrDropDown.config(width=int(self.winfo_width() / 2), bg=LIGHT)
         chrDropDown.grid(
-            column=0, row=3 + i, pady=5, padx=2)
+            column=0, row=3 + i, sticky=tk.W, padx=5, pady=5)
         characterRow['characterDrop'] = chrDropDown
         characterRow['character'] = charVar
 
@@ -125,12 +120,12 @@ class CharacterFrame(tk.Frame):
             self, fg=BLACK, bg=WHITE, from_=1, to=20, validate="key",
         validatecommand=(self.register(self.validateLvl), "%P"))
         characterRow['level'].grid(
-            column=1, row=3 + i, pady=5, padx=2)
+            column=1, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
         characterRow['damage'] = tk.OptionMenu(
             self, damageVar, *self.damageTypes)
-        characterRow['damage'].config(bg=LIGHT)
         characterRow['damage'].grid(
-            column=2, row=3 + i, padx=5, pady=5)
+            column=2, row=3 + i, sticky=tk.W, padx=5, pady=5)
 
         return characterRow
+    
