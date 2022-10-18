@@ -2,7 +2,7 @@ import tkinter as tk
 from Styles import *
 
 class ResultFrame(tk.Frame):
-    
+
     def __init__(self, container):
         super().__init__(container)
 

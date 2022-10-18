@@ -16,7 +16,7 @@ class CharacterFrame(tk.Frame):
 
         self.configure(borderwidth=2, relief="groove", bg=LIGHT,
                        bd=2)
-        
+
         self.grid_rowconfigure((3, 4, 5, 6, 7, 8, 9, 10), weight=1)
 
         # Character Container Label
