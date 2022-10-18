@@ -185,7 +185,6 @@ class MainWindow(tk.Tk):
     def printImage(self, response):
         # Display the updated monster's image
         if response['imageURL'] is not None:
-            print(response['imageURL'])
             with urlopen(response['imageURL']) as imageURL:
                 u = imageURL
                 im = Image.open(BytesIO(u.read())).resize((200,200))

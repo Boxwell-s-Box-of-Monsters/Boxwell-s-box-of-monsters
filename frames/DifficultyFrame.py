@@ -21,7 +21,7 @@ class DifficultyFrame(tk.Frame):
                               fg=BLACK,
                               bg=TAN, 
                               anchor="center",
-                              font=(FONT, 14, "bold"))
+                              font=(FONT, 12, "bold"))
         self.label.grid(row=0, column=0, columnspan=4, sticky=tk.S)
 
         self.diff = tk.IntVar()
