@@ -1,6 +1,7 @@
 import json
 import unittest
 from urllib.request import urlopen
+from urllib.error import URLError, HTTPError
 
 class TestImageUrls(unittest.TestCase):
 
@@ -10,14 +11,14 @@ class TestImageUrls(unittest.TestCase):
         with open('./json/data.json', "r") as file:
             documents = json.load(file)
             for document in documents:
-                imageUrl = document["imageURL"]
                 try:
-                    urlopen(imageUrl)
-                except Exception as e:
+                    imageUrl = document["imageURL"]
+                    with urlopen(imageUrl):
+                        pass
+                except (HTTPError, URLError):
                     brokenUrls.append({document["name"]: imageUrl})
         print(brokenUrls)
         self.assertEqual(len(brokenUrls), 0)
 
 if __name__ == "__main__":
     unittest.main()
-        
