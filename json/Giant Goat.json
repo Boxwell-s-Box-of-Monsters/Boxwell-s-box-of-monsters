@@ -1,25 +1,25 @@
 {
-  "name": "Giant Goat",
-  "armor_class": 11,
-  "challenge_rating": 0.5,
-  "strength": 17,
-  "dexterity": 11,
-  "constitution": 12,
-  "intelligence": 3,
-  "wisdom": 12,
-  "charisma": 6,
-  "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage. ",
-  "special_abilities_desc": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone. ",
-  "description": "On average a giant goat grew to be 5\u202fft (1.5\u202fm) tall at the shoulder. They grew long, sharp horns.[2]When confronting opponents, giant goats mimicked their smaller kin by charging and ramming with their horns.[1][2]Giant goats were rather reclusive.[2]Giant goats were a herbivorous species.[2]These creatures were typically found in hilly regions.[2]Giant goats were known to inhabit the Stonelands,[3] Hartsvale,[4] and Deadstone Cleft.[5]Some creatures were known to domesticate and herd giant goats, such as stone giants.[3]Occasionally giant goats were used as mounts,[6] especially by druids that frequented mountainous regions.[7]A giant goat could be summoned by the conjure animals spell.[8]",
-  "imageURL": "https://static.wikia.nocookie.net/lorald/images/4/4b/Giant_Goat.jpg/revision/latest?cb=20170323020905",
-  "hit_points": 19,
-  "hit_dice": "3d10",
-  "condition_immunities": [],
-  "senses": {
-    "passive_perception": 11
-  },
-  "xp": 100,
-  "damage_vulnerabilities": [],
-  "damage_resistances": [],
-  "damage_immunities": []
+    "name": "Giant Goat",
+    "armor_class": 11,
+    "challenge_rating": 0.5,
+    "strength": 17,
+    "dexterity": 11,
+    "constitution": 12,
+    "intelligence": 3,
+    "wisdom": 12,
+    "charisma": 6,
+    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage. ",
+    "special_abilities_desc": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone. ",
+    "description": "On average a giant goat grew to be 5\u202fft (1.5\u202fm) tall at the shoulder. They grew long, sharp horns.[2]When confronting opponents, giant goats mimicked their smaller kin by charging and ramming with their horns.[1][2]Giant goats were rather reclusive.[2]Giant goats were a herbivorous species.[2]These creatures were typically found in hilly regions.[2]Giant goats were known to inhabit the Stonelands,[3] Hartsvale,[4] and Deadstone Cleft.[5]Some creatures were known to domesticate and herd giant goats, such as stone giants.[3]Occasionally giant goats were used as mounts,[6] especially by druids that frequented mountainous regions.[7]A giant goat could be summoned by the conjure animals spell.[8]",
+    "imageURL": "https://static.wikia.nocookie.net/lorald/images/4/4b/Giant_Goat.jpg/revision/latest?cb=20170323020905",
+    "hit_points": 19,
+    "hit_dice": "3d10",
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 11
+    },
+    "xp": 100,
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": []
 }

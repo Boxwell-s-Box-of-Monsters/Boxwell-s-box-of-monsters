@@ -852,31 +852,31 @@
         "damage_resistances": [],
         "damage_immunities": []
     },
-  {
-    "name": "Ape",
-    "hit_points": 19,
-    "hit_dice": "3d8",
-    "armor_class": 12,
-    "challenge_rating": 0.5,
-    "strength": 16,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 6,
-    "wisdom": 12,
-    "charisma": 7,
-    "actions_desc": "The ape makes two fist attacks. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. ",
-    "special_abilities_desc": "",
-    "description": " Ape\n5e\n3e\n1e\n5th Edition Statistics[1]\nSize\nMedium\nType\nBeast\nAlignment\nUnaligned\nChallenge rating\n1\u20442\nGeneral Information[2]\nMovement\nClimbing\nVision\nLow-light vision\nDiet\nOmnivore\nIntelligence\nAnimal[2] to low[3]\nFavored climate\nWarm\nFavored terrain\nForests\nApes were a type of animal found in tropical regions. They were usually quite shy, but would fight if threatened or cornered.[3]\nContents\nHabitat\nTrivia\nAppendix\nAppearances\nReferences\nHabitat\nMany species of apes could be found in the jungles of Chult.[4]\nOne curious species of apes from Chult was a size of a human child with bright white and yellow fur. Their faces had a shaggy frill and blood-red fangs, which the apes exposed when trying to intimidate others. They had notably long arms and bristling spines on the backs.[5]\nTrivia\nAn ape could be summoned by the conjure animals spell.[6]\nAppendix\nThis Realmslore article about a creature is a stub. You can help the Forgotten Realms Wiki by expanding it.\nAppearances\nAdventures\nTomb of Annihilation \u2022 Candlekeep Mysteries: \"Lore of Lurue\"\nNovels\nThe Ring of Winter\nReferences\n\u2191 Mike Mearls, Jeremy Crawford, Christopher Perkins (2014-09-30). Monster Manual 5th edition. Edited by Scott Fitzgerald Gray. (Wizards of the Coast), p. 317. ISBN 978-0786965614.\n\u2191\n2.0 2.1 2.2 Skip Williams, Jonathan Tweet, Monte Cook (July 2003). Monster Manual v.3.5. (Wizards of the Coast), p. 268. ISBN 0-7869-2893-X.\n\u2191\n3.0 3.1 3.2 Gary Gygax (December 1977). Monster Manual, 1st edition. (TSR, Inc), p. 7. ISBN 0-935696-00-8.\n\u2191 Christopher Perkins, Will Doyle, Steve Winter (September 19, 2017). Tomb of Annihilation. Edited by Michele Carter, Scott Fitzgerald Gray. (Wizards of the Coast), p. 196. ISBN 978-0-7869-6610-3.\n\u2191 James Lowder (November 1992). The Ring of Winter. (TSR, Inc), p. 106. ISBN 978-1560763307.\n\u2191 Gary Gygax (1979). Dungeon Masters Guide 1st edition. (TSR, Inc.), p. 222. ISBN 0-9356-9602-4.   Many species of apes could be found in the jungles of Chult.[4] One curious species of apes from Chult was a size of a human child with bright white and yellow fur. Their faces had a shaggy frill and blood-red fangs, which the apes exposed when trying to intimidate others. They had notably long arms and bristling spines on the backs.[5] An ape could be summoned by the conjure animals spell.[6]",
-    "imageURL": "data:image/jpeg;base64,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",
-    "condition_immunities": [],
-    "senses": {
-      "passive_perception": 13
+    {
+        "name": "Ape",
+        "hit_points": 19,
+        "hit_dice": "3d8",
+        "armor_class": 12,
+        "challenge_rating": 0.5,
+        "strength": 16,
+        "dexterity": 14,
+        "constitution": 14,
+        "intelligence": 6,
+        "wisdom": 12,
+        "charisma": 7,
+        "actions_desc": "The ape makes two fist attacks. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. ",
+        "special_abilities_desc": "",
+        "description": " Ape\n5e\n3e\n1e\n5th Edition Statistics[1]\nSize\nMedium\nType\nBeast\nAlignment\nUnaligned\nChallenge rating\n1\u20442\nGeneral Information[2]\nMovement\nClimbing\nVision\nLow-light vision\nDiet\nOmnivore\nIntelligence\nAnimal[2] to low[3]\nFavored climate\nWarm\nFavored terrain\nForests\nApes were a type of animal found in tropical regions. They were usually quite shy, but would fight if threatened or cornered.[3]\nContents\nHabitat\nTrivia\nAppendix\nAppearances\nReferences\nHabitat\nMany species of apes could be found in the jungles of Chult.[4]\nOne curious species of apes from Chult was a size of a human child with bright white and yellow fur. Their faces had a shaggy frill and blood-red fangs, which the apes exposed when trying to intimidate others. They had notably long arms and bristling spines on the backs.[5]\nTrivia\nAn ape could be summoned by the conjure animals spell.[6]\nAppendix\nThis Realmslore article about a creature is a stub. You can help the Forgotten Realms Wiki by expanding it.\nAppearances\nAdventures\nTomb of Annihilation \u2022 Candlekeep Mysteries: \"Lore of Lurue\"\nNovels\nThe Ring of Winter\nReferences\n\u2191 Mike Mearls, Jeremy Crawford, Christopher Perkins (2014-09-30). Monster Manual 5th edition. Edited by Scott Fitzgerald Gray. (Wizards of the Coast), p. 317. ISBN 978-0786965614.\n\u2191\n2.0 2.1 2.2 Skip Williams, Jonathan Tweet, Monte Cook (July 2003). Monster Manual v.3.5. (Wizards of the Coast), p. 268. ISBN 0-7869-2893-X.\n\u2191\n3.0 3.1 3.2 Gary Gygax (December 1977). Monster Manual, 1st edition. (TSR, Inc), p. 7. ISBN 0-935696-00-8.\n\u2191 Christopher Perkins, Will Doyle, Steve Winter (September 19, 2017). Tomb of Annihilation. Edited by Michele Carter, Scott Fitzgerald Gray. (Wizards of the Coast), p. 196. ISBN 978-0-7869-6610-3.\n\u2191 James Lowder (November 1992). The Ring of Winter. (TSR, Inc), p. 106. ISBN 978-1560763307.\n\u2191 Gary Gygax (1979). Dungeon Masters Guide 1st edition. (TSR, Inc.), p. 222. ISBN 0-9356-9602-4.   Many species of apes could be found in the jungles of Chult.[4] One curious species of apes from Chult was a size of a human child with bright white and yellow fur. Their faces had a shaggy frill and blood-red fangs, which the apes exposed when trying to intimidate others. They had notably long arms and bristling spines on the backs.[5] An ape could be summoned by the conjure animals spell.[6]",
+        "imageURL": "data:image/jpeg;base64,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",
+        "condition_immunities": [],
+        "senses": {
+            "passive_perception": 13
+        },
+        "xp": 100,
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": []
     },
-    "xp": 100,
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": []
-  },
     {
         "name": "Archmage",
         "armor_class": 12,
@@ -3305,7 +3305,7 @@
             "darkvision": "30 ft.",
             "passive_perception": 11
         },
-        "xp": 0,
+        "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
         "damage_immunities": []
@@ -3842,31 +3842,31 @@
         "damage_resistances": [],
         "damage_immunities": []
     },
-  {
-    "name": "Giant Elk",
-    "armor_class": 15,
-    "challenge_rating": 2,
-    "strength": 19,
-    "dexterity": 16,
-    "constitution": 14,
-    "intelligence": 7,
-    "wisdom": 14,
-    "charisma": 10,
-    "actions_desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage. ",
-    "special_abilities_desc": "If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. ",
-    "description": "On average these creatures stood 7\u202fft (2.1\u202fm) tall at the shoulder and weighed around 1,500\u202flb (680\u202fkg).[2]Giant elks fought other creatures with either their antlers or their sharp forehooves.[2]Like any species of deer, giant elks were typically found in forests with a temperate climate.[2]In the Border Kingdoms they could be found in the forest of Hawkgarth.[3] In the region of Kara-tur, they could be found in the forests of Akari island.[4]Many cultures considered it taboo to hunt these creatures.[1] They were often preyed upon by dire wolves and saber-toothed tigers.[5]These creatures were so rare that sightings were interpreted as foreshadowing some important event, like the birth of a future king. Some legends even spoke of deities manifesting on the Prime Material plane in the form of giant elks.[1]",
-    "imageURL": "https://cdn.cardsrealm.com/images/cartas/bng-born-of-the-gods/en/crop-med/great-hart-15.jpeg?6520",
-    "hit_points": 42,
-    "hit_dice": "5d12",
-    "condition_immunities": [],
-    "senses": {
-      "passive_perception": 14
+    {
+        "name": "Giant Elk",
+        "armor_class": 15,
+        "challenge_rating": 2,
+        "strength": 19,
+        "dexterity": 16,
+        "constitution": 14,
+        "intelligence": 7,
+        "wisdom": 14,
+        "charisma": 10,
+        "actions_desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage. ",
+        "special_abilities_desc": "If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. ",
+        "description": "On average these creatures stood 7\u202fft (2.1\u202fm) tall at the shoulder and weighed around 1,500\u202flb (680\u202fkg).[2]Giant elks fought other creatures with either their antlers or their sharp forehooves.[2]Like any species of deer, giant elks were typically found in forests with a temperate climate.[2]In the Border Kingdoms they could be found in the forest of Hawkgarth.[3] In the region of Kara-tur, they could be found in the forests of Akari island.[4]Many cultures considered it taboo to hunt these creatures.[1] They were often preyed upon by dire wolves and saber-toothed tigers.[5]These creatures were so rare that sightings were interpreted as foreshadowing some important event, like the birth of a future king. Some legends even spoke of deities manifesting on the Prime Material plane in the form of giant elks.[1]",
+        "imageURL": "https://cdn.cardsrealm.com/images/cartas/bng-born-of-the-gods/en/crop-med/great-hart-15.jpeg?6520",
+        "hit_points": 42,
+        "hit_dice": "5d12",
+        "condition_immunities": [],
+        "senses": {
+            "passive_perception": 14
+        },
+        "xp": 450,
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": []
     },
-    "xp": 450,
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": []
-  },
     {
         "name": "Giant Fire Beetle",
         "armor_class": 13,
@@ -3919,31 +3919,31 @@
         "damage_resistances": [],
         "damage_immunities": []
     },
-  {
-    "name": "Giant Goat",
-    "armor_class": 11,
-    "challenge_rating": 0.5,
-    "strength": 17,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 6,
-    "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage. ",
-    "special_abilities_desc": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone. ",
-    "description": "On average a giant goat grew to be 5\u202fft (1.5\u202fm) tall at the shoulder. They grew long, sharp horns.[2]When confronting opponents, giant goats mimicked their smaller kin by charging and ramming with their horns.[1][2]Giant goats were rather reclusive.[2]Giant goats were a herbivorous species.[2]These creatures were typically found in hilly regions.[2]Giant goats were known to inhabit the Stonelands,[3] Hartsvale,[4] and Deadstone Cleft.[5]Some creatures were known to domesticate and herd giant goats, such as stone giants.[3]Occasionally giant goats were used as mounts,[6] especially by druids that frequented mountainous regions.[7]A giant goat could be summoned by the conjure animals spell.[8]",
-    "imageURL": "https://static.wikia.nocookie.net/lorald/images/4/4b/Giant_Goat.jpg/revision/latest?cb=20170323020905",
-    "hit_points": 19,
-    "hit_dice": "3d10",
-    "condition_immunities": [],
-    "senses": {
-      "passive_perception": 11
+    {
+        "name": "Giant Goat",
+        "armor_class": 11,
+        "challenge_rating": 0.5,
+        "strength": 17,
+        "dexterity": 11,
+        "constitution": 12,
+        "intelligence": 3,
+        "wisdom": 12,
+        "charisma": 6,
+        "actions_desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage. ",
+        "special_abilities_desc": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone. The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone. ",
+        "description": "On average a giant goat grew to be 5\u202fft (1.5\u202fm) tall at the shoulder. They grew long, sharp horns.[2]When confronting opponents, giant goats mimicked their smaller kin by charging and ramming with their horns.[1][2]Giant goats were rather reclusive.[2]Giant goats were a herbivorous species.[2]These creatures were typically found in hilly regions.[2]Giant goats were known to inhabit the Stonelands,[3] Hartsvale,[4] and Deadstone Cleft.[5]Some creatures were known to domesticate and herd giant goats, such as stone giants.[3]Occasionally giant goats were used as mounts,[6] especially by druids that frequented mountainous regions.[7]A giant goat could be summoned by the conjure animals spell.[8]",
+        "imageURL": "https://static.wikia.nocookie.net/lorald/images/4/4b/Giant_Goat.jpg/revision/latest?cb=20170323020905",
+        "hit_points": 19,
+        "hit_dice": "3d10",
+        "condition_immunities": [],
+        "senses": {
+            "passive_perception": 11
+        },
+        "xp": 100,
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": []
     },
-    "xp": 100,
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": []
-  },
     {
         "name": "Giant Hyena",
         "armor_class": 12,
@@ -7045,31 +7045,31 @@
         "damage_resistances": [],
         "damage_immunities": []
     },
-  {
-    "name": "Pony",
-    "hit_points": 11,
-    "hit_dice": "2d8",
-    "armor_class": 10,
-    "challenge_rating": 0.125,
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 11,
-    "charisma": 7,
-    "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage. ",
-    "special_abilities_desc": "",
-    "description": " This category is for small breeds of horses less than 5 feet tall at the shoulder, as described on p. 277 of Monster Manual v.3.5, as well as ponies trained for war. All items (8)",
-    "imageURL": "https://i.ytimg.com/vi/eimmy5yShzQ/maxresdefault.jpg",
-    "condition_immunities": [],
-    "senses": {
-      "passive_perception": 10
+    {
+        "name": "Pony",
+        "hit_points": 11,
+        "hit_dice": "2d8",
+        "armor_class": 10,
+        "challenge_rating": 0.125,
+        "strength": 15,
+        "dexterity": 10,
+        "constitution": 13,
+        "intelligence": 2,
+        "wisdom": 11,
+        "charisma": 7,
+        "actions_desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage. ",
+        "special_abilities_desc": "",
+        "description": " This category is for small breeds of horses less than 5 feet tall at the shoulder, as described on p. 277 of Monster Manual v.3.5, as well as ponies trained for war. All items (8)",
+        "imageURL": "https://i.ytimg.com/vi/eimmy5yShzQ/maxresdefault.jpg",
+        "condition_immunities": [],
+        "senses": {
+            "passive_perception": 10
+        },
+        "xp": 25,
+        "damage_vulnerabilities": [],
+        "damage_resistances": [],
+        "damage_immunities": []
     },
-    "xp": 25,
-    "damage_vulnerabilities": [],
-    "damage_resistances": [],
-    "damage_immunities": []
-  },
     {
         "name": "Priest",
         "hit_points": 27,
@@ -7777,7 +7777,7 @@
         "senses": {
             "passive_perception": 10
         },
-        "xp": 0,
+        "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
         "damage_immunities": []
