@@ -10,19 +10,21 @@ class DescriptionFrame(tk.Frame):
     def __init__(self, container):
         super().__init__(container)
 
-        options = {'padx': 5, 'pady': 5}
+        self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=2)
 
-        self.configure(borderwidth=2, relief="groove", bg=LIGHT, bd=0)
-
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_rowconfigure(1, weight=2)
         # label
         self.monsterLabel = tk.Label(self,
                                      text="Describe what type of monster you want",
                                      bg=LIGHT,
-                                     font=(FONT, 9, "bold"),
-                                     fg=BLACK)
-        self.monsterLabel.grid(column=0, row=0, sticky=tk.W, **options)
+                                     font=(FONT, 12, "bold"),
+                                     fg=BLACK,
+                                     anchor="center")
+        self.monsterLabel.grid(row=0, column=0, sticky=tk.S, pady=(0, 15))
 
         # text input box
-        self.monsterWindow = tk.Text(self, height=3, width=35, font=(FONT, 8),
-                                     fg=BLACK, bg=WHITE)
-        self.monsterWindow.grid(column=0, row=1, sticky=tk.W, **options)
+        self.monsterWindow = tk.Text(self, font=(FONT, 12),
+                                     fg=BLACK, bg=WHITE,
+                                     height=5, width=35)
+        self.monsterWindow.grid(column=0, row=1, sticky=tk.NSEW, padx=5, pady=(0, 5))
