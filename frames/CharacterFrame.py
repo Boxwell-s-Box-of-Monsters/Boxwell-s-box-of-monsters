@@ -99,12 +99,10 @@ class CharacterFrame(tk.Frame):
 
     def createCharacterRow(self, i):
         characterRow = {}
-        charVar = tk.StringVar(self)
-        damageVar = tk.StringVar(self)
+        charVar = tk.StringVar(self, self.charType[0])
+        damageVar = tk.StringVar(self, self.damageTypes[0])
         charWidth = len(max(self.charType, key=len))
-        print(charWidth)
         damageWidth = len(max(self.damageTypes, key=len))
-        print(damageWidth)
         chrDropDown = tk.OptionMenu(
             self, charVar, *self.charType)
         chrDropDown.config(bg=LIGHT, fg=BLACK, width=charWidth)
