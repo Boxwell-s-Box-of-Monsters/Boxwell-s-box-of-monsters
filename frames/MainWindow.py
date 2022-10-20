@@ -247,7 +247,7 @@ class MainWindow(tk.Tk):
         return responseText
 
     def printList(self, encounter):
-        responseList = ""
+        responseList = "Encounter\n\n"
 
         for e in encounter:
             responseList += str(e[1]) + "x " + str(e[0]['name']) + "\n"
