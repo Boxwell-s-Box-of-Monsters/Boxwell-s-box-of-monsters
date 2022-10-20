@@ -1,5 +1,4 @@
 import tkinter as tk
-import random
 from io import BytesIO
 from urllib.request import urlopen
 from PIL import Image, ImageTk
@@ -163,17 +162,20 @@ class MainWindow(tk.Tk):
         monsterQuantity = 0
 
         # From the users description, add the paragon monster
-        monsterQuantity += self.monstersMultiplied(potentialMonsters[0], currentEncounterXP, maxEncounterXP, monsterQuantity)
+        monsterQuantity += self.monstersMultiplied(potentialMonsters[0],
+                                                   currentEncounterXP, maxEncounterXP, monsterQuantity)
         encounter.append([potentialMonsters[0], monsterQuantity])
         currentEncounterXP += int(potentialMonsters[0]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
         matchingMonsters = self.responseListAdapter((potentialMonsters[0]['xp'])-1, potentialMonsters[0]['description'])
 
-        # Adds the best monsters based on the paragon monster to the encounter until the list is empty or the encounter has reached 10
+        # Adds the best monsters based on the paragon monster to the
+        # encounter until the list is empty or the encounter has reached 10
         while len(matchingMonsters) > 0 and monsterQuantity <= 10:
             # if the number of monsters that can be added is not 0, add it.
-            newMonsters = self.monstersMultiplied(matchingMonsters[0], currentEncounterXP, maxEncounterXP, monsterQuantity)
+            newMonsters = self.monstersMultiplied(matchingMonsters[0],
+                                                  currentEncounterXP, maxEncounterXP, monsterQuantity)
             if newMonsters > 0:
                 encounter.append([matchingMonsters[0], newMonsters])
                 currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
@@ -190,16 +192,23 @@ class MainWindow(tk.Tk):
         # update xpMult according to how many monsters are already in the encounter
         addedMonsters = 0
         xpMult = 1
-        if monsterQuantity+1 >= 7: xpMult = 2.5
-        elif monsterQuantity+1 >= 3: xpMult = 2
-        elif monsterQuantity+1 == 2: xpMult = 1.5
+        if monsterQuantity+1 >= 7:
+            xpMult = 2.5
+        elif monsterQuantity+1 >= 3:
+            xpMult = 2
+        elif monsterQuantity+1 == 2:
+            xpMult = 1.5
         # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
-        while (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0) and (monsterQuantity+addedMonsters <= 10):
+        acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
+        while acceptableXP and (monsterQuantity+addedMonsters <= 10):
             addedMonsters += 1
             currentEncounterXP += int(monster['xp'])
-            if monsterQuantity+addedMonsters+1 >= 7: xpMult = 2.5
-            elif monsterQuantity+addedMonsters+1 >= 3: xpMult = 2
-            elif monsterQuantity+addedMonsters+1 == 2: xpMult = 1.5
+            if monsterQuantity+addedMonsters+1 >= 7:
+                xpMult = 2.5
+            elif monsterQuantity+addedMonsters+1 >= 3:
+                xpMult = 2
+            elif monsterQuantity+addedMonsters+1 == 2:
+                xpMult = 1.5
         return addedMonsters
 
     # Prints the current best monster
