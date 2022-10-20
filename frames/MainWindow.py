@@ -268,8 +268,6 @@ class MainWindow(tk.Tk):
             encounter = self.encounterGenerator(maxEncounterXP, responseList)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
-            for e in encounter:
-                print(e[0]['name'] + ' ' + str(e[1]))
         else:
             responseText = "Sorry, no monsters found"
             self.displayBlank()
