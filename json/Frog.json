@@ -19,7 +19,7 @@
         "darkvision": "30 ft.",
         "passive_perception": 11
     },
-    "xp": 0,
+    "xp": 10,
     "damage_vulnerabilities": [],
     "damage_resistances": [],
     "damage_immunities": []

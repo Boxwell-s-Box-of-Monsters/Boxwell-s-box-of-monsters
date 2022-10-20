@@ -103,15 +103,15 @@ def modify(fileLocMod, responseMod):
         monsterObj = requests.get("https://www.dnd5eapi.co" + responseMod['url']).json()
 
         document = {
-            'damage_vulnerabilities': monsterObj['damage_vulnerabilities'],
-            'damage_resistances': monsterObj['damage_resistances'],
-            'damage_immunities': monsterObj['damage_immunities']
+            'xp': 10
         }
 
         # updates the json
         with open(fileLocMod, "r") as jsonFile:
             currentJson = json.load(jsonFile)
-            currentJson.update(document)
+            if monsterObj['xp'] == 0:
+                currentJson.update(document)
+
             json_str_mod = json.dumps(currentJson, indent=4)
             with open(fileLocMod, "w", encoding="utf8") as fileWeb:
                 fileWeb.write(json_str_mod)
