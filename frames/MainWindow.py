@@ -11,6 +11,7 @@ from Styles import *
 from frames.CharacterFrame import CharacterFrame
 from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
+from frames.ResultFrame import ResultFrame
 
 
 ############################
@@ -28,21 +29,34 @@ class MainWindow(tk.Tk):
         self.es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
         # End Elastic Search
 
-        self.geometry("350x750")
+        self.minsize(600, 800) # min window size
+        self.maxsize(False, 850) # max window size
+        self.resizable(False, False) # cannot resize manually
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
-        options = {'padx': 5, 'pady': 5}
+        # Make root grid responsive
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_rowconfigure(1, weight=1)
+        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(3, weight=1)
+        self.grid_rowconfigure(4, weight=1)
+
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_columnconfigure(1, weight=1)
+
+        padding = {"pady": (0, 5), "padx": (2, 2)}
+        innerPadding = {"ipadx": 3, "ipady":3}
 
         # Top Label
-        self.label = tk.Label(self,
+        label = tk.Label(self,
                               text="Welcome to the monster library, please enter the relevant information below.",
-                              wraplength=300,
-                              justify="center",
+                              wraplength=500,
+                              anchor="center",
                               background=TAN,
-                              font=(FONT, 10, "bold"),
+                              font=(FONT, 14, "bold"),
                               fg=BLACK)
-        self.label.grid(column=1, row=0, sticky=tk.W, **options)
+        label.grid(columnspan=2, row=0, column=0, sticky=tk.NS, **padding)
 
         # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
         # terrainFrame = TerrainFrame(self)
@@ -50,7 +64,7 @@ class MainWindow(tk.Tk):
 
         # Characters Frame
         characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=1, row=1, sticky=tk.W, **options)
+        characterFrame.grid(column=0, row=1, sticky=tk.NS, **padding)
 
         # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
         # dmgTypeFrame = DamageTypeFrame(self)
@@ -58,11 +72,11 @@ class MainWindow(tk.Tk):
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(column=1, row=2, sticky=tk.W, **options)
+        descriptFrame.grid(column=0, row=2, sticky=tk.NS, **innerPadding, **padding)
 
         # Difficulty Frame
         difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(column=1, row=3, sticky=tk.W, **options)
+        difficultyFrame.grid(column=0, row=3, sticky=tk.NS, **padding)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -70,32 +84,27 @@ class MainWindow(tk.Tk):
         monsterImage = Image.open('images/placeholderMonster.png')
         self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
-        self.button = tk.Button(self,
+        button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
                                     characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
+                                font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
-                                font=(FONT, 9, "bold"),
                                 fg=BLACK)
-        self.button.grid(column=1, row=4, sticky=tk.W, **options)
+        button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
 
         # Print the result of the button
-        self.resultLabel = tk.Label(self, textvariable=self.result, bg=TAN, font=(FONT, 10),
+        resultFrame = ResultFrame(self)
+        resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        self.resultLabel.grid(column=1, row=5)
-        self.resultImage = tk.Label(self, image=self.monsterImage, bg=TAN)
-        self.resultImage.grid(column=1, row=6)
+        self.resultImage = tk.Label(resultFrame, image=self.monsterImage, bg=TAN)
+        resultFrame.setPositions(resultLabel, self.resultImage)
+        resultFrame.grid(column=1, row=1, sticky=tk.N)
 
     ############################
     # Button Functions
     ############################
     def getAppropriateCR(self, characterList, diff):
-        level = 0
-        for character in characterList:
-            level += int(character['level'].get())
-        level /= 4
-        level = int(round(level, 0))
-
         #Probably want to move this later
         xpTable = [[25, 50, 75, 100],
                     [50, 100, 150, 200],
@@ -118,7 +127,12 @@ class MainWindow(tk.Tk):
                     [2400, 4900, 7300, 10900],
                     [2800, 5700, 8500, 12700]]
 
-        return xpTable[level][diff.get()]
+        xp = 0
+        for character in characterList:
+            level = int(character['level'].get())
+            xp += xpTable[level-1][diff.get()]
+
+        return xp
 
     # Gets a list of monsters from the challenge rating
     def responseListAdapter(self, targetXP, monsterWindow):
@@ -130,8 +144,16 @@ class MainWindow(tk.Tk):
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
 
-        s = Search(using=self.es, index='monster_index').filter('range', xp={'lte': targetXP}).query(query)
+        lowerBound = 0.9
+        s = Search(using=self.es, index='monster_index') \
+            .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
         response = s.execute()
+
+        while len(response) <= 3 and lowerBound >= 0:
+            lowerBound -= .1
+            s = Search(using=self.es, index='monster_index') \
+                .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+            response = s.execute()
         return response
 
     # Picks the best monsters for the encounter
@@ -184,8 +206,9 @@ class MainWindow(tk.Tk):
         # Create a string
         responseText = response['name']
         responseText += "\nHP: " + str(response['hit_points'])
-        responseText += "\nAC: " + str(response['armor_class'])
+        responseText += "\tAC: " + str(response['armor_class'])
         responseText += "\tCR: " + str(response['challenge_rating'])
+        responseText += "\tXP: " + str(response['xp'])
         # New Line with Monster Stats
         responseText += "\nStr: " + str(response['strength'])
         responseText += "\tDex: " + str(response['dexterity'])
