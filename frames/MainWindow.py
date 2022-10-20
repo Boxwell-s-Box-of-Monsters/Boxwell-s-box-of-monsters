@@ -187,12 +187,13 @@ class MainWindow(tk.Tk):
 
     # returns an integer for the number of monsters that can be added to the encounter for a specific monster
     def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, monsterQuantity):
+        # update xpMult according to how many monsters are already in the encounter
         addedMonsters = 0
         xpMult = 1
         if monsterQuantity+1 >= 7: xpMult = 2.5
         elif monsterQuantity+1 >= 3: xpMult = 2
         elif monsterQuantity+1 == 2: xpMult = 1.5
-        # checks if the same monster can be added again, taking into account the multiplier and the preexisting encounter xp
+        # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
         while (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0) and (monsterQuantity+addedMonsters <= 10):
             addedMonsters += 1
             currentEncounterXP += int(monster['xp'])
@@ -217,16 +218,16 @@ class MainWindow(tk.Tk):
         responseText += "\tWis: " + str(response['wisdom'])
         responseText += "\tCha: " + str(response['charisma'])
         # New line with Monster weaknesses and resistances
-        if "damage_vulnerabilities" in response:
+        if len(response['damage_vulnerabilities'])>0:
             responseText += "\nweaknesses: "
             for r in response['damage_vulnerabilities']:
                 responseText += str(r) + ' '
-        if "damage_resistances" in response:
-            responseText += "\tresistances: "
+        if len(response['damage_resistances'])>0:
+            responseText += "\nresistances: "
             for r in response['damage_resistances']:
                 responseText += str(r) + ' '
-        if "damage_immunities" in response:
-            responseText += "\timmunities: "
+        if len(response['damage_immunities'])>0:
+            responseText += "\nimmunities: "
             for r in response['damage_immunities']:
                 responseText += str(r) + ' '
         return responseText
