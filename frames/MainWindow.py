@@ -198,9 +198,10 @@ class MainWindow(tk.Tk):
             xpMult = 2
         elif monsterQuantity+1 == 2:
             xpMult = 1.5
+
         # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
         acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
-        while acceptableXP and (monsterQuantity+addedMonsters <= 10):
+        while acceptableXP and (monsterQuantity+addedMonsters < 10):
             addedMonsters += 1
             currentEncounterXP += int(monster['xp'])
             if monsterQuantity+addedMonsters+1 >= 7:
@@ -268,7 +269,10 @@ class MainWindow(tk.Tk):
             encounter = self.encounterGenerator(maxEncounterXP, responseList)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
+            for e in encounter:
+                print(str(e[0]['name']) + " " + str(e[1]))
         else:
             responseText = "Sorry, no monsters found"
             self.displayBlank()
+
         self.result.set(responseText)
