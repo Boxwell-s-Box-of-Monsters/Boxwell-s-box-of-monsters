@@ -213,6 +213,7 @@ class MainWindow(tk.Tk):
                 xpMult = 2
             elif monsterQuantity+addedMonsters+1 == 2:
                 xpMult = 1.5
+            acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
         return addedMonsters
 
     # Prints the current best monster
@@ -249,7 +250,7 @@ class MainWindow(tk.Tk):
         responseList = ""
 
         for e in encounter:
-            responseList += str(e[1]) + "x " + str(e[0]['name'])
+            responseList += str(e[1]) + "x " + str(e[0]['name']) + "\n"
 
         return responseList
 
