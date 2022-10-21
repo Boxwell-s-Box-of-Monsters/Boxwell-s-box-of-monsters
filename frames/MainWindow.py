@@ -80,6 +80,8 @@ class MainWindow(tk.Tk):
         # Get Monster Button and Result
         self.result = tk.StringVar()
         self.result.set("")
+        self.resultList = tk.StringVar()
+        self.resultList.set("")
         monsterImage = Image.open('images/placeholderMonster.png')
         self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
@@ -96,8 +98,10 @@ class MainWindow(tk.Tk):
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
+        resultListLabel = tk.Label(resultFrame, textvariable=self.resultList, bg=TAN, font=(FONT, 14),
+                                    fg=BLACK)
         self.resultImage = tk.Label(resultFrame, image=self.monsterImage, bg=TAN)
-        resultFrame.setPositions(resultLabel, self.resultImage)
+        resultFrame.setPositions(resultLabel, self.resultImage, resultListLabel)
         resultFrame.grid(column=1, row=1, sticky=tk.N)
 
     ############################
@@ -172,7 +176,7 @@ class MainWindow(tk.Tk):
 
         # Adds the best monsters based on the paragon monster to the
         # encounter until the list is empty or the encounter has reached 10
-        while len(matchingMonsters) > 0 and monsterQuantity <= 10:
+        while len(matchingMonsters) > 0 and monsterQuantity < 10:
             # if the number of monsters that can be added is not 0, add it.
             newMonsters = self.monstersMultiplied(matchingMonsters[0],
                                                   currentEncounterXP, maxEncounterXP, monsterQuantity)
@@ -200,7 +204,7 @@ class MainWindow(tk.Tk):
             xpMult = 1.5
         # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
         acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
-        while acceptableXP and (monsterQuantity+addedMonsters <= 10):
+        while acceptableXP and (monsterQuantity+addedMonsters < 10):
             addedMonsters += 1
             currentEncounterXP += int(monster['xp'])
             if monsterQuantity+addedMonsters+1 >= 7:
@@ -209,6 +213,7 @@ class MainWindow(tk.Tk):
                 xpMult = 2
             elif monsterQuantity+addedMonsters+1 == 2:
                 xpMult = 1.5
+            acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
         return addedMonsters
 
     # Prints the current best monster
@@ -241,6 +246,14 @@ class MainWindow(tk.Tk):
                 responseText += str(r) + ' '
         return responseText
 
+    def printList(self, encounter):
+        responseList = "Encounter\n\n"
+
+        for e in encounter:
+            responseList += str(e[1]) + "x " + str(e[0]['name']) + "\n"
+
+        return responseList
+
     def displayBlank(self):
         im = Image.open('images/placeholderMonster.png')
         newImage = ImageTk.PhotoImage(im)
@@ -268,7 +281,10 @@ class MainWindow(tk.Tk):
             encounter = self.encounterGenerator(maxEncounterXP, responseList)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
+            responseList = self.printList(encounter)
         else:
             responseText = "Sorry, no monsters found"
+            responseList = ""
             self.displayBlank()
         self.result.set(responseText)
+        self.resultList.set(responseList)
