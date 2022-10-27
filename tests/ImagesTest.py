@@ -12,6 +12,7 @@ class TestImageUrls(unittest.TestCase):
             documents = json.load(file)
             for document in documents:
                 try:
+                    x = 1/0
                     imageUrl = document["imageURL"]
                     with urlopen(imageUrl):
                         pass
