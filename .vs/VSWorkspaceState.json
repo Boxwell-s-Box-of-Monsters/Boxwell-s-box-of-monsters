@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\elastic",
-    "\\frames",
-    "\\images",
-    "\\tests"
+    "\\frames"
   ],
-  "SelectedNode": "\\images",
+  "SelectedNode": "\\frames\\MainWindow.py",
   "PreviewInSolutionExplorer": false
 }
