@@ -129,15 +129,23 @@ class MainWindow(tk.Tk):
                     [2400, 4900, 7300, 10900],
                     [2800, 5700, 8500, 12700]]
 
-        xp = 0
+        minXp = 0
+        maxXp = 0
         for character in characterList:
             level = int(character['level'].get())
-            xp += xpTable[level-1][diff.get()]
+            if diff.get() is 0:
+                minXp += xpTable[level-1][diff.get()-1]
+                maxXp += xpTable[level-1][diff.get()]
+            else:
+                minXp += xpTable[level-1][diff.get()]/2
+                maxXp += xpTable[level-1][diff.get()]
+        minXp /= 25
 
-        return xp
+
+        return minXp, maxXp
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, targetXP, monsterWindow):
+    def responseListAdapter(self, minXP, maxXP, monsterWindow):
         # Get list of monsters
         if isinstance(monsterWindow, str) is False:
             monsterWindow = monsterWindow.get("1.0", 'end-1c')
@@ -146,20 +154,14 @@ class MainWindow(tk.Tk):
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
 
-        lowerBound = 0.9
         s = Search(using=self.es, index='monster_index') \
-            .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+            .filter('range', xp={'gte': minXP, 'lte': maxXP}).query(query)
         response = s.execute()
 
-        while len(response) <= 3 and lowerBound >= 0:
-            lowerBound -= .1
-            s = Search(using=self.es, index='monster_index') \
-                .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
-            response = s.execute()
         return response
 
     # Picks the best monsters for the encounter
-    def encounterGenerator(self, maxEncounterXP, potentialMonsters):
+    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters):
         currentEncounterXP = 0
         encounter = []
         monsterQuantity = 0
@@ -171,7 +173,7 @@ class MainWindow(tk.Tk):
         currentEncounterXP += int(potentialMonsters[0]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter((potentialMonsters[0]['xp'])-1, potentialMonsters[0]['description'])
+        matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMonsters[0]['xp'])-1, potentialMonsters[0]['description'])
 
         # Adds the best monsters based on the paragon monster to the
         # encounter until the list is empty or the encounter has reached 10
@@ -273,11 +275,11 @@ class MainWindow(tk.Tk):
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
-        maxEncounterXP = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(maxEncounterXP, monsterWindow)
+        minEncounterXP, maxEncounterXP = self.getAppropriateCR(characterList, diff)
+        responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
         # Get top result
         if len(responseList) > 0:
-            encounter = self.encounterGenerator(maxEncounterXP, responseList)
+            encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
             responseList = self.printList(encounter)
