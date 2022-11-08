@@ -1,6 +1,5 @@
 import tkinter as tk
-from io import BytesIO
-from urllib.request import urlopen
+from os.path import exists
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
@@ -250,13 +249,12 @@ class MainWindow(tk.Tk):
 
     def printImage(self, response):
         # Display the updated monster's image
-        if response['imageURL'] is not None:
-            with urlopen(response['imageURL']) as imageURL:
-                u = imageURL
-                im = Image.open(BytesIO(u.read())).resize((200,200))
-                newImage = ImageTk.PhotoImage(im)
-                self.resultImage.configure(image=newImage)
-                self.resultImage.image = newImage
+        imgLoc = 'images/' + response['name'] + '.png'
+        if exists(imgLoc):
+            im = Image.open(imgLoc).resize((200,200))
+            newImage = ImageTk.PhotoImage(im)
+            self.resultImage.configure(image=newImage)
+            self.resultImage.image = newImage
         else:
             self.displayBlank()
 

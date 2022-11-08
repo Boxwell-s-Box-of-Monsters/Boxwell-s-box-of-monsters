@@ -3,8 +3,9 @@
     "",
     "\\elastic",
     "\\frames",
-    "\\json"
+    "\\images",
+    "\\tests"
   ],
-  "SelectedNode": "\\frames\\MainWindow.py",
+  "SelectedNode": "\\images",
   "PreviewInSolutionExplorer": false
 }
