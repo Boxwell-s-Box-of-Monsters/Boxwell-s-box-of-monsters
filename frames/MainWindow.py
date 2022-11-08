@@ -186,7 +186,8 @@ class MainWindow(tk.Tk):
         currentEncounterXP += int(potentialMonsters[index]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter((potentialMonsters[index]['xp'])-1, potentialMonsters[index]['description'])
+        matchingMonsters = self.responseListAdapter((potentialMonsters[index]['xp'])-1, \
+                                                potentialMonsters[index]['description'])
 
         # Adds the best monsters based on the paragon monster to the
         # encounter until the list is empty or the encounter has reached 10
