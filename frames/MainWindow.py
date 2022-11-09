@@ -99,7 +99,8 @@ class MainWindow(tk.Tk):
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc, wraplength=400, justify="left", bg=TAN, font=(FONT, 14),
+        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc,
+                                   wraplength=400, justify="left", bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
         resultListLabel = tk.Label(resultFrame, textvariable=self.resultList, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
@@ -137,7 +138,7 @@ class MainWindow(tk.Tk):
         maxXp = 0
         for character in characterList:
             level = int(character['level'].get())
-            if diff.get() is 0:
+            if diff.get() == 0:
                 minXp += xpTable[level-1][diff.get()-1]
                 maxXp += xpTable[level-1][diff.get()]
             else:
@@ -185,7 +186,8 @@ class MainWindow(tk.Tk):
         currentEncounterXP += int(potentialMonsters[0]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMonsters[0]['xp'])-1, potentialMonsters[0]['description'])
+        matchingMonsters = self.responseListAdapter(minEncounterXP,
+                                                    (potentialMonsters[0]['xp'])-1, potentialMonsters[0]['description'])
 
         # Adds the best monsters based on the paragon monster to the
         # encounter until the list is empty or the encounter has reached 10
@@ -289,8 +291,7 @@ class MainWindow(tk.Tk):
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
         minEncounterXP, maxEncounterXP = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
-        
+        responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)        
         # Get top result
         if len(responseList) > 0:
             encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
