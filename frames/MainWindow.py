@@ -19,7 +19,7 @@ from frames.ResultFrame import ResultFrame
 
 
 class MainWindow(tk.Tk):
-    def __init__(self, t = None):
+    def __init__(self):
         super().__init__()
         ############################
         # Setup Elastic Search
