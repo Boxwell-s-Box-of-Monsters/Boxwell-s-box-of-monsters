@@ -1,0 +1,7 @@
+tk
+elasticsearch
+elasticsearch_dsl
+Pillow
+selenium
+bs4
+requests
