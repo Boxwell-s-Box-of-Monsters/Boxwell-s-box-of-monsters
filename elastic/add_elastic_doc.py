@@ -5,6 +5,7 @@ from elasticsearch import Elasticsearch
 es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
 
 # Create new index
+#come back and fix, throws error if its the first time run
 es.indices.delete(index='monster_index')
 es.indices.create(index="monster_index")
 
