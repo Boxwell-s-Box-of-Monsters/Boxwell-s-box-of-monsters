@@ -33,10 +33,10 @@ class DescriptionFrame(tk.Frame):
         self.monsterWindow.grid(column=0, row=1, sticky=tk.NSEW, padx=5, pady=(0, 5))
 
     def validate(self, event):
-
+        
         c = event.char
         valid_set = set([' ', ',', '\'', '/', '\\', '-'])
-        valid_keysym = set(['BackSpace', 'Down', 'Left', 'Up', 'Right', 'Enter', 'Return'])
+        valid_keysym = set(['BackSpace', 'Down', 'Left', 'Up', 'Right', 'Enter', 'Return', 'Delete'])
         #handle special keys case
         if event.keysym in valid_keysym:
             return True
