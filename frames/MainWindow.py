@@ -158,9 +158,17 @@ class MainWindow(tk.Tk):
                                fields=['actions_desc', 'special_abilities_desc', 'description', 'name'],
                                min_term_freq=1, min_doc_freq=1))
 
+        lowerBound = 0.9
         s = Search(using=self.es, index='monster_index') \
-            .filter('range', xp={'gte': minXP, 'lte': maxXP}).query(query)
+            .filter('range', xp={'gte': lowerBound*maxXP, 'lte': maxXP}).query(query)
         response = s.execute()
+        lowerBound -= .1
+
+        while len(response) <= 3 and lowerBound > 0 and lowerBound*maxXP > minXP:
+            s = Search(using=self.es, index='monster_index') \
+                .filter('range', xp={'gte': lowerBound*maxXP, 'lte': maxXP}).query(query)
+            response = s.execute()
+            lowerBound -= .1
 
         return response
 
@@ -294,7 +302,7 @@ class MainWindow(tk.Tk):
             responseList = ""
             resultDesc = ""
             self.displayBlank()
+            self.resultDesc.set(resultDesc)
 
         self.result.set(responseText)
         self.resultList.set(responseList)
-        self.resultDesc.set(resultDesc)
