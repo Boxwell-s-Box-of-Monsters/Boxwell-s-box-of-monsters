@@ -115,7 +115,7 @@ class CharacterFrame(tk.Frame):
         validatecommand=(self.register(self.validateLvl), "%P"))
         characterRow['level'].grid(
             column=1, row=3 + i, sticky=tk.N, padx=2, pady=(0, 2))
-        
+
         characterRow['damage'] = tk.OptionMenu(
             self, damageVar, *self.damageTypes)
         characterRow['damage'].config(bg=LIGHT, fg=BLACK, width=damageWidth)
@@ -123,4 +123,3 @@ class CharacterFrame(tk.Frame):
             column=2, row=3 + i, sticky=tk.N, padx=2)
 
         return characterRow
-

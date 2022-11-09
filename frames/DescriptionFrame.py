@@ -1,4 +1,3 @@
-from curses.ascii import isalnum
 import tkinter as tk
 from Styles import *
 
@@ -39,4 +38,5 @@ class DescriptionFrame(tk.Frame):
         #check if character is both ascii or alnum
         if c not in valid_set and (not c.isalnum() or not c.isascii()):
             return 'break'
+        return True
         
