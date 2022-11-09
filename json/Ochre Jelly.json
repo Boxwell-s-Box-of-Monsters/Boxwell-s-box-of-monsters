@@ -58,5 +58,6 @@
     "damage_immunities": [
         "lightning",
         "slashing"
-    ]
+    ],
+    "caption": "Ochre jellies were a dangerous variety of ooze."
 }

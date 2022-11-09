@@ -67,5 +67,6 @@
         "piercing",
         "slashing"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "The swarm is made up of many individual insects that act together as a single entity. Their bites occur simultaneously when the swarm attacks. The insects in the swarm have wings and can climb vertical surfaces. Insects in the swarm have hard exoskeletons that provides them with protection during combat."
 }

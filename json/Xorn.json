@@ -25,5 +25,6 @@
     "damage_resistances": [
         "piercing and slashing from nonmagical weapons that aren't adamantine"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "Xorns were strange elemental creatures from the Elemental Plane of Earth."
 }

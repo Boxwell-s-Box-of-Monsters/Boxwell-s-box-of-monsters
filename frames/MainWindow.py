@@ -79,6 +79,8 @@ class MainWindow(tk.Tk):
         # Get Monster Button and Result
         self.result = tk.StringVar()
         self.result.set("")
+        self.resultDesc = tk.StringVar()
+        self.resultDesc.set("")
         self.resultList = tk.StringVar()
         self.resultList.set("")
         monsterImage = Image.open('images/placeholderMonster.png')
@@ -97,10 +99,12 @@ class MainWindow(tk.Tk):
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
+        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc, wraplength=400, justify="left", bg=TAN, font=(FONT, 14),
+                                    fg=BLACK)
         resultListLabel = tk.Label(resultFrame, textvariable=self.resultList, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
         self.resultImage = tk.Label(resultFrame, image=self.monsterImage, bg=TAN)
-        resultFrame.setPositions(resultLabel, self.resultImage, resultListLabel)
+        resultFrame.setPositions(resultLabel, resultLabelDesc, self.resultImage, resultListLabel)
         resultFrame.grid(column=1, row=1, sticky=tk.N)
 
     ############################
@@ -246,6 +250,7 @@ class MainWindow(tk.Tk):
             responseText += "\nimmunities: "
             for r in response['damage_immunities']:
                 responseText += str(r) + ' '
+        self.resultDesc.set("\t" + str(response['caption']))
         return responseText
 
     def printList(self, encounter):
@@ -277,6 +282,7 @@ class MainWindow(tk.Tk):
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
         minEncounterXP, maxEncounterXP = self.getAppropriateCR(characterList, diff)
         responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
+        
         # Get top result
         if len(responseList) > 0:
             encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
@@ -286,7 +292,9 @@ class MainWindow(tk.Tk):
         else:
             responseText = "Sorry, no monsters found"
             responseList = ""
+            resultDesc = ""
             self.displayBlank()
 
         self.result.set(responseText)
         self.resultList.set(responseList)
+        self.resultDesc.set(resultDesc)

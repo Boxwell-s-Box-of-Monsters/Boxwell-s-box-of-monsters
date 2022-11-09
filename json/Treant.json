@@ -26,5 +26,6 @@
         "bludgeoning",
         "piercing"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "Treants were a wide variety of awakened trees."
 }

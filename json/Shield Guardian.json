@@ -51,5 +51,6 @@
     "damage_resistances": [],
     "damage_immunities": [
         "poison"
-    ]
+    ],
+    "caption": "A shield guardian was a powerful construct created to defend arcane spellcasters. They were called aegiskeryn in Elven."
 }
