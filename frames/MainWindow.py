@@ -6,12 +6,15 @@ from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import MoreLikeThis
 from elasticsearch_dsl import Q
+from matplotlib.style import use
 from Styles import *
 from frames.CharacterFrame import CharacterFrame
 from frames.DescriptionFrame import DescriptionFrame
 from frames.DifficultyFrame import DifficultyFrame
 from frames.ResultFrame import ResultFrame
-
+from stop_words import get_stop_words
+import re
+import string
 
 ############################
 # Main Window
@@ -19,6 +22,8 @@ from frames.ResultFrame import ResultFrame
 
 
 class MainWindow(tk.Tk):
+    STOPWORDS = set(get_stop_words("english"))
+
     def __init__(self):
         super().__init__()
 
@@ -95,6 +100,7 @@ class MainWindow(tk.Tk):
         button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
 
         # Print the result of the button
+        self.highlight = ""
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
@@ -279,6 +285,7 @@ class MainWindow(tk.Tk):
         # Get top result
         if len(responseList) > 0:
             encounter = self.encounterGenerator(maxEncounterXP, responseList)
+            self.getHighlight(encounter[0][0], monsterWindow)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
             responseList = self.printList(encounter)
@@ -288,3 +295,21 @@ class MainWindow(tk.Tk):
             self.displayBlank()
         self.result.set(responseText)
         self.resultList.set(responseList)
+
+    # Manually get highlight
+    def getHighlight(self, topMonster, monsterWindow):
+        userText = monsterWindow.get("1.0", 'end-1c')
+        splitStr = re.findall( r'\w+|[^\s\w]+', userText)
+        tokens = []
+
+        for word in splitStr:
+            word = word.lower()
+            if word not in MainWindow.STOPWORDS and word not in string.punctuation:
+                tokens.append(word)
+        
+        lines = topMonster["description"].split("\n")
+        print(len(lines[0]))
+
+      
+
+       
