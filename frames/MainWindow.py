@@ -19,9 +19,8 @@ from frames.ResultFrame import ResultFrame
 
 
 class MainWindow(tk.Tk):
-    def __init__(self):
+    def __init__(self, t = None):
         super().__init__()
-
         ############################
         # Setup Elastic Search
         ############################
@@ -62,20 +61,20 @@ class MainWindow(tk.Tk):
         # terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
 
         # Characters Frame
-        characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=0, row=1, sticky=tk.NS, **padding)
+        self.characterFrame = CharacterFrame(self)
+        self.characterFrame.grid(column=0, row=1, sticky=tk.NS, **padding)
 
         # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
         # dmgTypeFrame = DamageTypeFrame(self)
         # dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
 
         # Description Frame
-        descriptFrame = DescriptionFrame(self)
-        descriptFrame.grid(column=0, row=2, sticky=tk.NS, **innerPadding, **padding)
+        self.descriptFrame = DescriptionFrame(self)
+        self.descriptFrame.grid(column=0, row=2, sticky=tk.NS, **innerPadding, **padding)
 
         # Difficulty Frame
-        difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(column=0, row=3, sticky=tk.NS, **padding)
+        self.difficultyFrame = DifficultyFrame(self)
+        self.difficultyFrame.grid(column=0, row=3, sticky=tk.NS, **padding)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -88,7 +87,7 @@ class MainWindow(tk.Tk):
         button = tk.Button(self,
                                 text='Get Monster',
                                 command=lambda: self.handleGetMonsterButton(
-                                    characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
+                                    self.characterFrame.characters, self.difficultyFrame.diff, self.descriptFrame.monsterWindow),
                                 font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
@@ -288,3 +287,6 @@ class MainWindow(tk.Tk):
             self.displayBlank()
         self.result.set(responseText)
         self.resultList.set(responseList)
+
+    def yanny():
+        return "yanny"
