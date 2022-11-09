@@ -36,7 +36,11 @@ class DescriptionFrame(tk.Frame):
 
         c = event.char
         valid_set = set([' ', ',', '\'', '/', '\\', '-'])
-        valid_keysym = set(['BackSpace', 'Down', 'Left', 'Up', 'Right', 'Enter', 'Return'])
+        valid_keysym = set(['BackSpace', 'Down', 'Left', 'Up', 'Right', 'Enter', 'Return', 'Delete'])
+        #print(event.state)
+        #handle past event
+        if event.state == 8:
+            return 'break'
         #handle special keys case
         if event.keysym in valid_keysym:
             return True
