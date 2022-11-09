@@ -291,7 +291,7 @@ class MainWindow(tk.Tk):
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
         minEncounterXP, maxEncounterXP = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)        
+        responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
         # Get top result
         if len(responseList) > 0:
             encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
