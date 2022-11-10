@@ -68,5 +68,6 @@
     "damage_immunities": [
         "fire",
         "poison"
-    ]
+    ],
+    "caption": "Fire elementals were elementals formed from the element of fire."
 }

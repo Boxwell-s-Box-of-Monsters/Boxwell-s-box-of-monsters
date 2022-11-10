@@ -24,5 +24,6 @@
         "damage from spells",
         "non magical bludgeoning, piercing, and slashing (from stoneskin)"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "Archmages were among the most powerful arcane spellcasters found throughout all of Faer\u00c3\u00bbn. These practitioners of the Art were experts at manipulating and altering their spells, often in strange ways."
 }

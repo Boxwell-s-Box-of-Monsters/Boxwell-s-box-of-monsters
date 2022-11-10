@@ -25,5 +25,6 @@
         "necrotic",
         "bludgeoning, piercing, and slashing from nonmagical weapons"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "Vampire spawn were undead created by vampires."
 }
