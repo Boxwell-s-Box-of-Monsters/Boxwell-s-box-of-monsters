@@ -234,10 +234,9 @@ class MainWindow(tk.Tk):
 
         typeMult = 0
         for character in characterList:
-            #cDmg = character['damage'].get()
-            cDmg = 'fire'
-            #print(cDmg) # for testing purposes
-            
+            cDmg = character['damageVar'].get()
+            #cDmg = 'fire'
+            print(cDmg) # for testing purposes
             typeMult = 0
             if cDmg in monster['damage_vulnerabilities']:
                 print("VULNERABLE-----------------------------------------------------")
