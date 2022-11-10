@@ -28,9 +28,10 @@ class MainWindow(tk.Tk):
         self.es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
         # End Elastic Search
 
-        self.minsize(600, 800) # min window size
-        self.maxsize(False, 850) # max window size
+        # self.minsize(1000, 800) # min window size
+        # self.maxsize(False, 900) # max window size
         self.resizable(False, False) # cannot resize manually
+        self.state('zoomed')
         self.title("Monster Generator")
         self.configure(bg=TAN)
 
