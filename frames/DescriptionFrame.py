@@ -23,8 +23,29 @@ class DescriptionFrame(tk.Frame):
                                      anchor="center")
         self.monsterLabel.grid(row=0, column=0, sticky=tk.S, pady=(0, 15))
 
+
+
         # text input box
         self.monsterWindow = tk.Text(self, font=(FONT, 12),
                                      fg=BLACK, bg=WHITE,
                                      height=5, width=35)
+        self.monsterWindow.bind('<KeyPress>',self.validate)
         self.monsterWindow.grid(column=0, row=1, sticky=tk.NSEW, padx=5, pady=(0, 5))
+
+    def validate(self, event):
+
+        c = event.char
+        valid_set = set([' ', ',', '\'', '/', '\\', '-'])
+        valid_keysym = set(['BackSpace', 'Down', 'Left', 'Up', 'Right', 'Enter', 'Return', 'Delete'])
+        #print(event.state)
+        #handle past event
+        if event.state == 8:
+            return 'break'
+        #handle special keys case
+        if event.keysym in valid_keysym:
+            return True
+        #check if character is both ascii or alnum
+        if c not in valid_set and (not c.isalnum() or not c.isascii()):
+            return 'break'
+        return True
+        
