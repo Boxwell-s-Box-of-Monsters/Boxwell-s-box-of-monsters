@@ -29,7 +29,7 @@ class MainWindow(tk.Tk):
 
         # self.minsize(1000, 800) # min window size
         # self.maxsize(False, 900) # max window size
-        self.resizable(False, False) # cannot resize manually
+        #self.resizable(False, False) # cannot resize manually
         self.state('zoomed')
         self.title("Monster Generator")
         self.configure(bg=TAN)
