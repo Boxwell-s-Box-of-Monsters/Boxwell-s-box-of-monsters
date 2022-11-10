@@ -200,7 +200,8 @@ class MainWindow(tk.Tk):
         # From the users description, add the paragon monster
         while monsterQuantity == 0:
             monsterQuantity += self.monstersMultiplied(potentialMon[index],
-                                                       currentEncounterXP, maxEncounterXP, monsterQuantity, characterList)
+                                                       currentEncounterXP, maxEncounterXP,
+                                                       monsterQuantity, characterList)
             if monsterQuantity == 0:
                 potentialMon.remove(potentialMon[index])
                 index = self.randomMonsterPicker(potentialMon)
@@ -217,7 +218,8 @@ class MainWindow(tk.Tk):
             while len(matchingMonsters) > 0 and monsterQuantity < 10:
                 # if the number of monsters that can be added is not 0, add it.
                 newMonsters = self.monstersMultiplied(matchingMonsters[0],
-                                                      currentEncounterXP, maxEncounterXP, monsterQuantity, characterList)
+                                                      currentEncounterXP, maxEncounterXP,
+                                                      monsterQuantity, characterList)
                 if newMonsters > 0:
                     encounter.append([matchingMonsters[0], newMonsters])
                     currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
@@ -316,7 +318,7 @@ class MainWindow(tk.Tk):
 
     def printImage(self, response):
         # Display the updated monster's image
-        imgLoc = 'images/' + response['name'] + '.png'        
+        imgLoc = 'images/' + response['name'] + '.png'
         if response['name'] == "Succubus/Incubus": # Cornercase naming convention
             imgLoc = "images/Succubus+Incubus.png"
         if exists(imgLoc):
