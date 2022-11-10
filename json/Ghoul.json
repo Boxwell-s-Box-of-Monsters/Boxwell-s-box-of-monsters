@@ -40,5 +40,6 @@
     "damage_resistances": [],
     "damage_immunities": [
         "poison"
-    ]
+    ],
+    "caption": "Ghouls were undead humanoids who devoured the flesh of corpses."
 }

@@ -35,5 +35,6 @@
     "damage_resistances": [],
     "damage_immunities": [
         "poison"
-    ]
+    ],
+    "caption": "A homunculus was a tiny construct created by a spellcaster to act as a spy and servant."
 }

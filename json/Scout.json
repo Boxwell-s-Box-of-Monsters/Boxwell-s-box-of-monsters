@@ -21,5 +21,6 @@
     "xp": 100,
     "damage_vulnerabilities": [],
     "damage_resistances": [],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "A scout is a class similar to a rogue or ranger, preferring to stay hidden and attack from a distance rather than up close and personal. They have varying roles, from leading an army through unknown terrain to working as a missionary going solo to learn terrain for the payer. Usually they wear leather armor, as they rely more on speed and agility to out maneuver an opponent."
 }

@@ -75,5 +75,6 @@
     "damage_immunities": [
         "necrotic",
         "poison"
-    ]
+    ],
+    "caption": "Shadows were a type of incorporeal undead."
 }

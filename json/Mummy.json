@@ -55,5 +55,6 @@
     "damage_immunities": [
         "necrotic",
         "poison"
-    ]
+    ],
+    "caption": "Mummies were undead creatures created from a preserved mummified corpse animated by the dark gods of the desert."
 }

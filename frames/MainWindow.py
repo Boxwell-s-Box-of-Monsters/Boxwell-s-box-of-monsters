@@ -1,7 +1,6 @@
 import tkinter as tk
 import random
-from io import BytesIO
-from urllib.request import urlopen
+from os.path import exists
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
@@ -81,6 +80,8 @@ class MainWindow(tk.Tk):
         # Get Monster Button and Result
         self.result = tk.StringVar()
         self.result.set("")
+        self.resultDesc = tk.StringVar()
+        self.resultDesc.set("")
         self.resultList = tk.StringVar()
         self.resultList.set("")
         monsterImage = Image.open('images/placeholderMonster.png')
@@ -99,10 +100,13 @@ class MainWindow(tk.Tk):
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
+        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc,
+                                   wraplength=1000, justify="left", bg=TAN, font=(FONT, 14),
+                                    fg=BLACK)
         resultListLabel = tk.Label(resultFrame, textvariable=self.resultList, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
         self.resultImage = tk.Label(resultFrame, image=self.monsterImage, bg=TAN)
-        resultFrame.setPositions(resultLabel, self.resultImage, resultListLabel)
+        resultFrame.setPositions(resultLabel, resultLabelDesc, self.resultImage, resultListLabel)
         resultFrame.grid(column=1, row=1, sticky=tk.N)
 
     ############################
@@ -131,15 +135,23 @@ class MainWindow(tk.Tk):
                     [2400, 4900, 7300, 10900],
                     [2800, 5700, 8500, 12700]]
 
-        xp = 0
+        minXp = 0
+        maxXp = 0
         for character in characterList:
             level = int(character['level'].get())
-            xp += xpTable[level-1][diff.get()]
+            if diff.get() == 0:
+                minXp += xpTable[level-1][diff.get()-1]
+                maxXp += xpTable[level-1][diff.get()]
+            else:
+                minXp += xpTable[level-1][diff.get()]/2
+                maxXp += xpTable[level-1][diff.get()]
+        minXp /= 25
 
-        return xp
+
+        return minXp, maxXp
 
     # Gets a list of monsters from the challenge rating
-    def responseListAdapter(self, targetXP, monsterWindow):
+    def responseListAdapter(self, minXP, maxXP, monsterWindow):
         # Get list of monsters
         if isinstance(monsterWindow, str) is False:
             monsterWindow = monsterWindow.get("1.0", 'end-1c')
@@ -150,14 +162,16 @@ class MainWindow(tk.Tk):
 
         lowerBound = 0.9
         s = Search(using=self.es, index='monster_index') \
-            .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+            .filter('range', xp={'gte': lowerBound*maxXP, 'lte': maxXP}).query(query)
         response = s.execute()
+        lowerBound -= .1
 
-        while len(response) <= 3 and lowerBound >= 0:
-            lowerBound -= .1
+        while len(response) <= 3 and lowerBound > 0 and lowerBound*maxXP > minXP:
             s = Search(using=self.es, index='monster_index') \
-                .filter('range', xp={'gte': lowerBound*targetXP, 'lte': targetXP}).query(query)
+                .filter('range', xp={'gte': lowerBound*maxXP, 'lte': maxXP}).query(query)
             response = s.execute()
+            lowerBound -= .1
+
         return response
 
     # Picks the index of a monster out of the list weighted based on score
@@ -173,7 +187,7 @@ class MainWindow(tk.Tk):
         return i
 
     # Picks the best monsters for the encounter
-    def encounterGenerator(self, maxEncounterXP, potentialMonsters):
+    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters):
         index = self.randomMonsterPicker(potentialMonsters)
         currentEncounterXP = 0
         encounter = []
@@ -186,7 +200,7 @@ class MainWindow(tk.Tk):
         currentEncounterXP += int(potentialMonsters[index]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter((potentialMonsters[index]['xp'])-1, \
+        matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMonsters[index]['xp'])-1, \
                                                 potentialMonsters[index]['description'])
 
         # Adds the best monsters based on the paragon monster to the
@@ -217,6 +231,7 @@ class MainWindow(tk.Tk):
             xpMult = 2
         elif monsterQuantity+1 == 2:
             xpMult = 1.5
+
         # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
         acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
         while acceptableXP and (monsterQuantity+addedMonsters < 10):
@@ -259,6 +274,7 @@ class MainWindow(tk.Tk):
             responseText += "\nimmunities: "
             for r in response['damage_immunities']:
                 responseText += str(r) + ' '
+        self.resultDesc.set("\t" + str(response['caption']))
         return responseText
 
     def printList(self, encounter):
@@ -277,29 +293,31 @@ class MainWindow(tk.Tk):
 
     def printImage(self, response):
         # Display the updated monster's image
-        if response['imageURL'] is not None:
-            with urlopen(response['imageURL']) as imageURL:
-                u = imageURL
-                im = Image.open(BytesIO(u.read())).resize((200,200))
-                newImage = ImageTk.PhotoImage(im)
-                self.resultImage.configure(image=newImage)
-                self.resultImage.image = newImage
+        imgLoc = 'images/' + response['name'] + '.png'
+        if exists(imgLoc):
+            im = Image.open(imgLoc).resize((200,200))
+            newImage = ImageTk.PhotoImage(im)
+            self.resultImage.configure(image=newImage)
+            self.resultImage.image = newImage
         else:
             self.displayBlank()
 
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
-        maxEncounterXP = self.getAppropriateCR(characterList, diff)
-        responseList = self.responseListAdapter(maxEncounterXP, monsterWindow)
+        minEncounterXP, maxEncounterXP = self.getAppropriateCR(characterList, diff)
+        responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
         # Get top result
         if len(responseList) > 0:
-            encounter = self.encounterGenerator(maxEncounterXP, responseList)
+            encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
             responseList = self.printList(encounter)
         else:
             responseText = "Sorry, no monsters found, try adding more terms"
             responseList = ""
+            resultDesc = ""
             self.displayBlank()
+            self.resultDesc.set(resultDesc)
+
         self.result.set(responseText)
         self.resultList.set(responseList)

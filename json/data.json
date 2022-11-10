@@ -23,7 +23,8 @@
             "darkvision": "120 ft.",
             "passive_perception": 20
         },
-        "xp": 5900
+        "xp": 5900,
+        "caption": "Aboleths were a race of malevolent, eel-like aberrations with potent psionic abilities."
     },
     {
         "name": "Acolyte",
@@ -48,7 +49,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Acolytes were junior members of a clergy, usually answerable to a priest. They performed a variety of functions in a temple and were granted minor spellcasting power by their deities."
     },
     {
         "name": "Adult Black Dragon",
@@ -77,7 +79,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Black dragons, also known as skull dragons, were far and away the most vile tempered and cruel of all chromatic dragons. They were solitary creatures that lived in the swamps and marshlands all around Toril, from the Flooded Forest in Sembia to the jungles of Chult."
     },
     {
         "name": "Adult Blue Dragon",
@@ -106,7 +109,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Blue dragons, also known as storm dragons, were orderly creatures and are unusual for chromatics in that they keep fairly well-ordered, hierarchical societies. They were more likely to be mocking and manipulative than outrightly cruel or murderous to 'lesser' creatures, aided greatly by their natural talents for hallucination. They were infamous for tricking desert travelers into drinking sand or going miles out of their way to avoid nonexistent dust basins. Their breath weapon was a line of lightning or a large electrical discharge."
     },
     {
         "name": "Adult Brass Dragon",
@@ -135,7 +139,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Brass dragons were the weakest of the metallic dragons, and also one of the most benign of all species of dragon. They loved to talk, to the exclusion of most else. They loved to engage friends and foes alike in hours of long-winded conversation. It was not unusual for a brass dragon to be fluent in several hundred different languages, although they obviously preferred to converse in Draconic whenever possible."
     },
     {
         "name": "Adult Bronze Dragon",
@@ -164,7 +169,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Bronze dragons were a race of metallic dragons. Curious and inquisitive, they possessed a strong sense of justice and did not tolerate any form of cruelty."
     },
     {
         "name": "Adult Copper Dragon",
@@ -193,7 +199,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Copper dragons were a type of a metallic dragon."
     },
     {
         "name": "Adult Gold Dragon",
@@ -222,7 +229,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Gold dragons were the strongest and most majestic of the metallic dragons, and were considered the apex of the draconic race. Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons."
     },
     {
         "name": "Adult Green Dragon",
@@ -257,7 +265,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Green dragons were master manipulators who reveled in corrupting lesser creatures and hoarding them like possessions."
     },
     {
         "name": "Adult Red Dragon",
@@ -286,7 +295,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Red dragons were covetous, evil creatures, interested only in their own well-being, vanity and the extension of their treasure hoards. They were supremely confident of their own abilities and were prone to making snap decisions without any forethought. The largest and most powerful of the chromatic dragons, red dragons were also the most fearsome and cruel. These dragons delighted in ruin, death and destruction. They breathed a cone of fire."
     },
     {
         "name": "Adult Silver Dragon",
@@ -315,7 +325,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "Silver dragons, sometimes referred to as shield dragons,[9] were a breed of metallic dragon. A silver dragon enjoyed the company of humans and elves so much that it would often take the form of a human or elf and live among them for the majority of its life. However, it should be noted that silvers, like all dragons, believed themselves the most superior creatures in the world. However, apart from the ability to fly, which they enjoyed greatly, they tended to prefer the physical forms of humanoids for everyday life."
     },
     {
         "name": "Adult White Dragon",
@@ -344,7 +355,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "White dragons (also known as ice dragons or glacial wyrms) were the weakest and most feral of the classic chromatic dragons."
     },
     {
         "name": "Air Elemental",
@@ -417,7 +429,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "An air elemental was a being made up of wind and living air. It appeared as a shapeless cloud that moved rapidly in any direction, even against the wind."
     },
     {
         "name": "Ancient Black Dragon",
@@ -446,7 +459,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Black dragons, also known as skull dragons, were far and away the most vile tempered and cruel of all chromatic dragons. They were solitary creatures that lived in the swamps and marshlands all around Toril, from the Flooded Forest in Sembia to the jungles of Chult."
     },
     {
         "name": "Ancient Blue Dragon",
@@ -475,7 +489,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Blue dragons, also known as storm dragons, were orderly creatures and are unusual for chromatics in that they keep fairly well-ordered, hierarchical societies. They were more likely to be mocking and manipulative than outrightly cruel or murderous to 'lesser' creatures, aided greatly by their natural talents for hallucination. They were infamous for tricking desert travelers into drinking sand or going miles out of their way to avoid nonexistent dust basins. Their breath weapon was a line of lightning or a large electrical discharge."
     },
     {
         "name": "Ancient Brass Dragon",
@@ -504,7 +519,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Brass dragons were the weakest of the metallic dragons, and also one of the most benign of all species of dragon. They loved to talk, to the exclusion of most else. They loved to engage friends and foes alike in hours of long-winded conversation. It was not unusual for a brass dragon to be fluent in several hundred different languages, although they obviously preferred to converse in Draconic whenever possible."
     },
     {
         "name": "Ancient Bronze Dragon",
@@ -533,7 +549,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Bronze dragons were a race of metallic dragons. Curious and inquisitive, they possessed a strong sense of justice and did not tolerate any form of cruelty."
     },
     {
         "name": "Ancient Copper Dragon",
@@ -562,7 +579,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Copper dragons were a type of a metallic dragon."
     },
     {
         "name": "Ancient Gold Dragon",
@@ -591,7 +609,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Gold dragons were the strongest and most majestic of the metallic dragons, and were considered the apex of the draconic race. Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons."
     },
     {
         "name": "Ancient Green Dragon",
@@ -626,7 +645,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Green dragons were master manipulators who reveled in corrupting lesser creatures and hoarding them like possessions."
     },
     {
         "name": "Ancient Red Dragon",
@@ -655,7 +675,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Red dragons were covetous, evil creatures, interested only in their own well-being, vanity and the extension of their treasure hoards. They were supremely confident of their own abilities and were prone to making snap decisions without any forethought. The largest and most powerful of the chromatic dragons, red dragons were also the most fearsome and cruel. These dragons delighted in ruin, death and destruction. They breathed a cone of fire."
     },
     {
         "name": "Ancient Silver Dragon",
@@ -684,7 +705,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "Silver dragons, sometimes referred to as shield dragons,[9] were a breed of metallic dragon. A silver dragon enjoyed the company of humans and elves so much that it would often take the form of a human or elf and live among them for the majority of its life. However, it should be noted that silvers, like all dragons, believed themselves the most superior creatures in the world. However, apart from the ability to fly, which they enjoyed greatly, they tended to prefer the physical forms of humanoids for everyday life."
     },
     {
         "name": "Ancient White Dragon",
@@ -713,7 +735,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "White dragons (also known as ice dragons or glacial wyrms) were the weakest and most feral of the classic chromatic dragons."
     },
     {
         "name": "Androsphinx",
@@ -753,7 +776,8 @@
         "damage_immunities": [
             "psychic",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "Androsphinxes were the males of the sphinx species."
     },
     {
         "name": "Animated Armor",
@@ -823,7 +847,8 @@
         "damage_immunities": [
             "poison",
             "psychic"
-        ]
+        ],
+        "caption": "An animated armor was a suit of armor that was crafted with magic to follow the command of its creators."
     },
     {
         "name": "Ankheg",
@@ -850,7 +875,8 @@
         "xp": 250,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The ankheg was a huge insectoid monster with many slender limbs and large antennae. It burrowed underground and hunted from below."
     },
     {
         "name": "Ape",
@@ -875,7 +901,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Apes were a type of animal found in tropical regions. They were usually quite shy, but would fight if threatened or cornered."
     },
     {
         "name": "Archmage",
@@ -903,7 +930,8 @@
             "damage from spells",
             "non magical bludgeoning, piercing, and slashing (from stoneskin)"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Archmages were among the most powerful arcane spellcasters found throughout all of Faer\u00c3\u00bbn. These practitioners of the Art were experts at manipulating and altering their spells, often in strange ways."
     },
     {
         "name": "Assassin",
@@ -930,7 +958,8 @@
         "damage_resistances": [
             "poison"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Assassins were dangerous and ruthless killers that acted as spies, and drew upon the power of shadow magic."
     },
     {
         "name": "Awakened Shrub",
@@ -959,7 +988,8 @@
         "damage_resistances": [
             "piercing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "An awakened shrub was simply put a mundane shrub that possessed some form of intelligence, often by means of the awaken spell or other magic."
     },
     {
         "name": "Awakened Tree",
@@ -989,7 +1019,8 @@
             "bludgeoning",
             "piercing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "An awakened tree was simply put a mundane tree that possessed some form of intelligence, often by means of the awaken spell or other magic."
     },
     {
         "name": "Axe Beak",
@@ -1014,7 +1045,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Axe beaks were tall and aggressive flightless birds."
     },
     {
         "name": "Azer",
@@ -1048,7 +1080,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Azers were elemental creatures native to the Elemental Plane of Fire and Elemental Chaos."
     },
     {
         "name": "Baboon",
@@ -1073,7 +1106,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Baboons were a species of herbivorous species of monkey that lived in groups."
     },
     {
         "name": "Badger",
@@ -1099,7 +1133,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Badgers were a squat, furry species of mustelid."
     },
     {
         "name": "Balor",
@@ -1138,7 +1173,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Balors , or type VI demons, were the quintessential anarchists of the Abyss, and in some respects the manifestation of the tanar'ric side of the Blood War. Whether acting as generals for demon lord armies or even as minor princelings themselves, balors were warmongering paragons of burning rage that inspired violent defiance against the legions of Hell."
     },
     {
         "name": "Bandit",
@@ -1163,7 +1199,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry. Pirates are bandits of the high seas. They might be freebooters interested only in Treasure and Murder, or they might be privateers sanctioned by the crown to Attack and plunder an enemy nation\u00e2\u20ac\u2122s vessels."
     },
     {
         "name": "Bandit Captain",
@@ -1188,7 +1225,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The bandit captain has these qualities in spades. In addition to managing a crew of selfish malcontents, the pirate captain is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis. More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation."
     },
     {
         "name": "Barbed Devil",
@@ -1226,7 +1264,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Hamatulas, also called barbed devils, were the guardians and patrollers of the Nine Hells. They were the greatest of the lesser baatezu and responsible for safeguarding important, infernal locations and individuals."
     },
     {
         "name": "Basilisk",
@@ -1252,7 +1291,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Basilisks were large, eight-legged reptiles with the terrifying ability to poison or petrify their prey. Though not malicious, basilisks were indisputably dangerous. They could be found all over Faer\u00c3\u00bbn."
     },
     {
         "name": "Bat",
@@ -1278,7 +1318,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Bats were a group of wild, flying animals of generally small size that fed on other small mammals, insects, reptiles, or fruit. Although the majority of bats were small, a few larger varieties existed. Bats were almost all nocturnal."
     },
     {
         "name": "Bearded Devil",
@@ -1316,7 +1357,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Barbazus, also called bearded devils, were the shock troops of the Nine Hells and the most impulsively belligerent of the baatezu. The barbarous devils earned their name from the venomous, beard-like tendrils that hung from their chins. Barbazus were the second-lowest in the hierarchy of lesser devils, sharing the same rank as kocrachons and, according to the wizard Mordenkainen, merregons."
     },
     {
         "name": "Behir",
@@ -1344,7 +1386,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "A behir was a great serpentine monster with twelve legs and electrical breath."
     },
     {
         "name": "Berserker",
@@ -1369,7 +1412,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Berserkers were those fighters and barbarians who could tap into a particularly savage aspect of themselves in order to skip into a furious rage while in combat. Barbarians that followed the Path of the Berserker saw their rages as the best means to enjoy the thrill of battle, regardless of personal well-being."
     },
     {
         "name": "Black Bear",
@@ -1394,7 +1438,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The black bear was a forest-dwelling animal."
     },
     {
         "name": "Black Dragon Wyrmling",
@@ -1423,7 +1468,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Black dragons, also known as skull dragons, were far and away the most vile tempered and cruel of all chromatic dragons. They were solitary creatures that lived in the swamps and marshlands all around Toril, from the Flooded Forest in Sembia to the jungles of Chult."
     },
     {
         "name": "Black Pudding",
@@ -1485,7 +1531,8 @@
             "cold",
             "lightning",
             "slashing"
-        ]
+        ],
+        "caption": "A black pudding was an ooze resembling a bubbling, heaping pile of thick black goo."
     },
     {
         "name": "Blink Dog",
@@ -1510,7 +1557,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A blink dog was a mysterious, intelligent canine creature. Most blink dogs had yellow-brown fur and large ears. They were well known for their ability to blink\u00e2\u20ac\u201da supernatural teleportation ability."
     },
     {
         "name": "Blood Hawk",
@@ -1535,7 +1583,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Blood hawks were a species of deadly predatory bird."
     },
     {
         "name": "Blue Dragon Wyrmling",
@@ -1564,7 +1613,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Blue dragons, also known as storm dragons, were orderly creatures and are unusual for chromatics in that they keep fairly well-ordered, hierarchical societies. They were more likely to be mocking and manipulative than outrightly cruel or murderous to 'lesser' creatures, aided greatly by their natural talents for hallucination. They were infamous for tricking desert travelers into drinking sand or going miles out of their way to avoid nonexistent dust basins. Their breath weapon was a line of lightning or a large electrical discharge."
     },
     {
         "name": "Boar",
@@ -1589,7 +1639,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Boars were wild relatives of the domestic pig.They were favored animals of the deities Gruumsh, Gwaeron Windstrom, Ilneval, Luthic, Rillifane Rallathil, Shargaas, and Yurtrus."
     },
     {
         "name": "Bone Devil",
@@ -1627,7 +1678,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Osyluths, sometimes called bone devils, were the taskmasters and interrogators of the baatezu devils, acting as law-enforcement throughout the Nine Hells. The very presence of the skeletal sleuths inspired dread due to their love of inflicting physical and mental suffering, on both mortals and devils alike. Osyluths were lesser devils in the infernal caste system, though their authority as \"police\" led to some confusion among scholars about this. By some accounts, bone devils held the same rank in the hierarchy as orthons and war devils."
     },
     {
         "name": "Brass Dragon Wyrmling",
@@ -1656,7 +1708,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Brass dragons were the weakest of the metallic dragons, and also one of the most benign of all species of dragon. They loved to talk, to the exclusion of most else. They loved to engage friends and foes alike in hours of long-winded conversation. It was not unusual for a brass dragon to be fluent in several hundred different languages, although they obviously preferred to converse in Draconic whenever possible."
     },
     {
         "name": "Bronze Dragon Wyrmling",
@@ -1685,7 +1738,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Bronze dragons were a race of metallic dragons. Curious and inquisitive, they possessed a strong sense of justice and did not tolerate any form of cruelty."
     },
     {
         "name": "Brown Bear",
@@ -1710,7 +1764,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The brown bear was a forest-dwelling animal."
     },
     {
         "name": "Bugbear",
@@ -1736,7 +1791,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Bugbears were a massive humanoid race distantly related to, but larger and stronger than, goblins and hobgoblins."
     },
     {
         "name": "Bulette",
@@ -1763,7 +1819,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The bulette, also known as a landshark, was a fearsome magical beast whose origins were unknown but had become a dangerous predator. Feared and hated by most living creatures, bulettes were extremely dangerous, burrowing unseen beneath the soil before erupting up at an unexpected moment to seize their prey. Dwarves called the bulette a ghohlbrorn."
     },
     {
         "name": "Camel",
@@ -1788,7 +1845,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Camels were desert herd animals renowned for their ability to endure great stretches of time without water or food."
     },
     {
         "name": "Cat",
@@ -1813,7 +1871,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Cats were a variety of feline animals of various sizes."
     },
     {
         "name": "Centaur",
@@ -1838,7 +1897,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The centaur was a large creature that lived in temperate forests. They could live solitary lives or live in small tribes."
     },
     {
         "name": "Chain Devil",
@@ -1876,7 +1936,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Chain devils, or kytons, were sadistic devils that conducted agonizing torture on the souls of mortals. Their chains served as both clothing and weaponry, allowing them to brutally lash victims and combatants alike."
     },
     {
         "name": "Chimera",
@@ -1902,7 +1963,8 @@
         "xp": 2300,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A chimera was a large magical beast that was a combination of several different creatures, namely a dragon, a goat, and a lion. Although typically unintelligent, chimeras were self-aware creatures, with a limited capacity for language, often Draconic."
     },
     {
         "name": "Chuul",
@@ -1936,7 +1998,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Chuuls were large lobster-like aberrations with a hatred for surface-dwelling humanoids. The many tentacles that surrounded their mouths were capable of causing paralysis with a single touch, thus leaving their unfortunate victim at the mercy of the chuul's powerful claws."
     },
     {
         "name": "Clay Golem",
@@ -1998,7 +2061,8 @@
             "poison",
             "psychic",
             "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-        ]
+        ],
+        "caption": "Clay golems were human-shaped constructs modeled out of clay that were usually divinely infused with a spirit from the Elemental Plane of Earth by priests. Since clay was a weak vessel for life, damaged clay golems tended to release the spirit bound to them and would go berserk until completely destroyed or repaired."
     },
     {
         "name": "Cloaker",
@@ -2024,7 +2088,8 @@
         "xp": 3900,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Cloakers were intelligent creatures that dwelt underground and resembled large flying manta rays when active. At rest, they looked like a black cloak, hence their name."
     },
     {
         "name": "Cloud Giant",
@@ -2049,7 +2114,8 @@
         "xp": 5000,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Cloud giants, called Skyejotunen in their own language, were a race of giants who preferred living among the clouds."
     },
     {
         "name": "Cockatrice",
@@ -2075,7 +2141,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The cockatrice was a small avian magical beast. It was notorious for its petrification ability."
     },
     {
         "name": "Commoner",
@@ -2100,7 +2167,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Commoner were simple persons who made up the bulk of the people of Toril. Commoners did the bulk of the manual labor in the Realms."
     },
     {
         "name": "Constrictor Snake",
@@ -2126,7 +2194,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Constrictor snakes were large snakes found throughout Faer\u00c3\u00bbn. Common constrictor snake species encountered were anacondas, boas and reticulated pythons. They were one of the species counted as serpents."
     },
     {
         "name": "Copper Dragon Wyrmling",
@@ -2155,7 +2224,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Copper dragons were a type of a metallic dragon."
     },
     {
         "name": "Couatl",
@@ -2186,7 +2256,8 @@
         "damage_immunities": [
             "psychic",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "The couatl was a large, otherworldly, winged serpentine creature."
     },
     {
         "name": "Crab",
@@ -2212,7 +2283,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Crabs live in all the world's oceans, in freshwater, and on land, are generally covered with a thick exoskeleton, and have a single pair of pincers."
     },
     {
         "name": "Crocodile",
@@ -2237,7 +2309,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Crocodiles were a large carnivorous reptile that resided in swamps, rivers, lakes, and other wetlands."
     },
     {
         "name": "Cult Fanatic",
@@ -2262,7 +2335,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else."
     },
     {
         "name": "Cultist",
@@ -2287,7 +2361,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Cultists swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices."
     },
     {
         "name": "Darkmantle",
@@ -2313,7 +2388,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A darkmantle was an octopus-like subterranean creature that disguised itself as a stalactite. Larger specimens were sometimes called envelopers. Darkmantles were favored by the drow deity Ghaunadaur and the orc deity Shargaas."
     },
     {
         "name": "Death Dog",
@@ -2339,7 +2415,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Death dogs were vicious and hateful two-headed dogs who had a taste for humanoid flesh."
     },
     {
         "name": "Deep Gnome (Svirfneblin)",
@@ -2365,7 +2442,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Deep gnomes, called svirfneblin in their own language, were a gnome subrace that lived in the Underdark. While their surface cousins were known for their boundless optimism and cheerful mischief, the svirfneblin were serious and suspicious creatures. They survived in the Underdark by maintaining wariness of others and working hard to keep their underground society secret."
     },
     {
         "name": "Deer",
@@ -2390,7 +2468,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Deer were a species of mundane mammal. A male deer was known as a hart or stag, while a female was called a hind or doe."
     },
     {
         "name": "Deva",
@@ -2435,7 +2514,8 @@
             "radiant",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A deva was a kind of angel, or aasimon. There were three orders of devas: astral devas, monadic devas, and movanic devas, though devas of no particular order were known after the Second Sundering of 1487 DR."
     },
     {
         "name": "Dire Wolf",
@@ -2460,7 +2540,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A dire wolf was an ancient dire version of a grey wolf, being a larger and more primitive or feral breed of wolf. Dire wolves were favored by the gods Garagos and Ilneval."
     },
     {
         "name": "Djinni",
@@ -2489,7 +2570,8 @@
         "damage_immunities": [
             "lightning",
             "thunder"
-        ]
+        ],
+        "caption": "Djinn were creatures born from the Elemental Chaos. Having aided the primordials in their ancient battle with the gods over control of Faer\u00c3\u00bbn, most were imprisoned in common objects and scattered. The few who were free sought to reclaim their power. They embodied the chaotic force of violent storms while possessing benevolent minds. Only the noble djinn possessed the power of the wish."
     },
     {
         "name": "Doppelganger",
@@ -2521,7 +2603,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Doppelgangers, otherwise known by themselves as Shallar, were monstrous humanoids, infamous for their shapeshifting abilities that allowed them to mimic almost any humanoid creature. There was also a stronger, more capable subspecies known as greater doppelgangers or mirrorkin."
     },
     {
         "name": "Draft Horse",
@@ -2546,7 +2629,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Horses on Toril came in a number of breeds, of varying size and demeanor. They were often used by humanoid races for riding, the pulling of carts and wagons or other forms of work."
     },
     {
         "name": "Dragon Turtle",
@@ -2574,7 +2658,8 @@
         "damage_resistances": [
             "fire"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Dragon turtles were aquatic creatures that were related to dragons. They were considered among the most dangerous aquatic creatures in existence and were even worshiped by some."
     },
     {
         "name": "Dretch",
@@ -2612,7 +2697,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Dretches were the least powerful of tanar'ri demonkind, petty, ugly wretches that were casually sacrificed by higher-ranking demonic entities. Doomed to a likely eternity of disappointment, they did little but wallow in stinking mobs and their own self-pity while bemoaning their fate."
     },
     {
         "name": "Drider",
@@ -2638,7 +2724,8 @@
         "xp": 2300,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Driders were drow that had been transformed from the waist down so they had the body of a spider. The transformation was typically a punishment for failing a test of Lolth."
     },
     {
         "name": "Drow",
@@ -2664,7 +2751,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Drow, also known as dark elves, deep elves, night elves, and the Dark Ones among orcs, were a dark-skinned sub-race of elves that predominantly lived in the Underdark. They were hated and feared due to their cruelty, though some non-evil and an even smaller number of good drow existed."
     },
     {
         "name": "Druid",
@@ -2689,7 +2777,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Druids were primal spellcasters of considerable power and versatility, who gained their power through being at one with nature or through a connection to a powerful deity or nature spirit. Guardians of the wilderness, druids saw themselves less as masters of the natural order and more as an extension of its will."
     },
     {
         "name": "Dryad",
@@ -2715,7 +2804,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Dryads were fey-maidens who acted as the protectors of forests and trees."
     },
     {
         "name": "Duergar",
@@ -2743,7 +2833,8 @@
         "damage_resistances": [
             "poison"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Duergar, also known as gray dwarves, or underdwarves were a subterranean subrace of dwarves. They carved out an existence in the Underdark, often near volcanoes. Their kinship to other dwarven subraces could be compared to that of the drow to surface elves."
     },
     {
         "name": "Dust Mephit",
@@ -2779,7 +2870,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A dust mephit was a mephit from the Elemental Plane of Air or Quasi-Elemental Plane of Dust."
     },
     {
         "name": "Eagle",
@@ -2804,7 +2896,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Eagles were large, majestic birds of prey that were often seen as symbols of nobility or as divine messengers."
     },
     {
         "name": "Earth Elemental",
@@ -2863,7 +2956,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Earth elementals were extremely strong elementals who rarely left their home plane."
     },
     {
         "name": "Efreeti",
@@ -2891,7 +2985,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Efreet were a type of genie native to the Elemental Plane of Fire. They were unpredictable creatures with fiery forms and spectacular magical powers."
     },
     {
         "name": "Elephant",
@@ -2916,7 +3011,8 @@
         "xp": 1100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Elephants were enormous plant-eating animals known for their prehensile trunks. In some lands, they were used as beasts of burden or mounts."
     },
     {
         "name": "Elk",
@@ -2941,7 +3037,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Elk were the largest members of the deer family. They were favored by Uthgar and the sleeping god Ulutiu."
     },
     {
         "name": "Erinyes",
@@ -2979,7 +3076,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Erinyes were fierce baatezu whose heavenly appearance belied their wicked intentions. They were the furies of the Nine Hells, responsible for bringing infernal justice and vengeful retribution to mortals and devils alike. While most scholars of the planes considered erinyes to be among the lesser devils, their unique position in reporting directly to the Dark Eight meant that some considered them greater baatezu. They shared the same rank in the infernal hierarchy as pain devils."
     },
     {
         "name": "Ettercap",
@@ -3005,7 +3103,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Ettercaps were a race of bestial, spider-like aberrations located throughout Faer\u00c3\u00bbn. They were primitive, hunting aberrations that had an affinity with spiders."
     },
     {
         "name": "Ettin",
@@ -3031,7 +3130,8 @@
         "xp": 1100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Ettins, commonly called two-headed giants, were the conjoined twins of the giants, degenerate brutes whose names translated to \"ugly\",\"giant\" in ancient Common and \"runt\" in Jotun. They bridged the gap between true giants and giant-kin, only being classifiable as the former by virtue of relation to Annam and Othea, but with no terrain granted to them by the All-Father."
     },
     {
         "name": "Fire Elemental",
@@ -3103,7 +3203,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Fire elementals were elementals formed from the element of fire."
     },
     {
         "name": "Fire Giant",
@@ -3130,7 +3231,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Fire giants, called ildjotunen in their own language, were master craftsmen giants that lived in volcanic and mountainous environments."
     },
     {
         "name": "Flesh Golem",
@@ -3191,7 +3293,8 @@
             "lightning",
             "poison",
             "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-        ]
+        ],
+        "caption": "A flesh golem was a type of golem, a ghoulish, macabre horror assembled from the body parts of various creatures."
     },
     {
         "name": "Flying Snake",
@@ -3217,7 +3320,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Flying snakes were brightly colored, winged serpents found in tropical locations and remote jungles such as Chult."
     },
     {
         "name": "Flying Sword",
@@ -3282,7 +3386,8 @@
         "damage_immunities": [
             "poison",
             "psychic"
-        ]
+        ],
+        "caption": "A magically animated flying sword dances through the air, fighting like a warrior that can\u00e2\u20ac\u2122t be injured."
     },
     {
         "name": "Frog",
@@ -3308,7 +3413,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "frog, any of various tailless amphibians belonging to the order Anura. Used strictly, the term may be limited to any member of the family Ranidae (true frogs), but more broadly the name frog is often used to distinguish the smooth-skinned, leaping anurans from squat, warty, hopping ones, which are called toads."
     },
     {
         "name": "Frost Giant",
@@ -3335,7 +3441,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "Frost giants, called isejotunen in their own language, were large giants that could be found in most cold environments of Faer\u00c3\u00bbn."
     },
     {
         "name": "Gargoyle",
@@ -3381,7 +3488,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Gargoyles were vicious predators imbued with magic."
     },
     {
         "name": "Gelatinous Cube",
@@ -3438,7 +3546,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A gelatinous cube, also known as an athcoid, was a transparent ooze composed of mindless, gelatinous matter in the shape of a cube or rhombohedron. They were especially favored by the drow god Ghaunadaur."
     },
     {
         "name": "Ghast",
@@ -3484,7 +3593,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Ghasts were a subtype of ghouls. Ghouls were undead humanoids who devoured the flesh of corpses."
     },
     {
         "name": "Ghost",
@@ -3566,7 +3676,8 @@
             "cold",
             "necrotic",
             "poison"
-        ]
+        ],
+        "caption": "Ghosts were the souls of a deceased sentient creature that had been bound to haunt a specific area, object, or creature that held significance to them when they were alive. Often this state of existence was because of a soul having been horrendously evil in life, their deaths being tremendously emotional, being denied a proper burial, or because they had unfinished business."
     },
     {
         "name": "Ghoul",
@@ -3610,7 +3721,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Ghouls were undead humanoids who devoured the flesh of corpses."
     },
     {
         "name": "Giant Ape",
@@ -3635,7 +3747,8 @@
         "xp": 2900,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant ape was an unusually large white girallon infamous for its voicelessness. Its scarred hide bore signs of many battles indicating its age and aggressive nature."
     },
     {
         "name": "Giant Badger",
@@ -3661,7 +3774,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant badgers were a squat, furry species of mustelid."
     },
     {
         "name": "Giant Bat",
@@ -3687,7 +3801,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant bats, also known as dire bats, and sometimes large bats, were giant bats the size of horses."
     },
     {
         "name": "Giant Boar",
@@ -3712,7 +3827,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant boars were wild relatives of the domestic giant pig. They were favored animals of the deities Gruumsh, Gwaeron Windstrom, Ilneval, Luthic, Rillifane Rallathil, Shargaas, and Yurtrus."
     },
     {
         "name": "Giant Centipede",
@@ -3738,7 +3854,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant centipedes were venomous, subterranean arthropods of giant size."
     },
     {
         "name": "Giant Constrictor Snake",
@@ -3764,7 +3881,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant constrictor snakes were large snakes found throughout Faer\u00c3\u00bbn. Common giant constrictor snake species encountered were anacondas, boas and reticulated pythons. They were one of the species counted as serpents."
     },
     {
         "name": "Giant Crab",
@@ -3790,7 +3908,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant crabs were a species of large crab."
     },
     {
         "name": "Giant Crocodile",
@@ -3815,7 +3934,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant crocodile was a larger and more powerful version of a crocodile."
     },
     {
         "name": "Giant Eagle",
@@ -3840,7 +3960,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant eagles were large-sized magical beasts that resembled massive eagles."
     },
     {
         "name": "Giant Elk",
@@ -3865,7 +3986,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant elks, otherwise known as giant stags, were a rare species of larger than usual deer."
     },
     {
         "name": "Giant Fire Beetle",
@@ -3891,7 +4013,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant fire beetles were nocturnal giant beetles."
     },
     {
         "name": "Giant Frog",
@@ -3917,7 +4040,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant frogs were monstrous varieties of the mundane animals of the same name."
     },
     {
         "name": "Giant Goat",
@@ -3942,7 +4066,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant goats were a rare, larger than usual species of goat."
     },
     {
         "name": "Giant Hyena",
@@ -3967,7 +4092,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant hyena was a type of pack animal known for its shrewdness and hunting skills and for its disturbing laugh-like call."
     },
     {
         "name": "Giant Lizard",
@@ -3993,7 +4119,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant lizard was a huge variety of lizard."
     },
     {
         "name": "Giant Octopus",
@@ -4019,7 +4146,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant octopus, also known as a cuttlefish, was a giant-sized breed of octopus found in many oceanic environments. Cuddlefish were the nemeses of ocean-going fishermen and sailors."
     },
     {
         "name": "Giant Owl",
@@ -4045,7 +4173,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant owls were magical creatures that appeared to be abnormally large owls. A number of them were servants of the gods Eldath, Finder Wyvernspur, and Rillifane Rallathil."
     },
     {
         "name": "Giant Poisonous Snake",
@@ -4071,7 +4200,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant poisonous snake was a larger and much more powerful version of an ordinary poisonous snake."
     },
     {
         "name": "Giant Rat",
@@ -4097,7 +4227,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant rats, also known as dire rats, were a species of large rodent."
     },
     {
         "name": "Giant Rat (Diseased)",
@@ -4123,7 +4254,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant diseased rats, also known as dire diseased rats, were a species of large diseased rodent."
     },
     {
         "name": "Giant Scorpion",
@@ -4149,7 +4281,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Monstrous scorpions or giant scorpions were a breed of arachnids known for their poisonous stingers. They were found in a variety of climates, but are most numerous in deserts."
     },
     {
         "name": "Giant Sea Horse",
@@ -4174,7 +4307,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant sea horses were a large version of their smaller kin."
     },
     {
         "name": "Giant Shark",
@@ -4200,7 +4334,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Megalodons, occasionally known as giant sharks, were an ancient monstrous species of white shark."
     },
     {
         "name": "Giant Spider",
@@ -4227,7 +4362,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant spiders, also known as monstrous spiders, were quite simply enormous versions of regular spiders. Existing in various types, there was no way to singularly describe their appearance; with various types ranging in size from that of a dog to a house. Giant versions of tarantulas existed, as did black widows, spitters, spinners, and all manner of others. Their appearances, habits, and environments all varied greatly. Goblins were known to employ them as mounts."
     },
     {
         "name": "Giant Toad",
@@ -4253,7 +4389,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant toads were monstrous varieties of the mundane animals of the same name."
     },
     {
         "name": "Giant Vulture",
@@ -4278,7 +4415,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant vultures were a species of larger than normal vultures."
     },
     {
         "name": "Giant Wasp",
@@ -4303,7 +4441,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant wasp was a monstrous version of the common wasp."
     },
     {
         "name": "Giant Weasel",
@@ -4329,7 +4468,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Giant weasels, also known as dire weasels, were a species of larger than normal weasels."
     },
     {
         "name": "Giant Wolf Spider",
@@ -4356,7 +4496,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A giant wolf spider, sometimes just referred to as a wolf spider, was a medium-sized beast that was smaller than a typical giant spider."
     },
     {
         "name": "Gibbering Mouther",
@@ -4388,7 +4529,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Gibbering mouthers were unnatural aberrations, nightmarish blobs of mouths and eyes."
     },
     {
         "name": "Glabrezu",
@@ -4427,7 +4569,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Glabrezus, or type III demons, were tanar'ri that specialized in the temptation of mortals, spreading corruption unseen like a virulent disease. Unlike succubi, who preyed on lust, glabrezus exploited the mortal desire for power in the many forms it took."
     },
     {
         "name": "Gladiator",
@@ -4452,7 +4595,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A gladiator was a warrior that fought other creatures for the amusement of others,[2] particularly in cultures where public warfare was especially popular. Gladiators of the Realms entered into this lifestyle for many reasons: great wealth, personal fame and accolades, or simply to satiate the bloodlust that drove them to always be the best combatant in the arena."
     },
     {
         "name": "Gnoll",
@@ -4478,7 +4622,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Gnolls were a humanoid race that most closely resembled human-hyena hybrids within Faer\u00c3\u00bbn. They were carnivorous humanoids, known for their savage culture and warlike ways."
     },
     {
         "name": "Goat",
@@ -4503,7 +4648,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Goats were common herd animals."
     },
     {
         "name": "Goblin",
@@ -4529,7 +4675,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Goblins were a race of small and numerous goblinoids common throughout Toril, often living in underground caverns near the surface known as lairs. The race was often, though not always, dominated by other goblinoids, most commonly hobgoblins. Goblins may have, in fact, been initially created by this related race to serve as scouts and infiltrators."
     },
     {
         "name": "Gold Dragon Wyrmling",
@@ -4558,7 +4705,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Gold dragons were the strongest and most majestic of the metallic dragons, and were considered the apex of the draconic race. Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons."
     },
     {
         "name": "Gorgon",
@@ -4590,7 +4738,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Gorgons were large magical beasts that resembled a bull covered in dusky metallic scales."
     },
     {
         "name": "Gray Ooze",
@@ -4651,7 +4800,8 @@
             "cold",
             "fire"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A gray ooze was a type of ooze, resembling wet stone or rock."
     },
     {
         "name": "Green Dragon Wyrmling",
@@ -4686,7 +4836,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Green dragons were master manipulators who reveled in corrupting lesser creatures and hoarding them like possessions."
     },
     {
         "name": "Green Hag",
@@ -4712,7 +4863,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Green hags, called shellycoats when they lived near rivers or swamps, were the most common types of hags, foul crones known for their deceitful ways and corrupting natures. Like dark druids, they were vile beings with a strong connection to natural world, and they preyed upon primal vices in order to sow anguish and drag all down into bestial savagery."
     },
     {
         "name": "Grick",
@@ -4740,7 +4892,8 @@
         "damage_resistances": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Gricks were large worm-like creatures that lived away from sunlight. Their head was composed of a sharp beak surrounded by four tentacles."
     },
     {
         "name": "Griffon",
@@ -4766,7 +4919,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Griffons were intelligent beasts with the body of a lion and the wings, forelegs, and head of an eagle."
     },
     {
         "name": "Grimlock",
@@ -4798,7 +4952,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Grimlocks were a race of monstrous humanoids that lived in the Underdark, the degenerated descendants of humans who had wandered into its depths centuries ago."
     },
     {
         "name": "Guard",
@@ -4823,7 +4978,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Guards were a highly trained military organization of fully-armored soldiers responsible for defending cities patrolling its surroundings."
     },
     {
         "name": "Guardian Naga",
@@ -4862,7 +5018,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Guardian nagas were immortal beings that often protected treasure, magical secrets, items, and lore that would be destructive should they ever fall into the wrong hands."
     },
     {
         "name": "Gynosphinx",
@@ -4903,7 +5060,8 @@
         ],
         "damage_immunities": [
             "psychic"
-        ]
+        ],
+        "caption": "A gynosphinx was a female sphinx and was the sole female sphinx subrace."
     },
     {
         "name": "Half-Red Dragon Veteran",
@@ -4932,7 +5090,8 @@
         "damage_resistances": [
             "fire"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A half-dragon was a cross between a dragon and another unrelated creature."
     },
     {
         "name": "Harpy",
@@ -4957,7 +5116,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A harpy was a malign monstrous humanoid winged creature."
     },
     {
         "name": "Hawk",
@@ -4982,7 +5142,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A hawk was a bird that was distinguished by its excellent vision, even in dark conditions."
     },
     {
         "name": "Hell Hound",
@@ -5010,7 +5171,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Hell hounds were fiery beasts found within Acheron and the Nine Hells. They were ferocious pack hunters that acted as faithful companions and dangerous pets across the multiverse."
     },
     {
         "name": "Hezrou",
@@ -5049,7 +5211,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Hezrous , or type II demons, were tanar'ri of foul temper and fouler stench, known for their simplistic desires and easily directed personalities. They often supervised lesser demonic entities while working as the toadies of more sinister threats."
     },
     {
         "name": "Hill Giant",
@@ -5074,7 +5237,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Hill giants, called haugjotunen in their own language, were voracious, primitive giants defined by their gluttony. They were the least of the commonly recognized \"true giants\", the shortest in stature, weakest in mind, and lowest in rank according to the Ordning. Granted domain over the rolling hills by Annam All-Father millennia ago, they were masters of its slopes and deeply connected to the land itself."
     },
     {
         "name": "Hippogriff",
@@ -5099,7 +5263,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Hippogriffs were chimeric magical beasts related to griffons. However, they possessed the physical characteristics of horses, rather than lions and did not share the same intelligence. The origins of these beasts has been lost to time."
     },
     {
         "name": "Hobgoblin",
@@ -5125,7 +5290,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Hobgoblins were larger, stronger, smarter, and more menacing forms of goblinoids than goblins, but not as powerful as bugbears."
     },
     {
         "name": "Homunculus",
@@ -5164,7 +5330,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A homunculus was a tiny construct created by a spellcaster to act as a spy and servant."
     },
     {
         "name": "Horned Devil",
@@ -5202,7 +5369,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Cornugons, also known as horned devils were greater baatezu that served as the first-rate defense troops of the Nine Hells. They were also known as malebranche \u00e2\u20ac\u201d not to be confused with another type of devil with the same name."
     },
     {
         "name": "Hunter Shark",
@@ -5228,7 +5396,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Smaller than a Giant Shark but larger and fiercer than a Reef Shark, a Hunter shark haunts deep waters. It usually hunts alone, but multiple Hunter sharks might feed in the same area. A fully grown Hunter shark is 15 to 20 feet long."
     },
     {
         "name": "Hydra",
@@ -5254,7 +5423,8 @@
         "xp": 3900,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A hydra was reptilian magical beast that had anywhere from five to twelve heads. And very rarely may even have up to fifty heads."
     },
     {
         "name": "Hyena",
@@ -5279,7 +5449,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A hyena was a type of pack animal known for its shrewdness and hunting skills and for its disturbing laugh-like call."
     },
     {
         "name": "Ice Devil",
@@ -5317,7 +5488,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Gelugons, also called ice devils, led the infernal legions of the Nine Hells. They were cold-hearted commanders that despised weakness and saw frailer devils as entirely expendable."
     },
     {
         "name": "Ice Mephit",
@@ -5355,7 +5527,8 @@
         "damage_immunities": [
             "cold",
             "poison"
-        ]
+        ],
+        "caption": "Ice mephits were mephits composed of air and water. They were cold and indifferent, and the most cruel of all the mephits."
     },
     {
         "name": "Imp",
@@ -5393,7 +5566,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Imps were vicious, manipulative fiends that were among the weakest beings in the infernal hierarchy. They were considered minor, non-baatezu devils, whose job was to assist and corrupt mortals whom their masters wanted groomed to the side of evil."
     },
     {
         "name": "Invisible Stalker",
@@ -5464,7 +5638,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Invisible stalkers were solitary creatures native to the Elemental Plane of Air."
     },
     {
         "name": "Iron Golem",
@@ -5526,7 +5701,8 @@
             "poison",
             "psychic",
             "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-        ]
+        ],
+        "caption": "Iron golems were constructs made entirely out of iron."
     },
     {
         "name": "Jackal",
@@ -5551,7 +5727,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Jackals were common desert canines. Some desert tribes considered the jackal a natural example of wisdom and cunning."
     },
     {
         "name": "Killer Whale",
@@ -5577,7 +5754,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Killer whales, also known as orcas, were relatively small whales that were vicious marine predators."
     },
     {
         "name": "Knight",
@@ -5602,7 +5780,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A knight was an armored, mounted warrior serving a lord in feudal societies."
     },
     {
         "name": "Kobold",
@@ -5628,7 +5807,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Kobolds were aggressive, insular, yet industrious small humanoid creatures. They were noted for their skill at building traps and preparing ambushes, and mining. They were distantly related to dragons and urds and were often found serving as their minions."
     },
     {
         "name": "Kraken",
@@ -5668,7 +5848,8 @@
         "damage_immunities": [
             "lightning",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "Krakens , called lopok by the locathah, were large, ocean-dwelling magical beasts. Krakens were feared across the known world. They were creatures that dwell in the depths of the ocean and came to the surface to prey upon ships and their crews."
     },
     {
         "name": "Lamia",
@@ -5694,7 +5875,8 @@
         "xp": 1100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Lamias were dangerous monstrosities that lived to bring strife and suffering into the world. They were cruel and seductive beings who lured their victims closer to doom with illusions of beauty."
     },
     {
         "name": "Lemure",
@@ -5741,7 +5923,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Lemures, also called squidges in infernal slang, were among the weakest of the baatezu devils. They served as the shock troops and slave labor force of the devils, and were made from the wicked, cruel, and selfish mortals that found their souls in Hell. Classifed as least devils by some scholars but not even worthy of classification by most others, lemures were at the bottom of the infernal hierarchy, sitting just below the bloated nupperibos."
     },
     {
         "name": "Lich",
@@ -5800,7 +5983,8 @@
         "damage_immunities": [
             "poison",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "A lich was an almost universally evil form of undead spellcaster of great power, usually a wizard, but also possibly a sorcerer or cleric. Liches were feared by mortal beings for their malign magic, their intelligence, and their willingness to embrace undeath for a chance to live forever (or rather, exist forever)."
     },
     {
         "name": "Lion",
@@ -5825,7 +6009,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Lions were powerful feline predators that travelled and hunted in large groups, known as prides."
     },
     {
         "name": "Lizard",
@@ -5851,7 +6036,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Lizards were scaly reptilian animals that came in a variety of sizes, colors, and patterns."
     },
     {
         "name": "Lizardfolk",
@@ -5876,7 +6062,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Lizardfolk, also known as lizard men, were a race of reptilian humanoids native to Toril."
     },
     {
         "name": "Mage",
@@ -5901,7 +6088,8 @@
         "xp": 2300,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Mages were arcane spellcaster that learned to practice the Art through research and learning. They drew upon the Weave through a broad range of magical spells and abilities learned through years of practice and training. Through the spells they prepared and memorized, powerful mages could take control over a battlefield, commanding fire and lightning as easily as others wielded sword and shield. They could learn and perform intricate rituals of arcane power that drew in entities from across the multiverse or peer into future potentialities that have not yet come to pass."
     },
     {
         "name": "Magma Mephit",
@@ -5938,7 +6126,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "A magma mephit, or a lava mephit, was a mephit composed of earth and fire. They emitted a red glow and were slow to understand other creatures."
     },
     {
         "name": "Magmin",
@@ -5968,7 +6157,8 @@
         ],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Magmins, also known as magmen, were fire elementals summoned and bound to the Material plane by magic. They craved combustion, and were known for being unpredictable."
     },
     {
         "name": "Mammoth",
@@ -5993,7 +6183,8 @@
         "xp": 2300,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Mammoths were enormous ancient elephants covered in thick fur. Those with the thickest fur were known as woolly mammoths."
     },
     {
         "name": "Manticore",
@@ -6019,7 +6210,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A manticore was a large, magical beast with the body of a lion, dragon-like wings, and a somewhat humanoid head. Its long tail had a cluster of deadly spikes, which the creature could launch at its foes as weapons. It had incredibly tough claws and fangs."
     },
     {
         "name": "Marilith",
@@ -6058,7 +6250,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Mariliths, also known as type V demons, were militant tanar'ri known for their ability to utilize cold logic. They served as the brilliant tacticians of Abyssal hordes, advisors to demonic nobility, and in some cases acted as serpentine demon queens."
     },
     {
         "name": "Mastiff",
@@ -6083,7 +6276,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A mastiff was a large breed of dog. Halflings and other small creatures sometimes used them as mounts. Large mastiffs were often used as war dogs, which were trained to hunt, kill, and protect their masters."
     },
     {
         "name": "Medusa",
@@ -6109,7 +6303,8 @@
         "xp": 2300,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A medusa was a monstrous and hateful creature that was capable of petrifying any creature that met its gaze."
     },
     {
         "name": "Merfolk",
@@ -6134,7 +6329,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Merfolk were aquatic humanoids with upper body, arm and head of a human and legs resembling the tail of a fish."
     },
     {
         "name": "Merrow",
@@ -6160,7 +6356,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Merrow were undersea merfolk-like monsters from the Abyss who terrorized the waters. Demogorgon often sent his merrow to the Material Plane to bully life there."
     },
     {
         "name": "Mimic",
@@ -6194,7 +6391,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Mimics were strange predators that assumed the form of mundane furnishings and household objects in order to attract prey."
     },
     {
         "name": "Minotaur",
@@ -6220,7 +6418,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Minotaurs were a strong and combative race of monstrous humanoids resembling bull\u00e2\u20ac\u201chuman hybrids. They were rare in Faer\u00c3\u00bbn, outside of their labyrinth homes in the Underdark."
     },
     {
         "name": "Minotaur Skeleton",
@@ -6261,7 +6460,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A minotaur skeleton. A skeleton created from the corpse of a minotaur. Powerful skeletons were created from great warriors who retained all of their fighting skills and enslaved to magical circlets."
     },
     {
         "name": "Mule",
@@ -6286,7 +6486,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Mules were pack animals, a cross between horses and donkeys, specifically bred for the purposes of labor."
     },
     {
         "name": "Mummy",
@@ -6345,7 +6546,8 @@
         "damage_immunities": [
             "necrotic",
             "poison"
-        ]
+        ],
+        "caption": "Mummies were undead creatures created from a preserved mummified corpse animated by the dark gods of the desert."
     },
     {
         "name": "Mummy Lord",
@@ -6403,7 +6605,8 @@
             "necrotic",
             "poison",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "Mummy lords were a form of undead that rose from the remains of particularly powerful and evil beings."
     },
     {
         "name": "Nalfeshnee",
@@ -6442,7 +6645,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Nalfeshnees or type IV demons were tanar'ri that acted as the ruling authority for many beings within the Abyss. They were the slothful and gluttonous creatures that acted as the nobility of the Abyss, bickering amongst each other for control of small fiefdoms with pretensions of being refined rulers."
     },
     {
         "name": "Night Hag",
@@ -6478,7 +6682,8 @@
             "fire",
             "bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Night hags were wicked witches that dwelt in the Lower Planes whose nightmarish minds and abilities made them appear to embody the ideals of the hag race. They were known for their ability to induce horrific dreams and for harvesting soul larvae, which were used as currency in the Abyss, Blood Rift, and Nine Hells."
     },
     {
         "name": "Nightmare",
@@ -6505,7 +6710,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Nightmares, sometimes called hell horses or demon horses, were fiendish equines named after the terrible dreams suffered by those that encountered them. They were wicked creatures best known for serving as mounts under a variety of malevolent beings throughout the Lower planes."
     },
     {
         "name": "Noble",
@@ -6530,7 +6736,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Nobles wield great authority and Influence as Members of the upper class, possessing Wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners."
     },
     {
         "name": "Ochre Jelly",
@@ -6592,7 +6799,8 @@
         "damage_immunities": [
             "lightning",
             "slashing"
-        ]
+        ],
+        "caption": "Ochre jellies were a dangerous variety of ooze."
     },
     {
         "name": "Octopus",
@@ -6618,7 +6826,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Octopuses were a breed of multi-tentacled cephalopod that lived within the ocean."
     },
     {
         "name": "Ogre",
@@ -6644,7 +6853,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Ogres were a race of giant-kin."
     },
     {
         "name": "Ogre Zombie",
@@ -6678,7 +6888,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A zombie was an undead creature usually created by the re-animation of a corpse. Unlike animated skeletons, zombies still retained some flesh on their bodies and gave off a horrid, rank smell. They were almost mindless, but could be given simple commands, such as \"kill anyone who opens the treasure chest.\" Virtually any solid creature could be turned into a zombie; in addition to humanoids, troglodytes, minotaurs, ogres, and even beholders could be turned into zombies."
     },
     {
         "name": "Oni",
@@ -6704,7 +6915,8 @@
         "xp": 2900,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Oni were violent spirit creatures with great strength and inherent magical abilities, prevalent in the eastern lands of Kara-Tur."
     },
     {
         "name": "Orc",
@@ -6730,7 +6942,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Orcs were a race of humanoids that had been a threat to the civilized cultures of Toril, particularly Faer\u00c3\u00bbn, for as long as any could remember. This changed somewhat in the years preceding and immediately after the Spellplague, when a horde of mountain orcs under the command of King Obould Many-Arrows unified into a single kingdom, one that was remarkably civilized."
     },
     {
         "name": "Otyugh",
@@ -6756,7 +6969,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Otyughs were a type of gulguthra, strange aberrations that dwelt underground and delighted in the eating of filth and offal."
     },
     {
         "name": "Owl",
@@ -6782,7 +6996,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Owls were nocturnal birds of prey."
     },
     {
         "name": "Owlbear",
@@ -6808,7 +7023,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "An owlbear was a large magical or fey beast that looked like a cross between an owl and a bear. Notoriously aggressive and ferocious, they were among the most feared predators in the wilderness."
     },
     {
         "name": "Panther",
@@ -6833,7 +7049,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Panthers were black-furred jungle wildcats similar to jaguars, leopards, and mountain lions."
     },
     {
         "name": "Pegasus",
@@ -6858,7 +7075,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Pegasi were a race of noble, winged equines."
     },
     {
         "name": "Phase Spider",
@@ -6884,7 +7102,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A phase spider was a magical beast akin to a predacious version of the ethereal filcher. Phase spiders were monstrous arachnid-kin that dwelt within the Ethereal Plane. They made quick forays into the natural world to snatch an unlucky creature to feed upon. Those stolen by phase spiders were never seen again and were regarded as unsolved disappearances."
     },
     {
         "name": "Pit Fiend",
@@ -6922,7 +7141,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Pit fiends were the quintessential tyrants and overlords of the baatezu, occupying the top of Hell's hierarchy. Having been cleansed within the Pit of Flame, pit fiends achieved levels of wickedness beyond that of ordinary devils, becoming beings of pure, unimaginable evil."
     },
     {
         "name": "Planetar",
@@ -6967,7 +7187,8 @@
             "radiant",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Planetars were an order of angels inhabiting the Celestial Planes. Truly awesome beings, they were defenders of truth and avengers of the fallen righteous. They were messengers of the gods and mighty generals of celestial armies. They were also known to help powerful mortals on missions of good, particularly those that involved battles with fiends. Along with solars, they were the most powerful of the celestials, apart from the celestial paragons. Planetars were known to be in service to the deities Deneir and Ilmater."
     },
     {
         "name": "Plesiosaurus",
@@ -6992,7 +7213,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A plesiosaurus was an aquatic carnivorous dinosaur."
     },
     {
         "name": "Poisonous Snake",
@@ -7018,7 +7240,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Poisonous snakes or serpents were reptilian animals that had no legs."
     },
     {
         "name": "Polar Bear",
@@ -7043,7 +7266,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Polar bears were a type of bear adapted to cold environs. They were favored by the polar god Ulutiu."
     },
     {
         "name": "Pony",
@@ -7068,7 +7292,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A pony is a type of small horse."
     },
     {
         "name": "Priest",
@@ -7093,7 +7318,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Priests bring the teachings of their gods to the Common folk. They are the spiritual leaders of Temples and shrines and often hold positions of Influence in their communities. Evil Priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good Society, overseeing depraved rites. A Priest typically has one or more acolytes to help with religious ceremonies and other sacred duties."
     },
     {
         "name": "Pseudodragon",
@@ -7120,7 +7346,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A pseudodragon was a small dragon-kin known to be playful but shy. Pseudodragons were not true dragons, but were highly valued for their use as wizard's familiars. They were also sometimes dispatched in times of need by an array of deities including Brandobaris, Erevan Ilesere, Gond, Gwaeron Windstrom, Marthammor Duin, Mystra, and Rillifane Rallathil."
     },
     {
         "name": "Purple Worm",
@@ -7147,7 +7374,8 @@
         "xp": 13000,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The purple worm was a monstrous subterranean creature akin to an enormous and bizarre earthworm."
     },
     {
         "name": "Quasit",
@@ -7186,7 +7414,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Quasits were demons with many noted similarities to imps, so much so they were thought to be their chaotic counterparts. Like glabrezus, they specialized in tempting mortals to acts of evil through promises of power, but rather than granting wishes, they gradually pushed mortal summoners towards depravity."
     },
     {
         "name": "Quipper",
@@ -7212,7 +7441,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A quipper was a general term for a wide variety of fish similar to piranhas that shared the trait of sharp teeth and gathering in large schools when hunting their unsuspecting prey."
     },
     {
         "name": "Rakshasa",
@@ -7242,7 +7472,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "Rakshasas were a dignified race of duplicitous outsiders that mostly dwelt on the Material Plane. They were reviled as devious sorcerers, political puppeteers and thought to be an embodiment of evil."
     },
     {
         "name": "Rat",
@@ -7268,7 +7499,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A rat was a long-tailed rodent, a species of animal. Rats with brown fur were favored by the Mulhorandi god Geb, while those with black fur were sacred to Loviatar. Rats of any variety were seen as signs of good omen to worshipers of Beshaba, Talona, and Yurtrus."
     },
     {
         "name": "Raven",
@@ -7293,7 +7525,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Ravens were black birds similar to crows."
     },
     {
         "name": "Red Dragon Wyrmling",
@@ -7322,7 +7555,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Red dragons were covetous, evil creatures, interested only in their own well-being, vanity and the extension of their treasure hoards. They were supremely confident of their own abilities and were prone to making snap decisions without any forethought. The largest and most powerful of the chromatic dragons, red dragons were also the most fearsome and cruel. These dragons delighted in ruin, death and destruction. They breathed a cone of fire."
     },
     {
         "name": "Reef Shark",
@@ -7348,7 +7582,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Smaller than giant sharks and Hunter sharks, reef sharks inhabit shallow waters and Coral Reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long."
     },
     {
         "name": "Remorhaz",
@@ -7378,7 +7613,8 @@
         "damage_immunities": [
             "cold",
             "fire"
-        ]
+        ],
+        "caption": "A remorhaz, also known as a polar worm or ice worm, was a monstrous beast resembling a cross between a worm and a centipede. A remorhaz was a creature that thrived in cold environments, particularly arctic regions."
     },
     {
         "name": "Rhinoceros",
@@ -7403,7 +7639,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A rhinoceros (also called a rhino for short) was an aggressive herbivorous animal known for having a horn on its snout."
     },
     {
         "name": "Riding Horse",
@@ -7428,7 +7665,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Horses on Toril came in a number of breeds, of varying size and demeanor. They were often used by humanoid races for riding, the pulling of carts and wagons or other forms of work."
     },
     {
         "name": "Roc",
@@ -7453,7 +7691,8 @@
         "xp": 7200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Rocs were gargantuan birds of prey that inhabited the highest mountains in warm and subtropical regions. As large as these great birds were, they paled in both size and ferocity to the mighty Zakharan rocs of the Land of Fate."
     },
     {
         "name": "Roper",
@@ -7479,7 +7718,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Ropers were ambush hunters that evolved in the underworld.[3] They were favored by the drow god Ghaunadaur."
     },
     {
         "name": "Rug of Smothering",
@@ -7544,7 +7784,8 @@
         "damage_immunities": [
             "poison",
             "psychic"
-        ]
+        ],
+        "caption": "Rugs of smothering were magically animated rugs that were commonly employed as traps. They attacked by trapping and constraining their victims."
     },
     {
         "name": "Rust Monster",
@@ -7570,7 +7811,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A rust monster was a creature that corroded and ate metal. They were favored by the Mulhorandi god Geb, the dwarven god Abbathor, the gnomish god Flandal Steelskin, and the Duergar gods Laduguer and Deep Duerra."
     },
     {
         "name": "Saber-Toothed Tiger",
@@ -7595,7 +7837,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Saber-toothed tigers, also known as smilodons, were an ancient dire species of cat whose existence persisted in some places. Despite their name, these creatures were in fact not closely related to tigers and were only distantly related to the more modern feline species of the Realms."
     },
     {
         "name": "Sahuagin",
@@ -7621,7 +7864,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Sahuagin were a fish-like monstrous humanoid species that lived in oceans, seas, underground lakes, and underwater caves."
     },
     {
         "name": "Salamander",
@@ -7653,7 +7897,8 @@
         ],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Salamanders were large elemental, reptilian humanoids. They were counted as serpentfolk by other Scaled Ones. Despite the names, salamanders were not related to frost salamanders."
     },
     {
         "name": "Satyr",
@@ -7678,7 +7923,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Satyrs, also known as fauns or the Free Folk, were fey creatures that delighted in singing, dancing, feasting, and debauchery."
     },
     {
         "name": "Scorpion",
@@ -7704,7 +7950,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The mundane variety of scorpion was a type of arachnid found all over Faer\u00c3\u00bbn."
     },
     {
         "name": "Scout",
@@ -7729,7 +7976,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A scout is a class similar to a rogue or ranger, preferring to stay hidden and attack from a distance rather than up close and personal. They have varying roles, from leading an army through unknown terrain to working as a missionary going solo to learn terrain for the payer. Usually they wear leather armor, as they rely more on speed and agility to out maneuver an opponent."
     },
     {
         "name": "Sea Hag",
@@ -7755,7 +8003,8 @@
         "xp": 450,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Sea hags were the most repulsive and wretched of hags and were prideful in their gruesome appearance. The wicked fey lived near or within large bodies of water and the unfortunate souls that set eyes on them were often feasted on shortly after."
     },
     {
         "name": "Sea Horse",
@@ -7780,7 +8029,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A seahorse is any of 46 species of small marine fish in the genus Hippocampus. Having a head and neck suggestive of a horse, seahorses also feature segmented bony armour, an upright posture and a curled prehensile tail."
     },
     {
         "name": "Shadow",
@@ -7859,7 +8109,8 @@
         "damage_immunities": [
             "necrotic",
             "poison"
-        ]
+        ],
+        "caption": "Shadows were a type of incorporeal undead."
     },
     {
         "name": "Shambling Mound",
@@ -7906,7 +8157,8 @@
         ],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "A shambling mound was a large, animated plant with predatory tendencies. It was also known as a shambler."
     },
     {
         "name": "Shield Guardian",
@@ -7961,7 +8213,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A shield guardian was a powerful construct created to defend arcane spellcasters. They were called aegiskeryn in Elven."
     },
     {
         "name": "Shrieker",
@@ -8003,7 +8256,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A shrieker was a variant of the violet fungus known for the strange and loud noises it emitted to attract prey."
     },
     {
         "name": "Silver Dragon Wyrmling",
@@ -8032,7 +8286,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "Silver dragons, sometimes referred to as shield dragons,[9] were a breed of metallic dragon. A silver dragon enjoyed the company of humans and elves so much that it would often take the form of a human or elf and live among them for the majority of its life. However, it should be noted that silvers, like all dragons, believed themselves the most superior creatures in the world. However, apart from the ability to fly, which they enjoyed greatly, they tended to prefer the physical forms of humanoids for everyday life."
     },
     {
         "name": "Skeleton",
@@ -8073,7 +8328,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Skeletons were undead animated corpses similar to zombies, but completely devoid of flesh and did not feed on the living. They could be made from virtually any solid creature, and as such their size and power varied widely. In addition to the basic humanoid skeleton, there were also skeletons created from wolves, trolls, ettins and even giants."
     },
     {
         "name": "Solar",
@@ -8126,7 +8382,8 @@
         "damage_immunities": [
             "necrotic",
             "poison"
-        ]
+        ],
+        "caption": "Solars were the most powerful of all the angels and indeed of all the celestials. Described by some as truly godlike, only the celestial paragons were more glorious and powerful. Solars never took their own worshipers. Instead, they often served as the direct hand of the divine being to whom they owed their allegiance. Even the demon lords feared these holy celestial beings. Deities known to employ solars as stewards included Corellon, Horus-Re, Ilmater, and Milil."
     },
     {
         "name": "Specter",
@@ -8208,7 +8465,8 @@
         "damage_immunities": [
             "necrotic",
             "poison"
-        ]
+        ],
+        "caption": "Specters (also spelled spectres) were undead, incorporeal creatures that resembled ghosts."
     },
     {
         "name": "Spider",
@@ -8234,7 +8492,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A spider was a type of arthropod. Spiders were found all over Faer\u00c3\u00bbn. A large number of hand-sized venomous spiders would sometimes group themselves into a swarm."
     },
     {
         "name": "Spirit Naga",
@@ -8273,7 +8532,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Spirit nagas were the most powerful type of naga and were akin to witches among other naga races."
     },
     {
         "name": "Sprite",
@@ -8298,7 +8558,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Sprites were the warrior relatives of pixies. They were fierce defenders of good wherever they dwelt, and were also firm judges of other creatures' hearts and intentions. The term \"sprite\" actually had two meanings: the first meant the specific race of tiny warriors, while the second use referred to the group of tiny, insect-featured fey that the specific kind belonged to."
     },
     {
         "name": "Spy",
@@ -8323,7 +8584,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
     },
     {
         "name": "Steam Mephit",
@@ -8358,7 +8620,8 @@
         "damage_immunities": [
             "fire",
             "poison"
-        ]
+        ],
+        "caption": "Steam mephits were mephits composed of water and fire. They left trails of hot water when they moved, and considered themselves the lords of all mephits."
     },
     {
         "name": "Stirge",
@@ -8384,7 +8647,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Stirges, also called Subawa Te \u00e2\u20ac\u201c \"soul drum water eater\" in the Kukalatu language of the Malatran Plateau, were a type of a tiny magical beast that fed upon the blood of other creatures."
     },
     {
         "name": "Stone Giant",
@@ -8410,7 +8674,8 @@
         "xp": 2900,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Stone giants, called steinjotunen in their own language, were a reclusive and artistic race of giants that lived in underground and mountainous environments."
     },
     {
         "name": "Stone Golem",
@@ -8471,7 +8736,8 @@
             "poison",
             "psychic",
             "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine"
-        ]
+        ],
+        "caption": "Stone golems were constructed from a single piece of carefully chiseled stone. The most elegant stone golems were used as both guardians and art pieces in a magical building."
     },
     {
         "name": "Storm Giant",
@@ -8501,7 +8767,8 @@
         "damage_immunities": [
             "lightning",
             "thunder"
-        ]
+        ],
+        "caption": "Storm giants, known as uvarjotunen in their own language, were one of the most intelligent and respected races of giants."
     },
     {
         "name": "Succubus/Incubus",
@@ -8533,7 +8800,8 @@
             "poison",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A succubus was once known to be a type of demon, a beautiful lesser breed of tanar'ri from the Infinite Layers of the Abyss. They existed to seduce and tempt mortals and ultimately slay them and take their life energy back to the Abyss. In the 15th century DR, circa 1479 DR, they were instead considered to be a form of devil of the Nine Hells, and they tempted mortals into villainy. However, after the Second Sundering of 1487 DR, they were known as simply fiends, found across all the Lower Planes and serving all kinds of evil. The male counterpart of this creature was called an incubus. Legend held that incubi and succubi were wholly separate sexes, and the males were significantly rarer than the female of their kind. In fact, with their shapechanging powers, incubi and succubi could both change their sex with ease, though most had a preference for one or the other."
     },
     {
         "name": "Swarm of Bats",
@@ -8604,7 +8872,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Bats were a group of wild, flying animals of generally small size that fed on other small mammals, insects, reptiles, or fruit. Although the majority of bats were small, a few larger varieties existed. Bats were almost all nocturnal."
     },
     {
         "name": "Swarm of Beetles",
@@ -8675,7 +8944,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Beetles were insects found in many places and variations on Toril, often in giant sizes."
     },
     {
         "name": "Swarm of Centipedes",
@@ -8746,7 +9016,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Centipedes are predatory arthropods belonging to the class Chilopoda of the subphylum Myriapoda, an arthropod group which also includes millipedes and other multi-legged creatures. Centipedes are elongated segmented (metameric) creatures with one pair of legs per body segment. All centipedes are venomous and can inflict painful bites, injecting their venom through pincer-like appendages known as forcipules. Despite the name, centipedes can have a varying number of legs, ranging from 30 to 382. Centipedes always have an odd number of pairs of legs; no centipede has exactly 100 legs. Like spiders and scorpions, centipedes are predominantly carnivorous."
     },
     {
         "name": "Swarm of Insects",
@@ -8817,7 +9088,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "The swarm is made up of many individual insects that act together as a single entity. Their bites occur simultaneously when the swarm attacks. The insects in the swarm have wings and can climb vertical surfaces. Insects in the swarm have hard exoskeletons that provides them with protection during combat."
     },
     {
         "name": "Swarm of Poisonous Snakes",
@@ -8888,7 +9160,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Poisonous snakes or serpents were reptilian animals that had no legs."
     },
     {
         "name": "Swarm of Quippers",
@@ -8959,7 +9232,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A quipper was a general term for a wide variety of fish similar to piranhas that shared the trait of sharp teeth and gathering in large schools when hunting their unsuspecting prey."
     },
     {
         "name": "Swarm of Rats",
@@ -9030,7 +9304,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A rat was a long-tailed rodent, a species of animal. Rats with brown fur were favored by the Mulhorandi god Geb, while those with black fur were sacred to Loviatar. Rats of any variety were seen as signs of good omen to worshipers of Beshaba, Talona, and Yurtrus."
     },
     {
         "name": "Swarm of Ravens",
@@ -9100,7 +9375,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Ravens were black birds similar to crows."
     },
     {
         "name": "Swarm of Spiders",
@@ -9166,7 +9442,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A spider was a type of arthropod. Spiders were found all over Faer\u00c3\u00bbn. A large number of hand-sized venomous spiders would sometimes group themselves into a swarm."
     },
     {
         "name": "Swarm of Wasps",
@@ -9237,7 +9514,8 @@
             "piercing",
             "slashing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A wasp is any insect of the narrow-waisted suborder Apocrita of the order Hymenoptera which is neither a bee nor an ant; this excludes the broad-waisted sawflies (Symphyta), which look somewhat like wasps, but are in a separate suborder. The wasps do not constitute a clade, a complete natural group with a single ancestor, as bees and ants are deeply nested within the wasps, having evolved from wasp ancestors. Wasps that are members of the clade Aculeata can sting their prey."
     },
     {
         "name": "Tarrasque",
@@ -9288,7 +9566,8 @@
             "fire",
             "poison",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
-        ]
+        ],
+        "caption": "The tarrasque was the most terrible creature known to inhabit the Prime Material Plane. The beast was a full 50\u00e2\u20ac\u00affeet (15\u00e2\u20ac\u00afmeters) tall and 70\u00e2\u20ac\u00affeet (21\u00e2\u20ac\u00afmeters) long quadruped with a long tail, reflective carapace, and two large horns on its head. Supposedly, there was only one tarrasque, which slumbered within the world's core. No one could predict when it would next awake. The tarrasque was irreversibly tied to the Prime by its nature. As a result, the most one could hope to do was put the creature to sleep within the core, holding it off for a while longer. However, ancient texts seemed to indicate that there might be a way to finally and ultimately deal with the creature, if one could somehow deceive it, luring it into another plane and sealing it there."
     },
     {
         "name": "Thug",
@@ -9313,7 +9592,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Thugs are ruthless enforcers Skilled at Intimidation and violence. They work for money and have few scruples."
     },
     {
         "name": "Tiger",
@@ -9339,7 +9619,8 @@
         "xp": 200,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Tigers were an uncommon species of large cat."
     },
     {
         "name": "Treant",
@@ -9369,7 +9650,8 @@
             "bludgeoning",
             "piercing"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Treants were a wide variety of awakened trees."
     },
     {
         "name": "Tribal Warrior",
@@ -9394,7 +9676,8 @@
         "xp": 25,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Tribal Warriors live beyond civilization, most often subsisting on Fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest Warrior of the tribe or a tribe member blessed by the gods."
     },
     {
         "name": "Triceratops",
@@ -9419,7 +9702,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A triceratops was a gargantuan, herbivorous, herd dinosaur, also known as three horn by the inhabitants of the Malatran Plateau."
     },
     {
         "name": "Troll",
@@ -9445,7 +9729,8 @@
         "xp": 1800,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Trolls were a ravenous, predatory species of giant humanoid found throughout almost all the regions and types of climates in Faer\u00c3\u00bbn, from arctic wastes to tropical jungles, and came in several sub-species. They were uncivilized, monstrous creatures with voracious appetites that roamed from one area to the next feeding upon whatever they could. While some classified them as giants, trolls had no confirmed relation to either Annam All-Father or Othea and did not qualify as either true giants or giant-kin."
     },
     {
         "name": "Tyrannosaurus Rex",
@@ -9470,7 +9755,8 @@
         "xp": 3900,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A tyrannosaurus rex, sometimes improperly called a fang titan drake, or as gnasher in the Living Jungle of Malatran Plateau, was a carnivorous species of dinosaur."
     },
     {
         "name": "Unicorn",
@@ -9514,7 +9800,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A unicorn was a mysterious and majestic magical beast resembling a horse with a horn protruding from its forehead."
     },
     {
         "name": "Vampire, Bat Form",
@@ -9543,7 +9830,8 @@
             "necrotic",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Vampires were a type of undead that fed on blood. They were one of the most feared and powerful undead creatures."
     },
     {
         "name": "Vampire, Mist Form",
@@ -9572,7 +9860,8 @@
             "necrotic",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Vampires were a type of undead that fed on blood. They were one of the most feared and powerful undead creatures."
     },
     {
         "name": "Vampire Spawn",
@@ -9601,7 +9890,8 @@
             "necrotic",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Vampire spawn were undead created by vampires."
     },
     {
         "name": "Vampire, Vampire Form",
@@ -9630,7 +9920,8 @@
             "necrotic",
             "bludgeoning, piercing, and slashing from nonmagical weapons"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Vampires were a type of undead that fed on blood. They were one of the most feared and powerful undead creatures."
     },
     {
         "name": "Veteran",
@@ -9655,7 +9946,8 @@
         "xp": 700,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Combat veterans are experienced and battle-hardened warlords who have been through perils that should have killed them and lived to tell the tale. As a result, combat veterans have a measure of training earned not through study or practice, but actual experience on the battlefield, giving them an unusually improvised methodology that has proven very effective at keeping them alive. While combat veterans might not be as inspirational in a purely charismatic way as some warlords, they exude confidence in their men just by the very fact that, no matter what the world has thrown at them, the combat veteran still stands ready for battle."
     },
     {
         "name": "Violet Fungus",
@@ -9697,7 +9989,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A violet fungus was a type of subterranean fungus creature that could be dangerous to adventurers."
     },
     {
         "name": "Vrock",
@@ -9736,7 +10029,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Vrocks, or type I demons were tanar'ri with a taste for carnage and human flesh that appeared to be humanoid vultures. They were known among Abyssal denizens as untrustworthy and flighty creatures ruled by greed, but their selfishness and fractious natures were paradoxically paired with uncanny synchronization."
     },
     {
         "name": "Vulture",
@@ -9761,7 +10055,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Vultures were a common species of bird."
     },
     {
         "name": "Warhorse",
@@ -9786,7 +10081,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Horses on Toril came in a number of breeds, of varying size and demeanor. They were often used by humanoid races for riding, the pulling of carts and wagons or other forms of work."
     },
     {
         "name": "Warhorse Skeleton",
@@ -9827,7 +10123,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Skeletons were undead animated corpses similar to zombies, but completely devoid of flesh and did not feed on the living. They could be made from virtually any solid creature, and as such their size and power varied widely. In addition to the basic humanoid skeleton, there were also skeletons created from wolves, trolls, ettins and even giants."
     },
     {
         "name": "Water Elemental",
@@ -9899,7 +10196,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Water elementals were elemental creatures of water."
     },
     {
         "name": "Weasel",
@@ -9924,7 +10222,8 @@
         "xp": 10,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A weasel was a small furry mammal."
     },
     {
         "name": "Werebear, Bear Form",
@@ -9951,7 +10250,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
-        ]
+        ],
+        "caption": "Werebears were lycanthropic shapeshifters able to transform into a bipedal bear form. Their animal instincts guided them to protect the splendors of nature, while their humanoid minds told them to help travelers and provide aid to the weak."
     },
     {
         "name": "Werebear, Human Form",
@@ -9978,7 +10278,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
-        ]
+        ],
+        "caption": "Werebears were lycanthropic shapeshifters able to transform into a bipedal bear form. Their animal instincts guided them to protect the splendors of nature, while their humanoid minds told them to help travelers and provide aid to the weak."
     },
     {
         "name": "Werebear, Hybrid Form",
@@ -10005,7 +10306,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons"
-        ]
+        ],
+        "caption": "Werebears were lycanthropic shapeshifters able to transform into a bipedal bear form. Their animal instincts guided them to protect the splendors of nature, while their humanoid minds told them to help travelers and provide aid to the weak."
     },
     {
         "name": "Wereboar, Boar Form",
@@ -10032,7 +10334,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "A wereboar was a type of lycanthrope that could take the form of a boar or a boar-like hybrid. They were one of the more common breeds of lycanthrope in Faer\u00c3\u00bbn."
     },
     {
         "name": "Wereboar, Human Form",
@@ -10059,7 +10362,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "A wereboar was a type of lycanthrope that could take the form of a boar or a boar-like hybrid. They were one of the more common breeds of lycanthrope in Faer\u00c3\u00bbn."
     },
     {
         "name": "Wereboar, Hybrid Form",
@@ -10086,7 +10390,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "A wereboar was a type of lycanthrope that could take the form of a boar or a boar-like hybrid. They were one of the more common breeds of lycanthrope in Faer\u00c3\u00bbn."
     },
     {
         "name": "Wererat, Human Form",
@@ -10113,7 +10418,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Wererats (alternately known as ratmen) were lycanthropes common in urban areas. Wererats could transform into giant rats."
     },
     {
         "name": "Wererat, Hybrid Form",
@@ -10140,7 +10446,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Wererats (alternately known as ratmen) were lycanthropes common in urban areas. Wererats could transform into giant rats."
     },
     {
         "name": "Wererat, Rat Form",
@@ -10168,7 +10475,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Wererats (alternately known as ratmen) were lycanthropes common in urban areas. Wererats could transform into giant rats."
     },
     {
         "name": "Weretiger, Human Form",
@@ -10196,7 +10504,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Weretigers were lycanthropes with a tiger animal form."
     },
     {
         "name": "Weretiger, Hybrid Form",
@@ -10224,7 +10533,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Weretigers were lycanthropes with a tiger animal form."
     },
     {
         "name": "Weretiger, Tiger Form",
@@ -10252,7 +10562,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Weretigers were lycanthropes with a tiger animal form."
     },
     {
         "name": "Werewolf, Human Form",
@@ -10279,7 +10590,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Werewolves are a type of shape-changing monster in Faer\u00c3\u00bbn that are vulnerable to silver or magic weapons and can regenerate most wounds. Infected werewolves transform during the full moon involuntarily. Members of their race that are born with the curse can infect others and can control their shifting. Sel\u00c3\u00bbne has a group of non-evil werewolves that worship her, though most lycanthropes are drawn towards the worship of Malar. Werewolves are the most common type of lycanthropes in the world. They are found in all climates, both in the wild and hidden in civilization. Werewolf packs are organized similar to wolf packs, with a powerful alpha in command of the entire group. The moral and ethical outlook of the pack tends to follow that of the alpha."
     },
     {
         "name": "Werewolf, Hybrid Form",
@@ -10306,7 +10618,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Werewolves are a type of shape-changing monster in Faer\u00c3\u00bbn that are vulnerable to silver or magic weapons and can regenerate most wounds. Infected werewolves transform during the full moon involuntarily. Members of their race that are born with the curse can infect others and can control their shifting. Sel\u00c3\u00bbne has a group of non-evil werewolves that worship her, though most lycanthropes are drawn towards the worship of Malar. Werewolves are the most common type of lycanthropes in the world. They are found in all climates, both in the wild and hidden in civilization. Werewolf packs are organized similar to wolf packs, with a powerful alpha in command of the entire group. The moral and ethical outlook of the pack tends to follow that of the alpha."
     },
     {
         "name": "Werewolf, Wolf Form",
@@ -10333,7 +10646,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered"
-        ]
+        ],
+        "caption": "Werewolves are a type of shape-changing monster in Faer\u00c3\u00bbn that are vulnerable to silver or magic weapons and can regenerate most wounds. Infected werewolves transform during the full moon involuntarily. Members of their race that are born with the curse can infect others and can control their shifting. Sel\u00c3\u00bbne has a group of non-evil werewolves that worship her, though most lycanthropes are drawn towards the worship of Malar. Werewolves are the most common type of lycanthropes in the world. They are found in all climates, both in the wild and hidden in civilization. Werewolf packs are organized similar to wolf packs, with a powerful alpha in command of the entire group. The moral and ethical outlook of the pack tends to follow that of the alpha."
     },
     {
         "name": "White Dragon Wyrmling",
@@ -10362,7 +10676,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "White dragons (also known as ice dragons or glacial wyrms) were the weakest and most feral of the classic chromatic dragons."
     },
     {
         "name": "Wight",
@@ -10404,7 +10719,8 @@
         ],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A wight was an undead creature given a semblance of life through sheer violence and hatred. They could drain the life energy out of victims by touch, turning them into new wights upon death."
     },
     {
         "name": "Will-o'-Wisp",
@@ -10476,7 +10792,8 @@
         "damage_immunities": [
             "lightning",
             "poison"
-        ]
+        ],
+        "caption": "Will-o'-wisps were malicious creatures that appeared as torches or lanterns seen floating through swamps."
     },
     {
         "name": "Winter Wolf",
@@ -10503,7 +10820,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "A winter wolf was more akin to a worg than an actual wolf, being of wicked intelligence and cunning."
     },
     {
         "name": "Wolf",
@@ -10528,7 +10846,8 @@
         "xp": 50,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Wolves were canine pack hunters that were excellent trackers by scent. They were shrewd hunters and worked as a team, surrounding and tripping their prey. They were very common as companions for rangers and druids."
     },
     {
         "name": "Worg",
@@ -10554,7 +10873,8 @@
         "xp": 100,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A worg was a type of magical beast that resembled a normal wolf but was larger, intelligent, and had a fiendish countenance and glowing eyes."
     },
     {
         "name": "Wraith",
@@ -10631,7 +10951,8 @@
         "damage_immunities": [
             "necrotic",
             "poison"
-        ]
+        ],
+        "caption": "A wraith was an undead creature born of evil and darkness, despising light and all living things. They could drain the life from living creatures, turning them into new wraiths upon death. Wraiths were powerless in natural sunlight, appearing as a sinister, spectral figure robed in darkness. They had no visual features or appendages, except for their glowing red eyes."
     },
     {
         "name": "Wyvern",
@@ -10657,7 +10978,8 @@
         "xp": 2300,
         "damage_vulnerabilities": [],
         "damage_resistances": [],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "A wyvern was a large winged lizard, distantly related to the dragon, with a poisonous stinging tail and sharp teeth."
     },
     {
         "name": "Xorn",
@@ -10686,7 +11008,8 @@
         "damage_resistances": [
             "piercing and slashing from nonmagical weapons that aren't adamantine"
         ],
-        "damage_immunities": []
+        "damage_immunities": [],
+        "caption": "Xorns were strange elemental creatures from the Elemental Plane of Earth."
     },
     {
         "name": "Young Black Dragon",
@@ -10715,7 +11038,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Black dragons, also known as skull dragons, were far and away the most vile tempered and cruel of all chromatic dragons. They were solitary creatures that lived in the swamps and marshlands all around Toril, from the Flooded Forest in Sembia to the jungles of Chult."
     },
     {
         "name": "Young Blue Dragon",
@@ -10744,7 +11068,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Blue dragons, also known as storm dragons, were orderly creatures and are unusual for chromatics in that they keep fairly well-ordered, hierarchical societies. They were more likely to be mocking and manipulative than outrightly cruel or murderous to 'lesser' creatures, aided greatly by their natural talents for hallucination. They were infamous for tricking desert travelers into drinking sand or going miles out of their way to avoid nonexistent dust basins. Their breath weapon was a line of lightning or a large electrical discharge."
     },
     {
         "name": "Young Brass Dragon",
@@ -10773,7 +11098,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Brass dragons were the weakest of the metallic dragons, and also one of the most benign of all species of dragon. They loved to talk, to the exclusion of most else. They loved to engage friends and foes alike in hours of long-winded conversation. It was not unusual for a brass dragon to be fluent in several hundred different languages, although they obviously preferred to converse in Draconic whenever possible."
     },
     {
         "name": "Young Bronze Dragon",
@@ -10802,7 +11128,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "lightning"
-        ]
+        ],
+        "caption": "Bronze dragons were a race of metallic dragons. Curious and inquisitive, they possessed a strong sense of justice and did not tolerate any form of cruelty."
     },
     {
         "name": "Young Copper Dragon",
@@ -10831,7 +11158,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "acid"
-        ]
+        ],
+        "caption": "Copper dragons were a type of a metallic dragon."
     },
     {
         "name": "Young Gold Dragon",
@@ -10860,7 +11188,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Gold dragons were the strongest and most majestic of the metallic dragons, and were considered the apex of the draconic race. Graceful and wise, they were relentless and dedicated foes of evil, injustice, and foul play. While respected for their fairness and knowledge, they were also grim and reserved, and usually avoided casual contact with other dragons."
     },
     {
         "name": "Young Green Dragon",
@@ -10895,7 +11224,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "Green dragons were master manipulators who reveled in corrupting lesser creatures and hoarding them like possessions."
     },
     {
         "name": "Young Red Dragon",
@@ -10924,7 +11254,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "fire"
-        ]
+        ],
+        "caption": "Red dragons were covetous, evil creatures, interested only in their own well-being, vanity and the extension of their treasure hoards. They were supremely confident of their own abilities and were prone to making snap decisions without any forethought. The largest and most powerful of the chromatic dragons, red dragons were also the most fearsome and cruel. These dragons delighted in ruin, death and destruction. They breathed a cone of fire."
     },
     {
         "name": "Young Silver Dragon",
@@ -10953,7 +11284,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "Silver dragons, sometimes referred to as shield dragons,[9] were a breed of metallic dragon. A silver dragon enjoyed the company of humans and elves so much that it would often take the form of a human or elf and live among them for the majority of its life. However, it should be noted that silvers, like all dragons, believed themselves the most superior creatures in the world. However, apart from the ability to fly, which they enjoyed greatly, they tended to prefer the physical forms of humanoids for everyday life."
     },
     {
         "name": "Young White Dragon",
@@ -10982,7 +11314,8 @@
         "damage_resistances": [],
         "damage_immunities": [
             "cold"
-        ]
+        ],
+        "caption": "White dragons (also known as ice dragons or glacial wyrms) were the weakest and most feral of the classic chromatic dragons."
     },
     {
         "name": "Zombie",
@@ -11016,6 +11349,7 @@
         "damage_resistances": [],
         "damage_immunities": [
             "poison"
-        ]
+        ],
+        "caption": "A zombie was an undead creature usually created by the re-animation of a corpse. Unlike animated skeletons, zombies still retained some flesh on their bodies and gave off a horrid, rank smell. They were almost mindless, but could be given simple commands, such as \"kill anyone who opens the treasure chest.\" Virtually any solid creature could be turned into a zombie; in addition to humanoids, troglodytes, minotaurs, ogres, and even beholders could be turned into zombies."
     }
 ]

@@ -24,5 +24,6 @@
     "damage_resistances": [
         "bludgeoning, piercing, and slashing damage from nonmagical weapons"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "Gricks were large worm-like creatures that lived away from sunlight. Their head was composed of a sharp beak surrounded by four tentacles."
 }

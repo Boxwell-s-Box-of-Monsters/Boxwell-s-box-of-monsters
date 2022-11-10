@@ -25,5 +25,6 @@
     "damage_resistances": [
         "fire"
     ],
-    "damage_immunities": []
+    "damage_immunities": [],
+    "caption": "A half-dragon was a cross between a dragon and another unrelated creature."
 }

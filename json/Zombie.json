@@ -30,5 +30,6 @@
     "damage_resistances": [],
     "damage_immunities": [
         "poison"
-    ]
+    ],
+    "caption": "A zombie was an undead creature usually created by the re-animation of a corpse. Unlike animated skeletons, zombies still retained some flesh on their bodies and gave off a horrid, rank smell. They were almost mindless, but could be given simple commands, such as \"kill anyone who opens the treasure chest.\" Virtually any solid creature could be turned into a zombie; in addition to humanoids, troglodytes, minotaurs, ogres, and even beholders could be turned into zombies."
 }

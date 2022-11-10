@@ -68,5 +68,6 @@
     "damage_immunities": [
         "lightning",
         "poison"
-    ]
+    ],
+    "caption": "Will-o'-wisps were malicious creatures that appeared as torches or lanterns seen floating through swamps."
 }
