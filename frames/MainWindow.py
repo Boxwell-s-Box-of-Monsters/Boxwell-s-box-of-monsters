@@ -325,6 +325,10 @@ class MainWindow(tk.Tk):
         else:
             self.displayBlank()
 
+    def set_caption(value):
+        self.resultCapBox.delete(1.0, "END")
+        self.resultCapBox.insert("END", value)
+
     # Button Code
     def handleGetMonsterButton(self, characterList, diff, monsterWindow):
         minEncounterXP, maxEncounterXP = self.getAppropriateCR(characterList, diff)
