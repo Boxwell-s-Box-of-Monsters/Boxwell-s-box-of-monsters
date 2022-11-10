@@ -99,7 +99,8 @@ class MainWindow(tk.Tk):
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc, wraplength=1000, justify="left", bg=TAN, font=(FONT, 14),
+        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc,
+                                   wraplength=1000, justify="left", bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
         resultListLabel = tk.Label(resultFrame, textvariable=self.resultList, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
