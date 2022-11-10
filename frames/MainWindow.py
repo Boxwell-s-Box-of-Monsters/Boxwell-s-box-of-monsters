@@ -235,6 +235,7 @@ class MainWindow(tk.Tk):
         typeMult = 0
         for character in characterList:
             #cDmg = character['damage'].get()
+            cDmg = 'fire'
             #print(cDmg) # for testing purposes
             
             typeMult = 0
