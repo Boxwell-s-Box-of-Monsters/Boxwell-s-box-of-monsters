@@ -1,7 +1,6 @@
 import tkinter as tk
 import random
-from io import BytesIO
-from urllib.request import urlopen
+from os.path import exists
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
@@ -100,7 +99,7 @@ class MainWindow(tk.Tk):
         resultFrame = ResultFrame(self)
         resultLabel = tk.Label(resultFrame, textvariable=self.result, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
-        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc, wraplength=400, justify="left", bg=TAN, font=(FONT, 14),
+        resultLabelDesc = tk.Label(resultFrame, textvariable=self.resultDesc, wraplength=1000, justify="left", bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
         resultListLabel = tk.Label(resultFrame, textvariable=self.resultList, bg=TAN, font=(FONT, 14),
                                     fg=BLACK)
@@ -186,7 +185,7 @@ class MainWindow(tk.Tk):
         return i
 
     # Picks the best monsters for the encounter
-    def encounterGenerator(self, maxEncounterXP, potentialMonsters):
+    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters):
         index = self.randomMonsterPicker(potentialMonsters)
         currentEncounterXP = 0
         encounter = []
@@ -199,7 +198,7 @@ class MainWindow(tk.Tk):
         currentEncounterXP += int(potentialMonsters[index]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter((potentialMonsters[index]['xp'])-1, \
+        matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMonsters[index]['xp'])-1, \
                                                 potentialMonsters[index]['description'])
 
         # Adds the best monsters based on the paragon monster to the
