@@ -314,7 +314,9 @@ class MainWindow(tk.Tk):
 
     def printImage(self, response):
         # Display the updated monster's image
-        imgLoc = 'images/' + response['name'] + '.png'
+        imgLoc = 'images/' + response['name'] + '.png'        
+        if response['name'] == "Succubus/Incubus": # Cornercase naming convention
+            imgLoc = "images/Succubus+Incubus.png"
         if exists(imgLoc):
             im = Image.open(imgLoc).resize((200,200))
             newImage = ImageTk.PhotoImage(im)
