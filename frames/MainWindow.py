@@ -187,7 +187,7 @@ class MainWindow(tk.Tk):
         return i
 
     # Picks the best monsters for the encounter
-    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters):
+    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters, characterList):
         index = self.randomMonsterPicker(potentialMonsters)
         currentEncounterXP = 0
         encounter = []
@@ -195,7 +195,7 @@ class MainWindow(tk.Tk):
 
         # From the users description, add the paragon monster
         monsterQuantity += self.monstersMultiplied(potentialMonsters[index],
-                                                   currentEncounterXP, maxEncounterXP, monsterQuantity)
+                                                   currentEncounterXP, maxEncounterXP, monsterQuantity, characterList)
         encounter.append([potentialMonsters[index], monsterQuantity])
         currentEncounterXP += int(potentialMonsters[index]['xp']) * monsterQuantity
 
@@ -208,7 +208,7 @@ class MainWindow(tk.Tk):
         while len(matchingMonsters) > 0 and monsterQuantity < 10:
             # if the number of monsters that can be added is not 0, add it.
             newMonsters = self.monstersMultiplied(matchingMonsters[0],
-                                                  currentEncounterXP, maxEncounterXP, monsterQuantity)
+                                                  currentEncounterXP, maxEncounterXP, monsterQuantity, characterList)
             if newMonsters > 0:
                 encounter.append([matchingMonsters[0], newMonsters])
                 currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
@@ -221,7 +221,7 @@ class MainWindow(tk.Tk):
         return encounter
 
     # returns an integer for the number of monsters that can be added to the encounter for a specific monster
-    def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, monsterQuantity):
+    def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, monsterQuantity, characterList):
         # update xpMult according to how many monsters are already in the encounter
         addedMonsters = 0
         xpMult = 1
@@ -232,8 +232,28 @@ class MainWindow(tk.Tk):
         elif monsterQuantity+1 == 2:
             xpMult = 1.5
 
+        typeMult = 0
+        for character in characterList:
+            #cDmg = character['damage'].get()
+            #print(cDmg) # for testing purposes
+            
+            typeMult = 0
+            if cDmg in monster['damage_vulnerabilities']:
+                print("VULNERABLE-----------------------------------------------------")
+                typeMult += 0.5
+            elif cDmg in monster['damage_resistances']:
+                print("RESISTANT-----------------------------------------------------")
+                typeMult += 2
+            elif cDmg in monster['damage_immunities']:
+                print("IMMUNE-----------------------------------------------------")
+                typeMult += 4
+            else:
+                typeMult += 1
+        typeMult /= len(characterList)
+        print(str(monster['name']) + " " + str(typeMult)) # for testing purposes
+
         # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
-        acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
+        acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0) # typeMult multiplier will be added once working
         while acceptableXP and (monsterQuantity+addedMonsters < 10):
             addedMonsters += 1
             currentEncounterXP += int(monster['xp'])
@@ -308,7 +328,7 @@ class MainWindow(tk.Tk):
         responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
         # Get top result
         if len(responseList) > 0:
-            encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
+            encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList, characterList)
             responseText = self.printAdapter(encounter[0][0])
             self.printImage(encounter[0][0])
             responseList = self.printList(encounter)
