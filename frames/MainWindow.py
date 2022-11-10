@@ -1,5 +1,7 @@
 import tkinter as tk
-from os.path import exists
+import random
+from io import BytesIO
+from urllib.request import urlopen
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
@@ -20,7 +22,6 @@ from frames.ResultFrame import ResultFrame
 class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
-
         ############################
         # Setup Elastic Search
         ############################
@@ -172,20 +173,34 @@ class MainWindow(tk.Tk):
 
         return response
 
+    # Picks the index of a monster out of the list weighted based on score
+    def randomMonsterPicker(self, responseList):
+        totalScore = 0
+        for i in range(len(responseList)):
+            totalScore += responseList[0].meta.score
+        rand = random.random() * totalScore
+        i = -1
+        while rand > 0:
+            i += 1
+            rand -= responseList[0].meta.score
+        return i
+
     # Picks the best monsters for the encounter
-    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters):
+    def encounterGenerator(self, maxEncounterXP, potentialMonsters):
+        index = self.randomMonsterPicker(potentialMonsters)
         currentEncounterXP = 0
         encounter = []
         monsterQuantity = 0
 
         # From the users description, add the paragon monster
-        monsterQuantity += self.monstersMultiplied(potentialMonsters[0],
+        monsterQuantity += self.monstersMultiplied(potentialMonsters[index],
                                                    currentEncounterXP, maxEncounterXP, monsterQuantity)
-        encounter.append([potentialMonsters[0], monsterQuantity])
-        currentEncounterXP += int(potentialMonsters[0]['xp']) * monsterQuantity
+        encounter.append([potentialMonsters[index], monsterQuantity])
+        currentEncounterXP += int(potentialMonsters[index]['xp']) * monsterQuantity
 
         # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMonsters[0]['xp'])-1, potentialMonsters[0]['description'])
+        matchingMonsters = self.responseListAdapter((potentialMonsters[index]['xp'])-1, \
+                                                potentialMonsters[index]['description'])
 
         # Adds the best monsters based on the paragon monster to the
         # encounter until the list is empty or the encounter has reached 10
@@ -298,7 +313,7 @@ class MainWindow(tk.Tk):
             self.printImage(encounter[0][0])
             responseList = self.printList(encounter)
         else:
-            responseText = "Sorry, no monsters found"
+            responseText = "Sorry, no monsters found, try adding more terms"
             responseList = ""
             resultDesc = ""
             self.displayBlank()
