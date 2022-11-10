@@ -3,9 +3,8 @@
     "",
     "\\elastic",
     "\\frames",
-    "\\json",
     "\\tests"
   ],
-  "SelectedNode": "\\frames\\MainWindow.py",
+  "SelectedNode": "\\frames\\CharacterFrame.py",
   "PreviewInSolutionExplorer": false
 }

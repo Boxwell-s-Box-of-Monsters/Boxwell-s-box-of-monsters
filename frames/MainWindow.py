@@ -108,6 +108,7 @@ class MainWindow(tk.Tk):
         self.resultImage = tk.Label(resultFrame, image=self.monsterImage, bg=TAN)
         resultFrame.setPositions(resultLabel, resultLabelDesc, self.resultImage, resultListLabel)
         resultFrame.grid(column=1, row=1, sticky=tk.N)
+        self.monsterQuantity = 0
 
     ############################
     # Button Functions
@@ -187,61 +188,85 @@ class MainWindow(tk.Tk):
         return i
 
     # Picks the best monsters for the encounter
-    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters):
-        index = self.randomMonsterPicker(potentialMonsters)
+    def encounterGenerator(self, minEncounterXP, maxEncounterXP, potentialMonsters, characterList):
+        potentialMon = []
+
+        for m in potentialMonsters:
+            potentialMon.append(m)
+        index = self.randomMonsterPicker(potentialMon)
         currentEncounterXP = 0
         encounter = []
-        monsterQuantity = 0
 
         # From the users description, add the paragon monster
-        monsterQuantity += self.monstersMultiplied(potentialMonsters[index],
-                                                   currentEncounterXP, maxEncounterXP, monsterQuantity)
-        encounter.append([potentialMonsters[index], monsterQuantity])
-        currentEncounterXP += int(potentialMonsters[index]['xp']) * monsterQuantity
+        while self.monsterQuantity == 0:
+            self.monsterQuantity += self.monstersMultiplied(potentialMon[index],
+                                                       currentEncounterXP, maxEncounterXP,
+                                                       characterList)
+            if self.monsterQuantity == 0:
+                potentialMon.remove(potentialMon[index])
+                index = self.randomMonsterPicker(potentialMon)
+        if len(potentialMon) > 0:
+            encounter.append([potentialMon[index], self.monsterQuantity])
+            currentEncounterXP += int(potentialMon[index]['xp']) * self.monsterQuantity
 
-        # Make a new list of monsters based on best matches to the paragon monster
-        matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMonsters[index]['xp'])-1, \
-                                                potentialMonsters[index]['description'])
+            # Make a new list of monsters based on best matches to the paragon monster
+            matchingMonsters = self.responseListAdapter(minEncounterXP, (potentialMon[index]['xp'])-1, \
+                                                    potentialMon[index]['description'])
 
-        # Adds the best monsters based on the paragon monster to the
-        # encounter until the list is empty or the encounter has reached 10
-        while len(matchingMonsters) > 0 and monsterQuantity < 10:
-            # if the number of monsters that can be added is not 0, add it.
-            newMonsters = self.monstersMultiplied(matchingMonsters[0],
-                                                  currentEncounterXP, maxEncounterXP, monsterQuantity)
-            if newMonsters > 0:
-                encounter.append([matchingMonsters[0], newMonsters])
-                currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
-                monsterQuantity += newMonsters
+            # Adds the best monsters based on the paragon monster to the
+            # encounter until the list is empty or the encounter has reached 10
+            while len(matchingMonsters) > 0 and self.monsterQuantity < 10:
+                # if the number of monsters that can be added is not 0, add it.
+                newMonsters = self.monstersMultiplied(matchingMonsters[0],
+                                                      currentEncounterXP, maxEncounterXP,
+                                                      characterList)
+                if newMonsters > 0:
+                    encounter.append([matchingMonsters[0], newMonsters])
+                    currentEncounterXP += int(matchingMonsters[0]['xp']) * newMonsters
+                    self.monsterQuantity += newMonsters
 
-            if len(matchingMonsters) > 1:
-                matchingMonsters = matchingMonsters[1:]
-            else:
-                matchingMonsters = []
+                if len(matchingMonsters) > 1:
+                    matchingMonsters = matchingMonsters[1:]
+                else:
+                    matchingMonsters = []
         return encounter
 
     # returns an integer for the number of monsters that can be added to the encounter for a specific monster
-    def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, monsterQuantity):
+    def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, characterList):
         # update xpMult according to how many monsters are already in the encounter
         addedMonsters = 0
         xpMult = 1
-        if monsterQuantity+1 >= 7:
+        if self.monsterQuantity+1 >= 7:
             xpMult = 2.5
-        elif monsterQuantity+1 >= 3:
+        elif self.monsterQuantity+1 >= 3:
             xpMult = 2
-        elif monsterQuantity+1 == 2:
+        elif self.monsterQuantity+1 == 2:
             xpMult = 1.5
 
+        typeMult = 0
+        for character in characterList:
+            cDmg = character['damageVar'].get().lower()
+            typeMult = 0
+            if cDmg in monster['damage_vulnerabilities']:
+                typeMult += 0.5
+            elif cDmg in monster['damage_resistances']:
+                typeMult += 2
+            elif cDmg in monster['damage_immunities']:
+                typeMult += 4
+            else:
+                typeMult += 1
+        typeMult /= len(characterList)
+
         # adds the same monster multiple times, taking into account the xp multiplier and the preexisting encounter xp
-        acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
-        while acceptableXP and (monsterQuantity+addedMonsters < 10):
+        acceptableXP = (maxEncounterXP - (currentEncounterXP+typeMult*int(monster['xp']))*xpMult >= 0)
+        while acceptableXP and (self.monsterQuantity+addedMonsters < 10):
             addedMonsters += 1
             currentEncounterXP += int(monster['xp'])
-            if monsterQuantity+addedMonsters+1 >= 7:
+            if self.monsterQuantity+addedMonsters+1 >= 7:
                 xpMult = 2.5
-            elif monsterQuantity+addedMonsters+1 >= 3:
+            elif self.monsterQuantity+addedMonsters+1 >= 3:
                 xpMult = 2
-            elif monsterQuantity+addedMonsters+1 == 2:
+            elif self.monsterQuantity+addedMonsters+1 == 2:
                 xpMult = 1.5
             acceptableXP = (maxEncounterXP - (currentEncounterXP+int(monster['xp']))*xpMult >= 0)
         return addedMonsters
@@ -294,6 +319,8 @@ class MainWindow(tk.Tk):
     def printImage(self, response):
         # Display the updated monster's image
         imgLoc = 'images/' + response['name'] + '.png'
+        if response['name'] == "Succubus/Incubus": # Cornercase naming convention
+            imgLoc = "images/Succubus+Incubus.png"
         if exists(imgLoc):
             im = Image.open(imgLoc).resize((200,200))
             newImage = ImageTk.PhotoImage(im)
@@ -308,10 +335,17 @@ class MainWindow(tk.Tk):
         responseList = self.responseListAdapter(minEncounterXP, maxEncounterXP, monsterWindow)
         # Get top result
         if len(responseList) > 0:
-            encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList)
-            responseText = self.printAdapter(encounter[0][0])
-            self.printImage(encounter[0][0])
-            responseList = self.printList(encounter)
+            encounter = self.encounterGenerator(minEncounterXP, maxEncounterXP, responseList, characterList)
+            if len(encounter) > 0:
+                responseText = self.printAdapter(encounter[0][0])
+                self.printImage(encounter[0][0])
+                responseList = self.printList(encounter)
+            else:
+                responseText = "Sorry, all the monsters found were too strong, try adjusting your terms"
+                responseList = ""
+                resultDesc = ""
+                self.displayBlank()
+                self.resultDesc.set(resultDesc)
         else:
             responseText = "Sorry, no monsters found, try adding more terms"
             responseList = ""

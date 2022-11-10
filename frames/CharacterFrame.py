@@ -121,5 +121,5 @@ class CharacterFrame(tk.Frame):
         characterRow['damage'].config(bg=LIGHT, fg=BLACK, width=damageWidth)
         characterRow['damage'].grid(
             column=2, row=3 + i, sticky=tk.N, padx=2)
-
+        characterRow['damageVar'] = damageVar
         return characterRow

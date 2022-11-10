@@ -11,6 +11,8 @@ class ResultFrame(tk.Frame):
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
         self.grid_rowconfigure(1, weight=1)
+        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(3, weight=1)
 
     def setPositions(self, resultLabel, resultDesc, resultImage, resultList):
         resultLabel.grid(column=0, row=0, sticky=tk.S, pady = (10, 10))
