@@ -79,7 +79,7 @@ class MainWindow(tk.Tk):
 
         button = tk.Button(self,
                                 text='Create Monster',
-                                command=lambda: self.handleCreateMonsterButton(descriptFrame.monsterWindow),
+                                command=lambda: self.handleCreateMonsterButton(descriptFrame.monsterWindow, imageInputFrame.monsterImage),
                                 font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
