@@ -7,10 +7,9 @@ from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import MoreLikeThis
 from elasticsearch_dsl import Q
 from Styles import *
-from frames.CharacterFrame import CharacterFrame
 from frames.DescriptionFrame import DescriptionFrame
-from frames.DifficultyFrame import DifficultyFrame
 from frames.ResultFrame import ResultFrame
+from frames.ImageInputFrame import ImageInputFrame
 
 
 ############################
@@ -46,6 +45,8 @@ class MainWindow(tk.Tk):
 
         padding = {"pady": (0, 5), "padx": (2, 2)}
         innerPadding = {"ipadx": 3, "ipady":3}
+        monsterImage = Image.open('images/placeholderMonster.png')
+        self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
         # Top Label
         label = tk.Label(self,
@@ -57,25 +58,13 @@ class MainWindow(tk.Tk):
                               fg=BLACK)
         label.grid(columnspan=2, row=0, column=0, sticky=tk.NS, **padding)
 
-        # Terrain Frame  NOT CURRENTLY PLANNING TO IMPLEMENT
-        # terrainFrame = TerrainFrame(self)
-        # terrainFrame.grid(column=0, row=1, sticky=tk.W, **options)
-
-        # Characters Frame
-        characterFrame = CharacterFrame(self)
-        characterFrame.grid(column=0, row=1, sticky=tk.NS, **padding)
-
-        # Damage Type Frame NOT IMPLMENTED THIS TIMEBOX, WILL BE ADDED TO CHARACTER INPUT
-        # dmgTypeFrame = DamageTypeFrame(self)
-        # dmgTypeFrame.grid(column=0, row=3, sticky=tk.W, **options)
+        #image input frame
+        imageInputFrame = ImageInputFrame(self)
+        imageInputFrame.grid(column=0, row = 1, sticky=tk.NS, **padding)
 
         # Description Frame
         descriptFrame = DescriptionFrame(self)
         descriptFrame.grid(column=0, row=2, sticky=tk.NS, **innerPadding, **padding)
-
-        # Difficulty Frame
-        difficultyFrame = DifficultyFrame(self)
-        difficultyFrame.grid(column=0, row=3, sticky=tk.NS, **padding)
 
         # Get Monster Button and Result
         self.result = tk.StringVar()
@@ -84,14 +73,12 @@ class MainWindow(tk.Tk):
         self.resultDesc.set("")
         self.resultList = tk.StringVar()
         self.resultList.set("")
-        monsterImage = Image.open('images/placeholderMonster.png')
-        self.monsterImage = ImageTk.PhotoImage(monsterImage)
 
-        button = tk.Button(self,
-                                text='Get Monster',
-                                command=lambda: self.handleGetMonsterButton(
-                                    characterFrame.characters, difficultyFrame.diff, descriptFrame.monsterWindow),
-                                font=(FONT, 10, "bold"),
+        button = tk.Button(self, text='Create Monster',
+                                command=lambda: self.handleCreateMonsterButton(descriptFrame.monsterWindow,
+                                                                            imageInputFrame.monsterImage))
+
+        button.config(font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
         button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
@@ -355,3 +342,6 @@ class MainWindow(tk.Tk):
 
         self.result.set(responseText)
         self.resultList.set(responseList)
+
+    def handleCreateMonsterButton(self, monsterWindow, startImage):
+        pass
