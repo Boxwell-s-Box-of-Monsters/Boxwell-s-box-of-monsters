@@ -7,9 +7,7 @@ from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import MoreLikeThis
 from elasticsearch_dsl import Q
 from Styles import *
-from frames.CharacterFrame import CharacterFrame
 from frames.DescriptionFrame import DescriptionFrame
-from frames.DifficultyFrame import DifficultyFrame
 from frames.ResultFrame import ResultFrame
 from frames.ImageInputFrame import ImageInputFrame
 
@@ -75,12 +73,12 @@ class MainWindow(tk.Tk):
         self.resultDesc.set("")
         self.resultList = tk.StringVar()
         self.resultList.set("")
-        
 
-        button = tk.Button(self,
-                                text='Create Monster',
-                                command=lambda: self.handleCreateMonsterButton(descriptFrame.monsterWindow, imageInputFrame.monsterImage),
-                                font=(FONT, 10, "bold"),
+        button = tk.Button(self, text='Create Monster',
+                                command=lambda: self.handleCreateMonsterButton(descriptFrame.monsterWindow,
+                                                                            imageInputFrame.monsterImage))
+
+        button.config(font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
         button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
@@ -345,5 +343,5 @@ class MainWindow(tk.Tk):
         self.result.set(responseText)
         self.resultList.set(responseList)
 
-    def handleCreateMonsterButton(self, startImage):
+    def handleCreateMonsterButton(self, monsterWindow, startImage):
         pass
