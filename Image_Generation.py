@@ -49,5 +49,5 @@ def ImageGeneration(inputImage, descriptionText):
                     cantShow = True
                 if artifact.type == generation.ARTIFACT_IMAGE:
                     img = Image.open(io.BytesIO(artifact.binary))
-    img.show()
+    #img.show()
     return img
