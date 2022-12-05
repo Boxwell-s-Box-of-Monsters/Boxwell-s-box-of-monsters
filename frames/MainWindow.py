@@ -348,4 +348,6 @@ class MainWindow(tk.Tk):
     def handleCreateMonsterButton(self, monsterWindow, startImage):
         # generate the monster Image
         descText = monsterWindow.get("1.0",'end-1c')
-        self.monsterImage = ImageGeneration(startImage, descText)
+        tempImg = ImageGeneration(startImage, descText)
+        self.monsterImage = ImageTk.PhotoImage(tempImg)
+        self.resultImage.configure(image=self.monsterImage)
