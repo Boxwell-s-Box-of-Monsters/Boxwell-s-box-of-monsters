@@ -8,7 +8,7 @@ import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 #description text is a string
 #returns new image
 def ImageGeneration(inputImage, descriptionText):
-
+    #print(descriptionText)
     #make the size at least 512x512, and if its bigger then make it a multiple of 64
     h = inputImage.height
     w = inputImage.width
@@ -49,4 +49,5 @@ def ImageGeneration(inputImage, descriptionText):
                     cantShow = True
                 if artifact.type == generation.ARTIFACT_IMAGE:
                     img = Image.open(io.BytesIO(artifact.binary))
+    img.show()
     return img

@@ -1,5 +1,6 @@
 import tkinter as tk
 import random
+from Image_Generation import ImageGeneration
 from os.path import exists
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
@@ -47,7 +48,6 @@ class MainWindow(tk.Tk):
         innerPadding = {"ipadx": 3, "ipady":3}
         monsterImage = Image.open('images/placeholderMonster.png')
         self.monsterImage = ImageTk.PhotoImage(monsterImage)
-
         # Top Label
         label = tk.Label(self,
                               text="Welcome to the monster library, please enter the relevant information below.",
@@ -76,12 +76,14 @@ class MainWindow(tk.Tk):
 
         button = tk.Button(self, text='Create Monster',
                                 command=lambda: self.handleCreateMonsterButton(descriptFrame.monsterWindow,
-                                                                            imageInputFrame.monsterImage))
+                                                                            imageInputFrame.pilImg))
 
         button.config(font=(FONT, 10, "bold"),
                                 highlightbackground=TAN,
                                 fg=BLACK)
         button.grid(column=0, row=4, sticky=tk.N, ipadx=10, ipady=10)
+
+
 
         # Print the result of the button
         resultFrame = ResultFrame(self)
@@ -344,4 +346,6 @@ class MainWindow(tk.Tk):
         self.resultList.set(responseList)
 
     def handleCreateMonsterButton(self, monsterWindow, startImage):
-        pass
+        # generate the monster Image
+        descText = monsterWindow.get("1.0",'end-1c')
+        self.monsterImage = ImageGeneration(startImage, descText)

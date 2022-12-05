@@ -17,12 +17,14 @@ class ImageInputFrame(tk.Frame):
         self.monsterImage = None
         self.resultImage = tk.Label(self, image='', bg=TAN)
         self.resultImage.grid(row=1, column=0)
+        self.pilImg = None
 
     def uploadFile(self):
         f_types = [('Jpg Files', '*.jpg'),
                     ('PNG Files','*.png')]   # type of files to select
         filename = filedialog.askopenfilename(filetypes=f_types)
         img = Image.open(filename)
+        self.pilImg = img
         self.monsterImage = ImageTk.PhotoImage(img)
         self.resultImage.configure(image=self.monsterImage)
         self.resultImage.image=self.monsterImage
