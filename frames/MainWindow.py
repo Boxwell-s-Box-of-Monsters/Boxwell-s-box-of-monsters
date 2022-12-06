@@ -14,7 +14,6 @@ from frames.ResultFrame import ResultFrame
 from frames.ImageInputFrame import ImageInputFrame
 from Image_Generation import ImageGeneration
 
-
 ############################
 # Main Window
 ############################
