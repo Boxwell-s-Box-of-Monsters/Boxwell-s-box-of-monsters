@@ -1,6 +1,5 @@
-import torch
 import re
-from PIL import Image
+import torch
 from transformers import AutoTokenizer, AutoFeatureExtractor, VisionEncoderDecoderModel
 
 def generateMonsterCaption(monsterImg):
@@ -9,12 +8,8 @@ def generateMonsterCaption(monsterImg):
     regex_pattern = "[.]{2,}"
 
     def post_process(text):
-        try:
-            text = text.strip()
-            text = re.split(regex_pattern, text)[0]
-        except Exception as e:
-            print(e)
-            pass
+        text = text.strip()
+        text = re.split(regex_pattern, text)[0]
         return text
 
 
@@ -52,7 +47,6 @@ def generateMonsterCaption(monsterImg):
         tokenizer.pad_token = tokenizer.eos_token
 
     print("Loaded tokenizer")
-    
     pred = predict(monsterImg)
 
     return pred

@@ -425,7 +425,7 @@ class MainWindow(tk.Tk):
         for t in test:
             print(t['generated_text'])
             descText += " " + t['generated_text']
-            
+
         print("generating image")
         tempImg = ImageGeneration(startImage, descText)
         tempImg = tempImg.resize((400, 400), Image.ANTIALIAS)
