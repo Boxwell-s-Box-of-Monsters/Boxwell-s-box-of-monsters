@@ -1,7 +1,7 @@
 import tkinter as tk
-import numpy as np
 import random
-
+from os.path import exists
+import numpy as np
 from transformers import pipeline
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
@@ -13,7 +13,6 @@ from frames.DescriptionFrame import DescriptionFrame
 from frames.ResultFrame import ResultFrame
 from frames.ImageInputFrame import ImageInputFrame
 from Image_Generation import ImageGeneration
-from os.path import exists
 
 ############################
 # Main Window
