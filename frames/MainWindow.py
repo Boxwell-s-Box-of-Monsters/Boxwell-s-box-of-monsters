@@ -1,7 +1,7 @@
 import tkinter as tk
-import random
 import numpy as np
-from os.path import exists
+import random
+
 from transformers import pipeline
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
@@ -13,7 +13,7 @@ from frames.DescriptionFrame import DescriptionFrame
 from frames.ResultFrame import ResultFrame
 from frames.ImageInputFrame import ImageInputFrame
 from Image_Generation import ImageGeneration
-
+from os.path import exists
 
 ############################
 # Main Window
@@ -285,13 +285,12 @@ class MainWindow(tk.Tk):
             else:
                 average_num = np.ceil(average_num)
             final_values[thing] = int(average_num)
-        self.result.set("HP: {}  |  Armor Class: {}  |  XP: {}\n\n"
-                        "Strength: {}   |   Dexterity: {}   |   Constitution: {}\n"
-                        "Intelligence: {}   |   Wisdom: {}   |   Charisma: {}".format(final_values['hit_points'],
-                        final_values['armor_class'], final_values['xp'], final_values['strength'],
-                        final_values['dexterity'], final_values['constitution'], final_values['intelligence'],
-                        final_values['wisdom'], final_values['charisma']))
-
+        self.result.set(f"HP: {final_values['hit_points']}  |  Armor Class: {final_values['armor_class']}  |  XP: "
+                        f"{final_values['xp']}\n\n"
+                        f"Strength: {final_values['strength']}   |   Dexterity: {final_values['dexterity']}   |   "
+                        f"Constitution: {final_values['constitution']}\n"
+                        f"Intelligence: {final_values['intelligence']}   |   Wisdom: {final_values['wisdom']}   |   "
+                        f"Charisma: {final_values['charisma']}")
     # returns an integer for the number of monsters that can be added to the encounter for a specific monster
     def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, characterList):
         # update xpMult according to how many monsters are already in the encounter
