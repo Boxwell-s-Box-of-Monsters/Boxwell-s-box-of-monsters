@@ -1,8 +1,7 @@
 import tkinter as tk
 import random
-from transformers import pipeline
-from Image_Generation import ImageGeneration
 from os.path import exists
+from transformers import pipeline
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
@@ -12,6 +11,7 @@ from Styles import *
 from frames.DescriptionFrame import DescriptionFrame
 from frames.ResultFrame import ResultFrame
 from frames.ImageInputFrame import ImageInputFrame
+from Image_Generation import ImageGeneration
 
 
 ############################
@@ -351,7 +351,7 @@ class MainWindow(tk.Tk):
         descText = monsterWindow.get("1.0",'end-1c')
         image_to_text = pipeline("image-to-text", model="nlpconnect/vit-gpt2-image-captioning", max_new_tokens = 100)
         test = image_to_text(startImage)
-        
+
         for t in test:
             print(t['generated_text'])
             descText += " " + t['generated_text']
