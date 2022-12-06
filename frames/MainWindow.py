@@ -18,6 +18,7 @@ from Image_Generation import ImageGeneration
 # Main Window
 ############################
 
+image_to_text = pipeline("image-to-text", model="nlpconnect/vit-gpt2-image-captioning", max_new_tokens = 100)
 
 class MainWindow(tk.Tk):
     def __init__(self):
@@ -418,7 +419,6 @@ class MainWindow(tk.Tk):
     def handleCreateMonsterButton(self, monsterWindow, startImage):
         # generate the monster Image
         descText = monsterWindow.get("1.0",'end-1c')
-        image_to_text = pipeline("image-to-text", model="nlpconnect/vit-gpt2-image-captioning", max_new_tokens = 100)
         test = image_to_text(startImage)
 
         for t in test:
@@ -426,6 +426,7 @@ class MainWindow(tk.Tk):
             descText += " " + t['generated_text']
 
         tempImg = ImageGeneration(startImage, descText)
+        tempImg = tempImg.resize((300, 300), Image.ANTIALIAS)
         self.monsterImage = ImageTk.PhotoImage(tempImg)
         self.resultImage.configure(image=self.monsterImage)
 
