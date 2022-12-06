@@ -1,5 +1,6 @@
 import tkinter as tk
 import random
+import numpy as np
 from os.path import exists
 from transformers import pipeline
 from PIL import Image, ImageTk
@@ -221,6 +222,76 @@ class MainWindow(tk.Tk):
                     matchingMonsters = []
         return encounter
 
+    def generateMonsterStats(self, monsterWindow):
+        responseList = self.responseListAdapter(0, 1000000, monsterWindow)
+        values = {
+            'hit_points': [],
+            'armor_class': [],
+            'xp': [],
+            'strength': [],
+            'dexterity': [],
+            'constitution': [],
+            'intelligence': [],
+            'wisdom': [],
+            'charisma': [],
+        }
+        for response in responseList:
+            values['hit_points'].append(response['hit_points'])
+            values['armor_class'].append(response['armor_class'])
+            values['xp'].append(response['xp'])
+            values['strength'].append(response['strength'])
+            values['dexterity'].append(response['dexterity'])
+            values['constitution'].append(response['constitution'])
+            values['intelligence'].append(response['intelligence'])
+            values['wisdom'].append(response['wisdom'])
+            values['charisma'].append(response['charisma'])
+        # Thin out outliers as to make the final result no too extreme
+        if len(responseList) > 5:
+            values['hit_points'].remove(max(values['hit_points']))
+            values['hit_points'].remove(min(values['hit_points']))
+            values['armor_class'].remove(max(values['armor_class']))
+            values['armor_class'].remove(min(values['armor_class']))
+            values['xp'].remove(max(values['xp']))
+            values['xp'].remove(min(values['xp']))
+        final_values = {
+            'hit_points': 0,
+            'armor_class': 0,
+            'xp': 0,
+            'strength': 0,
+            'dexterity': 0,
+            'constitution': 0,
+            'intelligence': 0,
+            'wisdom': 0,
+            'charisma': 0
+        }
+        mainStatsNum = 0
+        if len(values['hit_points']) == 0:
+            # Error text if nothing was ever found, abort rest of execution
+            self.result.set("Your monster description must be more descriptive for custom stats.")
+            return
+        if len(values['hit_points']) > 0:
+            mainStatsNum = np.random.randint(0, len(values['hit_points']))
+        final_values['hit_points'] = values['hit_points'][mainStatsNum]
+        final_values['armor_class'] = values['armor_class'][mainStatsNum]
+        final_values['xp'] = values['xp'][mainStatsNum]
+        for thing in ['strength', 'dexterity', 'constitution', 'intelligence', 'wisdom', 'charisma']:
+            for _ in range(0, int(len(values[thing])/2)-1):
+                values[thing].remove(values[thing][np.random.randint(0, len(values[thing])-1)])
+            # add one random salt value
+            values[thing].append(np.random.randint(1, 25))
+            average_num = np.average(values[thing])
+            if np.random.randint(0, 1) == 0:
+                average_num = np.floor(average_num)
+            else:
+                average_num = np.ceil(average_num)
+            final_values[thing] = int(average_num)
+        self.result.set("HP: {}  |  Armor Class: {}  |  XP: {}\n\n"
+                        "Strength: {}   |   Dexterity: {}   |   Constitution: {}\n"
+                        "Intelligence: {}   |   Wisdom: {}   |   Charisma: {}".format(final_values['hit_points'],
+                        final_values['armor_class'], final_values['xp'], final_values['strength'],
+                        final_values['dexterity'], final_values['constitution'], final_values['intelligence'],
+                        final_values['wisdom'], final_values['charisma']))
+
     # returns an integer for the number of monsters that can be added to the encounter for a specific monster
     def monstersMultiplied(self, monster, currentEncounterXP, maxEncounterXP, characterList):
         # update xpMult according to how many monsters are already in the encounter
@@ -359,3 +430,6 @@ class MainWindow(tk.Tk):
         tempImg = ImageGeneration(startImage, descText)
         self.monsterImage = ImageTk.PhotoImage(tempImg)
         self.resultImage.configure(image=self.monsterImage)
+
+        #genereate and dispaly stats
+        self.generateMonsterStats(monsterWindow)
