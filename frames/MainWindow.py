@@ -13,6 +13,7 @@ from frames.DescriptionFrame import DescriptionFrame
 from frames.ResultFrame import ResultFrame
 from frames.ImageInputFrame import ImageInputFrame
 from Image_Generation import ImageGeneration
+from MonsterCaption import generateMonsterCaption
 
 ############################
 # Main Window
@@ -425,10 +426,15 @@ class MainWindow(tk.Tk):
             print(t['generated_text'])
             descText += " " + t['generated_text']
 
+        print("generating image")
         tempImg = ImageGeneration(startImage, descText)
-        tempImg = tempImg.resize((300, 300), Image.ANTIALIAS)
+        tempImg = tempImg.resize((400, 400), Image.ANTIALIAS)
         self.monsterImage = ImageTk.PhotoImage(tempImg)
         self.resultImage.configure(image=self.monsterImage)
 
-        #genereate and dispaly stats
+        #genereate and display stats
+        print("generating caption")
+        resultDesc = generateMonsterCaption(tempImg)
+        self.resultDesc.set(resultDesc)
+        print("generating stats")
         self.generateMonsterStats(monsterWindow)

@@ -25,7 +25,7 @@ class ImageInputFrame(tk.Frame):
         filename = filedialog.askopenfilename(filetypes=f_types)
         img = Image.open(filename)
         self.pilImg = img
-        self.monsterImage = ImageTk.PhotoImage(img)
+        self.monsterImage = ImageTk.PhotoImage(img.resize((400, 400)))
         self.resultImage.configure(image=self.monsterImage)
         self.resultImage.image=self.monsterImage
 
