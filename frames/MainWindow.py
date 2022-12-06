@@ -2,7 +2,6 @@ import tkinter as tk
 import random
 from os.path import exists
 import numpy as np
-
 from transformers import pipeline
 from PIL import Image, ImageTk
 from elasticsearch import Elasticsearch
